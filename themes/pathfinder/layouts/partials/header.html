@@ -1,0 +1,56 @@
+<header class="site-header">
+  <div class="container topbar">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
+      <img class="brand-mark" src="{{ "images/pathfinder-heading.png" | relURL }}" alt="{{ site.Title }}">
+      <span class="brand-text">
+        <span>{{ site.Params.tagline }}</span>
+      </span>
+    </a>
+    <div class="header-actions">
+      <div class="header-contact">
+        <a href="tel:+18087284396">{{ site.Params.phone }}</a>
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-wrap" id="site-menu" data-nav-panel>
+    <div class="container">
+      <nav class="site-nav" aria-label="Main navigation">
+        {{ range site.Menus.main }}
+          {{ if not .Parent }}
+            <div class="nav-item{{ if .HasChildren }} has-children{{ end }}{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}">
+              {{ if .HasChildren }}
+                <div class="nav-parent">
+                  <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+                  <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ .Identifier }}" data-submenu-toggle>
+                    <span class="visually-hidden">Toggle {{ .Name }} submenu</span>
+                    <span class="submenu-icon" aria-hidden="true"></span>
+                  </button>
+                </div>
+              {{ else }}
+                <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+              {{ end }}
+              {{ if .HasChildren }}
+                <div class="submenu" id="submenu-{{ .Identifier }}">
+                  {{ range .Children }}
+                    <a href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </nav>
+      <div class="mobile-contact">
+        <a href="tel:+18087284396">{{ site.Params.phone }}</a>
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,134 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Pathfinder Financial Services, LLC"
+theme: "pathfinder"
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "Fee-only financial planning focused on clarity, stewardship, and thoughtful decision-making."
+  tagline: "Your Guide to Financial Clarity"
+  phone: "(808) 728-4396"
+  email: "support@pathfinderfs.com"
+  address:
+    - "Pathfinder Financial Services, LLC"
+    - "555 Paakiki Pl."
+    - "Kailua, HI 96734"
+
+menu:
+  main:
+    - identifier: home
+      name: "Home"
+      pageRef: "/"
+      weight: 10
+    - identifier: investment-strategy
+      name: "Investment Strategy"
+      pageRef: "/investment-strategy"
+      weight: 20
+    - identifier: services
+      name: "Services"
+      pageRef: "/services"
+      weight: 30
+    - identifier: resources
+      name: "Resources"
+      pageRef: "/resources"
+      weight: 40
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 50
+    - identifier: contact-us
+      name: "Contact Us"
+      pageRef: "/contact-us"
+      weight: 60
+    - identifier: summary
+      parent: services
+      name: "Summary"
+      pageRef: "/services/summary"
+      weight: 10
+    - identifier: discoverdecidedo
+      parent: services
+      name: "Discover/Decide/Do"
+      pageRef: "/services/discoverdecidedo"
+      weight: 20
+    - identifier: investment-supervision-only
+      parent: services
+      name: "Investment Supervision Only"
+      pageRef: "/services/investment-supervision-only"
+      weight: 30
+    - identifier: executor-checklist
+      parent: resources
+      name: "Executor Checklist"
+      pageRef: "/resources/executor-checklist"
+      weight: 10
+    - identifier: evaluating-startup-isos
+      parent: resources
+      name: "Evaluating Startup ISOs"
+      pageRef: "/resources/evaluating-startup-isos"
+      weight: 20
+    - identifier: restricted-stock-stock-options
+      parent: resources
+      name: "Taxation of RSUs, ISOs & NSOs"
+      pageRef: "/resources/restricted-stock-stock-options"
+      weight: 30
+    - identifier: identifying-a-worthy-planner
+      parent: resources
+      name: "Identifying a Worthy Planner"
+      pageRef: "/resources/identifying-a-worthy-planner"
+      weight: 40
+    - identifier: books
+      parent: resources
+      name: "Books"
+      pageRef: "/resources/books"
+      weight: 50
+    - identifier: external-links
+      parent: resources
+      name: "External Links"
+      pageRef: "/resources/external-links"
+      weight: 60
+    - identifier: david-jacobs-ph-d-cfp
+      parent: about
+      name: "David Jacobs, Ph.D., CFP"
+      pageRef: "/about/david-jacobs-ph-d-cfp"
+      weight: 10
+    - identifier: katherine-jacobs
+      parent: about
+      name: "Katherine Jacobs"
+      pageRef: "/about/katherine-jacobs"
+      weight: 20
+    - identifier: fee-only
+      parent: about
+      name: "Fee-Only"
+      pageRef: "/about/fee-only"
+      weight: 30
+    - identifier: fiduciary
+      parent: about
+      name: "Fiduciary"
+      pageRef: "/about/fiduciary"
+      weight: 40
+    - identifier: privacy-policy
+      parent: about
+      name: "Privacy Policy"
+      pageRef: "/about/privacy-policy"
+      weight: 50
+    - identifier: proxy-voting-policy
+      parent: about
+      name: "Proxy Voting Policy"
+      pageRef: "/about/proxy-voting-policy"
+      weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+  page:
+    - HTML

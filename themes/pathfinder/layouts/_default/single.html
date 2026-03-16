@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="page-section">
+    <div class="container narrow">
+      <div class="page-head">
+        {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .CurrentSection.Title }}</p>{{ end }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
+      </div>
+      <article class="content prose">
+        {{ .Content }}
+      </article>
+      {{ with .CurrentSection }}
+        {{ if not $.IsHome }}
+          {{ $siblings := where .Pages "Permalink" "!=" $.Permalink }}
+          {{ if gt (len $siblings) 0 }}
+            <aside class="related card">
+              <p class="eyebrow">More in {{ .Title }}</p>
+              <div class="related-links">
+                {{ range .Pages.ByWeight }}
+                  {{ if ne .Permalink $.Permalink }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+                {{ end }}
+              </div>
+            </aside>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

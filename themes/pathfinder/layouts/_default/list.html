@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="page-section">
+    <div class="container narrow">
+      <div class="page-head">
+        <p class="eyebrow">{{ .Section | humanize }}</p>
+        <h1>{{ .Title }}</h1>
+      </div>
+      <div class="content prose">{{ .Content }}</div>
+      {{ $pages := .Pages.ByWeight }}
+      {{ if gt (len $pages) 0 }}
+        <div class="card-grid">
+          {{ range $pages }}
+            <article class="card card-link">
+              <p class="card-kicker">{{ .Section | humanize }}</p>
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              {{ with .Params.summary }}
+                <p>{{ . }}</p>
+              {{ else }}
+                {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+              {{ end }}
+            </article>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
