@@ -1,28 +1,49 @@
-# Pathfinder Hugo Migration
+# Pathfinder Hugo Site
 
-This workspace contains a Hugo version of the page-based content from `https://pathfinderfs.com`.
+This repository contains a standalone Hugo site for Pathfinder Financial Services, LLC.
 
-## Included
+## Project layout
 
-- Custom theme in `themes/pathfinder/`
-- Migrated non-post pages in `content/`
-- Localized images in `static/images/`
-- Import helper in `scripts/import_pages.py`
+- `hugo.yaml` - site configuration
+- `content/` - page content
+- `themes/pathfinder/` - custom Hugo theme
+- `static/` - localized static assets
+- `public/` - generated build output
+
+## Requirements
+
+- Hugo Extended
 
 ## Build
+
+Production-style build:
 
 ```bash
 hugo --cleanDestinationDir
 ```
 
+Standard build:
+
+```bash
+hugo
+```
+
 ## Local preview
+
+Run the local development server:
 
 ```bash
 hugo server
 ```
 
+Bind to all interfaces if needed:
+
+```bash
+hugo server --bind 0.0.0.0
+```
+
 ## Notes
 
-- WordPress posts are intentionally excluded for now.
-- The contact email is rendered as plain visible text.
-- `scripts/import_pages.py` regenerates the migrated page content from `pages.json` and re-downloads the required assets if they are missing.
+- `public/` is generated output and should not be edited directly.
+- The site currently includes the main page-based content and theme.
+- Blog posts are still excluded from this repository.
