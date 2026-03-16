@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <section class="page-section">
+    <div class="container narrow">
+      <div class="page-head">
+        <p class="eyebrow">Get in touch</p>
+        <h1>{{ .Title }}</h1>
+        <p class="lede">While we are located in Hawaii, we serve clients nationwide. Due to Hawaii being in an earlier time zone, mainland clients can often reach us during their evening hours.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card card">
+          <div class="contact-card-icon">&#9742;</div>
+          <h2>Call</h2>
+          <p><a href="tel:+18087284396">{{ site.Params.phone }}</a></p>
+          <p class="contact-note">Evenings friendly for mainland callers</p>
+        </div>
+
+        <div class="contact-card card">
+          <div class="contact-card-icon">&#9993;</div>
+          <h2>Email</h2>
+          <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+          <p class="contact-note">We typically respond within one business day</p>
+        </div>
+
+        <div class="contact-card card">
+          <div class="contact-card-icon">&#9992;</div>
+          <h2>Visit</h2>
+          {{ range site.Params.address }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <img class="portrait" src="{{ "images/david-mtn.jpg" | relURL }}" alt="David Jacobs portrait">
+        <div>
+          <p class="eyebrow">Your advisor</p>
+          <h2>Start a conversation</h2>
+          <p>Please feel free to reach out with any questions, requests, or comments. Whether you are exploring financial planning for the first time or re-evaluating your current approach, we are happy to talk through your situation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

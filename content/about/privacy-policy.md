@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 weight: 50
-description: "We are committed to protecting and safeguarding all confidential information we receive in the normal course of business and hold such information in the strictest of confidence...."
+description: "Pathfinder's privacy policy — how we protect your confidential information and the limited circumstances under which data is shared."
 draft: false
 ---
 

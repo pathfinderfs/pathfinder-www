@@ -3,6 +3,12 @@
     <div>
       <p class="footer-heading">{{ site.Title }}</p>
       <p>{{ site.Params.tagline }}</p>
+      <p class="footer-legal-links">
+        <a href="{{ "/about/privacy-policy/" | relURL }}">Privacy Policy</a>
+        <a href="{{ "/about/proxy-voting-policy/" | relURL }}">Proxy Voting Policy</a>
+        <a href="{{ "/about/fiduciary/" | relURL }}">Fiduciary</a>
+        <a href="{{ "/about/fee-only/" | relURL }}">Fee-Only</a>
+      </p>
     </div>
     <div>
       <p class="footer-heading">Contact</p>
@@ -13,5 +19,9 @@
       <p class="footer-heading">Office</p>
       {{ range site.Params.address }}<p>{{ . }}</p>{{ end }}
     </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</p>
+    <p class="footer-disclaimer">Pathfinder Financial Services, LLC is a Registered Investment Advisor in the State of Hawaii. Registration does not imply a certain level of skill or training. Past performance is not indicative of future results.</p>
   </div>
 </footer>

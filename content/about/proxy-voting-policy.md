@@ -1,7 +1,7 @@
 ---
 title: "Proxy Voting Policy"
 weight: 60
-description: "We do not vote proxies on behalf of our clients. Because of our investment philosophy , we expect virtually all proxies a client will vote on will be proxies of mutual funds and..."
+description: "Pathfinder's proxy voting policy — we do not vote proxies on behalf of clients, but offer guidelines for mutual fund proxy issues."
 draft: false
 ---
 

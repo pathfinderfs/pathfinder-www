@@ -2,6 +2,7 @@
 title: "Books"
 weight: 50
 description: "A short Pathfinder reading list on behavior, investing, and money psychology."
+summary: "Recommended books on behavior, investing, and the human side of money."
 draft: false
 ---
 

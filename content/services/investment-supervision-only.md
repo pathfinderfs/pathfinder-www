@@ -1,7 +1,8 @@
 ---
 title: "Investment Supervision Only"
 weight: 30
-description: "Develop an investment policy that attempts to balance your goals, risk tolerance and market stance. Effect the investment policy Investment selection and trade execution on a..."
+description: "Investment Supervision Only provides ongoing portfolio oversight for clients who prefer to manage their own planning between life transitions."
+summary: "Standalone investment oversight — portfolio construction, rebalancing, and risk management without the full financial planning engagement."
 draft: false
 ---
 

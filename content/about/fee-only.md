@@ -1,7 +1,7 @@
 ---
 title: "Fee-Only"
 weight: 30
-description: "When you see an advisor advertising themselves as fee-only, it means they are pledging to you that the only compensation they receive is that which you pay them directly. In other..."
+description: "What fee-only means at Pathfinder — no commissions, no product sales, and a pledge to minimize conflicts of interest in every recommendation."
 draft: false
 ---
 

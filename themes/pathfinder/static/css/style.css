@@ -32,7 +32,7 @@ body {
     radial-gradient(circle at top left, rgba(31, 92, 88, 0.12), transparent 30%),
     linear-gradient(180deg, #faf5ed 0%, var(--bg) 45%, #f9f4ec 100%);
   color: var(--ink);
-  font: 400 18px/1.75 Georgia, "Times New Roman", serif;
+  font: 400 18px/1.75 "Libre Baskerville", Georgia, "Times New Roman", serif;
 }
 
 a {
@@ -116,7 +116,7 @@ h1,
 h2,
 h3,
 .footer-heading {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Libre Baskerville", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .brand-text span,
@@ -348,6 +348,12 @@ h3,
   border: 1px solid rgba(220, 207, 190, 0.9);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  transition: box-shadow 250ms ease, transform 250ms ease;
+}
+
+.card:hover {
+  box-shadow: 0 22px 48px rgba(32, 50, 59, 0.13);
+  transform: translateY(-2px);
 }
 
 .card {
@@ -412,6 +418,13 @@ h3,
   color: #fff;
   text-decoration: none;
   font-weight: 700;
+  transition: filter 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+}
+
+.button:hover {
+  filter: brightness(1.12);
+  box-shadow: 0 6px 18px rgba(21, 63, 69, 0.22);
+  transform: translateY(-1px);
 }
 
 .button-muted {
@@ -580,6 +593,81 @@ h3,
   font-weight: 700;
 }
 
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.35rem;
+  font-size: 0.88rem;
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.footer-bottom p {
+  margin: 0 0 0.35rem;
+}
+
+.footer-disclaimer {
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.contact-card h2 {
+  margin: 0.5rem 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+.contact-card p {
+  margin: 0 0 0.25rem;
+}
+
+.contact-card-icon {
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.contact-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.contact-cta {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+}
+
+.contact-cta .portrait {
+  max-width: 160px;
+  flex-shrink: 0;
+}
+
+.contact-cta h2 {
+  margin: 0.25rem 0 0.5rem;
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .section-grid {
@@ -690,6 +778,15 @@ h3,
   .cta-panel {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-cta {
+    flex-direction: column;
+    text-align: center;
   }
 }
 

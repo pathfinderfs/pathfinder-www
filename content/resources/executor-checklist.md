@@ -1,7 +1,8 @@
 ---
 title: "Executor Checklist"
 weight: 10
-description: "Before [ ] Healthcare directive (emergency personnel won’t follow) [ ] Relatives living with deceased (how long do they get to stay?) [ ] Live in caregiver (how long do they get..."
+description: "A comprehensive checklist covering what to do before, during, and after a death — from healthcare directives and burial wishes to finances and taxes."
+summary: "A practical step-by-step checklist for executors covering healthcare directives, burial wishes, financial tasks, tax filings, and digital accounts."
 draft: false
 ---
 

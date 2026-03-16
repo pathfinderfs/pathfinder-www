@@ -1,7 +1,7 @@
 ---
 title: "David Jacobs, Ph.D., CFP®"
 weight: 10
-description: "David B. Jacobs, Ph.D., CFP® Founder and President Raised in Hawaii and a Punahou graduate, David has always been passionate about helping people, acquiring knowledge and solving..."
+description: "Meet David Jacobs, Ph.D., CFP® — founder of Pathfinder Financial Services and a research-driven financial planner based in Hawaii."
 draft: false
 ---
 

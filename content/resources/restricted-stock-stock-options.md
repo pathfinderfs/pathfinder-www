@@ -1,7 +1,8 @@
 ---
 title: "Taxation of RSUs, ISOs & NSOs"
 weight: 30
-description: "Tax Issues Non-Qualified Stock Options (NSO) When you exercise the option, the difference between the option’s strike price and the current fair market value (FMV) is considered..."
+description: "How RSUs, ISOs, and NSOs are taxed — key differences, timing traps, and a summary table to help you make informed decisions."
+summary: "A clear comparison of how Restricted Stock Units, Incentive Stock Options, and Non-Qualified Stock Options are taxed at each stage."
 draft: false
 ---
 

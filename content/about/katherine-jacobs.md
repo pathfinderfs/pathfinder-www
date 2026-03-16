@@ -1,7 +1,7 @@
 ---
 title: "Katherine Jacobs"
 weight: 20
-description: "Katherine Jacobs Paraplanner Part of the digital native generation brought up through the Great Recession, Katherine developed an appreciation for financial literacy and planning..."
+description: "Katherine Jacobs is a paraplanner at Pathfinder, helping clients craft plans that reflect their financial and personal values."
 draft: false
 ---
 

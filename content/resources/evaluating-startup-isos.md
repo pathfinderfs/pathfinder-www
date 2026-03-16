@@ -1,7 +1,8 @@
 ---
 title: "Evaluating Startup ISOs"
 weight: 20
-description: "Who is this for Those who are contemplating a job offer that includes Incentive Stock Options (ISOs) or those who already have ISOs and want to better understand their value. To..."
+description: "A guide for employees evaluating or holding Incentive Stock Options (ISOs) at startups — how they work, what to ask, and common pitfalls."
+summary: "Understand how startup ISOs really work, why they may be worth less than you think, and what questions to ask before and after accepting them."
 draft: false
 ---
 

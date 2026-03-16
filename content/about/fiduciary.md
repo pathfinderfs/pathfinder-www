@@ -1,7 +1,7 @@
 ---
 title: "Fiduciary"
 weight: 40
-description: "When you walk into McDonald’s and order a sandwich, do they recommend the best food for your health based on your medical history, your weight and what ever else you have eaten..."
+description: "What it means to work with a fiduciary advisor — a legally binding duty to act in your best interest, not just sell products."
 draft: false
 ---
 

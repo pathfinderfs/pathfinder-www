@@ -1,7 +1,8 @@
 ---
 title: "Identifying a Worthy Planner"
 weight: 40
-description: "First, a quick disclosure. I express some strong opinions below and since I’ve designed my practice around many of them, they can also be interpreted as self serving. I only hope..."
+description: "How to evaluate a financial planner's trustworthiness, competence, and fit — practical questions to ask and red flags to watch for."
+summary: "A detailed guide to evaluating financial planners on three dimensions: trustworthiness, competence, and whether they provide what you need."
 draft: false
 ---
 

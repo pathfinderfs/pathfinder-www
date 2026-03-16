@@ -1,7 +1,8 @@
 ---
 title: "Discover/Decide/Do"
 weight: 20
-description: "Life rarely moves in straight lines. Our goals, circumstances and priorities are always shifting. This requires thinking far beyond risk analysis, model portfolios and financial..."
+description: "Discover/Decide/Do is Pathfinder's comprehensive planning service for navigating retirement, business sales, inheritances, and other life transitions."
+summary: "Long-term financial planning partnership for major life transitions — covering goals discovery, collaborative decision-making, and disciplined implementation."
 draft: false
 ---
 

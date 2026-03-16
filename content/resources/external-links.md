@@ -1,7 +1,8 @@
 ---
 title: "External Links"
 weight: 60
-description: "DIY Resources ACTEC An organization of top notch estate planning attorneys Advisor Disclosure Search Search for investment advisor disclosures Bogleheads A great forum for when..."
+description: "Curated links for DIY financial planning, market data, and philanthropy — vetted resources to help you make informed decisions."
+summary: "A curated collection of external resources for self-directed financial research, market data, and philanthropic giving."
 draft: false
 ---
 
