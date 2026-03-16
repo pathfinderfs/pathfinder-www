@@ -439,6 +439,84 @@ h3,
   align-content: start;
 }
 
+.advisor-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.advisor-panel-title,
+.advisor-card h3 {
+  margin: 0;
+}
+
+.advisor-panel-title {
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.2;
+}
+
+.advisor-panel-intro {
+  margin: 0;
+  color: var(--muted);
+}
+
+.advisor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.advisor-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background: rgba(220, 235, 230, 0.26);
+  border: 1px solid rgba(31, 92, 88, 0.14);
+  align-content: start;
+}
+
+.advisor-card-body {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
+}
+
+.advisor-card-body p {
+  margin: 0;
+}
+
+.advisor-role {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.advisor-portrait {
+  max-width: none;
+  display: block;
+}
+
+.advisor-panel-hero .advisor-card {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: start;
+}
+
+.advisor-panel-hero .advisor-portrait {
+  width: 120px;
+  max-width: 120px;
+  justify-self: center;
+}
+
+.advisor-panel-hero .advisor-card-body {
+  gap: 0.6rem;
+  width: 100%;
+}
+
 .portrait {
   width: 100%;
   max-width: 280px;
@@ -620,7 +698,7 @@ h3,
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -651,20 +729,20 @@ h3,
 }
 
 .contact-cta {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
   padding: 2rem;
   background: var(--accent-soft);
   border-radius: var(--radius);
 }
 
-.contact-cta .portrait {
-  max-width: 160px;
-  flex-shrink: 0;
+.contact-cta .advisor-panel {
+  width: 100%;
 }
 
-.contact-cta h2 {
+.contact-cta .advisor-card {
+  background: rgba(255, 253, 249, 0.74);
+}
+
+.contact-cta .advisor-panel-title {
   margin: 0.25rem 0 0.5rem;
 }
 
@@ -780,12 +858,15 @@ h3,
     align-items: flex-start;
   }
 
+  .advisor-grid {
+    grid-template-columns: 1fr;
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
   }
 
   .contact-cta {
-    flex-direction: column;
     text-align: center;
   }
 }
@@ -838,5 +919,11 @@ h3,
     display: block;
     max-width: 100%;
     margin: 0 0 1rem;
+  }
+
+  .advisor-panel-hero .advisor-portrait {
+    width: 100%;
+    max-width: 220px;
+    justify-self: center;
   }
 }

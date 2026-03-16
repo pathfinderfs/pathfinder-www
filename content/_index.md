@@ -4,7 +4,7 @@ weight: 10
 description: "Pathfinder delivers concierge-level service grounded in fee-only advice, fiduciary care, and a long-term commitment to helping clients navigate complex financial decisions with..."
 draft: false
 hero_intro: "Helping clients achieve their most rewarding lives through deeper planning, disciplined investment supervision, and advice centered on their best interests."
-founder_intro: "Raised in Hawaii and shaped by a long career in artificial intelligence and computer security, David brings a research-driven mindset to financial planning and portfolio stewardship."
+advisors_intro: "David and Katherine pair research-driven planning, clear communication, and long-term stewardship to help clients navigate important financial decisions with confidence."
 hero_points:
   - "Having clarity on where you want to go"
   - "Understanding the impact of the decisions you make"

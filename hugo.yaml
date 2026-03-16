@@ -95,12 +95,12 @@ menu:
       weight: 60
     - identifier: david-jacobs-ph-d-cfp
       parent: about
-      name: "David Jacobs, Ph.D., CFP"
+      name: "David Jacobs, Ph.D., CFP®"
       pageRef: "/about/david-jacobs-ph-d-cfp"
       weight: 10
     - identifier: katherine-jacobs
       parent: about
-      name: "Katherine Jacobs"
+      name: "Katherine Jacobs, CFP®"
       pageRef: "/about/katherine-jacobs"
       weight: 20
     - identifier: fee-only

@@ -21,21 +21,15 @@
           <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
           <p class="contact-note">We typically respond within one business day</p>
         </div>
-
-        <div class="contact-card card">
-          <div class="contact-card-icon">&#9992;</div>
-          <h2>Visit</h2>
-          {{ range site.Params.address }}<p>{{ . }}</p>{{ end }}
-        </div>
       </div>
 
       <div class="contact-cta">
-        <img class="portrait" src="{{ "images/david-mtn.jpg" | relURL }}" alt="David Jacobs portrait">
-        <div>
-          <p class="eyebrow">Your advisor</p>
-          <h2>Start a conversation</h2>
-          <p>Please feel free to reach out with any questions, requests, or comments. Whether you are exploring financial planning for the first time or re-evaluating your current approach, we are happy to talk through your situation.</p>
-        </div>
+        {{ partial "advisor-panel.html" (dict
+          "eyebrow" "Meet the advisors"
+          "title" "Start a conversation with Pathfinder"
+          "intro" "Please feel free to reach out with any questions, requests, or comments. Whether you are exploring financial planning for the first time or re-evaluating your current approach, David and Katherine are happy to talk through your situation."
+          "class" "advisor-panel-contact"
+        ) }}
       </div>
     </div>
   </section>

@@ -15,14 +15,13 @@
           <a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Us</a>
         </div>
       </div>
-      <aside class="hero-aside card intro-card">
-        <img class="portrait" src="{{ "images/david-mtn.jpg" | relURL }}" alt="David Jacobs portrait">
-        <div>
-          <p class="eyebrow">Your advisor</p>
-          <h2>David Jacobs, Ph.D., CFP</h2>
-          <p>{{ .Params.founder_intro }}</p>
-          <p><a class="text-link" href="{{ "/about/david-jacobs-ph-d-cfp/" | relURL }}">Read David's full bio</a></p>
-        </div>
+      <aside class="hero-aside card">
+        {{ partial "advisor-panel.html" (dict
+          "eyebrow" "Your advisors"
+          "title" "Meet David and Katherine"
+          "intro" .Params.advisors_intro
+          "class" "advisor-panel-hero"
+        ) }}
       </aside>
     </div>
   </section>
