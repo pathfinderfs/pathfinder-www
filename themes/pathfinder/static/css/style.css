@@ -539,7 +539,24 @@ h3,
   gap: 1rem;
 }
 
+.section-intro {
+  max-width: 760px;
+  margin-bottom: 1.5rem;
+}
+
+.section-intro h2 {
+  margin: 0.2rem 0 0.75rem;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.15;
+}
+
+.section-intro p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .feature-card h3,
+.transition-card h3,
 .card-link h2,
 .prose h2,
 .prose h3,
@@ -554,12 +571,38 @@ h3,
   margin-top: 2rem;
 }
 
+.transition-card {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
+}
+
+.transition-card p {
+  margin: 0;
+}
+
+.transition-card-muted {
+  background: rgba(220, 235, 230, 0.44);
+}
+
+.transition-card-muted .button {
+  width: fit-content;
+}
+
 .card-link a {
   text-decoration: none;
 }
 
 .page-head {
   margin-bottom: 1.5rem;
+}
+
+.section-copy-body > :first-child {
+  margin-top: 0;
+}
+
+.section-copy-body > :last-child {
+  margin-bottom: 0;
 }
 
 .content,
