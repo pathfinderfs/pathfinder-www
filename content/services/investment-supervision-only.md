@@ -18,13 +18,15 @@ draft: false
 <li>Provide performance reports upon request.</li>
 </ul>
 <p><strong>Fee</strong></p>
-<table border="0">
-<tbody>
+<table>
+<thead>
 <tr>
 <th>Supervised Assets</th>
 <th>Quarterly</th>
 <th>Annual</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>First $500,000</td>
 <td>0.30%</td>
