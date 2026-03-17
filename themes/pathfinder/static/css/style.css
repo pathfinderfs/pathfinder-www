@@ -695,6 +695,34 @@ h3,
   line-height: 1.45;
 }
 
+.prose .strategy-figure {
+  margin: 1.4rem 0 1.6rem;
+  padding: 1rem;
+  border: 1px solid rgba(138, 159, 155, 0.36);
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.98) 0%, rgba(247, 241, 232, 0.96) 100%);
+  box-shadow: var(--shadow);
+}
+
+.prose .strategy-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fbf8f2 0%, #f6efe3 100%);
+}
+
+.prose .strategy-figure figcaption {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.prose .strategy-figure--wide {
+  clear: both;
+}
+
 .prose p,
 .prose ul,
 .prose ol,
@@ -1080,6 +1108,10 @@ h3,
     float: none;
     width: 100%;
     margin: 0 0 1rem;
+  }
+
+  .prose .strategy-figure {
+    padding: 0.85rem;
   }
 
   .advisor-panel-hero .advisor-portrait {
