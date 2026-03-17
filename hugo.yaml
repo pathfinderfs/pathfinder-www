@@ -48,11 +48,6 @@ menu:
       name: "Contact Us"
       pageRef: "/contact-us"
       weight: 60
-    - identifier: summary
-      parent: services
-      name: "Summary"
-      pageRef: "/services/summary"
-      weight: 10
     - identifier: discoverdecidedo
       parent: services
       name: "Discover/Decide/Do"
