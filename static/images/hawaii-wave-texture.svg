@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Subtle wave texture">
+  <defs>
+    <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f4b57" stop-opacity="0.34"/>
+      <stop offset="50%" stop-color="#166269" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ca9b63" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#wave-gradient)" stroke-width="1.6" stroke-linecap="round">
+    <path d="M -40 66 C 64 30 162 102 272 66 C 384 30 480 102 594 66 C 708 30 804 102 918 66 C 1032 30 1126 102 1240 66"/>
+    <path d="M -48 128 C 56 92 154 164 264 128 C 374 92 470 164 584 128 C 698 92 794 164 908 128 C 1022 92 1118 164 1232 128"/>
+    <path d="M -58 190 C 46 154 144 226 254 190 C 364 154 460 226 574 190 C 688 154 784 226 898 190 C 1012 154 1108 226 1222 190"/>
+    <path d="M -66 252 C 38 216 136 288 246 252 C 356 216 452 288 566 252 C 680 216 776 288 890 252 C 1004 216 1100 288 1214 252"/>
+    <path d="M -74 314 C 30 278 128 350 238 314 C 348 278 444 350 558 314 C 672 278 768 350 882 314 C 996 278 1092 350 1206 314"/>
+  </g>
+</svg>

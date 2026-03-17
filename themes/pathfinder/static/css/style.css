@@ -1,18 +1,18 @@
 :root {
-  --bg: #f6f0e6;
-  --bg-soft: #fbf7f1;
+  --bg: #f3ede1;
+  --bg-soft: #f9f5ed;
   --paper: #fffdf9;
-  --ink: #20323b;
-  --muted: #5d6e74;
-  --line: #dccfbe;
-  --accent: #1f5c58;
-  --accent-deep: #153f45;
-  --accent-soft: #dcebe6;
-  --sand: #efe3d4;
-  --header-bg: rgba(233, 242, 240, 0.94);
-  --header-line: rgba(31, 92, 88, 0.16);
-  --nav-hover: rgba(31, 92, 88, 0.1);
-  --nav-active: rgba(31, 92, 88, 0.16);
+  --ink: #1d313a;
+  --muted: #546a73;
+  --line: #d7cab9;
+  --accent: #166269;
+  --accent-deep: #0f4b57;
+  --accent-soft: #d8ebe8;
+  --sand: #eadcc8;
+  --header-bg: rgba(230, 242, 239, 0.95);
+  --header-line: rgba(22, 98, 105, 0.18);
+  --nav-hover: rgba(22, 98, 105, 0.11);
+  --nav-active: rgba(22, 98, 105, 0.18);
   --shadow: 0 18px 40px rgba(32, 50, 59, 0.08);
   --radius: 22px;
   --container: 1120px;
@@ -29,10 +29,28 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top left, rgba(31, 92, 88, 0.12), transparent 30%),
-    linear-gradient(180deg, #faf5ed 0%, var(--bg) 45%, #f9f4ec 100%);
+    radial-gradient(circle at 8% 10%, rgba(17, 93, 104, 0.15), transparent 33%),
+    radial-gradient(circle at 92% 3%, rgba(202, 155, 99, 0.12), transparent 28%),
+    linear-gradient(180deg, #fbf6ed 0%, var(--bg) 46%, #f7f1e6 100%);
   color: var(--ink);
   font: 400 18px/1.75 "Libre Baskerville", Georgia, "Times New Roman", serif;
+}
+
+.site-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.site-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.16;
+  background:
+    linear-gradient(180deg, rgba(15, 75, 87, 0.06) 0%, rgba(15, 75, 87, 0) 40%),
+    linear-gradient(90deg, rgba(202, 155, 99, 0.08) 0%, rgba(202, 155, 99, 0) 24%);
 }
 
 a {
@@ -344,7 +362,8 @@ h3,
 
 .card,
 .content table {
-  background: rgba(255, 253, 249, 0.88);
+  background:
+    linear-gradient(180deg, rgba(255, 253, 249, 0.95) 0%, rgba(255, 253, 249, 0.87) 100%);
   border: 1px solid rgba(220, 207, 190, 0.9);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -362,6 +381,22 @@ h3,
 
 .hero-copy {
   padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-copy::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/hawaii-wave-texture.svg") center/cover no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.hero-copy > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-copy h1,
@@ -580,6 +615,8 @@ h3,
 .transition-card-link {
   text-decoration: none;
   color: inherit;
+  background:
+    linear-gradient(180deg, rgba(216, 235, 232, 0.22) 0%, rgba(255, 253, 249, 0.9) 84%);
 }
 
 .transition-card p {
@@ -683,8 +720,24 @@ h3,
 .cta-panel {
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(135deg, rgba(31, 92, 88, 0.95) 0%, rgba(21, 63, 69, 0.96) 100%);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(22, 98, 105, 0.94) 0%, rgba(15, 75, 87, 0.96) 100%);
   color: #f7f4ef;
+}
+
+.cta-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/hawaii-wave-texture.svg") center/cover no-repeat;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.cta-panel > * {
+  position: relative;
+  z-index: 1;
 }
 
 .cta-panel .eyebrow,
