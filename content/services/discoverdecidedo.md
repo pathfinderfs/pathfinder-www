@@ -8,11 +8,6 @@ draft: false
 
 Major transitions come with pressure, complexity, and high-stakes decisions. Discover/Decide/Do is our long-term planning partnership designed to help you move forward with clarity and confidence.
 
-<figure class="ddd-figure">
-  <img src="/images/discover-decide-do-cycle.svg" alt="A continuous three-step cycle labeled Discover, Decide, and Do.">
-  <figcaption>Discover, Decide, and Do is a continuous cycle, not a one-time event.</figcaption>
-</figure>
-
 ## What this service is designed to help you do
 
 - Clarify your priorities before making irreversible financial moves
@@ -21,6 +16,11 @@ Major transitions come with pressure, complexity, and high-stakes decisions. Dis
 - Follow through with disciplined implementation and ongoing adjustment
 
 ## How the Discover/Decide/Do process works
+
+<figure class="ddd-figure">
+  <img src="/images/ddd-cycle-color.svg" alt="A continuous three-step cycle labeled Discover, Decide, and Do.">
+  <figcaption>Discover, Decide, and Do is a continuous cycle, not a one-time event.</figcaption>
+</figure>
 
 ### Discover
 
