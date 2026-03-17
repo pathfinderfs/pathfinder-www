@@ -3,6 +3,9 @@ title: "Career Change, Equity, and Entrepreneurship"
 weight: 10
 description: "Planning support for promotions, startup equity, job changes, and the move into business ownership."
 summary: "Support for promotions, startup equity, job changes, and the move into business ownership."
+card_badge: "CC"
+card_theme: "career"
+card_kicker: "Career change, equity"
 draft: false
 ---
 

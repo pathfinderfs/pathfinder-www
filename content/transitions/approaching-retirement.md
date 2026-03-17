@@ -3,6 +3,9 @@ title: "Approaching Retirement"
 weight: 40
 description: "Retirement planning for the years before you stop working, including timing, withdrawal strategy, risk alignment, and healthcare costs."
 summary: "Retirement planning for the years before you stop working, including timing, withdrawal strategy, and risk alignment."
+card_badge: "RT"
+card_theme: "retirement"
+card_kicker: "Retirement"
 draft: false
 ---
 

@@ -3,6 +3,9 @@ title: "Retirement, Long-Term Care, and Legacy Planning"
 weight: 45
 description: "Planning support for the years after work, including sustainable spending, care needs, estate updates, and the legacy you want to leave."
 summary: "Planning for retirement, care needs, and the legacy you want to leave with confidence."
+card_badge: "LC"
+card_theme: "care"
+card_kicker: "Care and legacy"
 draft: false
 ---
 

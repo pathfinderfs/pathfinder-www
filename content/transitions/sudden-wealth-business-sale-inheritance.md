@@ -3,6 +3,9 @@ title: "Sudden Wealth, Inheritance, or a Business Sale"
 weight: 30
 description: "A thoughtful plan for inherited or newly created wealth, including pacing decisions, taxes, investing, and long-term stewardship."
 summary: "A thoughtful plan for inherited or newly created wealth, including taxes, investing, and long-term stewardship."
+card_badge: "SW"
+card_theme: "wealth"
+card_kicker: "Sudden wealth"
 draft: false
 ---
 

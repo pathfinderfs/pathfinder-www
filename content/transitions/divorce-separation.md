@@ -3,6 +3,9 @@ title: "Divorce or Separation"
 weight: 20
 description: "Steady financial guidance for settlement decisions, account division, housing choices, and rebuilding a plan on one income."
 summary: "Steady financial guidance for settlement decisions, account division, housing choices, and rebuilding a plan on one income."
+card_badge: "DS"
+card_theme: "divorce"
+card_kicker: "Divorce, separation"
 draft: false
 ---
 

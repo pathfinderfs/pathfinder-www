@@ -3,6 +3,9 @@ title: "Loss of a Spouse"
 weight: 50
 description: "Financial guidance after the loss of a spouse, including administrative next steps, income changes, and pacing major decisions."
 summary: "Financial guidance after the loss of a spouse, including administrative next steps, income changes, and pacing major decisions."
+card_badge: "SP"
+card_theme: "spouse"
+card_kicker: "Loss of spouse"
 draft: false
 ---
 

@@ -13,8 +13,19 @@
           {{ if gt (len $transitions) 0 }}
             <div class="card-grid">
               {{ range $transitions }}
-                <a class="card card-link transition-card transition-card-link" href="{{ .RelPermalink }}">
+                {{ $themeClass := "" }}
+                {{ with .Params.card_theme }}
+                  {{ $themeClass = printf " transition-card--%s" . }}
+                {{ end }}
+                <a class="card card-link transition-card transition-card-link{{ $themeClass }}" href="{{ .RelPermalink }}">
+                  <div class="transition-card-meta">
+                    {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
+                    {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                  </div>
                   <h3>{{ .Title }}</h3>
+                  {{ with .Params.summary }}
+                    <p class="transition-card-summary">{{ . }}</p>
+                  {{ end }}
                 </a>
               {{ end }}
               <article class="card transition-card transition-card-muted">
