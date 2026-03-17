@@ -1,65 +1,73 @@
 {{ define "main" }}
   {{ $home := . }}
+  {{ $heroIntro := .Params.hero_intro | default site.Params.description }}
+  <section class="hero hero-home">
+    <div class="container hero-grid">
+      <div class="hero-copy card hero-copy-home">
+        <p class="eyebrow">Fee-only planning for major transitions</p>
+        <h1>{{ .Title }}</h1>
+        <p class="lede">{{ $heroIntro }}</p>
+        {{ with .Params.hero_points }}
+          <ul class="benefit-list">
+            {{ range . }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        {{ end }}
+        <div class="hero-actions">
+          <a class="button" href="{{ "/contact-us/" | relURL }}">Start a conversation</a>
+          <a class="button button-muted" href="{{ "/services/" | relURL }}">Explore services</a>
+        </div>
+        <p class="hero-note">Rooted in Hawaii, serving clients nationwide.</p>
+      </div>
+      <aside class="hero-aside card">
+        {{ partial "advisor-panel.html" (dict
+          "eyebrow" "Your advisors"
+          "title" "Meet David and Katherine"
+          "intro" $home.Params.advisors_intro
+          "class" "advisor-panel-hero"
+        ) }}
+      </aside>
+    </div>
+  </section>
+
   {{ with site.GetPage "section" "transitions" }}
     {{ $transitions := .RegularPages.ByWeight }}
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy card">
-          <div class="section-intro">
-            <p class="eyebrow">Start with your situation</p>
-            <h2>What are you navigating right now?</h2>
-            <p>Choose the transition that best matches your situation. Each page outlines the questions we often help clients think through and where Pathfinder may be able to help.</p>
-          </div>
-          {{ if gt (len $transitions) 0 }}
-            <div class="card-grid">
-              {{ range $transitions }}
-                {{ $themeClass := "" }}
-                {{ with .Params.card_theme }}
-                  {{ $themeClass = printf " transition-card--%s" . }}
-                {{ end }}
-                <a class="card card-link transition-card transition-card-link{{ $themeClass }}" href="{{ .RelPermalink }}">
-                  <div class="transition-card-meta">
-                    {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
-                    {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                  </div>
-                  <h3>{{ .Title }}</h3>
-                  {{ with .Params.summary }}
-                    <p class="transition-card-summary">{{ . }}</p>
-                  {{ end }}
-                </a>
-              {{ end }}
-              <article class="card transition-card transition-card-muted">
-                <p class="card-kicker">Not sure where to start?</p>
-                <h3>Start with a conversation</h3>
-                <p>If your situation does not fit neatly into one page, we can talk through it with you and help identify the right next step.</p>
-                <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
-              </article>
-            </div>
-          {{ else }}
-            <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
-          {{ end }}
+    <section class="section-band section-band-soft section-band-transitions" id="situations">
+      <div class="container">
+        <div class="section-intro section-intro-home">
+          <p class="eyebrow">Start with your situation</p>
+          <h2>What are you navigating right now?</h2>
+          <p>Choose the transition that best matches your situation. Each page outlines the questions we often help clients think through and where Pathfinder may be able to help.</p>
         </div>
-        <aside class="hero-aside card">
-          {{ partial "advisor-panel.html" (dict
-            "eyebrow" "Your advisors"
-            "title" "Meet David and Katherine"
-            "intro" $home.Params.advisors_intro
-            "class" "advisor-panel-hero"
-          ) }}
-        </aside>
-      </div>
-    </section>
-  {{ else }}
-    <section class="hero">
-      <div class="container hero-grid">
-        <aside class="hero-aside card">
-          {{ partial "advisor-panel.html" (dict
-            "eyebrow" "Your advisors"
-            "title" "Meet David and Katherine"
-            "intro" $home.Params.advisors_intro
-            "class" "advisor-panel-hero"
-          ) }}
-        </aside>
+        {{ if gt (len $transitions) 0 }}
+          <div class="card-grid">
+            {{ range $transitions }}
+              {{ $themeClass := "" }}
+              {{ with .Params.card_theme }}
+                {{ $themeClass = printf " transition-card--%s" . }}
+              {{ end }}
+              <a class="card card-link transition-card transition-card-link{{ $themeClass }}" href="{{ .RelPermalink }}">
+                <div class="transition-card-meta">
+                  {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
+                  {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                </div>
+                <h3>{{ .Title }}</h3>
+                {{ with .Params.summary }}
+                  <p class="transition-card-summary">{{ . }}</p>
+                {{ end }}
+              </a>
+            {{ end }}
+            <article class="card transition-card transition-card-muted">
+              <p class="card-kicker">Not sure where to start?</p>
+              <h3>Start with a conversation</h3>
+              <p>If your situation does not fit neatly into one page, we can talk through it with you and help identify the right next step.</p>
+              <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
+            </article>
+          </div>
+        {{ else }}
+          <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
+        {{ end }}
       </div>
     </section>
   {{ end }}
