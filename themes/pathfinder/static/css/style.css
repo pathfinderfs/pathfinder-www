@@ -102,7 +102,7 @@ img {
   width: 168px;
   max-width: 42vw;
   object-fit: contain;
-  border-radius: 16px;
+  border-radius: 0;
   box-shadow: 0 10px 22px rgba(21, 63, 69, 0.08);
 }
 
