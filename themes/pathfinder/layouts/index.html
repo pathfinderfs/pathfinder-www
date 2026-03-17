@@ -1,59 +1,56 @@
 {{ define "main" }}
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy card">
-        <p class="eyebrow">Fee-only financial planning</p>
-        <h1>{{ .Title }}</h1>
-        <p class="lede">{{ .Params.hero_intro }}</p>
-        {{ with .Params.hero_points }}
-          <ul class="benefit-list">
-            {{ range . }}<li>{{ . }}</li>{{ end }}
-          </ul>
-        {{ end }}
-        <div class="hero-actions">
-          <a class="button" href="{{ "/services/" | relURL }}">Learn More</a>
-          <a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Us</a>
-        </div>
-      </div>
-      <aside class="hero-aside card">
-        {{ partial "advisor-panel.html" (dict
-          "eyebrow" "Your advisors"
-          "title" "Meet David and Katherine"
-          "intro" .Params.advisors_intro
-          "class" "advisor-panel-hero"
-        ) }}
-      </aside>
-    </div>
-  </section>
-
+  {{ $home := . }}
   {{ with site.GetPage "section" "transitions" }}
     {{ $transitions := .RegularPages.ByWeight }}
-    {{ if gt (len $transitions) 0 }}
-      <section class="section-band">
-        <div class="container">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy card">
           <div class="section-intro">
             <p class="eyebrow">Start with your situation</p>
             <h2>What are you navigating right now?</h2>
             <p>Choose the transition that best matches your situation. Each page outlines the questions we often help clients think through and where Pathfinder may be able to help.</p>
           </div>
-          <div class="card-grid">
-            {{ range $transitions }}
-              <article class="card card-link transition-card">
-                <p class="card-kicker">Life transition</p>
-                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+          {{ if gt (len $transitions) 0 }}
+            <div class="card-grid">
+              {{ range $transitions }}
+                <a class="card card-link transition-card transition-card-link" href="{{ .RelPermalink }}">
+                  <h3>{{ .Title }}</h3>
+                </a>
+              {{ end }}
+              <article class="card transition-card transition-card-muted">
+                <p class="card-kicker">Not sure where to start?</p>
+                <h3>Start with a conversation</h3>
+                <p>If your situation does not fit neatly into one page, we can talk through it with you and help identify the right next step.</p>
+                <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
               </article>
-            {{ end }}
-            <article class="card transition-card transition-card-muted">
-              <p class="card-kicker">Not sure where to start?</p>
-              <h3>Start with a conversation</h3>
-              <p>If your situation does not fit neatly into one page, we can talk through it with you and help identify the right next step.</p>
-              <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
-            </article>
-          </div>
+            </div>
+          {{ else }}
+            <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
+          {{ end }}
         </div>
-      </section>
-    {{ end }}
+        <aside class="hero-aside card">
+          {{ partial "advisor-panel.html" (dict
+            "eyebrow" "Your advisors"
+            "title" "Meet David and Katherine"
+            "intro" $home.Params.advisors_intro
+            "class" "advisor-panel-hero"
+          ) }}
+        </aside>
+      </div>
+    </section>
+  {{ else }}
+    <section class="hero">
+      <div class="container hero-grid">
+        <aside class="hero-aside card">
+          {{ partial "advisor-panel.html" (dict
+            "eyebrow" "Your advisors"
+            "title" "Meet David and Katherine"
+            "intro" $home.Params.advisors_intro
+            "class" "advisor-panel-hero"
+          ) }}
+        </aside>
+      </div>
+    </section>
   {{ end }}
 
   <section class="section-band">

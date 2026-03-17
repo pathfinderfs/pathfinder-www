@@ -577,6 +577,11 @@ h3,
   align-content: start;
 }
 
+.transition-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .transition-card p {
   margin: 0;
 }
