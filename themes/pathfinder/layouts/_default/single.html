@@ -1,12 +1,16 @@
 {{ define "main" }}
   <section class="page-section">
-    <div class="container narrow">
+    {{ $containerClass := "container narrow" }}
+    {{ if .Params.wide_layout }}
+      {{ $containerClass = "container" }}
+    {{ end }}
+    <div class="{{ $containerClass }}">
       <div class="page-head">
         {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .CurrentSection.Title }}</p>{{ end }}
         <h1>{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
       </div>
-      <article class="content prose{{ if eq .Section "services" }} prose-services{{ end }}">
+      <article class="content prose{{ if eq .Section "services" }} prose-services{{ end }}{{ with .Params.page_class }} {{ . }}{{ end }}">
         {{ .Content }}
       </article>
       {{ with .CurrentSection }}

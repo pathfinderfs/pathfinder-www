@@ -2,185 +2,139 @@
 title: "Executor Checklist"
 weight: 10
 description: "A comprehensive checklist covering what to do before, during, and after a death — from healthcare directives and burial wishes to finances and taxes."
-summary: "A practical step-by-step checklist for executors covering healthcare directives, burial wishes, financial tasks, tax filings, and digital accounts."
+summary: "A practical executor checklist organized by phase so you can work through urgent items first and print the page when needed."
+wide_layout: true
+page_class: "prose-checklist"
 draft: false
 ---
 
-<div>
-<div>
-
-<div>
-<h3>Before</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Healthcare directive (emergency personnel won’t follow)</li>
-<li><code>[ ]</code> Relatives living with deceased (how long do they get to stay?)</li>
-<li><code>[ ]</code> Live in caregiver (how long do they get to stay?)</li>
-<li><code>[ ]</code> Ensure executor knows how to get all documents</li>
-<li><code>[ ]</code> Determine small estate limit for state</li>
-<li><code>[ ]</code> Burial wishes
-<ul>
-<li><code>[ ]</code> Religious constraints</li>
-<li><code>[ ]</code> Choice of funeral home or mortuary</li>
-<li><code>[ ]</code> Services
-<ul>
-<li><code>[ ]</code> Viewing</li>
-<li><code>[ ]</code> Funeral (graveside?)</li>
-<li><code>[ ]</code> Reception</li>
+<div class="executor-guide">
+<div class="card executor-overview">
+<p>This is a general planning checklist, not legal or tax advice. State law, trust terms, beneficiary designations, and account rules can change the order of operations.</p>
+<p>Best use: print the page, mark what is urgent, and work section by section instead of trying to do everything at once.</p>
+<ul class="executor-meta">
+<li>Screen-friendly</li>
+<li>Print-friendly</li>
+<li>Organized by phase</li>
+</ul>
+</div>
+<div class="executor-grid">
+<section class="card executor-section executor-section--wide">
+<h2>Before a Crisis</h2>
+<p>These are the decisions and documents worth clarifying before a death or severe decline in health.</p>
+<ul class="executor-checklist">
+<li>Confirm there is an accessible healthcare directive.</li>
+<li>Decide how long relatives living with the deceased may stay in the home.</li>
+<li>Decide how long a live-in caregiver may stay in the home.</li>
+<li>Make sure the executor knows how to access key documents.</li>
+<li>Determine the small-estate threshold for the relevant state.</li>
+<li>Clarify burial and memorial wishes.
+<ul class="executor-sublist">
+<li>Religious constraints</li>
+<li>Preferred funeral home or mortuary</li>
+<li>Viewing, funeral, graveside service, and reception plans</li>
+<li>If burial: casket, vault, headstone, and plot location</li>
+<li>If cremation: donation to science, urn, and scattering wishes</li>
 </ul>
 </li>
-<li><code>[ ]</code> Buried
-<ul>
-<li><code>[ ]</code> Casket, Vault</li>
-<li><code>[ ]</code> Headstone (what on it)</li>
-<li><code>[ ]</code> Plot (where)</li>
-</ul>
-</li>
-<li><code>[ ]</code> Cremated
-<ul>
-<li><code>[ ]</code> Donate to Science</li>
-<li><code>[ ]</code> Urn</li>
-<li><code>[ ]</code> Scattered (where?)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>[ ]</code> When terminally ill or advanced fragility, do what you can ahead of time
-<ul>
-<li><code>[ ]</code> Desired last days location
-<ul>
-<li><code>[ ]</code> Home – call 911 after death, resale disclosure</li>
-<li><code>[ ]</code> Hospice</li>
-<li><code>[ ]</code> Hospital</li>
-</ul>
-</li>
-<li><code>[ ]</code> POLST (Physician Order for Life Sustaining Treatment) or DNR (Do Not Resuscitate), not all states have POLST</li>
-<li><code>[ ]</code> Take RMDs</li>
-<li><code>[ ]</code> Put utilities &amp; subscriptions in healthy spouse name
-<ul>
-<li><code>[ ]</code> Electric</li>
-<li><code>[ ]</code> Gas</li>
-<li><code>[ ]</code> Water</li>
-<li><code>[ ]</code> Sewer</li>
-<li><code>[ ]</code> Phone</li>
-<li><code>[ ]</code> Internet</li>
-<li><code>[ ]</code> Trash</li>
-<li><code>[ ]</code> Netflix</li>
-</ul>
-</li>
-<li><code>[ ]</code> Put vehicles in healthy spouse name</li>
-<li><code>[ ]</code> Balance estate or maximize exemption?</li>
-<li><code>[ ]</code> Maximize step-up benefit (e.g., if two trusts, fund dying spouse’s trust with low basis property and investments)</li>
-<li><code>[ ]</code> Healthy spouse needs to maintain 5% ownership of house for property tax homeowner exemption</li>
-<li><code>[ ]</code> Have healthy spouse take on sick spouse financial duties</li>
+<li>When terminal illness or advanced fragility is present, work ahead where possible.
+<ul class="executor-sublist">
+<li>Choose the preferred location for final days: home, hospice, or hospital</li>
+<li>Confirm POLST or DNR status if applicable</li>
+<li>Make any required RMD withdrawals</li>
+<li>Move utilities and subscriptions into the healthy spouse's name where appropriate</li>
+<li>Move vehicles into the healthy spouse's name where appropriate</li>
+<li>Consider whether the estate plan should be balanced differently for exemption or step-up purposes</li>
+<li>Make sure the healthy spouse can handle the financial tasks the ill spouse has been managing</li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
-<div>
-<h3>After</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Call 911 if at home</li>
-<li><code>[ ]</code> Notify close friends and family</li>
-<li><code>[ ]</code> Notify funeral home/ mortuary/ donate to science</li>
-<li><code>[ ]</code> Notify Social Security (800-772-1213)</li>
-<li><code>[ ]</code> Notify employer</li>
-<li><code>[ ]</code> Get hold of estate documents (will, trusts, etc)</li>
-<li><code>[ ]</code> Order death certificates through funeral home/ mortuary (at least 10)</li>
-<li><code>[ ]</code> Arrange services (see burial wishes)</li>
-<li><code>[ ]</code> Write obituary</li>
-<li><code>[ ]</code> New advisory agreement with representative if not surviving spouse who is already a client</li>
-<li><code>[ ]</code> Retain lawyer if probate is needed</li>
+</section>
+<section class="card executor-section">
+<h2>Immediate Next Steps</h2>
+<p>These are the first calls and documents most executors need to deal with.</p>
+<ul class="executor-checklist">
+<li>Call 911 if death occurs at home.</li>
+<li>Notify close family and friends.</li>
+<li>Notify the funeral home, mortuary, or body donation provider.</li>
+<li>Notify Social Security.</li>
+<li>Notify the employer if applicable.</li>
+<li>Locate the will, trusts, and estate planning documents.</li>
+<li>Order death certificates through the funeral home or mortuary.</li>
+<li>Arrange services and obituary details.</li>
+<li>Retain an attorney if probate may be required.</li>
+<li>Set up a new advisory agreement if a representative will need to act and is not already the surviving spouse client.</li>
 </ul>
-</div>
-</div>
-<div>
-<h3>Empty Home</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Forward mail to executor</li>
-<li><code>[ ]</code> Ensure care of any pets</li>
-<li><code>[ ]</code> Secure home</li>
-<li><code>[ ]</code> Arrange home upkeep (e.g., empty fridge, landscapers, indoor plants)</li>
-<li><code>[ ]</code> Put out garbage</li>
-<li><code>[ ]</code> Change utilities to executor’s address</li>
-<li><code>[ ]</code> Leave contact information with neighbors</li>
-<li><code>[ ]</code> Cleaning home</li>
-<li><code>[ ]</code> Selling home or transfer to beneficiary</li>
+</section>
+<section class="card executor-section">
+<h2>Home and Property</h2>
+<p>Secure the property early so the house, pets, and records do not drift unattended.</p>
+<ul class="executor-checklist">
+<li>Forward mail to the executor.</li>
+<li>Ensure pets are cared for.</li>
+<li>Secure the home.</li>
+<li>Arrange basic upkeep such as refrigerators, plants, landscaping, and garbage.</li>
+<li>Change utilities and service addresses as needed.</li>
+<li>Leave contact information with neighbors.</li>
+<li>Plan for cleaning, sale, or transfer of the home.</li>
 </ul>
-</div>
-</div>
-<div>
-<h3>Financial</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Gather financial documents</li>
-<li><code>[ ]</code> Set-up Google Docs or equivalent to share expenses, assets, debts and distributions with beneficiaries</li>
-<li><code>[ ]</code> Notify any remaining beneficiaries</li>
-<li><code>[ ]</code> Disclaimers</li>
-<li><code>[ ]</code> RMD (can still disclaim after taking RMD + RMD interest)
-<ul>
-<li><code>[ ]</code> If can’t make RMD by year end, form 5329 for penalty relief</li>
-<li><code>[ ]</code> Is spouse/beneficiary about to die (get disclaimers)</li>
+</section>
+<section class="card executor-section">
+<h2>Money, Insurance, and Beneficiaries</h2>
+<p>This is usually the longest section. Keep a central record of accounts, bills, distributions, and deadlines.</p>
+<ul class="executor-checklist">
+<li>Gather financial records and account information.</li>
+<li>Set up a shared tracking document for assets, debts, expenses, and distributions.</li>
+<li>Notify remaining beneficiaries.</li>
+<li>Review disclaimer opportunities where relevant.</li>
+<li>Handle any required RMDs and related timing issues.
+<ul class="executor-sublist">
+<li>If the RMD may be missed, consider penalty-relief filing requirements such as Form 5329.</li>
+<li>Check whether a spouse or beneficiary may also be near death before finalizing decisions.</li>
 </ul>
 </li>
-<li><code>[ ]</code> Determine source of short term cash for executor</li>
-<li><code>[ ]</code> Notify Life insurance</li>
-<li><code>[ ]</code> Notify Medicare/ health insurance</li>
-<li><code>[ ]</code> Notify auto, home and liability insurance</li>
-<li><code>[ ]</code> Cancel credit cards</li>
-<li><code>[ ]</code> Change utilities</li>
-<li><code>[ ]</code> Notify banks and investment institutions (advisor will lose access at this point)</li>
-<li><code>[ ]</code> Publish notice to creditors (starts clock)</li>
-<li><code>[ ]</code> Get assessed values of real estate and other investment items on date of death</li>
-<li><code>[ ]</code> Open estate checking account</li>
-<li><code>[ ]</code> Pay bills</li>
-<li><code>[ ]</code> Distribute inheritance to beneficiaries</li>
-<li><code>[ ]</code> Small estate affidavit</li>
-<li><code>[ ]</code> Cancel subscriptions</li>
-<li><code>[ ]</code> Get EINs
-<ul>
-<li><code>[ ]</code> 645 Election decision</li>
-<li><code>[ ]</code> Estate</li>
-<li><code>[ ]</code> Irrevocable trusts</li>
+<li>Determine where short-term executor cash needs will come from.</li>
+<li>Notify life insurance carriers.</li>
+<li>Notify Medicare, health insurance, auto insurance, homeowners insurance, and umbrella carriers.</li>
+<li>Cancel credit cards and unneeded subscriptions.</li>
+<li>Notify banks and investment institutions.</li>
+<li>Publish notice to creditors if required.</li>
+<li>Obtain date-of-death values for real estate and investment assets.</li>
+<li>Open an estate checking account if needed.</li>
+<li>Pay bills and track reimbursements.</li>
+<li>Distribute inheritances when the estate is ready.</li>
+<li>Review whether a small-estate affidavit applies.</li>
+<li>Obtain EINs for the estate and any irrevocable trusts if needed.</li>
 </ul>
-</li>
+</section>
+<section class="card executor-section">
+<h2>Taxes and Reporting</h2>
+<p>Do not leave the tax work for the end. Gather records early so the filings are easier later.</p>
+<ul class="executor-checklist">
+<li>File the final personal income tax return.</li>
+<li>Determine whether an estate tax return is required.</li>
+<li>File the estate income tax return if required.</li>
+<li>File trust income tax returns if required.</li>
+<li>Deliver K-1s to trust beneficiaries.</li>
 </ul>
-</div>
-</div>
-<div>
-<h3>Taxes</h3>
-<div>
-<ul>
-<li><code>[ ]</code> File last personal tax return</li>
-<li><code>[ ]</code> Determine whether to file estate tax return</li>
-<li><code>[ ]</code> File estate income tax return</li>
-<li><code>[ ]</code> File trust income tax return</li>
-<li><code>[ ]</code> Deliver K-1s to trust beneficiaries</li>
+</section>
+<section class="card executor-section">
+<h2>Digital and Personal Items</h2>
+<p>Protect records before shutting accounts down.</p>
+<ul class="executor-checklist">
+<li>Do not notify the email provider until important services have been moved and needed messages have been preserved.</li>
+<li>Notify the DMV and update registrations or titles where needed.</li>
+<li>Plan for the distribution of personal items.</li>
 </ul>
-</div>
-</div>
-<div>
-<h3>Digital</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Don’t notify email provider until all services have been switched to new email address and you have downloaded all emails for preservation (e.g., Thunderbird)</li>
+</section>
+<section class="card executor-section">
+<h2>If There Is a Business</h2>
+<p>Business ownership usually adds time-sensitive issues. Coordinate early with the attorney, CPA, and any co-owners.</p>
+<ul class="executor-checklist">
+<li>Locate ownership documents, operating agreements, or buy-sell agreements.</li>
+<li>Confirm who has authority for payroll, vendors, and banking access.</li>
+<li>Identify any deadlines that affect operations, taxes, or key employees.</li>
 </ul>
-</div>
-</div>
-<div>
-<h3>Business Owner</h3>
-</div>
-<div>
-<h3>Misc</h3>
-<div>
-<ul>
-<li><code>[ ]</code> Notify DMV (revoke license, update registration and titles if needed)</li>
-<li><code>[ ]</code> Distributing personal items</li>
-</ul>
-</div>
-</div>
+</section>
 </div>
 </div>

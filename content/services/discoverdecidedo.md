@@ -1,12 +1,12 @@
 ---
 title: "Discover/Decide/Do"
 weight: 20
-description: "Discover/Decide/Do is Pathfinder's outcome-focused planning partnership for major transitions, with collaborative decision support and disciplined execution."
-summary: "A long-term planning relationship for major transitions: clarify what matters most, make better financial decisions, and follow through with confidence."
+description: "Discover/Decide/Do is Pathfinder's planning partnership for major transitions, with collaborative decision support and disciplined execution."
+summary: "A long-term planning relationship for major transitions: clarify what matters most, make better decisions, and follow through."
 draft: false
 ---
 
-Major transitions come with pressure, complexity, and high-stakes decisions. Discover/Decide/Do is our long-term planning partnership designed to help you move forward with clarity and confidence.
+Major transitions come with pressure, complexity, and high-stakes decisions. Discover/Decide/Do is our long-term planning partnership for slowing the process down, sorting through the tradeoffs, and following through well.
 
 ## What this service is designed to help you do
 

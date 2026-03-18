@@ -1,47 +1,49 @@
 ---
 title: "External Links"
 weight: 60
-description: "Curated links for DIY financial planning, market data, and philanthropy — vetted resources to help you make informed decisions."
-summary: "A curated collection of external resources for self-directed financial research, market data, and philanthropic giving."
+description: "A short list of outside references Pathfinder still recommends checking for advisor research, personal finance basics, care planning, and philanthropy."
+summary: "A short curated list of outside references for self-directed research and practical planning."
 draft: false
 ---
 
-<h2>DIY Resources</h2>
-<table>
-<tbody>
-<tr><td><a href="http://www.actec.org/fellows/public-search/" rel="noopener noreferrer">ACTEC</a></td><td>An organization of top notch estate planning attorneys</td></tr>
-<tr><td><a href="http://www.adviserinfo.sec.gov/" rel="noopener noreferrer">Advisor Disclosure Search</a></td><td>Search for investment advisor disclosures</td></tr>
-<tr><td><a href="http://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a></td><td>A great forum for when you want to ask financial questions and share ideas.</td></tr>
-<tr><td><a href="http://brokercheck.finra.org/" rel="noopener noreferrer">BrokerCheck</a></td><td>Lookup whether a broker has any disclosures</td></tr>
-<tr><td><a href="http://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts.com</a></td><td>Search for the best interest rates for savings, checking and CDs</td></tr>
-<tr><td><a href="https://basic.esplanner.com/" rel="noopener noreferrer">ESPlanner Basic</a></td><td>One of the best free online planning services</td></tr>
-<tr><td><a href="http://annualcreditreport.com" rel="noopener noreferrer">Free Annual Credit Report</a></td><td>The official free credit report site.</td></tr>
-<tr><td><a href="http://www.iwillteachyoutoberich.com/" rel="noopener noreferrer">I Will Teach You To Be Rich</a></td><td>Geared for younger people, this site focuses on establishing good financial habits and beliefs</td></tr>
-<tr><td><a href="http://www.mint.com/" rel="noopener noreferrer">Mint.com</a></td><td>Online services that helps you track your finances (think online Quicken)</td></tr>
-<tr><td><a href="http://www.ssa.gov/OP_Home/handbook/handbook.html" rel="noopener noreferrer">Social Security Handbook</a></td><td>The complete guide to benefits (warning: very dense and hard to interpret)</td></tr>
-<tr><td><a href="http://www.caringinfo.org/stateaddownload" rel="noopener noreferrer">State Advanced Directives</a></td><td>Advanced Healthcare Directives for every state</td></tr>
-<tr><td><a href="http://fairmark.com/reference/index.htm" rel="noopener noreferrer">Tax Information</a></td><td>Contribution Limits and other useful tax information</td></tr>
-</tbody>
-</table>
+<p>This page is intentionally short. Pathfinder would rather point you to a smaller set of solid references than maintain a long directory of links that drifts out of date.</p>
 
-<h2>Market Data</h2>
-<table>
-<tbody>
-<tr><td><a href="http://www.bloomberg.com/markets/rates-bonds/government-bonds/us/" rel="noopener noreferrer">Bond Rates</a></td><td>Current Bond Rates from Bloomberg</td></tr>
-<tr><td><a href="http://www.commodityonline.com/" rel="noopener noreferrer">Commodity Markets</a></td><td>Compare spot and future prices</td></tr>
-<tr><td><a href="http://fx.sauder.ubc.ca/plot.html" rel="noopener noreferrer">Currency Graphs</a></td><td>Compare up to four currencies on one graph</td></tr>
-<tr><td><a href="http://www.clevelandfed.org/research/data/fedfunds/index.cfm" rel="noopener noreferrer">Fed Fund Rate Predictions</a></td><td>Federal funds interest rate predictions for the next three months</td></tr>
-<tr><td><a href="http://www.federalreserve.gov/releases/h15/data.htm" rel="noopener noreferrer">Historical Interest Rates</a></td><td>Historical rates for treasury bills, bonds and notes</td></tr>
-</tbody>
-</table>
+<div class="resource-link-groups">
+  <section class="card resource-link-group">
+    <h2>Check an advisor</h2>
+    <p>These are the first places to look when you want to confirm registrations, disclosures, and disciplinary history.</p>
+    <ul class="resource-link-list">
+      <li><a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">Investment Adviser Public Disclosure</a> for SEC and state-registered investment advisers.</li>
+      <li><a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a> for broker records, employment history, and disclosures.</li>
+    </ul>
+  </section>
 
-<h2>Philanthropy</h2>
-<table>
-<tbody>
-<tr><td><a href="http://www.aefonline.org/" rel="noopener noreferrer">American Endowment Foundation</a></td><td>Independent Donor Advised Fund - provides maximum flexibility in donations and investments</td></tr>
-<tr><td><a href="http://www.charitynavigator.org/" rel="noopener noreferrer">Charity Navigator</a></td><td>Provides evaluations of many charities</td></tr>
-<tr><td><a href="http://www.foundationsource.com/" rel="noopener noreferrer">Foundation Source</a></td><td>Provides back office support to your foundation</td></tr>
-<tr><td><a href="http://www.hawaiicommunityfoundation.org/" rel="noopener noreferrer">Hawaii Community Foundation</a></td><td>Donor Advised Fund and Foundation help for screening charitable candidates</td></tr>
-<tr><td><a href="http://www.justgive.org/" rel="noopener noreferrer">Just Give</a></td><td>Great charity lookup facility (data from GuideStar database)</td></tr>
-</tbody>
-</table>
+  <section class="card resource-link-group">
+    <h2>Personal finance basics</h2>
+    <p>Reliable starting points for credit, account rates, taxes, and self-directed investing questions.</p>
+    <ul class="resource-link-list">
+      <li><a href="https://www.annualcreditreport.com/" rel="noopener noreferrer">AnnualCreditReport.com</a> for free official credit reports.</li>
+      <li><a href="https://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts</a> for savings, checking, and CD rate comparisons.</li>
+      <li><a href="https://fairmark.com/" rel="noopener noreferrer">Fairmark</a> for practical tax reference material.</li>
+      <li><a href="https://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a> for broad investing discussions and self-directed research.</li>
+    </ul>
+  </section>
+
+  <section class="card resource-link-group">
+    <h2>Retirement and care planning</h2>
+    <p>Good references when you need the official rules or want to get organized before a health or estate issue becomes urgent.</p>
+    <ul class="resource-link-list">
+      <li><a href="https://www.ssa.gov/" rel="noopener noreferrer">Social Security Administration</a> for benefits, retirement, and account access.</li>
+      <li><a href="https://www.caringinfo.org/planning/advance-directives/" rel="noopener noreferrer">CaringInfo Advance Directives</a> for state-specific healthcare directive information.</li>
+    </ul>
+  </section>
+
+  <section class="card resource-link-group">
+    <h2>Philanthropy</h2>
+    <p>Useful starting points for charitable due diligence and donor-advised fund research.</p>
+    <ul class="resource-link-list">
+      <li><a href="https://www.charitynavigator.org/" rel="noopener noreferrer">Charity Navigator</a> for nonprofit research and charity evaluation.</li>
+      <li><a href="https://www.hawaiicommunityfoundation.org/" rel="noopener noreferrer">Hawaii Community Foundation</a> for donor-advised fund and local giving options.</li>
+    </ul>
+  </section>
+</div>

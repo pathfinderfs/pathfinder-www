@@ -1,9 +1,8 @@
 {{ define "main" }}
-  {{ $home := . }}
   {{ $heroIntro := .Params.hero_intro | default site.Params.description }}
   <section class="hero hero-home">
-    <div class="container hero-grid">
-      <div class="hero-copy card hero-copy-home">
+    <div class="container hero-grid hero-grid--single">
+      <div class="hero-copy card hero-copy-home hero-copy-home--wide">
         <p class="eyebrow">Fee-only planning for major transitions</p>
         <h1>{{ .Title }}</h1>
         <p class="lede">{{ $heroIntro }}</p>
@@ -15,19 +14,11 @@
           </ul>
         {{ end }}
         <div class="hero-actions">
-          <a class="button" href="{{ "/contact-us/" | relURL }}">Start a conversation</a>
-          <a class="button button-muted" href="{{ "/services/" | relURL }}">Explore services</a>
+          <a class="button" href="#situations">Browse common situations</a>
+          <a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Start a conversation</a>
         </div>
-        <p class="hero-note">Rooted in Hawaii, serving clients nationwide.</p>
+        <p class="hero-note">Rooted in Hawaii, serving clients nationwide. Most clients come to us when the tradeoffs are real and the next decision matters.</p>
       </div>
-      <aside class="hero-aside card">
-        {{ partial "advisor-panel.html" (dict
-          "eyebrow" "Your advisors"
-          "title" "Meet David and Katherine"
-          "intro" $home.Params.advisors_intro
-          "class" "advisor-panel-hero"
-        ) }}
-      </aside>
     </div>
   </section>
 
@@ -94,12 +85,23 @@
     </div>
   </section>
 
+  <section class="section-band section-band-advisors">
+    <div class="container">
+      {{ partial "advisor-panel.html" (dict
+        "eyebrow" "Your advisors"
+        "title" "Meet David and Katherine"
+        "intro" .Params.advisors_intro
+        "class" "advisor-panel-home"
+      ) }}
+    </div>
+  </section>
+
   <section class="section-band section-band-soft">
     <div class="container cta-panel card">
       <div>
         <p class="eyebrow">Rooted in Hawaii, serving clients nationwide</p>
-        <h2>Start a conversation about your unique situation</h2>
-        <p>Call {{ site.Params.phone }} or email {{ site.Params.email }} to discuss where you are today and where you want to go next.</p>
+        <h2>Talk through the decision in front of you</h2>
+        <p>Call {{ site.Params.phone }} or email {{ site.Params.email }} if you want help sorting through a major transition, pressure-testing a plan, or coordinating the moving pieces.</p>
       </div>
       <a class="button" href="{{ "/contact-us/" | relURL }}">Get in touch</a>
     </div>

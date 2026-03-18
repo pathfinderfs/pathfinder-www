@@ -2,11 +2,21 @@
 title: "Privacy Policy"
 weight: 50
 description: "Pathfinder's privacy policy — how we protect your confidential information and the limited circumstances under which data is shared."
+summary: "Pathfinder keeps client information confidential and shares it only when needed to serve the client, satisfy legal requirements, or support normal operations."
 draft: false
 ---
 
-<p>We are committed to protecting and safeguarding all confidential information we receive in the normal course of business and hold such information in the strictest of confidence.</p>
-<p>We never provide your information to any third party for the purpose of solicitation.</p>
-<p>During the course of normal business, your information is shared with four parties. First, limited information is shared with the custodian, Charles Schwab. Second, client information may be viewed by government agencies during routine State and SEC investment advisor examinations, or when required by law. Third, limited client information may be viewed by a CPA firm hired by Pathfinder Financial Services, LLC to audit books and records. Fourth, limited information may be shared with vendors and application service providers to enhance client service. All of these entities are required to follow strict confidentiality guidelines and can only use client data for the purpose of conducting normal operations.</p>
-<p>We will not disclose your information to other non-affiliated third parties without your request or without obtaining prior permission from you. Circumstances where you may request disclosure include, but are not limited to; tax preparation, legal representation, and loan applications. One circumstance where we may ask permission to disclose limited information is for client references</p>
-<p>If you have any questions about our privacy policy, please feel free to contact us.</p>
+Pathfinder treats confidential client information with care and does not share it for solicitation or marketing purposes.
+
+In the normal course of business, limited information may be shared with:
+
+- custodians and financial institutions needed to carry out client instructions
+- government agencies during routine examinations or when required by law
+- outside professionals such as auditors who support firm operations
+- vendors and application service providers used to improve or maintain client service
+
+Those parties are expected to use the information only as needed for the work they perform.
+
+We do not disclose information to unrelated third parties without your request, your permission, or a legal requirement to do so. Examples of client-requested disclosure include coordination with attorneys, accountants, or lenders.
+
+If you have questions about privacy at Pathfinder, please contact us.

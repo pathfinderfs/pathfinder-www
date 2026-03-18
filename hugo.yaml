@@ -36,6 +36,10 @@ menu:
       name: "Services"
       pageRef: "/services"
       weight: 30
+    - identifier: transitions
+      name: "Transitions"
+      pageRef: "/transitions"
+      weight: 35
     - identifier: resources
       name: "Resources"
       pageRef: "/resources"
