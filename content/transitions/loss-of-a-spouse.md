@@ -42,74 +42,46 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
-        <p class="card-kicker">Documentation</p>
-        <h3>There may be a lot to gather</h3>
-        <p>Accounts, policies, and legal papers often need to be located and sorted before anything else can be settled.</p>
+        <p class="card-kicker">First steps</p>
+        <h3>What truly has to happen now, and what can wait?</h3>
+        <p>Grief compresses time. Some tasks are urgent, but many decisions feel urgent only because everything arrives at once.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Income</p>
-        <h3>The household income picture can change quickly</h3>
-        <p>The loss of a pension, paycheck, or Social Security benefit may alter the plan right away.</p>
+        <p class="card-kicker">Income reality</p>
+        <h3>How different is the cash flow now that one income or benefit is gone?</h3>
+        <p>The loss of a paycheck, pension, or Social Security benefit can change the household plan faster than the paperwork catches up.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Pacing</p>
-        <h3>Urgency is not always the same as readiness</h3>
-        <p>Investment, housing, and estate decisions can feel urgent even when more time would be better.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">Coordination</p>
-        <h3>Many people may be involved at once</h3>
-        <p>Family members and outside advisors may all need information or input at the same time.</p>
+        <p class="card-kicker">Irreversible choices</p>
+        <h3>Which decisions feel urgent but should not be rushed?</h3>
+        <p>Housing, investing, gifting, and estate choices can wait longer than people often assume, and that breathing room matters.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Organize priorities</p>
-          <h3>Identify what needs attention first</h3>
-          <p>We help organize the first layer of financial tasks so the next step is clearer.</p>
+          <p class="card-kicker">Organize the first steps</p>
+          <h3>Build a clear order of operations</h3>
+          <p>We help separate immediate tasks from decisions that can wait so the next step is clear and manageable.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Adjust the plan</p>
-          <h3>Rework cash flow around a different income reality</h3>
-          <p>We review income changes and update the plan for the household that now needs to function differently.</p>
+          <p class="card-kicker">Reset the cash flow</p>
+          <h3>Update the plan around survivor income and changed expenses</h3>
+          <p>We review benefits, account structure, and spending so the household can work under a different income picture.</p>
         </article>
         <article class="card transition-help-card">
           <p class="card-kicker">Coordinate support</p>
-          <h3>Work with attorneys, tax professionals, and family</h3>
-          <p>We coordinate when multiple people or professionals need to stay aligned.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Make room</p>
-          <h3>Create space for thoughtful decisions</h3>
-          <p>We help preserve room for future decisions about investing, housing, and legacy after the immediate crisis.</p>
+          <h3>Keep family, legal, and tax help aligned</h3>
+          <p>We help when several relatives and professionals all need information, updates, and a shared picture of what happens next.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>What needs to be handled now, and what can wait?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How will my income change going forward?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>What do I need to do with accounts, beneficiaries, or required paperwork?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>When is the right time to revisit the long-term plan?</p>
-      </article>
     </div>
   </section>
 

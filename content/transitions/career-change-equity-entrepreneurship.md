@@ -42,54 +42,44 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
-        <p class="card-kicker">Compensation mix</p>
-        <h3>Several pay structures land at once</h3>
-        <p>You may be evaluating salary, bonus, deferred compensation, and equity incentives together rather than one at a time.</p>
+        <p class="card-kicker">Offer quality</p>
+        <h3>Is this offer actually better once equity, benefits, and taxes are included?</h3>
+        <p>A bigger headline number can hide a weaker total package once vesting, exercise risk, insurance, and tax timing are brought back into the picture.</p>
       </article>
       <article class="card transition-info-card">
         <p class="card-kicker">Equity concentration</p>
-        <h3>Company stock can dominate the balance sheet</h3>
-        <p>When a meaningful share of your wealth sits in one employer, the risk is no longer just investment risk.</p>
+        <h3>How much company stock is too much for my balance sheet?</h3>
+        <p>When compensation and net worth both lean on the same company, the risk is no longer just about market volatility.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Workplace benefits</p>
-        <h3>Old retirement and pension choices still matter</h3>
-        <p>A prior 401(k), pension, or other workplace benefit can keep carrying planning consequences long after you leave.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">Irregular income</p>
-        <h3>Founder or consulting cash flow can be uneven</h3>
-        <p>Moving from a predictable paycheck into business ownership usually means rethinking reserves, spending, and savings timing.</p>
+        <p class="card-kicker">Income change</p>
+        <h3>What changes if my income stops behaving like a paycheck?</h3>
+        <p>Consulting, ownership, or commission-heavy pay usually means rebuilding reserves, savings timing, and tax habits from the ground up.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Review the full package</p>
-          <h3>Put compensation and equity in context</h3>
-          <p>We review salary, bonus, deferred compensation, and equity together so taxes and timing are part of the decision from the start.</p>
+          <p class="card-kicker">Compare the full package</p>
+          <h3>Review salary, equity, benefits, and timing together</h3>
+          <p>We look at the whole offer so taxes, vesting, retirement benefits, and downside risk are part of the decision from the start.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Measure concentration risk</p>
-          <h3>Keep company stock from taking over</h3>
-          <p>We help you think through how much stock is too much for your balance sheet and what diversification can look like.</p>
+          <p class="card-kicker">Build the equity plan</p>
+          <h3>Decide how much to hold, exercise, sell, or diversify</h3>
+          <p>We help turn equity compensation from a vague opportunity into a concrete plan for taxes, concentration, and liquidity.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Coordinate the old accounts</p>
-          <h3>Choose what to roll over and when</h3>
-          <p>We coordinate rollover and investment decisions so old accounts still support the broader plan you want to build.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Plan for the new cadence</p>
-          <h3>Build reserves around a changing income stream</h3>
-          <p>If your income becomes less predictable, we help set a planning framework for reserves, retirement savings, and owner compensation.</p>
+          <p class="card-kicker">Reset the operating plan</p>
+          <h3>Coordinate rollovers, reserves, taxes, and owner pay</h3>
+          <p>If the income pattern changes, we help rebuild the cash reserve, savings cadence, and account structure around the new reality.</p>
         </article>
       </div>
     </div>
@@ -97,24 +87,6 @@ draft: false
       <img src="/images/career-transition-map.svg" alt="A decision map showing offer details, equity, benefits, taxes, account rollover, and long-term planning working together.">
       <figcaption>Mapping the downstream choices before you accept an offer helps avoid rushed decisions later.</figcaption>
     </figure>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>How much company stock is too much for my balance sheet?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>Should I hold, exercise, sell, or diversify equity compensation?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>What should I do with my old retirement plan?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How much cash should I keep on hand if my income becomes less predictable?</p>
-      </article>
-    </div>
   </section>
 
   <section class="transition-section">

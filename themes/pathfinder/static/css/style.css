@@ -1091,14 +1091,6 @@ h3,
   gap: 1rem;
 }
 
-.prose .transition-card-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.prose .transition-question-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .prose .transition-process-figure {
   margin: 0;
 }
@@ -1110,8 +1102,16 @@ h3,
 
 .prose .transition-help-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.9rem;
+}
+
+.prose .transition-card-grid,
+.prose .transition-help-list {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.prose .transition-question-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .prose .transition-section--help {

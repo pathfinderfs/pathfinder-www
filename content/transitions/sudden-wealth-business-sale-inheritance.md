@@ -42,74 +42,46 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
-        <p class="card-kicker">Pacing</p>
-        <h3>Money can arrive before the plan is ready</h3>
-        <p>Large balances may show up faster than the thinking needed for taxes, investing, gifting, or family requests.</p>
+        <p class="card-kicker">Liquidity</p>
+        <h3>How much of this should stay liquid while I decide what comes next?</h3>
+        <p>The hardest mistake to undo is committing money too quickly before taxes, lifestyle, gifting, and investment priorities are sorted out.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Emotion</p>
-        <h3>The money often carries extra meaning</h3>
-        <p>The emotional significance of the event can make even routine decisions feel heavier than expected.</p>
+        <p class="card-kicker">Tax timing</p>
+        <h3>What tax decisions have to happen before the rest of the plan is settled?</h3>
+        <p>A business sale or other large event can create expensive tax consequences before the broader plan has had time to catch up.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Taxes</p>
-        <h3>A sale can create concentrated tax exposure</h3>
-        <p>Business-sale proceeds often bring a round of tax decisions before the rest of the plan is settled.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">Fit</p>
-        <h3>Old advisors and investments may no longer match</h3>
-        <p>The people and portfolios that fit before the event may not fit the new balance sheet or purpose of the assets.</p>
+        <p class="card-kicker">Boundaries</p>
+        <h3>How do I keep this money from drifting into other people's priorities?</h3>
+        <p>Family requests, philanthropy, lifestyle upgrades, and old advisor habits can all start steering the money before you have decided what it is for.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Set the pace</p>
-          <h3>Give the decision space to breathe</h3>
-          <p>We help establish a thoughtful pace so the money does not force rushed choices.</p>
+          <p class="card-kicker">Slow the first move</p>
+          <h3>Set a holding pattern for cash and near-term decisions</h3>
+          <p>We help create decision space so the money does not force rushed choices before the plan is ready.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Coordinate the details</p>
-          <h3>Work with your CPA and estate attorney</h3>
-          <p>We coordinate on taxes, charitable giving, and estate considerations when the event touches several disciplines at once.</p>
+          <p class="card-kicker">Coordinate the tax work</p>
+          <h3>Work with your CPA and estate attorney while the options are still open</h3>
+          <p>We coordinate on taxes, charitable giving, and estate planning while timing decisions can still make a meaningful difference.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Build the allocation</p>
-          <h3>Match the portfolio to the new balance sheet</h3>
-          <p>We design an allocation that reflects both the new assets and the life goals those assets are meant to support.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Define the purpose</p>
-          <h3>Clarify what the money should do next</h3>
-          <p>We help connect the wealth to spending, family, philanthropy, and future generations.</p>
+          <p class="card-kicker">Invest from purpose</p>
+          <h3>Build the allocation after the money has a job</h3>
+          <p>We design the portfolio only after reserves, spending, gifting, and legacy goals are clear enough to anchor the investment plan.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>How much of this should stay liquid while I decide what comes next?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>What taxes should I be preparing for now?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How do I respond thoughtfully to loans, gifts, or financial requests from others?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How can this money support the life I actually want to lead?</p>
-      </article>
     </div>
   </section>
 

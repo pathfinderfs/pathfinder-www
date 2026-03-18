@@ -42,74 +42,46 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
-        <p class="card-kicker">Savings history</p>
-        <h3>Accumulating enough does not answer the timing question</h3>
-        <p>A strong savings record still leaves uncertainty about when work becomes optional.</p>
+        <p class="card-kicker">Retirement timing</p>
+        <h3>Can I stop working now, or am I one bad market year early?</h3>
+        <p>Retiring a year too soon or too late can change the plan more than another contribution once market returns and withdrawals start interacting.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Withdrawal risk</p>
-        <h3>Drawdowns can change how risk feels</h3>
-        <p>Portfolio risk that felt manageable before retirement may feel different when withdrawals are close.</p>
+        <p class="card-kicker">Portfolio risk</p>
+        <h3>How much risk can I still afford once the paycheck stops?</h3>
+        <p>The right risk level before retirement can be the wrong risk level once withdrawals begin and bad timing becomes part of the math.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Income mix</p>
-        <h3>Several retirement income sources interact</h3>
-        <p>Social Security, Medicare, pensions, and part-time work all affect the timing decision.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">One-time choices</p>
-        <h3>Early decisions can shift the whole picture</h3>
-        <p>Paying off debt or helping family can change the retirement plan more than expected.</p>
+        <p class="card-kicker">Income coordination</p>
+        <h3>How do Social Security, Medicare, taxes, and withdrawals fit together?</h3>
+        <p>These choices do not stand alone. The claiming date, withdrawal order, and tax picture can push against each other in ways that are easy to miss.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Test the timing</p>
-          <h3>Stress-test retirement under different assumptions</h3>
-          <p>We model market, spending, and longevity scenarios so retirement timing is based on more than a guess.</p>
+          <p class="card-kicker">Model scenarios</p>
+          <h3>Test retirement dates and spending levels</h3>
+          <p>We model different start dates, spending assumptions, and market conditions so the timing decision is based on range, not hope.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Match risk to use</p>
-          <h3>Align the portfolio with the spending horizon</h3>
-          <p>We help you invest for the years in front of you rather than for a generic risk label.</p>
+          <p class="card-kicker">Build the drawdown</p>
+          <h3>Design the withdrawal and tax order</h3>
+          <p>We look at which accounts to spend first, how taxes change over time, and where Social Security fits into the sequence.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Connect the cash flow</p>
-          <h3>Estimate how taxes, healthcare, and withdrawals fit together</h3>
-          <p>We look at the cash-flow mechanics after paychecks stop so fewer surprises remain.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Keep the bigger picture</p>
-          <h3>Link retirement to the life you want</h3>
-          <p>We connect the numbers to the broader plan for your time, priorities, and future decisions.</p>
+          <p class="card-kicker">Reset the portfolio</p>
+          <h3>Match risk to the years the money must fund</h3>
+          <p>We help align the portfolio with the spending horizon in front of you rather than a generic risk questionnaire result.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>When can I retire without guessing?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How much market risk should I still be taking?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>When should I claim Social Security?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How do I turn accumulated assets into sustainable spending?</p>
-      </article>
     </div>
   </section>
 

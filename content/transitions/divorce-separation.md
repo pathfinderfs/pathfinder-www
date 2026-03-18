@@ -42,74 +42,46 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
-        <p class="card-kicker">Settlement structure</p>
-        <h3>Fair on paper does not always mean balanced over time</h3>
-        <p>Settlement proposals can look even while creating very different long-term outcomes.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">Account division</p>
-        <h3>Retirement and taxable accounts need careful handling</h3>
-        <p>Division requires attention to taxes, timing, and the legal process behind the transfer.</p>
-      </article>
-      <article class="card transition-info-card">
         <p class="card-kicker">Housing</p>
-        <h3>Where you live can carry emotional and financial weight</h3>
-        <p>Housing decisions often involve both attachment and affordability at the same time.</p>
+        <h3>Can I afford to keep the house, or am I keeping a cost structure?</h3>
+        <p>The house can feel emotionally non-negotiable even when the cash flow, upkeep, and future flexibility point in a different direction.</p>
+      </article>
+      <article class="card transition-info-card">
+        <p class="card-kicker">Asset division</p>
+        <h3>Which assets are actually equal once taxes and liquidity matter?</h3>
+        <p>Two accounts with similar balances can leave you with very different after-tax value, flexibility, and future cash flow.</p>
       </article>
       <article class="card transition-info-card">
         <p class="card-kicker">New baseline</p>
-        <h3>The post-divorce budget may need to work differently</h3>
-        <p>A different household may need a different lifestyle, income level, or caregiving plan.</p>
+        <h3>What does life on one income really cost?</h3>
+        <p>The post-divorce plan often requires resetting spending, savings, insurance, and work decisions all at once.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Model outcomes</p>
-          <h3>Compare settlement structures over time</h3>
-          <p>We model the long-term tradeoffs behind different proposals so the better choice is easier to see.</p>
+          <p class="card-kicker">Model proposals</p>
+          <h3>Compare settlement paths before you sign</h3>
+          <p>We model cash flow, taxes, and long-term value across different proposals so the better choice is easier to see.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Evaluate assets</p>
-          <h3>Look beyond account balances</h3>
-          <p>We help weigh taxes, liquidity, and flexibility when dividing assets.</p>
+          <p class="card-kicker">Handle transfers</p>
+          <h3>Coordinate QDROs and account changes</h3>
+          <p>We work with your attorney and custodian so retirement accounts, taxable accounts, and legal documents move in the right order.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Coordinate details</p>
-          <h3>Work with your attorney and accountant</h3>
-          <p>We stay coordinated when QDROs and other technical steps are part of the process.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Rebuild the baseline</p>
+          <p class="card-kicker">Rebuild the plan</p>
           <h3>Create a new planning framework</h3>
-          <p>We reset the plan around spending, savings, insurance, and investment management.</p>
+          <p>We reset the plan around spending, reserves, insurance, and investing so the next phase is built on real numbers.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>Can I realistically afford to keep the house?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How should retirement accounts be divided and transferred?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>Which assets are more useful to keep, even if their balances look similar?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>What does financial independence look like after the separation is complete?</p>
-      </article>
     </div>
   </section>
 

@@ -42,74 +42,46 @@ draft: false
   </div>
 
   <section class="transition-section">
-    <h2>When this transition gets complicated</h2>
+    <h2>Where clients get stuck</h2>
     <div class="transition-card-grid">
       <article class="card transition-info-card">
         <p class="card-kicker">Spending horizon</p>
-        <h3>Retirement income may need to last longer than expected</h3>
-        <p>Markets, inflation, and spending changes can stretch the plan further than it first appeared.</p>
+        <h3>How much can I spend now without cornering the later years?</h3>
+        <p>Markets, inflation, and a longer retirement can make today's spending decision more consequential than it first appears.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Family care</p>
-        <h3>Care for a spouse or parent can affect the whole family</h3>
-        <p>The cost, setting, and timing of care can quickly change the plan in front of everyone involved.</p>
+        <p class="card-kicker">Care uncertainty</p>
+        <h3>What happens if care costs arrive sooner or last longer than expected?</h3>
+        <p>The timing, setting, and duration of care can change spending, housing, and family roles faster than most plans assume.</p>
       </article>
       <article class="card transition-info-card">
-        <p class="card-kicker">Coverage</p>
-        <h3>Medicare and long-term care questions can stack up</h3>
-        <p>Healthcare, supplemental coverage, and care needs often become part of the same decision set.</p>
-      </article>
-      <article class="card transition-info-card">
-        <p class="card-kicker">Estate updates</p>
-        <h3>Old documents may no longer match current wishes</h3>
-        <p>Beneficiary designations, titling, and estate documents may need to catch up with the present plan.</p>
+        <p class="card-kicker">Estate alignment</p>
+        <h3>Do my documents and account structures still reflect what I want?</h3>
+        <p>Beneficiaries, account titles, and estate documents often lag behind the life you are actually living now.</p>
       </article>
     </div>
   </section>
 
   <section class="transition-section transition-section--help">
     <div class="transition-help-stack">
-      <h2>How Pathfinder can help</h2>
+      <h2>How Pathfinder helps</h2>
       <div class="transition-help-list">
         <article class="card transition-help-card">
-          <p class="card-kicker">Stress-test spending</p>
-          <h3>Check retirement against market and care-cost scenarios</h3>
-          <p>We test retirement spending and cash flow against different assumptions so the plan has more resilience.</p>
+          <p class="card-kicker">Test the plan</p>
+          <h3>Stress-test spending against market, inflation, and care scenarios</h3>
+          <p>We test retirement cash flow against the risks most likely to change the plan later, not just the assumptions that feel comfortable now.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Build the framework</p>
-          <h3>Connect lifestyle needs to legacy goals</h3>
-          <p>We build a planning framework that addresses current living needs and the future you want to leave behind.</p>
+          <p class="card-kicker">Set priorities</p>
+          <h3>Connect living needs, family support, and legacy goals</h3>
+          <p>We help put present spending, care decisions, and what you want to leave behind into one workable planning framework.</p>
         </article>
         <article class="card transition-help-card">
-          <p class="card-kicker">Coordinate professionals</p>
-          <h3>Work with attorneys, accountants, and insurance professionals</h3>
-          <p>We coordinate when estate and care questions cross multiple professional disciplines.</p>
-        </article>
-        <article class="card transition-help-card">
-          <p class="card-kicker">Clarify priorities</p>
-          <h3>Keep family support and flexibility in view</h3>
-          <p>We help clarify how assets, beneficiary designations, and family support fit into the broader plan.</p>
+          <p class="card-kicker">Coordinate the updates</p>
+          <h3>Work with estate, tax, and insurance professionals</h3>
+          <p>We help keep documents, beneficiary designations, account structure, and outside professionals aligned with the same plan.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="transition-section">
-    <h2>Questions we often help clients answer</h2>
-    <div class="transition-question-grid">
-      <article class="card transition-question-card">
-        <p>How much can I safely spend without risking the rest of the plan?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>What happens if care costs arrive sooner or last longer than expected?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How should I think about Medicare, long-term care coverage, or housing changes?</p>
-      </article>
-      <article class="card transition-question-card">
-        <p>How do I balance present needs with the legacy I want to leave?</p>
-      </article>
     </div>
   </section>
 
