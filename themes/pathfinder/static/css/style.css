@@ -842,6 +842,14 @@ h3,
   margin: 0.2rem 0 1rem 1.25rem;
 }
 
+.prose .bio-portrait-inline.alignright {
+  max-width: min(280px, 42%);
+  margin: 0.15rem 0 1rem 1.4rem;
+  border: 1px solid rgba(220, 207, 190, 0.9);
+  box-shadow: var(--shadow);
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.98) 0%, rgba(247, 241, 232, 0.96) 100%);
+}
+
 .prose .ddd-figure {
   float: right;
   width: min(360px, 44%);
