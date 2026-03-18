@@ -10,15 +10,15 @@
       {{ if gt (len $pages) 0 }}
         <div class="card-grid">
           {{ range $pages }}
-            <article class="card card-link">
+            <a class="card card-link" href="{{ .RelPermalink }}">
               <p class="card-kicker">{{ .Section | humanize }}</p>
-              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              <h2>{{ .Title }}</h2>
               {{ with .Params.summary }}
                 <p>{{ . }}</p>
               {{ else }}
-                {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+                {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
               {{ end }}
-            </article>
+            </a>
           {{ end }}
         </div>
       {{ end }}

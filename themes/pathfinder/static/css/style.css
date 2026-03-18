@@ -550,6 +550,8 @@ h3,
   background: rgba(220, 235, 230, 0.26);
   border: 1px solid rgba(31, 92, 88, 0.14);
   align-content: start;
+  color: inherit;
+  text-decoration: none;
 }
 
 .advisor-card-body {
@@ -638,6 +640,12 @@ h3,
 .feature-stack {
   display: grid;
   gap: 1rem;
+}
+
+.feature-card {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
 }
 
 .section-intro {
@@ -763,6 +771,33 @@ h3,
 
 .transition-card-muted .button {
   width: fit-content;
+}
+
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-grid > .card-link {
+  display: block;
+}
+
+.card-link:hover {
+  color: inherit;
+}
+
+.card-link:focus-visible {
+  outline: 2px solid rgba(31, 92, 88, 0.45);
+  outline-offset: 3px;
+}
+
+.card-link .text-link {
+  margin: 0;
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 .card-link a {

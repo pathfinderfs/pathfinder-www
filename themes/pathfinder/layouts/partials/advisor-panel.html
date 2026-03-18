@@ -9,7 +9,7 @@
   <div class="advisor-grid">
     {{ range $advisors }}
       {{ with . }}
-        <article class="advisor-card">
+        <a class="advisor-card card-link" href="{{ .RelPermalink }}">
           <img class="portrait advisor-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
           <div class="advisor-card-body">
             <div>
@@ -17,9 +17,9 @@
               {{ with .Params.advisor_role }}<p class="advisor-role">{{ . }}</p>{{ end }}
             </div>
             {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-            <p><a class="text-link" href="{{ .RelPermalink }}">Read full bio</a></p>
+            <p class="text-link">Read full bio</p>
           </div>
-        </article>
+        </a>
       {{ end }}
     {{ end }}
   </div>
