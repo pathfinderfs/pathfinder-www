@@ -38,7 +38,7 @@ transition_help_cards:
     body: "We run thousands of inflation and market scenarios to give you a concrete, dynamic spending number. We replace financial anxiety with the mathematical permission to take the trip, buy the house, or fund the grandkids."
   - kicker: "Build the Defense"
     title: "Create a Long-Term Care Firewall"
-    body: "We analyze your balance sheet to determine if you can safely self-fund a care event, or if strategic insurance is required to ring-fence your assets and protect the healthy spouse's standard of living."
+    body: "We assess your capacity to self-fund a care event and determine whether strategic insurance is needed to protect your assets and preserve the healthy spouse’s standard of living."
   - kicker: "Architect the Transfer"
     title: "Coordinate your complete legacy"
     body: "We don't draft legal documents, but we work directly with your estate attorneys and CPAs to ensure your trusts, account titling, and tax strategies are perfectly aligned to transfer your wealth exactly as you intend."
