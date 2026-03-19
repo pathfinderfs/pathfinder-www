@@ -11,7 +11,7 @@ transition_intro:
   body: "As retirement approaches, the margin for error shrinks. Questions about your exact retirement date, healthcare costs, and sequence of returns become immediate. We help clients stress-test their assumptions, navigate the hidden tax traps of retirement, and transition away from their careers with financial confidence."
   chips:
     - "Retirement Timing"
-    - "Pacheck Replacement"
+    - "Payheck Replacement"
     - "Social Security & Medicare"
     - "Tax Mitigation"
 transition_snapshot:
@@ -27,7 +27,7 @@ transition_stuck_cards:
     body: "Retiring right before a market downturn is one of the greatest risks to a portfolio. We help you determine if your nest egg is resilient enough to weather bad timing."
   - kicker: "Invisible Tripwires"
     title: "How do I avoid the stealth taxes that catch new retirees off guard?"
-    body: "Retirement isn't just about spending money. The wrong withdrawal order can trigger higher tax brackets, Social Security taxation, and Medicare premium surcharges (IRMAA)."
+    body: "The wrong withdrawal order can trigger higher tax brackets, Social Security taxation, and Medicare premium surcharges (IRMAA). Strategic Roth conversions can neutralize many of these traps, but only if you act before the window closes."
   - kicker: "Catastrophic Costs"
     title: "Will a health event wipe out everything we've built?"
     body: "Many pre-retirees are currently watching their parents navigate expensive care facilities. The fear of becoming a financial or physical burden to your own family is a major hurdle to feeling secure."
@@ -54,7 +54,7 @@ transition_related_cards:
 transition_cta:
   eyebrow: "Prepare for retirement with a clearer plan"
   title: "Retire with a plan that holds up beyond the first guess."
-  body: "If retirement is beginning to feel close enough that guesses are no longer good enough, we would be glad to talk with you."
+  body: "Retirement should feel like a milestone, not a gamble. If you're close enough to start asking the hard questions, we're ready to help you answer them."
   label: "Schedule a retirement conversation"
   href: "/contact-us/"
 draft: false
