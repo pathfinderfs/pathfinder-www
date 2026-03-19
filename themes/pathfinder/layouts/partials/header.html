@@ -24,25 +24,8 @@
       <nav class="site-nav" aria-label="Main navigation">
         {{ range site.Menus.main }}
           {{ if not .Parent }}
-            <div class="nav-item{{ if .HasChildren }} has-children{{ end }}{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}">
-              {{ if .HasChildren }}
-                <div class="nav-parent">
-                  <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
-                  <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ .Identifier }}" data-submenu-toggle>
-                    <span class="visually-hidden">Toggle {{ .Name }} submenu</span>
-                    <span class="submenu-icon" aria-hidden="true"></span>
-                  </button>
-                </div>
-              {{ else }}
-                <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
-              {{ end }}
-              {{ if .HasChildren }}
-                <div class="submenu" id="submenu-{{ .Identifier }}">
-                  {{ range .Children }}
-                    <a href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
-                  {{ end }}
-                </div>
-              {{ end }}
+            <div class="nav-item{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}">
+              <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
             </div>
           {{ end }}
         {{ end }}
