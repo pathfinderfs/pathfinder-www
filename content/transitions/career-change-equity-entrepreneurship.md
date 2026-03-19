@@ -1,6 +1,6 @@
 ---
 title: "Career Change, Equity, and Entrepreneurship"
-weight: 10
+weight: 40
 description: "Navigate complex compensation, company equity concentration, or confidently make the leap from W-2 employee to business owner."
 summary: "Navigate complex compensation, company equity concentration, or confidently make the leap from W-2 employee to business owner."
 card_badge: "CC"

@@ -1,6 +1,6 @@
 ---
 title: "Loss of a Spouse"
-weight: 50
+weight: 60
 description: "Compassionate, structured financial guidance after the loss of a spouse. We help you triage immediate tasks, protect your income, and navigate the financial fog of grief."
 summary: "Compassionate, structured financial guidance after the loss of a spouse. We help you triage immediate tasks, protect your income, and navigate the financial fog of grief."
 card_badge: "SP"

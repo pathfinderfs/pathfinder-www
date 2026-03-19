@@ -1,6 +1,6 @@
 ---
 title: "Retirement, Long-Term Care, and Legacy Planning"
-weight: 45
+weight: 20
 description: "We help you spend with confidence, plan for healthcare shocks, and organize a seamless legacy."
 summary: "We help you spend with confidence, plan for healthcare shocks, and organize a seamless legacy."
 card_badge: "LC"

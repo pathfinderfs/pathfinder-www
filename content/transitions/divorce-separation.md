@@ -1,6 +1,6 @@
 ---
 title: "Divorce or Separation"
-weight: 20
+weight: 50
 description: "Protect your financial future during a divorce. We help you evaluate settlements, avoid hidden tax traps, and transition confidently to a single income."
 summary: "Strategic, objective financial guidance during a divorce. We model settlements, untangle complex assets, and help you rebuild on your own terms."
 card_badge: "DS"
