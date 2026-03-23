@@ -1,8 +1,8 @@
 ---
 title: "Career Change, Equity, and Entrepreneurship"
 weight: 40
-description: "Navigate complex compensation, company equity concentration, or confidently make the leap from W-2 employee to business owner."
-summary: "Navigate complex compensation, company equity concentration, or confidently make the leap from W-2 employee to business owner."
+description: "Compare offers, manage equity concentration, or move to founder or independent income with confidence."
+summary: "Compare offers, manage equity concentration, or move to founder or independent income with confidence."
 card_badge: "CC"
 card_theme: "career"
 card_kicker: "Career Transitions"
@@ -34,13 +34,13 @@ transition_stuck_cards:
 transition_help_cards:
   - kicker: "Evaluate the True Offer"
     title: "Model your total compensation after taxes"
-    body: "We don't just compare base salaries. We model the after-tax impact of sign-on bonuses, equity vesting schedules, and benefit differences so you can negotiate from a place of power."
+    body: "We don't just compare base salaries. We model the after-tax impact of sign-on bonuses, equity vesting schedules, and benefit differences so you can negotiate with a clearer view of the tradeoffs."
   - kicker: "Unwind the Equity"
     title: "Build a liquidity and diversification strategy"
-    body: "We turn your equity from a vague paper asset into a concrete plan. We'll map out exactly when to exercise options, when to sell RSUs, and how to minimize the tax hit."
+    body: "We turn your equity from a vague paper asset into a concrete plan. We'll map out likely exercise timing, sale options and tax tradeoffs so the decision is grounded in understanding not guesswork."
   - kicker: "Architect the Business"
     title: "Design a cash flow system for business owners"
-    body: "If you are making the leap to founder, we help you determine exactly how much runway you need, set up solo retirement plans (like SEP IRAs or Solo 401ks), and smooth out irregular income."
+    body: "If you are making the leap to founder, we help you determine how much runway is reasonable, set up solo retirement plans (like SEP IRAs or Solo 401(k)s), and smooth out irregular income."
 transition_figure:
   src: "/images/career-transition-map.svg"
   alt: "A decision map showing offer details, equity, benefits, taxes, account rollover, and long-term planning working together."

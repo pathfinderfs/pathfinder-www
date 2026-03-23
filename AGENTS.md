@@ -86,9 +86,6 @@ Use that when you want a quick render check without a clean rebuild.
 
 ## Working Agreements
 
-- Prefer small, targeted edits.
-- Preserve the existing Hugo structure unless a broader reorganization is required.
-- Keep page URLs stable unless the task explicitly calls for URL changes.
 - Treat `content/` as the source of the site and `public/` as disposable output.
 - Do not hand-edit `public/`; rebuild it.
 - Blog posts are intentionally excluded right now; avoid adding post features unless requested.

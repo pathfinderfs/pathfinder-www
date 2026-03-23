@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <section class="page-section">
+    <div class="container narrow">
+      <div class="page-head">
+        <p class="eyebrow">{{ .Section | humanize }}</p>
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
+      </div>
+
+      <div class="content prose transition-directory-copy">{{ .Content }}</div>
+
+      {{ $pages := .RegularPages.ByWeight }}
+      {{ if gt (len $pages) 0 }}
+        <section class="transition-directory">
+          <div class="section-intro transition-directory-intro">
+            <p class="eyebrow">Choose the closest fit</p>
+            <h2>Start with the transition that feels most urgent right now.</h2>
+            <p>You do not need a perfect category match. These pages are meant to help you identify the decisions that matter first, understand how Pathfinder can help, and decide whether a conversation makes sense.</p>
+          </div>
+
+          <div class="card-grid transition-directory-grid">
+            {{ range $pages }}
+              {{ $cardThemeClass := "" }}
+              {{ with .Params.card_theme }}
+                {{ $cardThemeClass = printf " transition-card--%s" . }}
+              {{ end }}
+              <a class="card card-link transition-card transition-card-link{{ $cardThemeClass }}" href="{{ .RelPermalink }}">
+                <div class="transition-card-meta">
+                  {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
+                  {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                </div>
+                <h3>{{ .Title }}</h3>
+                {{ with .Params.summary }}
+                  <p class="transition-card-summary">{{ . }}</p>
+                {{ end }}
+              </a>
+            {{ end }}
+
+            <article class="card transition-card transition-card-muted transition-directory-fallback">
+              <p class="card-kicker">Mixed or unclear situation?</p>
+              <h3>Start with a conversation anyway.</h3>
+              <p>If more than one page applies, or none feels quite right, we can help you sort the immediate decisions from the ones that can wait.</p>
+              <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Talk with Pathfinder</a></p>
+            </article>
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
