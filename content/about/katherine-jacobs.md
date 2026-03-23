@@ -3,6 +3,7 @@ title: "Katherine Jacobs, CFP®"
 weight: 20
 description: "Meet Katherine Jacobs, CFP® — a financial planner at Pathfinder helping clients turn priorities into clear, values-aligned plans."
 summary: "Katherine brings collaborative planning, careful communication, and steady follow-through to major financial decisions."
+contact_summary: "Katherine focuses on making sure clients actually understand their plan, not just that one exists. She's known for clear communication and staying on top of the details between meetings."
 portrait: "/images/katherine-bio-small.jpg"
 portrait_alt: "Katherine Jacobs portrait"
 advisor_role: "Financial Planner"

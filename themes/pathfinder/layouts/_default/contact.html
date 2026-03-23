@@ -4,7 +4,7 @@
       <div class="page-head">
         <p class="eyebrow">Get in touch</p>
         <h1>{{ .Title }}</h1>
-        <p class="lede">While we are located in Hawaii, we serve clients nationwide. Due to Hawaii being in an earlier time zone, mainland clients can often reach us during their evening hours.</p>
+        <p class="lede">Based in Hawaii and serving clients across the country. Our hours align naturally with mainland evenings, so if you're on the East or West Coast, reaching us after work is often the easiest option.</p>
       </div>
 
       <div class="contact-grid">
@@ -19,7 +19,7 @@
           <div class="contact-card-icon">&#9993;</div>
           <h2>Email</h2>
           <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
-          <p class="contact-note">We typically respond within one business day</p>
+          <p class="contact-note">We usually reply within one business day</p>
         </div>
       </div>
 
@@ -27,7 +27,8 @@
         {{ partial "advisor-panel.html" (dict
           "eyebrow" "Meet the advisors"
           "title" "Start a conversation with Pathfinder"
-          "intro" "Please feel free to reach out with any questions, requests, or comments. Whether you are exploring financial planning for the first time or re-evaluating your current approach, David and Katherine are happy to talk through your situation."
+          "intro" "Whether you're new to financial planning or rethinking your current approach, David and Katherine are happy to have a straightforward conversation about where you are and what might make sense. No pressure, no pitch."
+          "variant" "compact"
           "class" "advisor-panel-contact"
         ) }}
       </div>

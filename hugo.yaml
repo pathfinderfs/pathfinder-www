@@ -17,6 +17,7 @@ params:
   tagline: "Financial Clarity from Hawaii, Serving Nationwide"
   phone: "(808) 728-4396"
   email: "support@pathfinderfs.com"
+  advURL: "https://adviserinfo.sec.gov/"
   address:
     - "Pathfinder Financial Services, LLC"
     - "555 Paakiki Pl."

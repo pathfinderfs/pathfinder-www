@@ -3,6 +3,7 @@ title: "David Jacobs, Ph.D., CFP®"
 weight: 10
 description: "Meet David Jacobs, Ph.D., CFP® — founder of Pathfinder Financial Services and a research-driven financial planner based in Hawaii."
 summary: "David founded Pathfinder after a research career in AI and security and brings that same analytical discipline to high-stakes financial planning."
+contact_summary: "David founded Pathfinder after a research career in AI and security. He brings that same analytical rigor to financial planning, particularly for clients navigating complex decisions around equity, taxes, or major life transitions."
 portrait: "/images/david-mtn.jpg"
 portrait_alt: "David Jacobs portrait"
 advisor_role: "Financial Planner"
