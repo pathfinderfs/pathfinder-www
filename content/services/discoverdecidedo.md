@@ -3,61 +3,119 @@ title: "Discover/Decide/Do"
 weight: 20
 description: "Discover/Decide/Do is Pathfinder's planning partnership for major transitions, with collaborative decision support and disciplined execution."
 summary: "A long-term planning relationship for major transitions: clarify what matters most, make better decisions, and follow through."
+service_eyebrow: "Long-term planning partnership"
+service_display_title: "Discover.<br><em>Decide.</em><br>Do."
+service_intro: "Major financial transitions do not have to feel rushed or disjointed. This is a long-term planning relationship built to slow the process down, surface what matters, and help you follow through well."
+service_chips:
+  - "Retirement"
+  - "Sudden Wealth"
+  - "Divorce"
+  - "Career Change"
+  - "Legacy Planning"
+service_primary_action: "Start a conversation"
+service_secondary_action: "See how it works"
+service_visual_type: "cycle"
+service_cycle_center: "continuous<br>cycle"
+service_cycle_steps:
+  - num: "01"
+    title: "Discover"
+    body: "Clarify goals and priorities"
+  - num: "02"
+    title: "Decide"
+    body: "Weigh tradeoffs and build a plan"
+  - num: "03"
+    title: "Do"
+    body: "Implement and adapt over time"
+service_audience_eyebrow: "Who this is for"
+service_audience_title: "Built for moments that carry real weight."
+service_audience_cards:
+  - kicker: "I."
+    title: "Approaching a major transition"
+    body: "Retirement, a business sale, an inheritance, a divorce, or a major career change where the cost of a rushed move is hard to reverse."
+  - kicker: "II."
+    title: "Overwhelmed by complexity"
+    body: "Taxes, investments, cash flow, and timing are all pulling in different directions, and you need someone to help you see the full picture before you act."
+  - kicker: "III."
+    title: "Decisions that do not finish themselves"
+    body: "You have done the research and know the stakes, but follow-through keeps slipping because the decision has too many moving parts."
+  - kicker: "IV."
+    title: "Values-driven planning"
+    body: "The right answer is not just the one that optimizes a number. It has to fit your responsibilities, relationships, and what you actually care about."
+service_process_eyebrow: "The process"
+service_process_title: "A continuous cycle, not a one-time event."
+service_process_cards:
+  - kicker: "Phase 01"
+    title: "Discover"
+    items:
+      - "Clarify your goals, expectations, and life priorities."
+      - "Surface the transitions that matter now and in the next few years."
+      - "Gather and organize the financial information needed for sound planning."
+  - kicker: "Phase 02"
+    title: "Decide"
+    items:
+      - "Triage immediate and long-term priorities so the right issues get attention first."
+      - "Evaluate realistic choices and the tradeoffs each path creates."
+      - "Build an investment policy aligned with your goals, risk capacity, and market stance."
+  - kicker: "Phase 03"
+    title: "Do"
+    items:
+      - "Coordinate execution with your attorney, accountant, and other advisors."
+      - "Implement agreed actions and adapt as your life and markets change."
+      - "Manage investment implementation on a nondiscretionary basis, including trading and rebalancing."
+      - "Provide performance reporting upon request."
+service_highlights_eyebrow: "Ongoing engagement"
+service_highlights_title: "What the relationship looks like in practice."
+service_highlights_items:
+  - title: "Strategic guidance"
+    body: "Ongoing counsel through changing life circumstances, not just at the start of the engagement."
+  - title: "Collaborative decisions"
+    body: "When the tradeoffs are meaningful, you have a thinking partner who understands the broader context."
+  - title: "Consistent accountability"
+    body: "The plan does not sit unfinished in a notebook. We track decisions through execution and adjustment."
+service_fee:
+  eyebrow: "Fee structure"
+  title: "Transparent, straightforward pricing."
+  base_amount: "$1,500"
+  period: "per quarter · $6,000 per year (base retainer)"
+  note: "This covers the planning relationship itself: strategic guidance, collaborative decision-making, and accountability throughout the year."
+  plus_label: "Plus an asset-based component:"
+  columns:
+    - "Net worth"
+    - "Quarterly"
+    - "Annual"
+  rows:
+    - label: "First $10,000,000"
+      quarterly: "$250 per $250,000"
+      annual: "$1,000 per $250,000"
+    - label: "Over $10,000,000"
+      quarterly: "$250 per $500,000"
+      annual: "$1,000 per $500,000"
+  legal: "Net worth includes investment assets over which you have control, such as investment accounts, 401(k)s, 403(b)s, vested stock options, and similar holdings. Additional fees may be charged for business or real estate analysis. The quarterly retainer is cancelable at any time without restriction. Fees are payable in arrears on a quarterly basis, prorated when service covers less than a full quarter, and may be deducted from supervised accounts or paid within twenty-one days of invoice receipt. Hawaii's 4.712% general excise tax is added to all fees, and fees are negotiable."
+  sidebar_title: "What you get for the fee"
+  sidebar_body: "This is designed for clients who need both planning depth and implementation support over time."
+  features:
+    - "Fee-only, fiduciary advice with no commissions or product incentives."
+    - "Long-term planning across taxes, investments, cash flow, and timing."
+    - "Nondiscretionary investment implementation, so you retain final say."
+    - "Coordination with attorneys, accountants, and other professionals."
+    - "A relationship that adjusts as your life changes instead of waiting for an annual reset."
+    - "No lock-in and no exit fees."
+service_related_eyebrow: "Related paths"
+service_related_title: "See the rest of the planning framework."
+service_related_cards:
+  - kicker: "Transitions"
+    title: "Start with your situation"
+    body: "Explore the major transitions where this planning relationship is most often used."
+    href: "/transitions/"
+  - kicker: "Service"
+    title: "Investment Supervision Only"
+    body: "See the portfolio-only relationship for clients who want ongoing oversight without the broader planning engagement."
+    href: "/services/investment-supervision-only/"
+service_cta:
+  eyebrow: "Get started"
+  title: "Ready to find your path forward?"
+  body: "If you need structure around a major decision and want steady help following through, Pathfinder would be glad to talk with you."
+  label: "Talk with Pathfinder"
+  href: "/contact-us/"
 draft: false
 ---
-
-Major transitions come with pressure, complexity, and high-stakes decisions. Discover/Decide/Do is our long-term planning partnership for slowing the process down, sorting through the tradeoffs, and following through well.
-
-## What this service is designed to help you do
-
-- Clarify your priorities before making irreversible financial moves
-- Understand tradeoffs across taxes, investments, cash flow, and timing
-- Build a coordinated plan that aligns with your values and responsibilities
-- Follow through with disciplined implementation and ongoing adjustment
-
-## How the Discover/Decide/Do process works
-
-<figure class="ddd-figure">
-  <img src="/images/ddd-cycle-color.svg" alt="A continuous three-step cycle labeled Discover, Decide, and Do.">
-  <figcaption>Discover, Decide, and Do is a continuous cycle, not a one-time event.</figcaption>
-</figure>
-
-### Discover
-
-- Clarify your goals, expectations, and life priorities
-- Surface key transitions that matter now and in the next few years
-- Gather and organize the financial information needed for sound planning
-
-### Decide
-
-- Triage immediate and long-term priorities so the right issues get attention first
-- Evaluate realistic choices and the tradeoffs each path creates
-- Build an investment policy aligned with your goals, risk capacity, risk tolerance, and market stance
-
-### Do
-
-- Coordinate execution with your other advisors (attorneys, accountants, and insurance professionals)
-- Implement agreed actions and adapt as your life and markets change
-- Manage investment implementation on a nondiscretionary basis, including selection, trading, rebalancing, and allocation updates
-- Provide performance reporting upon request
-
-## What engagement looks like in practice
-
-- Ongoing strategic guidance through changing life circumstances
-- Collaborative decision-making when choices carry meaningful consequences
-- Consistent accountability so decisions become completed action, not unfinished plans
-
-## Fee
-
-$1,500/quarter ($6,000/year) plus:
-
-| NET WORTH* | QUARTERLY | ANNUAL |
-| --- | --- | --- |
-| First $10,000,000 | $250/$250,000 net worth* | $1,000/$250,000 net worth* |
-| Over $10,000,000 | $250/$500,000 net worth* | $1,000/$500,000 net worth* |
-
-Fee is based on your net worth* at the time of the engagement and will be adjusted at the end of three years and every three years thereafter based on the advisor's formula at those times. This quarterly retainer is cancelable anytime without restriction. Fees are payable in arrears on a quarterly basis. For any calendar quarter in which services are provided for less than the full quarter, fees will be prorated based on the percentage of the quarter services were provided. All fees shall be deducted directly from supervised accounts or payable within twenty-one days of invoice receipt.
-
-*Net Worth includes investment assets over which you have control, such as investment accounts, 401(k)s, 403(b)s, vested stock options, etc. Additional fees may be charged for business or real estate analysis.*
-
-All fees will have Hawaii's 4.712% general excise tax added and are negotiable.

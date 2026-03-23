@@ -14,7 +14,7 @@ David founded Pathfinder in 2003 after a 20-year research career in artificial i
 
 Raised in Hawaii and a Punahou graduate, David built Pathfinder to offer the kind of advice he believed clients were missing: fee-only, fiduciary guidance grounded in careful analysis rather than product sales or inherited industry habits.
 
-Over the years he has helped develop educational materials for other advisors, spoken at national and regional conferences, and continued to study the parts of planning that matter most in real life: retirement, risk, taxes, estate issues, and the judgment required when those areas overlap.
+Over the years he has helped develop educational materials for other advisors, spoken at national and regional conferences, and continued to study the parts of planning that matter most when life gets complicated: retirement, risk, taxes, estate issues, and the judgment required when those areas overlap.
 
 Clients who work with David usually want more than a quick recommendation. They want someone who will think through the consequences, pressure-test the plan, and stay with the decision long enough to make sure it is implemented well.
 

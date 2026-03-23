@@ -1,109 +1,74 @@
 {{ define "main" }}
   {{ $heroIntro := .Params.hero_intro | default site.Params.description }}
-  <section class="hero hero-home">
-    <div class="container hero-grid hero-grid--single">
-      <div class="hero-copy card hero-copy-home hero-copy-home--wide">
-        <p class="eyebrow">Fee-only planning for major transitions</p>
-        <h1>{{ .Title }}</h1>
-        <p class="lede">{{ $heroIntro }}</p>
-        {{ with .Params.hero_points }}
-          <ul class="benefit-list">
-            {{ range . }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ul>
+  {{ $who := site.GetPage "/transitions" }}
+  {{ $why := site.GetPage "/about" }}
+  {{ $start := site.GetPage "/services" }}
+  <section class="hero-split hero-split--home">
+    <div class="hero-split-copy">
+      <p class="section-label">{{ .Params.hero_eyebrow | default "Fee-only planning for major transitions" }}</p>
+      <h1 class="hero-title">{{ .Title }}</h1>
+      <p class="hero-lede">{{ $heroIntro }}</p>
+      <div class="hero-actions">
+        {{ with $who }}<a class="button" href="{{ .RelPermalink }}">See Who We Help</a>{{ end }}
+        {{ with $why }}<a class="button-secondary" href="{{ .RelPermalink }}">Why Pathfinder</a>{{ end }}
+      </div>
+    </div>
+
+    <div class="hero-split-panel">
+      <p class="panel-label">{{ .Params.hero_snapshot_label | default "Where planning gets real" }}</p>
+      <div class="stat-grid">
+        {{ range .Params.hero_snapshot }}
+          <article class="hero-stat">
+            <p class="hero-stat-label">{{ .title }}</p>
+            <p class="hero-stat-value">{{ .value }}</p>
+            <p class="hero-stat-desc">{{ .body }}</p>
+          </article>
         {{ end }}
-        <div class="hero-actions">
-          <a class="button" href="#situations">Browse common situations</a>
-          <a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Start a conversation</a>
-        </div>
-        <p class="hero-note">Rooted in Hawaii, serving clients nationwide. Most clients come to us when the tradeoffs are real and the next decision matters.</p>
       </div>
     </div>
   </section>
 
-  {{ with site.GetPage "section" "transitions" }}
-    {{ $transitions := .RegularPages.ByWeight }}
-    <section class="section-band section-band-soft section-band-transitions" id="situations">
-      <div class="container">
-        <div class="section-intro section-intro-home">
-          <p class="eyebrow">Start with your situation</p>
-          <h2>What are you navigating right now?</h2>
-          <p>Choose the transition that best matches your situation. Each page outlines the questions we often help clients think through and where Pathfinder may be able to help.</p>
-        </div>
-        {{ if gt (len $transitions) 0 }}
-          <div class="card-grid">
-            {{ range $transitions }}
-              {{ $themeClass := "" }}
-              {{ with .Params.card_theme }}
-                {{ $themeClass = printf " transition-card--%s" . }}
-              {{ end }}
-              <a class="card card-link transition-card transition-card-link{{ $themeClass }}" href="{{ .RelPermalink }}">
-                <div class="transition-card-meta">
-                  {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
-                  {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                </div>
-                <h3>{{ .Title }}</h3>
-                {{ with .Params.summary }}
-                  <p class="transition-card-summary">{{ . }}</p>
-                {{ end }}
-              </a>
-            {{ end }}
-            <article class="card transition-card transition-card-muted">
-              <p class="card-kicker">Not sure where to start?</p>
-              <h3>Start with a conversation</h3>
-              <p>If your situation does not fit neatly into one page, we can talk through it with you and help identify the right next step.</p>
-              <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
-            </article>
-          </div>
-        {{ else }}
-          <p><a class="button button-muted" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a></p>
-        {{ end }}
-      </div>
-    </section>
-  {{ end }}
-
-  <section class="section-band">
-    <div class="container section-grid">
-      <div class="section-copy">
-        <p class="eyebrow">How Pathfinder helps</p>
-        <h2>Two ways to work with Pathfinder</h2>
-        <div class="section-copy-body prose">{{ .Content }}</div>
-      </div>
-      <div class="feature-stack">
-        <a class="card card-link feature-card" href="{{ "/services/discoverdecidedo/" | relURL }}">
-          <h3>Discover/Decide/Do</h3>
-          <p>Long-term guidance for retirement, business sales, inheritances, divorce, career changes, and other pivotal life changes.</p>
-          <p class="text-link">Explore the service</p>
-        </a>
-        <a class="card card-link feature-card" href="{{ "/services/investment-supervision-only/" | relURL }}">
-          <h3>Investment Supervision Only</h3>
-          <p>Ongoing investment oversight for clients who prefer to handle their own planning between transitions.</p>
-          <p class="text-link">View the details</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-band section-band-advisors">
+  <section class="section section--cream" data-reveal>
     <div class="container">
-      {{ partial "advisor-panel.html" (dict
-        "eyebrow" "Your advisors"
-        "title" "Meet David and Katherine"
-        "intro" .Params.advisors_intro
-        "class" "advisor-panel-home"
-      ) }}
+      <div class="section-intro">
+        <p class="section-label">Find the right next step</p>
+        <h2 class="section-title">Start with the question you actually need answered.</h2>
+        <p>Most prospective clients do not need a longer home page. They need a clear way to decide whether Pathfinder fits, why the firm is worth trusting, and how a conversation usually begins.</p>
+      </div>
+      <div class="directory-grid home-transition-grid">
+        {{ with $who }}
+          <a class="directory-card card-surface" href="{{ .RelPermalink }}">
+            <p class="card-kicker">Who We Help</p>
+            <h3>{{ .Title }}</h3>
+            <p>See the transitions and decision patterns Pathfinder is built to help with.</p>
+          </a>
+        {{ end }}
+        {{ with $why }}
+          <a class="directory-card card-surface" href="{{ .RelPermalink }}">
+            <p class="card-kicker">Why Pathfinder</p>
+            <h3>{{ .Title }}</h3>
+            <p>Understand the investment approach, the advisors, and the operating principles behind the firm.</p>
+          </a>
+        {{ end }}
+        {{ with $start }}
+          <a class="directory-card card-surface" href="{{ .RelPermalink }}">
+            <p class="card-kicker">Get Started</p>
+            <h3>{{ .Title }}</h3>
+            <p>See how new clients usually begin and when Discover/Decide/Do is the right default starting point.</p>
+          </a>
+        {{ end }}
+      </div>
     </div>
   </section>
 
-  <section class="section-band section-band-soft">
-    <div class="container cta-panel card">
+  <section class="section" data-reveal>
+    <div class="container cta-strip">
       <div>
-        <p class="eyebrow">Rooted in Hawaii, serving clients nationwide</p>
-        <h2>Talk through the decision in front of you</h2>
-        <p>Call {{ site.Params.phone }} or email {{ site.Params.email }} if you want help sorting through a major transition, pressure-testing a plan, or coordinating the moving pieces.</p>
+        <p class="section-label">Ready when you are</p>
+        <h2 class="section-title">If the work feels familiar, the next step is simple.</h2>
+        <p>Use Who We Help if you want to confirm fit, Why Pathfinder if you want to understand the firm more deeply, or Get Started if you are ready to see how an engagement usually begins.</p>
       </div>
-      <a class="button" href="{{ "/contact-us/" | relURL }}">Get in touch</a>
+      <a class="button" href="{{ "/contact-us/" | relURL }}">Contact Pathfinder</a>
     </div>
   </section>
 {{ end }}

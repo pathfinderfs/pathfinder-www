@@ -11,14 +11,14 @@ transition_intro:
   body: "As retirement approaches, the margin for error shrinks. Questions about your exact retirement date, healthcare costs, and sequence of returns become immediate. We help clients stress-test their assumptions, navigate the hidden tax traps of retirement, and transition away from their careers with financial confidence."
   chips:
     - "Retirement Timing"
-    - "Payheck Replacement"
+    - "Paycheck Replacement"
     - "Social Security & Medicare"
     - "Tax Mitigation"
 transition_snapshot:
   - title: "Timing dilemma"
     body: "Understanding the exact financial difference between retiring today, next year, or three years from now."
   - title: "Income sources"
-    body: "Social Security, pensions, and the mix of taxable, tax-deferred and tax free assets can all change how to replace your paycheck."
+    body: "Social Security, pensions, and the mix of taxable, tax-deferred, and tax-free assets can all change how to replace your paycheck."
   - title: "The long-term care unknown"
     body: "Structuring a plan that protects your spouse and your assets if a late-in-life health crisis requires extended care."
 transition_stuck_cards:

@@ -1,10 +1,10 @@
 ---
-title: "Services"
+title: "Get Started"
 weight: 30
-description: "Pathfinder offers two core engagements — comprehensive financial planning and standalone investment oversight — both grounded in fee-only, fiduciary care."
-summary: "Two service models designed around your needs: full-scope planning for life's major transitions, or dedicated investment supervision when you prefer to plan on your own."
+description: "How new clients typically begin with Pathfinder, when Discover/Decide/Do is the right default, and when Investment Supervision Only may be the better fit."
+summary: "Start with the decision in front of you, then choose the engagement that fits. Most prospective clients begin with Discover/Decide/Do."
 draft: false
 ---
 
-<p>Pathfinder offers two ways to work together. One is a broader planning relationship for major decisions and ongoing transitions. The other is focused investment oversight for clients who prefer to do more of the planning work themselves.</p>
-<p>If you are arriving with a specific situation in mind, start with our <a href="/transitions/">Transitions pages</a>. If you already know the kind of engagement you want, the service pages below will show how each relationship works.</p>
+<p>Most prospective clients do not start with a perfectly formed view of which engagement they need. They start with a transition, a hard question, or a decision that feels too important to rush.</p>
+<p>This page is meant to show how Pathfinder typically begins those relationships. For most people, that starts with <a href="/services/discoverdecidedo/">Discover/Decide/Do</a>. <a href="/services/investment-supervision-only/">Investment Supervision Only</a> is the narrower path for clients who already know they mainly want ongoing portfolio oversight.</p>

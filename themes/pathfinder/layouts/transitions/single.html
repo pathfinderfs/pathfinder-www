@@ -1,155 +1,156 @@
 {{ define "main" }}
-  <section class="page-section">
-    <div class="container narrow">
-      {{ $themeClass := "" }}
-      {{ with .Params.card_theme }}
-        {{ $themeClass = printf " transition-page--%s" . }}
-      {{ end }}
-      <div class="page-head">
-        {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .CurrentSection.Title }}</p>{{ end }}
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
+  {{ $themeClass := "" }}
+  {{ with .Params.card_theme }}
+    {{ $themeClass = printf " transition-page--%s" . }}
+  {{ end }}
+  {{ $siblings := where .CurrentSection.Pages "Permalink" "!=" .Permalink }}
+  <div class="transition-page{{ $themeClass }}">
+    <section class="hero-split">
+      <div class="hero-split-copy">
+        <p class="section-label">{{ .CurrentSection.Title }}{{ with .Params.card_kicker }} · {{ . }}{{ end }}</p>
+        <h1 class="display-title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="hero-lede">{{ . }}</p>{{ end }}
+        {{ with .Params.transition_intro.chips }}
+          <ul class="chip-row" aria-label="Key transition topics">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        {{ end }}
+        <div class="hero-actions">
+          <a class="button" href="{{ "/about/" | relURL }}">Why Pathfinder</a>
+          <a class="button-secondary" href="{{ "/services/" | relURL }}">Get Started</a>
+        </div>
       </div>
-      <article class="content prose">
-        <div class="transition-page{{ $themeClass }}">
-          <div class="transition-intro-grid">
-            <section class="card transition-intro-card">
-              {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-              {{ with .Params.transition_intro.lead }}<p class="transition-intro-lead">{{ . }}</p>{{ end }}
-              {{ with .Params.transition_intro.body }}<p>{{ . }}</p>{{ end }}
-              {{ with .Params.transition_intro.chips }}
-                <ul class="transition-chip-row" aria-label="Key transition topics">
-                  {{ range . }}<li>{{ . }}</li>{{ end }}
-                </ul>
-              {{ end }}
-            </section>
-            <aside class="card transition-snapshot">
-              <p class="card-kicker">At a glance</p>
-              <dl class="transition-snapshot-list">
-                {{ range .Params.transition_snapshot }}
-                  <div>
-                    <dt>{{ .title }}</dt>
-                    <dd>{{ .body }}</dd>
-                  </div>
-                {{ end }}
-              </dl>
-            </aside>
-          </div>
 
-          {{ with .Params.transition_paths }}
-            <section class="transition-section">
-              <div class="transition-section-heading">
-                {{ with $.Params.transition_paths_eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-                <h2>{{ $.Params.transition_paths_heading | default "Start with the situation closest to yours" }}</h2>
-                {{ with $.Params.transition_paths_intro }}<p>{{ . }}</p>{{ end }}
-              </div>
-              <div class="transition-path-grid">
-                {{ range . }}
-                  <article class="card transition-path-card">
-                    {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                    <h3>{{ .title }}</h3>
-                    <p>{{ .body }}</p>
-                  </article>
-                {{ end }}
-              </div>
-            </section>
-          {{ end }}
-
-          <section class="transition-section">
-            <h2>Where clients get stuck</h2>
-            <div class="transition-card-grid">
-              {{ range .Params.transition_stuck_cards }}
-                <article class="card transition-info-card">
-                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                  <h3>{{ .title }}</h3>
-                  <p>{{ .body }}</p>
-                </article>
-              {{ end }}
-            </div>
-          </section>
-
-          <section class="transition-section transition-section--help">
-            <div class="transition-help-stack">
-              <h2>How Pathfinder helps</h2>
-              <div class="transition-help-list">
-                {{ range .Params.transition_help_cards }}
-                  <article class="card transition-help-card">
-                    {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                    <h3>{{ .title }}</h3>
-                    <p>{{ .body }}</p>
-                  </article>
-                {{ end }}
-              </div>
-            </div>
-            {{ with .Params.transition_figure }}
-              <figure class="strategy-figure transition-process-figure">
-                <img src="{{ .src | relURL }}" alt="{{ .alt }}">
-                {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
-              </figure>
-            {{ end }}
-          </section>
-
-          {{ with .Params.transition_first_conversation }}
-            <section class="transition-section">
-              <div class="transition-section-heading">
-                {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-                <h2>{{ .title | default "What the first conversation usually covers" }}</h2>
-                {{ with .body }}<p>{{ . }}</p>{{ end }}
-              </div>
-              {{ with .items }}
-                <div class="transition-question-grid">
-                  {{ range . }}
-                    <article class="card transition-question-card">
-                      {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                      <h3>{{ .title }}</h3>
-                      <p>{{ .body }}</p>
-                    </article>
-                  {{ end }}
-                </div>
-              {{ end }}
-            </section>
-          {{ end }}
-
-          <section class="transition-section">
-            <h2>{{ .Params.transition_related_heading | default "Related resources and services" }}</h2>
-            <div class="transition-resource-grid">
-              {{ range .Params.transition_related_cards }}
-                <a class="card transition-resource-card" href="{{ .href | relURL }}">
-                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                  <h3>{{ .title }}</h3>
-                  <p>{{ .body }}</p>
-                </a>
-              {{ end }}
-            </div>
-          </section>
-
-          {{ with .Params.transition_cta }}
-            <div class="cta-panel card transition-cta">
-              <div>
-                {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-                <h2>{{ .title }}</h2>
-                {{ with .body }}<p>{{ . }}</p>{{ end }}
-              </div>
-              <a class="button" href="{{ .href | relURL }}">{{ .label }}</a>
-            </div>
+      <div class="hero-split-panel">
+        <p class="panel-label">At a glance</p>
+        <div class="stat-grid">
+          {{ range .Params.transition_snapshot }}
+            <article class="hero-stat">
+              <p class="hero-stat-label">{{ .title }}</p>
+              <p class="hero-stat-value">{{ .body }}</p>
+            </article>
           {{ end }}
         </div>
-      </article>
-      {{ with .CurrentSection }}
-        {{ if not $.IsHome }}
-          {{ $siblings := where .Pages "Permalink" "!=" $.Permalink }}
-          {{ if gt (len $siblings) 0 }}
-            <aside class="related card">
-              <p class="eyebrow">Other transitions</p>
-              <div class="related-links">
-                {{ range .Pages.ByWeight }}
-                  {{ if ne .Permalink $.Permalink }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-                {{ end }}
-              </div>
-            </aside>
+      </div>
+    </section>
+
+    <section class="section section--cream" data-reveal>
+      <div class="container transition-context">
+        <div>
+          <p class="section-label">The situation</p>
+          <h2 class="section-title">{{ .Params.transition_intro.lead }}</h2>
+          <p class="glance-copy">{{ .Params.transition_intro.body }}</p>
+        </div>
+        <div>
+          {{ with .Params.transition_figure }}
+            <figure class="strategy-figure">
+              <img src="{{ .src | relURL }}" alt="{{ .alt }}">
+              {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+            </figure>
+          {{ else }}
+            <dl class="glance-list">
+              {{ range $.Params.transition_snapshot }}
+                <div class="glance-item">
+                  <dt>{{ .title }}</dt>
+                  <dd>{{ .body }}</dd>
+                </div>
+              {{ end }}
+            </dl>
           {{ end }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="transition-stuck-strip" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">Where clients get stuck</p>
+          <h2 class="section-title">The questions that keep this transition from feeling straightforward.</h2>
+        </div>
+        <div class="transition-stuck-grid">
+          {{ range .Params.transition_stuck_cards }}
+            <article class="card-surface transition-stuck-card">
+              {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-we-help" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">How Pathfinder helps</p>
+          <h2 class="section-title">Three areas where planning changes the outcome.</h2>
+        </div>
+        <div class="transition-help-list">
+          {{ range $index, $card := .Params.transition_help_cards }}
+            <article class="transition-help-row">
+              <p class="help-step">{{ printf "%02d" (add $index 1) }}</p>
+              <div>
+                {{ with $card.kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                <h3 class="transition-help-title">{{ $card.title }}</h3>
+              </div>
+              <p>{{ $card.body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cream" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">{{ .Params.transition_related_heading | default "Related resources and services" }}</p>
+          <h2 class="section-title">Where to go next.</h2>
+        </div>
+        <div class="transition-related-grid">
+          {{ range .Params.transition_related_cards }}
+            <a class="transition-related-card" href="{{ .href | relURL }}">
+              {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    {{ with .Params.transition_cta }}
+      <section class="section" data-reveal>
+        <div class="container">
+          <div class="cta-strip">
+            <div>
+              {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+              <h2 class="section-title">{{ .title }}</h2>
+              {{ with .body }}<p>{{ . }}</p>{{ end }}
+            </div>
+            <a class="button" href="{{ .href | relURL }}">{{ .label }}</a>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{ if gt (len $siblings) 0 }}
+      <section class="section section--cream" data-reveal>
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Other transitions we work through</p>
+          </div>
+          <div class="transition-link-list">
+            {{ range .CurrentSection.Pages.ByWeight }}
+              {{ if ne .Permalink $.Permalink }}
+                <a href="{{ .RelPermalink }}">
+                  <span>{{ .Title }}</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  </div>
 {{ end }}

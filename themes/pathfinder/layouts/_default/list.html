@@ -1,18 +1,37 @@
 {{ define "main" }}
-  <section class="page-section">
-    <div class="container narrow">
-      <div class="page-head">
-        <p class="eyebrow">{{ .Section | humanize }}</p>
-        <h1>{{ .Title }}</h1>
+  {{ $pages := .Pages.ByWeight }}
+  {{ if eq .Section "about" }}
+    {{ $pages = where $pages "Params.portrait" "==" nil }}
+  {{ end }}
+  <section class="page-hero">
+    <div class="container--narrow">
+      <div class="page-hero-copy">
+        <p class="section-label">{{ .Section | humanize }}</p>
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
       </div>
-      <div class="content prose">{{ .Content }}</div>
-      {{ $pages := .Pages.ByWeight }}
+    </div>
+  </section>
+
+  <section class="page-section-body">
+    <div class="container--narrow page-shell">
+      <div class="prose">{{ .Content }}</div>
+
+      {{ if eq .Section "about" }}
+        {{ partial "advisor-panel.html" (dict
+          "eyebrow" "The advisors"
+          "title" "The people behind Pathfinder"
+          "intro" "Pathfinder is led by David and Katherine Jacobs. Their work combines analytical discipline, careful listening, and steady follow-through for clients facing meaningful decisions."
+          "variant" "compact"
+        ) }}
+      {{ end }}
+
       {{ if gt (len $pages) 0 }}
-        <div class="card-grid">
+        <div class="directory-grid">
           {{ range $pages }}
-            <a class="card card-link" href="{{ .RelPermalink }}">
-              <p class="card-kicker">{{ .Section | humanize }}</p>
-              <h2>{{ .Title }}</h2>
+            <a class="directory-card card-surface resource-card-link" href="{{ .RelPermalink }}">
+              <p class="card-kicker">{{ .CurrentSection.Title }}</p>
+              <h3>{{ .Title }}</h3>
               {{ with .Params.summary }}
                 <p>{{ . }}</p>
               {{ else }}

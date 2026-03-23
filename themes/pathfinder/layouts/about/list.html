@@ -1,0 +1,72 @@
+{{ define "main" }}
+  {{ $investment := site.GetPage "/investment-strategy" }}
+  {{ $policies := where .Pages.ByWeight "Params.portrait" "==" nil }}
+  <section class="page-hero">
+    <div class="container--narrow">
+      <div class="page-hero-copy">
+        <p class="section-label">Why Pathfinder</p>
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section-body">
+    <div class="container--narrow page-shell">
+      <div class="prose">{{ .Content }}</div>
+
+      {{ with $investment }}
+        <div class="editorial-split" data-reveal>
+          <div>
+            <p class="section-label">Investment approach</p>
+            <h2 class="section-title">The investment work is part of the trust case, not separate from it.</h2>
+            <p class="section-copy">{{ .Summary }}</p>
+          </div>
+          <a class="quote-panel card-surface resource-card-link" href="{{ .RelPermalink }}">
+            <p>Pathfinder uses disciplined indexing, valuation-aware judgment, and scenario-based risk management to keep the tradeoffs visible before capital is committed.</p>
+            <p class="text-link">Read the investment approach</p>
+          </a>
+        </div>
+      {{ end }}
+
+      {{ partial "advisor-panel.html" (dict
+        "eyebrow" "The advisors"
+        "title" "Meet David and Katherine"
+        "intro" "Pathfinder is a small practice by design. The people you are evaluating here are the people you would actually be working with."
+      ) }}
+
+      {{ if gt (len $policies) 0 }}
+        <section data-reveal>
+          <div class="section-intro">
+            <p class="section-label">Operating principles</p>
+            <h2 class="section-title">The standards that constrain how Pathfinder works.</h2>
+            <p>These pages explain how Pathfinder is paid, what fiduciary duty means in practice, and how the firm handles core operational policies.</p>
+          </div>
+          <div class="directory-grid">
+            {{ range $policies }}
+              <a class="directory-card card-surface resource-card-link" href="{{ .RelPermalink }}">
+                <p class="card-kicker">Principle</p>
+                <h3>{{ .Title }}</h3>
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              </a>
+            {{ end }}
+            <a class="directory-card card-surface resource-card-link" href="{{ site.Params.advURL }}" rel="noopener noreferrer">
+              <p class="card-kicker">Disclosure</p>
+              <h3>Form ADV</h3>
+              <p>Review the public regulatory disclosure filing for Pathfinder Financial Services, LLC.</p>
+            </a>
+          </div>
+        </section>
+      {{ end }}
+
+      <div class="cta-strip" data-reveal>
+        <div>
+          <p class="section-label">Next step</p>
+          <h2 class="section-title">If the trust case makes sense, see how a conversation usually begins.</h2>
+          <p>Once you understand the investment approach, the people, and the firm’s operating standards, the next question is how Pathfinder structures the initial path for new clients.</p>
+        </div>
+        <a class="button" href="{{ "/services/" | relURL }}">Get Started</a>
+      </div>
+    </div>
+  </section>
+{{ end }}

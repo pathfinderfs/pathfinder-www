@@ -21,8 +21,8 @@ draft: false
   <li>Avoid portfolio mixes that could force unacceptable spending cuts or other bad outcomes.</li>
 </ul>
 
-<p>I spend a lot of time imagining what could go wrong. That habit is useful when investing, because portfolios should be designed to pursue opportunity without exposing you to unacceptable damage from the wrong sequence of events.</p>
-<p>For readers who want the technical explanation, the evolution of investment strategy helps show why we do it this way.</p>
+<p>Pathfinder spends a great deal of time imagining what could go wrong. That habit is useful when investing, because portfolios should pursue opportunity without exposing you to unacceptable damage from the wrong sequence of events.</p>
+<p>For readers who want the longer explanation, the evolution of investment strategy helps show why the portfolio is built this way.</p>
 
 <h2>How investment strategy evolved</h2>
 <h3>Stock picking</h3>

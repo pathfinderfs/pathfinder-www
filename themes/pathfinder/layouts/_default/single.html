@@ -1,29 +1,44 @@
 {{ define "main" }}
-  <section class="page-section">
-    {{ $containerClass := "container narrow" }}
-    {{ $hasBioPortrait := and (eq .Section "about") (.Params.portrait) }}
-    {{ if .Params.wide_layout }}
-      {{ $containerClass = "container" }}
-    {{ end }}
+  {{ $containerClass := "container--narrow" }}
+  {{ $hasBioPortrait := and (eq .Section "about") (.Params.portrait) }}
+  {{ if .Params.wide_layout }}
+    {{ $containerClass = "container" }}
+  {{ end }}
+  <section class="page-hero">
     <div class="{{ $containerClass }}">
-      <div class="page-head">
-        {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .CurrentSection.Title }}</p>{{ end }}
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
-      </div>
-      <article class="content prose{{ if eq .Section "services" }} prose-services{{ end }}{{ with .Params.page_class }} {{ . }}{{ end }}">
-        {{ if $hasBioPortrait }}
-          <img class="portrait bio-portrait-inline alignright" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
-        {{ end }}
+      {{ if $hasBioPortrait }}
+        <div class="page-hero-grid">
+          <div class="page-hero-copy">
+            <p class="section-label">{{ .Params.advisor_role | default .CurrentSection.Title }}</p>
+            <h1 class="page-title">{{ .Title }}</h1>
+            {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+          </div>
+          <div class="page-hero-media">
+            <img class="page-hero-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
+          </div>
+        </div>
+      {{ else }}
+        <div class="page-hero-copy">
+          {{ if and .CurrentSection (not .IsHome) }}<p class="section-label">{{ .CurrentSection.Title }}</p>{{ end }}
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="page-section-body">
+    <div class="{{ $containerClass }} page-shell">
+      <article class="prose{{ with .Params.page_class }} {{ . }}{{ end }}">
         {{ .Content }}
       </article>
       {{ with .CurrentSection }}
         {{ if not $.IsHome }}
           {{ $siblings := where .Pages "Permalink" "!=" $.Permalink }}
           {{ if gt (len $siblings) 0 }}
-            <aside class="related card">
-              <p class="eyebrow">More in {{ .Title }}</p>
-              <div class="related-links">
+            <aside class="page-links-panel">
+              <p class="section-label">{{ if eq $.Section "transitions" }}Other transitions{{ else }}More in {{ .Title }}{{ end }}</p>
+              <div class="page-link-list">
                 {{ range .Pages.ByWeight }}
                   {{ if ne .Permalink $.Permalink }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
                 {{ end }}

@@ -6,5 +6,5 @@ summary: "Self-directed guides, checklists, and curated references for navigatin
 draft: false
 ---
 
-<p>This section is for readers who want to think through the details themselves. It includes technical guides, checklists, recommended reading, and a short list of outside references Pathfinder considers worth keeping on hand.</p>
-<p>Some of these pages are detailed by design. They are meant to help you ask better questions and avoid avoidable mistakes, not to replace advice that depends on your specific facts.</p>
+<p>This section is for readers who want to think through the details themselves. It includes technical guides, checklists, recommended reading, and a short list of outside references Pathfinder still considers worth keeping close at hand.</p>
+<p>Some of these pages are intentionally detailed. They are meant to help you ask better questions and avoid avoidable mistakes, not to replace advice that depends on your specific facts.</p>

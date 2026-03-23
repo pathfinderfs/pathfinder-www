@@ -29,25 +29,21 @@ menu:
       name: "Home"
       pageRef: "/"
       weight: 10
-    - identifier: investment-strategy
-      name: "Investment Strategy"
-      pageRef: "/investment-strategy"
-      weight: 20
-    - identifier: services
-      name: "Services"
-      pageRef: "/services"
-      weight: 30
     - identifier: transitions
-      name: "Transitions"
+      name: "Who We Help"
       pageRef: "/transitions"
-      weight: 35
+      weight: 20
+    - identifier: about
+      name: "Why Pathfinder"
+      pageRef: "/about"
+      weight: 30
+    - identifier: services
+      name: "Get Started"
+      pageRef: "/services"
+      weight: 40
     - identifier: resources
       name: "Resources"
       pageRef: "/resources"
-      weight: 40
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
       weight: 50
     - identifier: contact-us
       name: "Contact Us"
