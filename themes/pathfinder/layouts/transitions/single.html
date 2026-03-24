@@ -22,14 +22,16 @@
       </div>
 
       <div class="hero-split-panel">
-        <p class="panel-label">At a glance</p>
-        <div class="stat-grid">
-          {{ range .Params.transition_snapshot }}
-            <article class="hero-stat">
-              <p class="hero-stat-label">{{ .title }}</p>
-              <p class="hero-stat-value">{{ .body }}</p>
-            </article>
-          {{ end }}
+        <div class="hero-panel-frame">
+          <p class="panel-label">At a glance</p>
+          <div class="stat-grid">
+            {{ range .Params.transition_snapshot }}
+              <article class="hero-stat">
+                <p class="hero-stat-label">{{ .title }}</p>
+                <p class="hero-stat-value">{{ .body }}</p>
+              </article>
+            {{ end }}
+          </div>
         </div>
       </div>
     </section>

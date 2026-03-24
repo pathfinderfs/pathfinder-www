@@ -15,15 +15,17 @@
     </div>
 
     <div class="hero-split-panel">
-      <p class="panel-label">{{ .Params.hero_snapshot_label | default "Where planning gets real" }}</p>
-      <div class="stat-grid">
-        {{ range .Params.hero_snapshot }}
-          <article class="hero-stat">
-            <p class="hero-stat-label">{{ .title }}</p>
-            <p class="hero-stat-value">{{ .value }}</p>
-            <p class="hero-stat-desc">{{ .body }}</p>
-          </article>
-        {{ end }}
+      <div class="hero-panel-frame">
+        <p class="panel-label">{{ .Params.hero_snapshot_label | default "Where planning gets real" }}</p>
+        <div class="stat-grid">
+          {{ range .Params.hero_snapshot }}
+            <article class="hero-stat">
+              <p class="hero-stat-label">{{ .title }}</p>
+              <p class="hero-stat-value">{{ .value }}</p>
+              <p class="hero-stat-desc">{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
       </div>
     </div>
   </section>
