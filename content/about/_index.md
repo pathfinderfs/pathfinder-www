@@ -1,10 +1,95 @@
 ---
 title: "Why Pathfinder"
 weight: 50
-description: "Why prospective clients trust Pathfinder: the investment approach, the advisors, and the principles that shape the work."
-summary: "Understand the investment approach, meet the advisors, and see the operating principles that shape Pathfinder."
+description: "Why prospective clients trust Pathfinder: full-scope planning judgment, investment oversight, direct advisor access, and the standards that keep the work aligned."
+summary: "Pathfinder is built for clients facing consequential financial decisions and wanting thoughtful guidance, clear recommendations, and steady follow-through."
+about_help:
+  eyebrow: "How Pathfinder helps"
+  title: "Built for decisions that spill across categories."
+  intro: "Clients usually come to Pathfinder when a simple portfolio answer is not enough. Retirement timing, taxes, cash flow, investment risk, family obligations, and next-step decisions all need to work together."
+  cards:
+    - kicker: "Transitions"
+      title: "Major life changes"
+      body: "Retirement, divorce, inheritance, business-sale decisions, care planning, and career changes where the cost of a rushed move can be high."
+    - kicker: "Planning"
+      title: "Cross-domain advice"
+      body: "Recommendations are built across taxes, investments, cash flow, timing, estate issues, and implementation instead of treating each issue in isolation."
+    - kicker: "Oversight"
+      title: "The right level of support"
+      body: "Some clients need a broader planning partner. Others need disciplined portfolio oversight. Pathfinder is structured to support both paths clearly."
+about_process:
+  eyebrow: "How Pathfinder works"
+  title: "A disciplined process for decisions that matter."
+  intro: "The goal is not to produce more analysis than you need. It is to slow down the right decisions, expose the tradeoffs, and help you act with confidence."
+  cards:
+    - kicker: "01"
+      title: "Clarify the real question"
+      body: "Before recommending action, Pathfinder works to identify what is actually being decided, what constraints matter, and what a good outcome would require."
+    - kicker: "02"
+      title: "Weigh the tradeoffs"
+      body: "Recommendations are shaped by risk, taxes, liquidity, timing, family obligations, and market realities so the advice fits the whole situation."
+    - kicker: "03"
+      title: "Follow through well"
+      body: "The work does not stop at a recommendation. Pathfinder helps organize implementation, coordinate with other professionals, and adjust as facts change."
+about_expectations:
+  eyebrow: "What clients should expect"
+  title: "Direct access, candid advice, and steady follow-through."
+  intro: "Pathfinder is intentionally small. Clients are not handed to a service team or sold a packaged playbook."
+  cards:
+    - kicker: "Relationship"
+      title: "The advisors on the site do the work"
+      body: "The people you evaluate here are the people you would actually work with. Advice is direct, personal, and grounded in the specifics of your situation."
+    - kicker: "Advice"
+      title: "Clear recommendations, explained plainly"
+      body: "You should expect candid guidance, explicit tradeoffs, and enough explanation to understand why a recommendation is being made."
+    - kicker: "Execution"
+      title: "Help after the decision"
+      body: "When a decision affects custodians, attorneys, accountants, or family members, Pathfinder stays engaged long enough to help the plan get implemented well."
+about_investment:
+  eyebrow: "Investment judgment"
+  title: "Investment decisions are made in the context of the larger plan."
+  intro: "Pathfinder does not treat investing as a separate product line. Portfolio decisions are meant to support retirement income, liquidity needs, tax consequences, and downside limits you can actually live with."
+  points:
+    - "Portfolio structure starts with goals, liquidity, and risk capacity."
+    - "Scenario-based risk management focuses on avoiding outcomes that would damage the broader plan."
+    - "Current valuations inform judgment, but the process is not built on prediction or product sales."
+  pull_quote: "The investment work matters because it sits inside retirement timing, spending needs, taxes, and the client's tolerance for bad outcomes, not because Pathfinder is trying to outsmart markets with product picks."
+  link_label: "Read the investment approach"
+about_standards:
+  eyebrow: "How Pathfinder stays aligned"
+  title: "Standards that keep the work disciplined and client-centered."
+  intro: "Trust is not just a tone of voice. It depends on incentives, legal duties, privacy practices, and a willingness to make the reasoning visible."
+  cards:
+    - kicker: "Alignment"
+      title: "Fee-only"
+      body: "Pathfinder is paid by clients, not by commissions or product sales. That reduces conflicts and keeps the advice from turning into a distribution channel."
+      href: "/about/fee-only/"
+    - kicker: "Duty"
+      title: "Fiduciary"
+      body: "Pathfinder acts as a fiduciary and expects recommendations to serve the client's interests in substance, not just satisfy a minimum paperwork standard."
+      href: "/about/fiduciary/"
+    - kicker: "Operations"
+      title: "Privacy and care"
+      body: "Client information is handled carefully, shared only when needed, and protected as part of the firm's operating discipline."
+      href: "/about/privacy-policy/"
+about_disclosures:
+  eyebrow: "Disclosures"
+  title: "Supporting policies and regulatory details."
+  links:
+    - kicker: "Disclosure"
+      title: "Form ADV"
+      body: "Review Pathfinder's public regulatory disclosure filing."
+      href: "https://adviserinfo.sec.gov/"
+      external: true
+    - kicker: "Policy"
+      title: "Proxy Voting Policy"
+      body: "See how Pathfinder handles proxy voting questions and why it does not vote proxies on behalf of clients."
+      href: "/about/proxy-voting-policy/"
+about_cta:
+  eyebrow: "Next step"
+  title: "If this is the kind of guidance you are looking for, see how new relationships usually begin."
+  body: "Once the fit and the trust case make sense, the next step is understanding which engagement path best fits your situation."
+  label: "Get Started"
+  href: "/services/"
 draft: false
 ---
-
-<p>Trust in a financial planning firm does not come from one sentence on a home page. It comes from how the firm thinks, how it is paid, who is doing the work, and what standards actually constrain the advice.</p>
-<p>This section is where Pathfinder makes that case directly: how the investment approach works, who you would be working with, and what fee-only, fiduciary practice means in operational terms.</p>

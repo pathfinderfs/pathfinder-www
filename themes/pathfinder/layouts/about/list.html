@@ -1,6 +1,5 @@
 {{ define "main" }}
   {{ $investment := site.GetPage "/investment-strategy" }}
-  {{ $policies := where .Pages.ByWeight "Params.portrait" "==" nil }}
   <section class="page-hero">
     <div class="container--narrow">
       <div class="page-hero-copy">
@@ -12,61 +11,158 @@
   </section>
 
   <section class="page-section-body">
-    <div class="container--narrow page-shell">
-      <div class="prose">{{ .Content }}</div>
-
-      {{ with $investment }}
-        <div class="editorial-split" data-reveal>
-          <div>
-            <p class="section-label">Investment approach</p>
-            <h2 class="section-title">The investment work is part of the trust case, not separate from it.</h2>
-            <p class="section-copy">{{ .Summary }}</p>
+    <div class="container--narrow page-shell about-page-shell">
+      {{ with .Params.about_help }}
+        <section class="about-section" data-reveal>
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p>{{ . }}</p>{{ end }}
           </div>
-          <a class="quote-panel card-surface resource-card-link" href="{{ .RelPermalink }}">
-            <p>Pathfinder uses disciplined indexing, valuation-aware judgment, and scenario-based risk management to keep the tradeoffs visible before capital is committed.</p>
-            <p class="text-link">Read the investment approach</p>
-          </a>
-        </div>
+          {{ with .cards }}
+            <div class="about-trust-grid">
+              {{ range . }}
+                <article class="about-trust-card card-surface">
+                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .body }}</p>
+                </article>
+              {{ end }}
+            </div>
+          {{ end }}
+        </section>
+      {{ end }}
+
+      {{ with .Params.about_process }}
+        <section class="about-section" data-reveal>
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p>{{ . }}</p>{{ end }}
+          </div>
+          {{ with .cards }}
+            <div class="about-trust-grid">
+              {{ range . }}
+                <article class="about-trust-card card-surface">
+                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .body }}</p>
+                </article>
+              {{ end }}
+            </div>
+          {{ end }}
+        </section>
+      {{ end }}
+
+      {{ with .Params.about_expectations }}
+        <section class="about-section" data-reveal>
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p>{{ . }}</p>{{ end }}
+          </div>
+          {{ with .cards }}
+            <div class="about-trust-grid">
+              {{ range . }}
+                <article class="about-trust-card card-surface">
+                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .body }}</p>
+                </article>
+              {{ end }}
+            </div>
+          {{ end }}
+        </section>
+      {{ end }}
+
+      {{ with .Params.about_investment }}
+        <section class="editorial-split about-investment-block" data-reveal>
+          <div>
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+            {{ with .points }}
+              <ul class="check-list about-investment-list">
+                {{ range . }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </div>
+          {{ with $investment }}
+            <a class="quote-panel card-surface resource-card-link about-investment-panel" href="{{ .RelPermalink }}">
+              <p>{{ $.Params.about_investment.pull_quote }}</p>
+              <p class="text-link">{{ $.Params.about_investment.link_label | default "Read the investment approach" }}</p>
+            </a>
+          {{ end }}
+        </section>
       {{ end }}
 
       {{ partial "advisor-panel.html" (dict
         "eyebrow" "The advisors"
         "title" "Meet David and Katherine"
-        "intro" "Pathfinder is a small practice by design. The people you are evaluating here are the people you would actually be working with."
+        "intro" "After the firm's approach and standards, the next question is who would actually be doing the work. Pathfinder is intentionally small, so the people you are evaluating here are the people you would be working with."
       ) }}
 
-      {{ if gt (len $policies) 0 }}
-        <section data-reveal>
+      {{ with .Params.about_standards }}
+        <section class="about-standards-section" data-reveal>
           <div class="section-intro">
-            <p class="section-label">Operating principles</p>
-            <h2 class="section-title">The standards that constrain how Pathfinder works.</h2>
-            <p>These pages explain how Pathfinder is paid, what fiduciary duty means in practice, and how the firm handles core operational policies.</p>
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p>{{ . }}</p>{{ end }}
           </div>
-          <div class="directory-grid">
-            {{ range $policies }}
-              <a class="directory-card card-surface resource-card-link" href="{{ .RelPermalink }}">
-                <p class="card-kicker">Principle</p>
-                <h3>{{ .Title }}</h3>
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-              </a>
-            {{ end }}
-            <a class="directory-card card-surface resource-card-link" href="{{ site.Params.advURL }}" rel="noopener noreferrer">
-              <p class="card-kicker">Disclosure</p>
-              <h3>Form ADV</h3>
-              <p>Review the public regulatory disclosure filing for Pathfinder Financial Services, LLC.</p>
-            </a>
-          </div>
+          {{ with .cards }}
+            <div class="about-standards-grid">
+              {{ range . }}
+                <a class="about-standards-card card-surface resource-card-link" href="{{ .href | relURL }}">
+                  {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .body }}</p>
+                  <p class="text-link">Read more</p>
+                </a>
+              {{ end }}
+            </div>
+          {{ end }}
         </section>
       {{ end }}
 
-      <div class="cta-strip" data-reveal>
-        <div>
-          <p class="section-label">Next step</p>
-          <h2 class="section-title">If the trust case makes sense, see how a conversation usually begins.</h2>
-          <p>Once you understand the investment approach, the people, and the firm’s operating standards, the next question is how Pathfinder structures the initial path for new clients.</p>
+      {{ with .Params.about_disclosures }}
+        <section class="about-disclosures-section" data-reveal>
+          <div class="section-intro about-disclosures-intro">
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          </div>
+          {{ with .links }}
+            <div class="about-disclosure-links">
+              {{ range . }}
+                {{ $href := .href }}
+                {{ if not .external }}
+                  {{ $href = relURL .href }}
+                {{ end }}
+                <a class="about-disclosure-link" href="{{ $href }}"{{ if .external }} rel="noopener noreferrer"{{ end }}>
+                  <div class="about-disclosure-copy">
+                    {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .body }}</p>
+                  </div>
+                  <span class="about-disclosure-arrow" aria-hidden="true">→</span>
+                </a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </section>
+      {{ end }}
+
+      {{ with .Params.about_cta }}
+        <div class="cta-strip" data-reveal>
+          <div>
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .body }}<p>{{ . }}</p>{{ end }}
+          </div>
+          <a class="button" href="{{ .href | relURL }}">{{ .label }}</a>
         </div>
-        <a class="button" href="{{ "/services/" | relURL }}">Get Started</a>
-      </div>
+      {{ end }}
     </div>
   </section>
 {{ end }}

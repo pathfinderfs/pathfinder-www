@@ -1195,6 +1195,112 @@ em {
   gap: 2.5rem;
 }
 
+.about-page-shell {
+  gap: 4rem;
+}
+
+.about-section,
+.about-standards-section,
+.about-disclosures-section {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.about-trust-grid,
+.about-standards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.about-trust-card,
+.about-standards-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  height: 100%;
+}
+
+.about-trust-card p,
+.about-standards-card p,
+.about-disclosure-copy p {
+  margin: 0;
+}
+
+.about-investment-block {
+  gap: 2rem;
+}
+
+.about-investment-list {
+  display: grid;
+  gap: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+.about-investment-panel {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.about-investment-panel .text-link,
+.about-standards-card .text-link {
+  display: inline-flex;
+  margin-top: auto;
+}
+
+.about-standards-section {
+  padding-top: 0.5rem;
+  border-top: var(--border);
+}
+
+.about-disclosures-intro {
+  margin-bottom: 0;
+}
+
+.about-disclosure-links {
+  display: grid;
+  gap: 1px;
+  background: rgba(26, 23, 20, 0.12);
+  border: 1px solid rgba(26, 23, 20, 0.12);
+}
+
+.about-disclosure-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: rgba(253, 251, 248, 0.94);
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    padding-left 180ms ease;
+}
+
+.about-disclosure-link:hover,
+.about-disclosure-link:focus-visible {
+  background: color-mix(in srgb, var(--warm-white) 90%, var(--copper-light) 10%);
+  padding-left: 1.7rem;
+}
+
+.about-disclosure-copy {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.about-disclosure-copy h3 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  line-height: 1.2;
+}
+
+.about-disclosure-arrow {
+  color: var(--copper);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
 .page-links-panel {
   padding: 1.5rem 1.6rem;
 }
@@ -2072,6 +2178,8 @@ em {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .about-trust-grid,
+  .about-standards-grid,
   .home-transition-grid,
   .service-audience-grid,
   .service-process-grid,
@@ -2165,6 +2273,15 @@ em {
     align-items: flex-start;
   }
 
+  .about-disclosure-link {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .about-disclosure-arrow {
+    justify-self: start;
+  }
+
   .hero-split--home .hero-split-copy,
   .transition-page .hero-split-copy {
     padding-bottom: 1.5rem;
@@ -2196,6 +2313,8 @@ em {
     grid-template-columns: 1fr 1fr;
   }
 
+  .about-trust-grid,
+  .about-standards-grid,
   .home-transition-grid,
   .directory-grid,
   .service-grid,
