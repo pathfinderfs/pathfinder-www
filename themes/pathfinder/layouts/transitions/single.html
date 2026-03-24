@@ -36,7 +36,7 @@
       </div>
     </section>
 
-    <section class="section section--cream" data-reveal>
+    <section class="section transition-band transition-band--light" data-reveal>
       <div class="container transition-context">
         <div>
           <p class="section-label">The situation</p>
@@ -65,13 +65,13 @@
       </div>
     </section>
 
-    <section class="transition-stuck-strip" data-reveal>
+    <section class="section transition-band transition-band--accent" data-reveal>
       <div class="container">
         <div class="section-head">
           <p class="section-label">Where clients get stuck</p>
           <h2 class="section-title">The questions that keep this transition from feeling straightforward.</h2>
         </div>
-        <div class="transition-stuck-grid">
+        <div class="transition-stuck-grid transition-panel-grid">
           {{ range .Params.transition_stuck_cards }}
             <article class="card-surface transition-stuck-card">
               {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
@@ -83,7 +83,7 @@
       </div>
     </section>
 
-    <section class="section" id="how-we-help" data-reveal>
+    <section class="section transition-band transition-band--light" id="how-we-help" data-reveal>
       <div class="container">
         <div class="section-head">
           <p class="section-label">How Pathfinder helps</p>
@@ -104,13 +104,13 @@
       </div>
     </section>
 
-    <section class="section section--cream" data-reveal>
+    <section class="section transition-band transition-band--accent" data-reveal>
       <div class="container">
         <div class="section-head">
           <p class="section-label">{{ .Params.transition_related_heading | default "Related resources and services" }}</p>
           <h2 class="section-title">Where to go next.</h2>
         </div>
-        <div class="transition-related-grid">
+        <div class="transition-related-grid transition-panel-grid transition-panel-grid--two">
           {{ range .Params.transition_related_cards }}
             <a class="transition-related-card" href="{{ .href | relURL }}">
               {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
@@ -123,22 +123,20 @@
     </section>
 
     {{ with .Params.transition_cta }}
-      <section class="section" data-reveal>
-        <div class="container">
-          <div class="cta-strip">
-            <div>
-              {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-              <h2 class="section-title">{{ .title }}</h2>
-              {{ with .body }}<p>{{ . }}</p>{{ end }}
-            </div>
-            <a class="button" href="{{ .href | relURL }}">{{ .label }}</a>
+      <section class="transition-interlude transition-interlude--detail" data-reveal>
+        <div class="transition-interlude-inner">
+          <div class="transition-interlude-copy">
+            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+            <h2>{{ .title }}</h2>
+            {{ with .body }}<p>{{ . }}</p>{{ end }}
           </div>
+          <a class="transition-interlude-cta" href="{{ .href | relURL }}">{{ .label }}</a>
         </div>
       </section>
     {{ end }}
 
     {{ if gt (len $siblings) 0 }}
-      <section class="section section--cream" data-reveal>
+      <section class="section transition-band transition-band--accent" data-reveal>
         <div class="container">
           <div class="section-head">
             <p class="section-label">Other transitions we work through</p>
@@ -147,7 +145,11 @@
             {{ range .CurrentSection.Pages.ByWeight }}
               {{ if ne .Permalink $.Permalink }}
                 <a href="{{ .RelPermalink }}">
-                  <span>{{ .Title }}</span>
+                  <span class="transition-link-icon" aria-hidden="true">{{ partial "transition-icon.html" .Params.card_theme }}</span>
+                  <span class="transition-link-copy">
+                    {{ with .Params.card_kicker }}<span class="transition-link-kicker">{{ . }}</span>{{ end }}
+                    <span>{{ .Title }}</span>
+                  </span>
                   <span aria-hidden="true">→</span>
                 </a>
               {{ end }}

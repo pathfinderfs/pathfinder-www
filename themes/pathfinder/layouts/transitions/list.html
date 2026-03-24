@@ -1,60 +1,79 @@
 {{ define "main" }}
   {{ $pages := .RegularPages.ByWeight }}
-  <section class="page-hero">
-    <div class="container--narrow">
-      <div class="page-hero-copy">
-        <p class="section-label">{{ .Section | humanize }}</p>
-        <h1 class="page-title">{{ .Title }}</h1>
-        {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
-      </div>
+  {{ $about := site.GetPage "/about" }}
+  {{ $services := site.GetPage "/services" }}
+  {{ $contact := site.GetPage "/contact-us" }}
+
+  <section class="transition-landing-hero">
+    <div>
+      <p class="transition-landing-eyebrow">{{ .Section | humanize }}</p>
+      <h1 class="transition-landing-title">{{ .Title | replaceRE "Help$" "<em>Help</em>" | safeHTML }}</h1>
+    </div>
+    <div class="transition-landing-hero-body">
+      {{ with .Params.summary }}<p class="transition-landing-lede">{{ . }}</p>{{ end }}
+      <div class="transition-landing-copy">{{ .Content }}</div>
     </div>
   </section>
 
-  <section class="page-section-body">
-    <div class="container--narrow page-shell">
-      <div class="prose transition-directory-copy">{{ .Content }}</div>
+  <div class="transition-landing-rule"></div>
 
-      {{ if gt (len $pages) 0 }}
-        <section class="transition-directory" data-reveal>
-          <div class="section-intro">
-            <p class="section-label">Choose the closest fit</p>
-            <h2 class="section-title">Start with the transition that feels most urgent right now.</h2>
-            <p>You do not need a perfect category match. These pages are meant to help you identify the decisions that matter first, understand how Pathfinder can help, and decide whether a conversation makes sense.</p>
-          </div>
+  {{ if gt (len $pages) 0 }}
+    <section class="transition-cards-section" data-reveal>
+      <div class="transition-cards-grid">
+        {{ range $pages }}
+          <a class="transition-directory-card" href="{{ .RelPermalink }}">
+            <div class="transition-directory-card-head">
+              <div class="transition-directory-icon" aria-hidden="true">{{ partial "transition-icon.html" .Params.card_theme }}</div>
+              {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+            </div>
+            <h3>{{ .Title }}</h3>
+            {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+            <span class="transition-directory-card-arrow">Explore <span aria-hidden="true">→</span></span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
 
-          <div class="directory-grid">
-            {{ range $pages }}
-              <a class="directory-card transition-card-link card-surface" href="{{ .RelPermalink }}">
-                <div class="transition-card-meta">
-                  {{ with .Params.card_badge }}<span class="transition-card-badge" aria-hidden="true">{{ . }}</span>{{ end }}
-                  {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                </div>
-                <h3>{{ .Title }}</h3>
-                {{ with .Params.summary }}
-                  <p>{{ . }}</p>
-                {{ end }}
-              </a>
-            {{ end }}
-
-            <article class="directory-card">
-              <p class="card-kicker">Mixed or unclear situation?</p>
-              <h3>Start with a conversation anyway.</h3>
-              <p>If more than one page applies, or none feels quite right, we can help you sort the immediate decisions from the ones that can wait.</p>
-              <p><a class="button-secondary" href="{{ "/contact-us/" | relURL }}">Talk with Pathfinder</a></p>
-            </article>
-          </div>
-        </section>
-      {{ end }}
-
-      <div class="cta-strip" data-reveal>
-        <div>
-          <p class="section-label">Next step</p>
-          <h2 class="section-title">If one of these situations feels familiar, see why Pathfinder is built for this work.</h2>
-          <p>Once the fit looks right, move to Why Pathfinder. If you already know you want to talk about how an engagement begins, go to Get Started.</p>
+  {{ with $contact }}
+    <section class="transition-interlude" data-reveal>
+      <div class="transition-interlude-inner">
+        <div class="transition-interlude-copy">
+          <h2>Mixed or unclear situation?</h2>
+          <p>If more than one page applies, or none feels quite right, we can help you sort the immediate decisions from the ones that can wait. Start with a conversation.</p>
         </div>
-        <div class="hero-actions">
-          <a class="button" href="{{ "/about/" | relURL }}">Why Pathfinder</a>
-          <a class="button-secondary" href="{{ "/services/" | relURL }}">Get Started</a>
+        <a class="transition-interlude-cta" href="{{ .RelPermalink }}">Talk with Pathfinder</a>
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="transition-next-section" data-reveal>
+    <div class="transition-next-inner">
+      <div>
+        <p class="transition-next-label">Next step</p>
+        <h2 class="section-title">If the fit feels right, learn why Pathfinder is built for this work.</h2>
+      </div>
+      <div class="transition-next-body">
+        <p>Once the situation looks aligned, move to Why Pathfinder to understand the firm's approach. If you're ready to explore what an engagement looks like, go directly to Get Started.</p>
+        <div class="transition-next-links">
+          {{ with $about }}
+            <a class="transition-next-link" href="{{ .RelPermalink }}">
+              <div>
+                <p class="transition-next-link-label">Learn more</p>
+                <p class="transition-next-link-title">{{ .Title }}</p>
+              </div>
+              <span class="transition-next-link-arrow" aria-hidden="true">→</span>
+            </a>
+          {{ end }}
+          {{ with $services }}
+            <a class="transition-next-link" href="{{ .RelPermalink }}">
+              <div>
+                <p class="transition-next-link-label">Begin the process</p>
+                <p class="transition-next-link-title">{{ .Title }}</p>
+              </div>
+              <span class="transition-next-link-arrow" aria-hidden="true">→</span>
+            </a>
+          {{ end }}
         </div>
       </div>
     </div>
