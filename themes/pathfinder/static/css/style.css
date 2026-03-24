@@ -594,6 +594,11 @@ em {
   gap: 1rem;
 }
 
+.hero-split--home .stat-grid,
+.transition-page .hero-split-panel .stat-grid {
+  grid-template-columns: 1fr;
+}
+
 .hero-stat {
   background: rgba(255, 255, 255, 0.96);
   border: 1px solid rgba(30, 74, 74, 0.16);

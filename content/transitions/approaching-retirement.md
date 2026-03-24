@@ -15,6 +15,13 @@ transition_intro:
     - "Social Security & Medicare"
     - "Tax Mitigation"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "You expect retirement within the next few years and want the date, tax plan, and income design to hold up."
+  - title: "Decisions happening now"
+    body: "Retirement timing, Social Security, withdrawal sequencing, portfolio risk, and healthcare or care costs."
+  - title: "Likely next step"
+    body: "Usually Discover/Decide/Do when retirement affects taxes, cash flow, and broader life planning."
+transition_situation_points:
   - title: "Timing dilemma"
     body: "Understanding the exact financial difference between retiring today, next year, or three years from now."
   - title: "Income sources"

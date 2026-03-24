@@ -48,14 +48,16 @@
               {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
             </figure>
           {{ else }}
-            <dl class="glance-list">
-              {{ range $.Params.transition_snapshot }}
-                <div class="glance-item">
-                  <dt>{{ .title }}</dt>
-                  <dd>{{ .body }}</dd>
-                </div>
-              {{ end }}
-            </dl>
+            {{ with $.Params.transition_situation_points }}
+              <dl class="glance-list">
+                {{ range . }}
+                  <div class="glance-item">
+                    <dt>{{ .title }}</dt>
+                    <dd>{{ .body }}</dd>
+                  </div>
+                {{ end }}
+              </dl>
+            {{ end }}
           {{ end }}
         </div>
       </div>

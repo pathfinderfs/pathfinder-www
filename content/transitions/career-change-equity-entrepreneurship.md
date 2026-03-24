@@ -15,6 +15,13 @@ transition_intro:
     - "Concentration Risk"
     - "Founder Cash Flow"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "Your compensation is changing materially through equity, a new offer, or a move into self-employment or ownership."
+  - title: "Decisions happening now"
+    body: "Offer comparison, equity tax timing, concentration risk, account rollover, and founder runway."
+  - title: "Likely next step"
+    body: "Usually Discover/Decide/Do, with equity-specific resources supporting the technical questions."
+transition_situation_points:
   - title: "The 'Golden Handcuffs'"
     body: "Evaluating what you leave on the table (unvested stock, deferred comp) versus the true upside of a new opportunity."
   - title: "Equity tax landmines"
