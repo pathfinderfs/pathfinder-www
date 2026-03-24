@@ -3,15 +3,18 @@ title: "Financial Clarity for Life's Major Transitions"
 weight: 10
 description: "Pathfinder provides fee-only financial planning and disciplined investment supervision for retirement, career changes, sudden wealth, divorce, and other major decisions."
 draft: false
-hero_intro: "We help clients make careful financial decisions through retirement, career shifts, sudden wealth, divorce, the loss of a spouse, and other turning points that deserve more than a quick answer."
+hero_eyebrow: "Fee-only planning for major transitions"
+hero_intro: "Pathfinder is a fee-only financial planning firm for people making consequential decisions around retirement, liquidity events, divorce, equity compensation, long-term care, and other major life transitions."
+hero_snapshot_label: "What Pathfinder is"
 advisors_intro: "David and Katherine combine research-driven planning, careful listening, and steady follow-through. Clients come to Pathfinder when they want a clear view of the tradeoffs before they act."
-hero_points:
-  - "See the tradeoffs before you commit"
-  - "Organize taxes, investments, cash flow, and timing in one place"
-  - "Protect what matters during major life changes"
-  - "Coordinate decisions with attorneys, accountants, and other advisors"
-  - "Move forward with a plan grounded in your best interests"
+hero_snapshot:
+  - title: "Fee-only"
+    value: "No commissions"
+    body: "Pathfinder is paid directly by clients, not by product sales or investment commissions."
+  - title: "Fiduciary"
+    value: "Advice meant to serve the client"
+    body: "Recommendations are built around the client's interests, not around what is easiest to sell."
+  - title: "Scope"
+    value: "Planning for high-stakes transitions"
+    body: "The work is designed for decisions where taxes, investments, cash flow, timing, and judgment all interact."
 ---
-
-<p>Some clients come to Pathfinder in the middle of a major transition. Others want an ongoing planning relationship that keeps them prepared for what comes next. In both cases, the work is the same: slow the decision down, understand the tradeoffs, and make sure the next step fits the rest of your life.</p>
-<p>Our role is not to hand you a stack of generic recommendations. It is to help you think clearly, make good decisions, and follow through when the details matter.</p>

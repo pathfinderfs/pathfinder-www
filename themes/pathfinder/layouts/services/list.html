@@ -1,0 +1,97 @@
+{{ define "main" }}
+  {{ $pages := .RegularPages.ByWeight }}
+  {{ $who := site.GetPage "/transitions" }}
+  {{ $why := site.GetPage "/about" }}
+  {{ $resources := site.GetPage "/resources" }}
+  <section class="page-hero">
+    <div class="container--narrow">
+      <div class="page-hero-copy">
+        <p class="section-label">Get started</p>
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section-body">
+    <div class="container--narrow page-shell">
+      <div class="prose">{{ .Content }}</div>
+
+      {{ if gt (len $pages) 0 }}
+        <div class="section-intro" data-reveal>
+          <p class="section-label">Choose the starting path</p>
+          <h2 class="section-title">Most prospective clients begin with Discover/Decide/Do.</h2>
+          <p>Investment Supervision Only is the narrower fit for people who already know the portfolio is the main question and broader planning is not what they are looking for.</p>
+        </div>
+        <div class="service-grid">
+          {{ range $index, $page := $pages }}
+            <a class="directory-card card-surface service-card-link{{ if eq $index 0 }} service-card-emphasis{{ end }}" href="{{ $page.RelPermalink }}">
+              <div class="service-card-meta">
+                <p class="card-kicker">{{ if eq $index 0 }}Recommended starting point{{ else }}Narrower fit{{ end }}</p>
+              </div>
+              <h3>{{ $page.Title }}</h3>
+              {{ with $page.Params.summary }}
+                <p>{{ . }}</p>
+              {{ end }}
+              {{ with $page.Params.service_chips }}
+                <ul class="chip-row" aria-label="Service topics">
+                  {{ range first 4 . }}<li>{{ . }}</li>{{ end }}
+                </ul>
+              {{ end }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      <div class="editorial-split" data-reveal>
+        <div>
+          <p class="section-label">Still deciding?</p>
+          <h2 class="section-title">Start with the situation, not the service label.</h2>
+          <p class="section-copy">If you are still figuring out whether Pathfinder is even the right kind of firm, go back one step in the funnel. First confirm fit, then confirm trust, and then come back here when the question becomes how an engagement should begin.</p>
+        </div>
+        <div class="stack-grid">
+          {{ with $who }}
+            <a class="feature-card card-surface resource-card-link" href="{{ .RelPermalink }}">
+              <p class="card-kicker">Who We Help</p>
+              <h3>{{ .Title }}</h3>
+              <p>Use the transition pages to decide whether the work itself feels aligned.</p>
+              <p class="text-link">See the fit pages</p>
+            </a>
+          {{ end }}
+          {{ with $why }}
+            <a class="feature-card card-surface resource-card-link" href="{{ .RelPermalink }}">
+              <p class="card-kicker">Why Pathfinder</p>
+              <h3>{{ .Title }}</h3>
+              <p>Review the investment approach, the advisors, and the principles behind the firm.</p>
+              <p class="text-link">See the trust hub</p>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="related-grid" data-reveal>
+        <a class="service-related-card" href="{{ "/contact-us/" | relURL }}">
+          <p class="card-kicker">Contact</p>
+          <h3>Ready to talk?</h3>
+          <p>Use the contact page when you already know you want a direct conversation about the situation in front of you.</p>
+        </a>
+        {{ with $resources }}
+          <a class="service-related-card" href="{{ .RelPermalink }}">
+            <p class="card-kicker">Resources</p>
+            <h3>{{ .Title }}</h3>
+            <p>Browse the self-serve guides and checklists if you want more context before reaching out.</p>
+          </a>
+        {{ end }}
+      </div>
+
+      <div class="cta-strip" data-reveal>
+        <div>
+          <p class="section-label">Next step</p>
+          <h2 class="section-title">When the fit feels right, use the starting path that matches the scope of help you want.</h2>
+          <p>Most prospective clients begin with Discover/Decide/Do and sort out the exact scope in conversation rather than trying to self-diagnose too early.</p>
+        </div>
+        <a class="button" href="{{ "/contact-us/" | relURL }}">Talk with Pathfinder</a>
+      </div>
+    </div>
+  </section>
+{{ end }}

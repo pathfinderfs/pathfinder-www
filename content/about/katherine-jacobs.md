@@ -14,6 +14,6 @@ Katherine helps clients turn priorities into workable plans. Her approach is col
 
 Coming of age through the Great Recession gave Katherine an early appreciation for how much financial decisions shape a person's sense of stability and choice. As a CFP® professional and Investment Adviser Representative, she works with clients who want advice that reflects both the numbers and the life those numbers are meant to support.
 
-A graduate of the University of Southern California, Katherine brings a careful eye, clear communication, and steady follow-through to each client relationship.
+A graduate of the University of Southern California, Katherine brings a careful eye, clear communication, and steady follow-through to each client relationship. Clients often experience her as the person who keeps complex planning work clear, paced, and understandable while the details are still moving.
 
 Outside of work, she is an avid reader and an active contributor to several artistic disciplines.

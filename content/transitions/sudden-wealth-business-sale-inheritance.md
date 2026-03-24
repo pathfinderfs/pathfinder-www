@@ -15,6 +15,13 @@ transition_intro:
     - "Family Boundaries"
     - "Wealth Preservation"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "A sale, inheritance, or other liquidity event has changed the balance sheet faster than your life has caught up."
+  - title: "Decisions happening now"
+    body: "Where to park the cash, what not to do yet, how much to spend, and how to structure future transfers."
+  - title: "Likely next step"
+    body: "Usually Discover/Decide/Do so the first big decisions are paced and coordinated."
+transition_situation_points:
   - title: "The emotional weight"
     body: "Grieving a loved one or losing the daily identity of running your business makes even routine financial decisions feel overwhelming."
   - title: "The 'What Now?' reality"

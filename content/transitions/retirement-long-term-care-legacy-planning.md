@@ -10,12 +10,18 @@ transition_intro:
   lead: "Retirement is not a single finish line—it is an evolution that requires your plan to adapt as your life changes."
   body: "In your early retirement years, the goal is often figuring out how much you can safely spend and enjoy. As the years progress, the focus inevitably shifts to protecting your surviving spouse from exorbitant healthcare costs and ensuring your estate is orderly. We help you navigate both sides of retirement, giving you permission to enjoy today while building a fortress around tomorrow."
   chips:
-
     - "Permission to Spend"
     - "The LTC Firewall"
     - "Estate Alignment"
     - "Tax-Efficient Giving"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "You are already retired or close to it and want confidence around spending, care costs, and legacy decisions."
+  - title: "Decisions happening now"
+    body: "Safe-to-spend levels, long-term care funding, beneficiary updates, and estate coordination."
+  - title: "Likely next step"
+    body: "Usually Discover/Decide/Do, with Investment Supervision Only when the broader planning is already settled."
+transition_situation_points:
   - title: "The spending balancing act"
     body: "Finding the exact line between enjoying the wealth you worked so hard to build and preserving enough to outlast inflation."
   - title: "The long-term care threat"

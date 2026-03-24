@@ -15,6 +15,13 @@ transition_intro:
     - "Rebuilding the Safety Net"
     - "Estate Document Updates"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "You are recently widowed or supporting a widowed parent and need steady help while decisions still feel foggy."
+  - title: "Decisions happening now"
+    body: "Immediate paperwork, survivor income, tax-status changes, account updates, and future care planning."
+  - title: "Likely next step"
+    body: "Start with a conversation, then usually Discover/Decide/Do once the urgent items are sorted."
+transition_situation_points:
   - title: "The administrative avalanche"
     body: "Locating accounts, claiming life insurance, and updating legal titles when you barely have the energy to check the mail."
   - title: "The income shock"

@@ -15,6 +15,13 @@ transition_intro:
     - "The Illusion of Equality"
     - "Financial Independence"
 transition_snapshot:
+  - title: "Best fit if"
+    body: "You are navigating divorce or separation and need settlement choices tested before they become permanent."
+  - title: "Decisions happening now"
+    body: "Asset division, housing, taxes, support, cash flow, and rebuilding life on one balance sheet."
+  - title: "Likely next step"
+    body: "Usually Discover/Decide/Do alongside the legal process so the financial consequences are modeled early."
+transition_situation_points:
   - title: "The illusion of equality"
     body: "A 50/50 split on paper rarely means 50/50 in reality once taxes, liquidity, and growth potential are factored in."
   - title: "The emotional anchor"

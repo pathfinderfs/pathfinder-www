@@ -1,16 +1,23 @@
+{{ $contact := site.GetPage "/contact-us" }}
 <header class="site-header">
-  <div class="container topbar">
-    <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
-      <img class="brand-mark" src="{{ "images/Pathfinder-Heading-Final.svg" | relURL }}" alt="{{ site.Title }}">
-      <span class="brand-text">
-        <span>{{ site.Params.tagline }}</span>
-      </span>
+  <div class="container nav-inner">
+    <a class="brand-link" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
+      <span class="brand-wordmark">Pathfinder <span>Financial Services</span></span>
+      <span class="brand-tagline">{{ site.Params.tagline }}</span>
     </a>
-    <div class="header-actions">
-      <div class="header-contact">
-        <a href="tel:+18087284396">{{ site.Params.phone }}</a>
-        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
-      </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      {{ range site.Menus.main }}
+        {{ if and (not .Parent) (ne .Identifier "contact-us") }}
+          <a class="nav-link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </nav>
+
+    <div class="nav-actions">
+      {{ with $contact }}
+        <a class="nav-cta" href="{{ .RelPermalink }}">Get in Touch</a>
+      {{ end }}
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-nav-toggle>
         <span></span>
         <span></span>
@@ -19,18 +26,20 @@
       </button>
     </div>
   </div>
-  <div class="nav-wrap" id="site-menu" data-nav-panel>
-    <div class="container">
-      <nav class="site-nav" aria-label="Main navigation">
+
+  <div class="mobile-menu" id="site-menu" data-nav-panel hidden>
+    <div class="container mobile-menu-inner">
+      <nav class="mobile-menu-nav" aria-label="Mobile navigation">
         {{ range site.Menus.main }}
-          {{ if not .Parent }}
-            <div class="nav-item{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}">
-              <a class="nav-link" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
-            </div>
+          {{ if and (not .Parent) (ne .Identifier "contact-us") }}
+            <a class="mobile-menu-link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
           {{ end }}
         {{ end }}
       </nav>
-      <div class="mobile-contact">
+      {{ with $contact }}
+        <a class="mobile-menu-cta" href="{{ .RelPermalink }}">Get in Touch</a>
+      {{ end }}
+      <div class="mobile-menu-meta">
         <a href="tel:+18087284396">{{ site.Params.phone }}</a>
         <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
       </div>

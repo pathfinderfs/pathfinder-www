@@ -4,22 +4,25 @@
 {{ $variant := or .variant "default" }}
 
 <div class="advisor-panel advisor-panel-{{ $variant }}{{ with .class }} {{ . }}{{ end }}">
-  {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-  {{ with .title }}<h2 class="advisor-panel-title">{{ . }}</h2>{{ end }}
-  {{ with .intro }}<p class="advisor-panel-intro">{{ . }}</p>{{ end }}
+  <div class="advisor-panel-head">
+    {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
+    {{ with .title }}<h2 class="section-title advisor-panel-title">{{ . }}</h2>{{ end }}
+    {{ with .intro }}<p class="advisor-panel-intro">{{ . }}</p>{{ end }}
+  </div>
   <div class="advisor-grid">
     {{ range $advisors }}
       {{ with . }}
-        <a class="advisor-card card-link" href="{{ .RelPermalink }}">
+        <a class="advisor-card card-surface" href="{{ .RelPermalink }}">
           <img class="portrait advisor-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
           <div class="advisor-card-body">
             {{ if eq $variant "compact" }}
+              <p class="card-kicker">{{ .Params.advisor_role | default "Advisor" }}</p>
               <h3>{{ .Title }}</h3>
               <p class="advisor-card-note">{{ .Params.contact_summary | default .Params.summary }}</p>
             {{ else }}
               <div>
+                <p class="card-kicker">{{ .Params.advisor_role | default "Advisor" }}</p>
                 <h3>{{ .Title }}</h3>
-                {{ with .Params.advisor_role }}<p class="advisor-role">{{ . }}</p>{{ end }}
               </div>
               {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
               <p class="text-link">Read full bio</p>
