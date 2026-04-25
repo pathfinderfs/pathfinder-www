@@ -1,162 +1,109 @@
 {{ define "main" }}
-  {{ $themeClass := "" }}
-  {{ with .Params.card_theme }}
-    {{ $themeClass = printf " transition-page--%s" . }}
-  {{ end }}
   {{ $siblings := where .CurrentSection.Pages "Permalink" "!=" .Permalink }}
-  <div class="transition-page{{ $themeClass }}">
-    <section class="hero-split">
-      <div class="hero-split-copy">
-        <p class="section-label">{{ .CurrentSection.Title }}{{ with .Params.card_kicker }} · {{ . }}{{ end }}</p>
-        <h1 class="display-title">{{ .Title }}</h1>
-        {{ with .Params.summary }}<p class="hero-lede">{{ . }}</p>{{ end }}
-        {{ with .Params.transition_intro.chips }}
-          <ul class="chip-row" aria-label="Key transition topics">
-            {{ range . }}<li>{{ . }}</li>{{ end }}
-          </ul>
-        {{ end }}
-        <div class="hero-actions">
-          <a class="button" href="{{ "/about/" | relURL }}">Why Pathfinder</a>
-          <a class="button-secondary" href="{{ "/services/" | relURL }}">Get Started</a>
-        </div>
-      </div>
+  {{ partial "page-hero.html" (dict "page" . "class" (printf "hero--transition hero--%s" .Params.page_theme)) }}
 
-      <div class="hero-split-panel">
-        <div class="hero-panel-frame">
-          <p class="panel-label">At a glance</p>
-          <div class="stat-grid">
-            {{ range .Params.transition_snapshot }}
-              <article class="hero-stat">
-                <p class="hero-stat-label">{{ .title }}</p>
-                <p class="hero-stat-value">{{ .body }}</p>
-              </article>
-            {{ end }}
-          </div>
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.snapshot.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.snapshot.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
         </div>
-      </div>
-    </section>
-
-    <section class="section transition-band transition-band--light" data-reveal>
-      <div class="container transition-context">
-        <div>
-          <p class="section-label">The situation</p>
-          <h2 class="section-title">{{ .Params.transition_intro.lead }}</h2>
-          <p class="glance-copy">{{ .Params.transition_intro.body }}</p>
-        </div>
-        <div>
-          {{ with .Params.transition_figure }}
-            <figure class="strategy-figure">
-              <img src="{{ .src | relURL }}" alt="{{ .alt }}">
-              {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
-            </figure>
-          {{ else }}
-            {{ with $.Params.transition_situation_points }}
-              <dl class="glance-list">
-                {{ range . }}
-                  <div class="glance-item">
-                    <dt>{{ .title }}</dt>
-                    <dd>{{ .body }}</dd>
-                  </div>
-                {{ end }}
-              </dl>
-            {{ end }}
+        <ul class="check-list">
+          {{ range .Params.snapshot.items }}
+            <li>{{ . }}</li>
           {{ end }}
-        </div>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section transition-band transition-band--accent" data-reveal>
-      <div class="container">
-        <div class="section-head">
-          <p class="section-label">Where clients get stuck</p>
-          <h2 class="section-title">The questions that keep this transition from feeling straightforward.</h2>
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.decisions.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.decisions.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
         </div>
-        <div class="transition-stuck-grid transition-panel-grid">
-          {{ range .Params.transition_stuck_cards }}
-            <article class="card-surface transition-stuck-card">
-              {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
+        <div class="proof-list">
+          {{ range .Params.decisions.items }}
+            <article class="proof-item">
               <h3>{{ .title }}</h3>
               <p>{{ .body }}</p>
             </article>
           {{ end }}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section transition-band transition-band--light" id="how-we-help" data-reveal>
-      <div class="container">
-        <div class="section-head">
-          <p class="section-label">How Pathfinder helps</p>
-          <h2 class="section-title">Three areas where planning changes the outcome.</h2>
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.help.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.help.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
         </div>
-        <div class="transition-help-list">
-          {{ range $index, $card := .Params.transition_help_cards }}
-            <article class="transition-help-row">
-              <p class="help-step">{{ printf "%02d" (add $index 1) }}</p>
+        <div class="proof-list">
+          {{ range .Params.help.items }}
+            <article class="proof-item">
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.related.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.related.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        </div>
+        <div class="path-list">
+          {{ range .Params.related.links }}
+            <a class="path-row" href="{{ .href | relURL }}">
               <div>
-                {{ with $card.kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                <h3 class="transition-help-title">{{ $card.title }}</h3>
+                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
+                <h3>{{ .title }}</h3>
+                <p>{{ .body }}</p>
               </div>
-              <p>{{ $card.body }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-
-    <section class="section transition-band transition-band--accent" data-reveal>
-      <div class="container">
-        <div class="section-head">
-          <p class="section-label">{{ .Params.transition_related_heading | default "Related resources and services" }}</p>
-          <h2 class="section-title">Where to go next.</h2>
-        </div>
-        <div class="transition-related-grid transition-panel-grid transition-panel-grid--two">
-          {{ range .Params.transition_related_cards }}
-            <a class="transition-related-card" href="{{ .href | relURL }}">
-              {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-              <h3>{{ .title }}</h3>
-              <p>{{ .body }}</p>
+              <span class="path-row__arrow" aria-hidden="true">→</span>
             </a>
           {{ end }}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    {{ with .Params.transition_cta }}
-      <section class="transition-interlude transition-interlude--detail" data-reveal>
-        <div class="transition-interlude-inner">
-          <div class="transition-interlude-copy">
-            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2>{{ .title }}</h2>
-            {{ with .body }}<p>{{ . }}</p>{{ end }}
+  {{ if gt (len $siblings) 0 }}
+    <section class="section" data-reveal>
+      <div class="container">
+        <div class="section-shell">
+          <div class="section-intro">
+            <p class="eyebrow">Other situations</p>
+            <h2 class="section-title">Related decision patterns.</h2>
           </div>
-          <a class="transition-interlude-cta" href="{{ .href | relURL }}">{{ .label }}</a>
-        </div>
-      </section>
-    {{ end }}
-
-    {{ if gt (len $siblings) 0 }}
-      <section class="section transition-band transition-band--accent" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            <p class="section-label">Other transitions we work through</p>
-          </div>
-          <div class="transition-link-list">
+          <div class="path-list">
             {{ range .CurrentSection.Pages.ByWeight }}
               {{ if ne .Permalink $.Permalink }}
-                <a href="{{ .RelPermalink }}">
-                  <span class="transition-link-icon" aria-hidden="true">{{ partial "transition-icon.html" .Params.card_theme }}</span>
-                  <span class="transition-link-copy">
-                    {{ with .Params.card_kicker }}<span class="transition-link-kicker">{{ . }}</span>{{ end }}
-                    <span>{{ .Title }}</span>
-                  </span>
-                  <span aria-hidden="true">→</span>
+                <a class="path-row" href="{{ .RelPermalink }}">
+                  <div>
+                    <h3>{{ .Title }}</h3>
+                    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+                  </div>
+                  <span class="path-row__arrow" aria-hidden="true">→</span>
                 </a>
               {{ end }}
             {{ end }}
           </div>
         </div>
-      </section>
-    {{ end }}
-  </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}

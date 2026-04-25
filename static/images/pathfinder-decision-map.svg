@@ -1,0 +1,68 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="96" x2="1534" y2="1113" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF4E7"/>
+      <stop offset="1" stop-color="#EFE1CB"/>
+    </linearGradient>
+    <linearGradient id="main-route" x1="1018" y1="610" x2="1462" y2="846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29506C"/>
+      <stop offset="0.56" stop-color="#6D8B82"/>
+      <stop offset="1" stop-color="#B87633"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="0" y="0" width="1800" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#10283A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+
+  <g opacity="0.28" stroke="#C7B59A" stroke-width="2">
+    <path d="M804 198C940 160 1059 160 1163 189C1268 218 1372 232 1490 218C1608 205 1705 213 1786 245"/>
+    <path d="M770 332C911 289 1045 287 1161 315C1276 343 1395 357 1510 343C1626 328 1720 336 1791 364"/>
+    <path d="M742 474C893 437 1032 436 1154 462C1277 489 1401 503 1519 490C1636 476 1726 481 1794 510"/>
+    <path d="M730 624C883 592 1022 594 1146 618C1271 643 1397 659 1518 649C1639 639 1730 644 1799 675"/>
+    <path d="M742 778C890 741 1028 743 1150 772C1273 802 1394 818 1513 804C1633 791 1724 796 1798 829"/>
+    <path d="M786 926C922 886 1053 887 1170 919C1288 951 1401 969 1515 958C1628 946 1716 952 1785 983"/>
+  </g>
+
+  <g opacity="0.18" stroke="#8A6E49" stroke-width="2" stroke-dasharray="10 14">
+    <path d="M820 224L1668 975"/>
+    <path d="M886 975L1712 314"/>
+    <path d="M918 618H1750"/>
+  </g>
+
+  <g opacity="0.52" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-72 214C270 239 533 287 731 364C851 411 945 482 1018 610" stroke="#10283A" stroke-width="6"/>
+    <path d="M-72 376C254 397 509 432 707 487C844 525 946 565 1018 610" stroke="#6D8B82" stroke-width="6"/>
+    <path d="M-72 540C242 547 495 557 704 575C841 588 946 598 1018 610" stroke="#29506C" stroke-width="6"/>
+    <path d="M-72 744C238 717 497 693 718 660C843 642 946 627 1018 610" stroke="#B87633" stroke-width="6"/>
+  </g>
+
+  <g opacity="0.34" stroke="#10283A" stroke-width="4" stroke-linecap="round">
+    <path d="M1008 602C1047 587 1084 579 1122 575"/>
+    <path d="M1007 620C1059 624 1101 640 1142 670"/>
+    <path d="M1004 636C1038 664 1074 684 1114 699"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M1018 610C1085 604 1149 615 1206 649C1263 683 1301 736 1354 782C1408 829 1444 846 1462 846" stroke="url(#main-route)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1018 610C1088 608 1165 632 1232 678C1299 724 1338 770 1392 807" stroke="#10283A" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <circle cx="1018" cy="610" r="46" fill="#10283A"/>
+    <circle cx="1262" cy="711" r="34" fill="#6D8B82"/>
+    <circle cx="1462" cy="846" r="42" fill="#B87633"/>
+  </g>
+
+  <g fill="#10283A" opacity="0.84">
+    <text x="906" y="296" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">SIGNALS</text>
+    <text x="952" y="554" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">TRADEOFFS</text>
+    <text x="1182" y="643" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">DECISION</text>
+    <text x="1348" y="938" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">NEXT STEP</text>
+  </g>
+
+  <g fill="#5C6F80" opacity="0.82">
+    <text x="906" y="334" font-family="Manrope, sans-serif" font-size="20" font-weight="600" letter-spacing="1.2">timing • taxes • family • portfolio</text>
+  </g>
+</svg>

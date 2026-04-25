@@ -1,0 +1,39 @@
+{{ $page := .page }}
+{{ $hero := .hero | default $page.Params.hero }}
+{{ $title := or .title $hero.headline $page.Title }}
+<section class="hero{{ with .class }} {{ . }}{{ end }}">
+  {{ with $hero.image }}
+    <div class="hero__media" aria-hidden="true">
+      <img src="{{ . | relURL }}" alt="{{ $hero.image_alt | default "" }}">
+    </div>
+  {{ end }}
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      {{ with $hero.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+      {{ with $hero.brand }}<p class="hero__brand">{{ . }}</p>{{ end }}
+      <h1 class="hero__title">{{ $title | safeHTML }}</h1>
+      {{ with $hero.intro }}<p class="hero__lede">{{ . }}</p>{{ end }}
+      {{ with $hero.guidance }}
+        <div class="hero__guide">
+          {{ with .title }}<p class="hero__guide-title">{{ . }}</p>{{ end }}
+          <ul class="hero__guide-list">
+            {{ range .items }}
+              <li class="hero__guide-item">
+                {{ with .title }}<span class="hero__guide-label">{{ . }}</span>{{ end }}
+                {{ with .body }}<span class="hero__guide-copy">{{ . }}</span>{{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+      {{ with $hero.primary }}
+        <div class="hero__actions">
+          <a class="button" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
+          {{ with $hero.secondary }}
+            <a class="button button--ghost" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

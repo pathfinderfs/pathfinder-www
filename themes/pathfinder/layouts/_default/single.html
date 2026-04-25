@@ -1,52 +1,41 @@
 {{ define "main" }}
-  {{ $containerClass := "container--narrow" }}
-  {{ $hasBioPortrait := and (eq .Section "about") (.Params.portrait) }}
-  {{ if .Params.wide_layout }}
-    {{ $containerClass = "container" }}
-  {{ end }}
-  <section class="page-hero">
-    <div class="{{ $containerClass }}">
-      {{ if $hasBioPortrait }}
-        <div class="page-hero-grid">
-          <div class="page-hero-copy">
-            <p class="section-label">{{ .Params.advisor_role | default .CurrentSection.Title }}</p>
-            <h1 class="page-title">{{ .Title }}</h1>
-            {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
-          </div>
-          <div class="page-hero-media">
-            <img class="page-hero-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
-          </div>
-        </div>
-      {{ else }}
-        <div class="page-hero-copy">
-          {{ if and .CurrentSection (not .IsHome) }}<p class="section-label">{{ .CurrentSection.Title }}</p>{{ end }}
+  {{ $siblings := where .CurrentSection.Pages "Permalink" "!=" .Permalink }}
+  <section class="page-intro">
+    <div class="container">
+      <div class="page-intro__inner{{ if and (eq .Section "about") (.Params.portrait) }} page-intro__inner--portrait{{ end }}">
+        <div>
+          {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .Params.advisor_role | default .CurrentSection.Title }}</p>{{ end }}
           <h1 class="page-title">{{ .Title }}</h1>
           {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
         </div>
-      {{ end }}
+        {{ with .Params.portrait }}
+          <div class="page-portrait">
+            <img src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default (printf "%s portrait" $.Title) }}">
+          </div>
+        {{ end }}
+      </div>
     </div>
   </section>
 
-  <section class="page-section-body">
-    <div class="{{ $containerClass }} page-shell">
-      <article class="prose{{ with .Params.page_class }} {{ . }}{{ end }}">
-        {{ .Content }}
-      </article>
-      {{ with .CurrentSection }}
-        {{ if not $.IsHome }}
-          {{ $siblings := where .Pages "Permalink" "!=" $.Permalink }}
-          {{ if gt (len $siblings) 0 }}
-            <aside class="page-links-panel">
-              <p class="section-label">{{ if eq $.Section "transitions" }}Other transitions{{ else }}More in {{ .Title }}{{ end }}</p>
-              <div class="page-link-list">
-                {{ range .Pages.ByWeight }}
-                  {{ if ne .Permalink $.Permalink }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  <section class="section">
+    <div class="container">
+      <div class="section-shell section-shell--wide">
+        <article class="prose{{ with .Params.page_class }} {{ . }}{{ end }}">
+          {{ .Content }}
+        </article>
+        {{ if gt (len $siblings) 0 }}
+          <aside class="sibling-links">
+            <p class="eyebrow">More in {{ .CurrentSection.Title }}</p>
+            <div class="footer-links">
+              {{ range .CurrentSection.Pages.ByWeight }}
+                {{ if ne .Permalink $.Permalink }}
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ end }}
-              </div>
-            </aside>
-          {{ end }}
+              {{ end }}
+            </div>
+          </aside>
         {{ end }}
-      {{ end }}
+      </div>
     </div>
   </section>
 {{ end }}

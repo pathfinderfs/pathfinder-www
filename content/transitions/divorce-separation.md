@@ -1,68 +1,64 @@
 ---
-title: "Divorce or Separation"
+title: "Divorce, Separation, or Loss"
 weight: 50
-description: "Protect your financial future during a divorce. We help you evaluate settlements, avoid hidden tax traps, and transition confidently to a single income."
-summary: "Strategic, objective financial guidance during a divorce. We model settlements, untangle complex assets, and help you rebuild on your own terms."
-card_badge: "DS"
-card_theme: "divorce"
-card_kicker: "Divorce, Separation"
-transition_intro:
-  lead: "Divorce forces you to negotiate your financial future while navigating one of the most painful emotional transitions of your life."
-  body: "The pressure to just 'get it over with' is immense. But signing a settlement without understanding the long-term, after-tax consequences can derail your financial independence. We work alongside you and your legal team to model proposals, expose hidden tax traps, and ensure you are making permanent decisions with a clear head and hard data."
-  chips:
-    - "Settlement Modeling"
-    - "The House Dilemma"
-    - "The Illusion of Equality"
-    - "Financial Independence"
-transition_snapshot:
-  - title: "Best fit if"
-    body: "You are navigating divorce or separation and need settlement choices tested before they become permanent."
-  - title: "Decisions happening now"
-    body: "Asset division, housing, taxes, support, cash flow, and rebuilding life on one balance sheet."
-  - title: "Likely next step"
-    body: "Usually Discover/Decide/Do alongside the legal process so the financial consequences are modeled early."
-transition_situation_points:
-  - title: "The illusion of equality"
-    body: "A 50/50 split on paper rarely means 50/50 in reality once taxes, liquidity, and growth potential are factored in."
-  - title: "The emotional anchor"
-    body: "The intense pressure to keep the family home, even if it creates a dangerous, illiquid cash-flow trap."
-  - title: "The single-income reset"
-    body: "Transitioning from a shared balance sheet to funding your lifestyle, housing, and retirement independently."
-transition_stuck_cards:
-  - kicker: "The After-Tax Reality"
-    title: "Is this settlement actually as fair as my ex claims it is?"
-    body: "$1 million in a brokerage account is vastly different from $1 million in a 401(k) or home equity. If you don't factor in future taxes and liquidity, you might be accepting a fractured deal."
-  - kicker: "The House Dilemma"
-    title: "Can I truly afford to keep the house, or am I keeping a trap?"
-    body: "The family home provides emotional stability, but it is often an illiquid, cash-draining asset. Fighting to keep it can leave you 'house rich' but struggling to fund your new daily life."
-  - kicker: "The Single-Income Shift"
-    title: "What does my lifestyle look like when the dust settles?"
-    body: "Transitioning from a combined balance sheet to a single income requires completely rebuilding your cash flow, your emergency reserves, and your retirement trajectory from the ground up."
-transition_help_cards:
-  - kicker: "Stress-Test the Settlement"
-    title: "Model the long-term impact before you sign"
-    body: "We don't just look at today's balance sheet. We project proposed settlements decades into the future, exposing hidden tax liabilities and cash-flow gaps so you can negotiate from a position of strength."
-  - kicker: "Execute the Uncoupling"
-    title: "Separate the physical and financial ties"
-    body: "Once the papers are signed, we work directly with your legal team to handle the mechanics of the split—from refinancing the primary home to executing QDROs for retirement accounts—without triggering unnecessary penalties."
-  - kicker: "Architect Your New Life"
-    title: "Design a robust, independent financial framework"
-    body: "We help you transition from the stress of the divorce to the clarity of your next chapter. We reset your spending, realign your investments, and build a plan for your independent future."
-transition_related_heading: "Related services"
-transition_related_cards:
-  - kicker: "Service"
-    title: "Discover/Decide/Do"
-    body: "Structured planning support for decisions that need a long-term view."
-    href: "/services/discoverdecidedo/"
-  - kicker: "Contact"
-    title: "Contact Us"
-    body: "Start a confidential conversation about the decisions in front of you."
+description: "Financial planning for divorce, separation, widowhood, and other family changes that require clear numbers and steady pacing."
+summary: "For people rebuilding a plan after divorce, separation, or the loss of a spouse and needing the financial consequences made visible."
+page_theme: "family"
+hero:
+  eyebrow: "Who We Serve"
+  intro: "Family change often forces permanent financial decisions to be made during a period when attention, energy, and confidence are already under strain."
+  primary:
+    label: "Start the Conversation"
     href: "/contact-us/"
-transition_cta:
-  eyebrow: "Start with clear numbers and steady guidance"
-  title: "Get an objective planning partner while the details are still changing."
-  body: "If you want an objective planning partner while you work through divorce or separation, we would be glad to speak with you."
-  label: "Request a confidential conversation"
+  secondary:
+    label: "Work With Us"
+    href: "/services/"
+  image: "/images/pathfinder-decision-map.svg"
+  image_alt: "A planning map showing the relationship between family change, housing, taxes, and future cash flow."
+snapshot:
+  eyebrow: "Usually this means"
+  title: "The numbers need to be steadier than the moment."
+  items:
+    - "How do the proposed asset splits, support terms, or survivor-income changes hold up after taxes and over time?"
+    - "Can the home, spending level, and future obligations work on a different balance sheet?"
+    - "What has to be updated now so accounts, beneficiaries, and legal authority match the new reality?"
+decisions:
+  eyebrow: "The decisions underneath it"
+  title: "Where people usually need clarity."
+  items:
+    - title: "Settlement or transfer choices"
+      body: "Assets that look equal on paper can differ materially in liquidity, taxes, and long-term usefulness."
+    - title: "Income and housing reset"
+      body: "The household often needs a different cash-flow plan, reserve structure, and housing decision than the one it started with."
+    - title: "Operational cleanup"
+      body: "Titles, beneficiaries, powers of attorney, and account administration need to be brought into line with the new situation."
+help:
+  eyebrow: "Where Pathfinder helps"
+  title: "Bring structure and pacing to a difficult transition."
+  items:
+    - title: "Model the long-term consequences"
+      body: "Compare proposals or new income realities with clear attention to taxes, liquidity, and what daily life will require."
+    - title: "Coordinate the practical changes"
+      body: "Support the transition with account, housing, and planning decisions that need to happen in the right order."
+    - title: "Rebuild the plan"
+      body: "Reset spending, investment structure, and future care or legacy decisions for the next chapter."
+related:
+  eyebrow: "Related paths"
+  title: "Often useful here."
+  links:
+    - label: "Resource"
+      title: "Executor Checklist"
+      body: "Helpful when a death has created immediate administrative obligations."
+      href: "/resources/executor-checklist/"
+    - label: "Engagement"
+      title: "Work With Us"
+      body: "See how Pathfinder works with transitions that are still unfolding and need careful sequencing."
+      href: "/services/"
+cta:
+  eyebrow: "Family transition planning"
+  title: "Get objective help while the facts are still changing."
+  body: "When the personal side of a transition is already heavy, it helps to have the financial side made calmer and clearer."
+  label: "Talk With Pathfinder"
   href: "/contact-us/"
 draft: false
 ---

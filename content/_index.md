@@ -1,20 +1,36 @@
 ---
-title: "Financial Clarity for Life's Major Transitions"
+title: "Pathfinder Financial Services"
 weight: 10
-description: "Pathfinder provides fee-only financial planning and disciplined investment supervision for retirement, career changes, sudden wealth, divorce, and other major decisions."
+description: "Fee-only financial planning for people making big decisions and wanting clear, thoughtful advice."
 draft: false
-hero_eyebrow: "Fee-only planning for major transitions"
-hero_intro: "Pathfinder is a fee-only financial planning firm for people making consequential decisions around retirement, liquidity events, divorce, equity compensation, long-term care, and other major life transitions."
-hero_snapshot_label: "What Pathfinder is"
-advisors_intro: "David and Katherine combine research-driven planning, careful listening, and steady follow-through. Clients come to Pathfinder when they want a clear view of the tradeoffs before they act."
-hero_snapshot:
-  - title: "Fee-only"
-    value: "No commissions"
-    body: "Pathfinder is paid directly by clients, not by product sales or investment commissions."
-  - title: "Fiduciary"
-    value: "Advice meant to serve the client"
-    body: "Recommendations are built around the client's interests, not around what is easiest to sell."
-  - title: "Scope"
-    value: "Planning for high-stakes transitions"
-    body: "The work is designed for decisions where taxes, investments, cash flow, timing, and judgment all interact."
+hero:
+  eyebrow: "Fee-only financial planning"
+  brand: "Pathfinder Financial Services"
+  headline: "When one decision affects everything else, it helps to see the whole picture."
+  intro: "People usually reach out when a retirement choice, equity question, inheritance, family change, or spending decision starts touching taxes, cash flow, and investments all at once. We help you sort through it and choose a next step that holds together."
+  primary:
+    label: "Start the Conversation"
+    href: "/contact-us/"
+  secondary:
+    label: "Who We Serve"
+    href: "/transitions/"
+  image: "/images/pathfinder-decision-map.svg"
+  image_alt: "A Pathfinder decision map showing how taxes, timing, family, cash flow, and investments connect to a clear next step."
+proof:
+  eyebrow: "What brings people here"
+  title: "Most people call when one decision starts spilling into several others."
+  intro: "This is where advice matters most: when timing, taxes, spending, investments, family responsibilities, and follow-through all need to line up."
+  items:
+    - title: "Fee-only and fiduciary"
+      body: "We are paid by clients, not commissions or product sales. The advice is meant to serve you, not a platform or quota."
+    - title: "Direct advisor access"
+      body: "You talk with the people doing the work. The practice is intentionally small, so the relationship stays direct."
+    - title: "Planning plus investment judgment"
+      body: "Planning and investing are handled together, because real decisions rarely stay in one neat category."
+cta:
+  eyebrow: "Where to go next"
+  title: "Start with the question you have right now."
+  body: "If you want to see whether your situation fits, go to Who We Serve. If you want to understand how we think, go to Approach. If you are ready to talk, contact Pathfinder directly."
+  label: "Contact Pathfinder"
+  href: "/contact-us/"
 ---

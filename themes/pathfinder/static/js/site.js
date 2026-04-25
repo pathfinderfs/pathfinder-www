@@ -3,15 +3,44 @@ document.addEventListener("DOMContentLoaded", () => {
   const navPanel = document.querySelector("[data-nav-panel]");
   const mobileQuery = window.matchMedia("(max-width: 960px)");
   const revealNodes = document.querySelectorAll("[data-reveal]");
+  let hideTimer = 0;
 
-  function syncMobileState() {
-    if (!navToggle || !navPanel) {
+  function showPanel() {
+    if (!navPanel || !navToggle) {
       return;
     }
 
-    if (mobileQuery.matches) {
-      navPanel.hidden = !navPanel.classList.contains("is-open");
-    } else {
+    clearTimeout(hideTimer);
+    navPanel.hidden = false;
+
+    requestAnimationFrame(() => {
+      navPanel.classList.add("is-open");
+      navToggle.setAttribute("aria-expanded", "true");
+    });
+  }
+
+  function hidePanel() {
+    if (!navPanel || !navToggle) {
+      return;
+    }
+
+    navPanel.classList.remove("is-open");
+    navToggle.setAttribute("aria-expanded", "false");
+
+    hideTimer = window.setTimeout(() => {
+      if (!navPanel.classList.contains("is-open")) {
+        navPanel.hidden = true;
+      }
+    }, 220);
+  }
+
+  function syncMobileState() {
+    if (!navPanel || !navToggle) {
+      return;
+    }
+
+    if (!mobileQuery.matches) {
+      clearTimeout(hideTimer);
       navPanel.hidden = true;
       navPanel.classList.remove("is-open");
       navToggle.setAttribute("aria-expanded", "false");
@@ -20,10 +49,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (navToggle && navPanel) {
     navPanel.hidden = true;
+
     navToggle.addEventListener("click", () => {
-      const isOpen = navPanel.classList.toggle("is-open");
-      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      navPanel.hidden = !isOpen;
+      if (navPanel.classList.contains("is-open")) {
+        hidePanel();
+      } else {
+        showPanel();
+      }
+    });
+
+    navPanel.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (mobileQuery.matches) {
+          hidePanel();
+        }
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && navPanel.classList.contains("is-open")) {
+        hidePanel();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!mobileQuery.matches || navPanel.hidden) {
+        return;
+      }
+
+      const clickedInsidePanel = navPanel.contains(event.target);
+      const clickedToggle = navToggle.contains(event.target);
+
+      if (!clickedInsidePanel && !clickedToggle) {
+        hidePanel();
+      }
     });
   }
 
@@ -35,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.18, rootMargin: "0px 0px -10% 0px" });
 
     revealNodes.forEach((node) => observer.observe(node));
   } else {
@@ -43,5 +102,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   mobileQuery.addEventListener("change", syncMobileState);
+
+  requestAnimationFrame(() => {
+    document.body.classList.add("is-ready");
+  });
+
   syncMobileState();
 });

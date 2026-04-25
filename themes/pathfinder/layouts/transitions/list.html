@@ -1,81 +1,29 @@
 {{ define "main" }}
   {{ $pages := .RegularPages.ByWeight }}
-  {{ $about := site.GetPage "/about" }}
-  {{ $services := site.GetPage "/services" }}
-  {{ $contact := site.GetPage "/contact-us" }}
+  {{ partial "page-hero.html" (dict "page" . "class" "hero--transitions") }}
 
-  <section class="transition-landing-hero">
-    <div>
-      <p class="transition-landing-eyebrow">{{ .Section | humanize }}</p>
-      <h1 class="transition-landing-title">{{ .Title | replaceRE "Help$" "<em>Help</em>" | safeHTML }}</h1>
-    </div>
-    <div class="transition-landing-hero-body">
-      {{ with .Params.summary }}<p class="transition-landing-lede">{{ . }}</p>{{ end }}
-      <div class="transition-landing-copy">{{ .Content }}</div>
-    </div>
-  </section>
-
-  <div class="transition-landing-rule"></div>
-
-  {{ if gt (len $pages) 0 }}
-    <section class="transition-cards-section" data-reveal>
-      <div class="transition-cards-grid">
-        {{ range $pages }}
-          <a class="transition-directory-card" href="{{ .RelPermalink }}">
-            <div class="transition-directory-card-head">
-              <div class="transition-directory-icon" aria-hidden="true">{{ partial "transition-icon.html" .Params.card_theme }}</div>
-              {{ with .Params.card_kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-            </div>
-            <h3>{{ .Title }}</h3>
-            {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-            <span class="transition-directory-card-arrow">Explore <span aria-hidden="true">→</span></span>
-          </a>
-        {{ end }}
-      </div>
-    </section>
-  {{ end }}
-
-  {{ with $contact }}
-    <section class="transition-interlude" data-reveal>
-      <div class="transition-interlude-inner">
-        <div class="transition-interlude-copy">
-          <h2>Mixed or unclear situation?</h2>
-          <p>If more than one page applies, or none feels quite right, we can help you sort the immediate decisions from the ones that can wait. Start with a conversation.</p>
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.directory.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.directory.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.directory.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
-        <a class="transition-interlude-cta" href="{{ .RelPermalink }}">Talk with Pathfinder</a>
-      </div>
-    </section>
-  {{ end }}
-
-  <section class="transition-next-section" data-reveal>
-    <div class="transition-next-inner">
-      <div>
-        <p class="transition-next-label">Next step</p>
-        <h2 class="section-title">If the fit feels right, learn why Pathfinder is built for this work.</h2>
-      </div>
-      <div class="transition-next-body">
-        <p>Once the situation looks aligned, move to Why Pathfinder to understand the firm's approach. If you're ready to explore what an engagement looks like, go directly to Get Started.</p>
-        <div class="transition-next-links">
-          {{ with $about }}
-            <a class="transition-next-link" href="{{ .RelPermalink }}">
+        <div class="path-list">
+          {{ range $pages }}
+            <a class="path-row" href="{{ .RelPermalink }}">
               <div>
-                <p class="transition-next-link-label">Learn more</p>
-                <p class="transition-next-link-title">{{ .Title }}</p>
+                <h3>{{ .Title }}</h3>
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
               </div>
-              <span class="transition-next-link-arrow" aria-hidden="true">→</span>
-            </a>
-          {{ end }}
-          {{ with $services }}
-            <a class="transition-next-link" href="{{ .RelPermalink }}">
-              <div>
-                <p class="transition-next-link-label">Begin the process</p>
-                <p class="transition-next-link-title">{{ .Title }}</p>
-              </div>
-              <span class="transition-next-link-arrow" aria-hidden="true">→</span>
+              <span class="path-row__arrow" aria-hidden="true">→</span>
             </a>
           {{ end }}
         </div>
       </div>
     </div>
   </section>
+
+  {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}

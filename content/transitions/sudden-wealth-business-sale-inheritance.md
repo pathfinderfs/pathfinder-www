@@ -1,68 +1,64 @@
 ---
-title: "Sudden Wealth, Inheritance, or a Business Sale"
+title: "Liquidity Events, Inheritance, and Sudden Wealth"
 weight: 30
 description: "Navigate the financial and emotional complexities of a massive liquidity event. We help you slow down, protect your wealth, and intentionally design your next chapter."
-summary: "Navigate the financial and emotional complexities of a massive liquidity event. We help you slow down, protect your wealth, and intentionally design your next chapter."
-card_badge: "SW"
-card_theme: "wealth"
-card_kicker: "Sudden Wealth"
-transition_intro:
-  lead: "A massive liquidity event changes your bank account instantly. Your life takes a little longer to catch up."
-  body: "Whether it’s an inheritance, a business exit, or a settlement, sudden wealth often brings as much disorientation as it does relief. The right first step is rarely action—it is structure. We help you build a safe 'parking lot' for the funds, quiet the outside noise, and create a durable plan for what you actually want the rest of your life to look like."
-  chips:
-    - "The No-Decision Zone"
-    - "Designing the Next Chapter"
-    - "Family Boundaries"
-    - "Wealth Preservation"
-transition_snapshot:
-  - title: "Best fit if"
-    body: "A sale, inheritance, or other liquidity event has changed the balance sheet faster than your life has caught up."
-  - title: "Decisions happening now"
-    body: "Where to park the cash, what not to do yet, how much to spend, and how to structure future transfers."
-  - title: "Likely next step"
-    body: "Usually Discover/Decide/Do so the first big decisions are paced and coordinated."
-transition_situation_points:
-  - title: "The emotional weight"
-    body: "Grieving a loved one or losing the daily identity of running your business makes even routine financial decisions feel overwhelming."
-  - title: "The 'What Now?' reality"
-    body: "Financial freedom sounds perfect until you wake up on a Monday morning without a clear schedule, a company to run, or a defined purpose."
-  - title: "Protecting the legacy"
-    body: "Structuring wealth transfers to protect the money from your heirs' future divorces, creditors, or financial inexperience."
-transition_stuck_cards:
-  - kicker: "Paralysis vs. Impulse"
-    title: "What exactly do I do with the money right now?"
-    body: "The most expensive mistakes happen in the first six months. The urge to immediately invest it, spend it, or give it away can be overwhelming, but committing cash too early is incredibly hard to undo."
-  - kicker: "The Identity Shift"
-    title: "How do I build a meaningful life when my old routine is gone?"
-    body: "Selling a business or inheriting wealth changes your title, your schedule, and your responsibilities overnight. The hardest part isn't managing the money—it's figuring out who you are without the daily grind."
-  - kicker: "Generational Vulnerability"
-    title: "Will a divorce or a bad decision wipe out my life's work?"
-    body: "You want to generously provide for your children, but handing over a massive lump sum leaves your legacy highly vulnerable to future ex-spouses, lawsuits, or well-intentioned but terrible financial choices."
-transition_help_cards:
-  - kicker: "Create a 'Parking Lot'"
-    title: "Establish a strict no-decision zone"
-    body: "We help you safely park the cash in secure, yielding vehicles. We intentionally slow the process down so you have the mental space to grieve, celebrate, and breathe without pressure."
-  - kicker: "Architect the Next Chapter"
-    title: "Design a life, not just a portfolio"
-    body: "Before we invest a dime for the long term, we help you map out your new reality. We figure out what it costs to fund your passions, your philanthropic goals, or your next great entrepreneurial venture."
-  - kicker: "Secure the Legacy"
-    title: "Build financial guardrails for the next generation"
-    body: "We coordinate with your estate attorneys to structure smart trusts and protective boundaries. This ensures your heirs are cared for, while permanently shielding the principal from creditors, divorces, and impulsive decisions."
-transition_related_heading: "Related services"
-transition_related_cards:
-  - kicker: "Service"
-    title: "Discover/Decide/Do"
-    body: "A planning process for structuring major decisions after a liquidity event."
-    href: "/services/discoverdecidedo/"
-  - kicker: "Service"
-    title: "Investment Strategy"
-    body: "How Pathfinder approaches investing when the balance sheet changes shape."
-    href: "/investment-strategy/"
-transition_cta:
-  eyebrow: "Put structure around a major financial event"
-  title: "Turn a sudden change in wealth into a disciplined plan."
-  body: "If you want a disciplined plan for a recent windfall, inheritance, or sale, we would be glad to talk with you."
-  label: "Talk with an advisor"
+summary: "For households whose balance sheet changed quickly through a sale, inheritance, or other liquidity event and now needs structure."
+page_theme: "wealth"
+hero:
+  eyebrow: "Who We Serve"
+  intro: "A major liquidity event often changes the bank account faster than it changes the rest of life. The first task is usually to create structure before the money attracts rushed decisions."
+  primary:
+    label: "Start the Conversation"
+    href: "/contact-us/"
+  secondary:
+    label: "Work With Us"
+    href: "/services/"
+  image: "/images/pathfinder-decision-map.svg"
+  image_alt: "A planning map showing how liquidity, taxes, family, and future planning connect."
+snapshot:
+  eyebrow: "Usually this means"
+  title: "The first step is not always action."
+  items:
+    - "Where should the cash sit while decisions are still forming?"
+    - "What level of spending, gifting, or investing makes sense before the next chapter is clearer?"
+    - "How should wealth be structured if the goal is stewardship, optionality, and durable family outcomes?"
+decisions:
+  eyebrow: "The decisions underneath it"
+  title: "Where people usually need clarity."
+  items:
+    - title: "Immediate cash handling"
+      body: "Parking the proceeds safely and intentionally can matter more than finding an immediate long-term investment answer."
+    - title: "Identity and next chapter"
+      body: "A sale or inheritance can change work, family expectations, and the practical shape of daily life."
+    - title: "Transfer and protection"
+      body: "Future gifting, trusts, and boundaries often need to be thought through before habits form around the money."
+help:
+  eyebrow: "Where Pathfinder helps"
+  title: "Create space, then make decisions deliberately."
+  items:
+    - title: "Establish a no-rush zone"
+      body: "Set up a stable parking place for the money and sequence the first decisions in a way the household can actually absorb."
+    - title: "Design the next chapter"
+      body: "Translate the new balance sheet into spending, investing, work, and philanthropic choices that fit the life ahead."
+    - title: "Protect future transfers"
+      body: "Coordinate with other professionals so intended gifts or structures remain durable across tax, legal, and family realities."
+related:
+  eyebrow: "Related paths"
+  title: "Often useful here."
+  links:
+    - label: "Engagement"
+      title: "Work With Us"
+      body: "See how Pathfinder works with major decisions that follow a sale, inheritance, or other liquidity event."
+      href: "/services/"
+    - label: "Supporting page"
+      title: "Investment Strategy"
+      body: "How Pathfinder thinks about portfolio construction once the balance sheet has changed shape."
+      href: "/investment-strategy/"
+cta:
+  eyebrow: "Liquidity event planning"
+  title: "Turn a sudden change in wealth into a deliberate plan."
+  body: "When the balance sheet changes quickly, the value often comes from pacing, structure, and protecting optionality."
+  label: "Talk With Pathfinder"
   href: "/contact-us/"
 draft: false
 ---

@@ -1,219 +1,100 @@
 {{ define "main" }}
-  {{ $displayTitle := .Params.service_display_title | default .Title }}
-  {{ $visualType := .Params.service_visual_type | default "stack" }}
-  {{ $detailsAnchor := .Params.service_details_anchor | default "#service-details" }}
-  {{ $themeClass := printf " service-page--%s" .File.ContentBaseName }}
+  {{ partial "page-hero.html" (dict "page" . "class" (printf "hero--service hero--%s" .Params.page_theme)) }}
 
-  <div class="service-page{{ $themeClass }}">
-    <section class="hero-split">
-      <div class="hero-split-copy">
-        <p class="section-label">{{ .Params.service_eyebrow | default "Service" }}</p>
-        <h1 class="display-title">{{ $displayTitle | safeHTML }}</h1>
-        {{ with .Params.service_intro }}<p class="hero-lede">{{ . }}</p>{{ end }}
-        {{ with .Params.service_chips }}
-          <ul class="chip-row" aria-label="Service topics">
-            {{ range . }}<li>{{ . }}</li>{{ end }}
-          </ul>
-        {{ end }}
-        <div class="hero-actions">
-          <a class="button" href="{{ "/contact-us/" | relURL }}">{{ .Params.service_primary_action | default "Start a conversation" }}</a>
-          <a class="button-ghost" href="{{ $detailsAnchor }}">{{ .Params.service_secondary_action | default "See how it works" }}</a>
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.fit.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.fit.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        </div>
+        <ul class="check-list">
+          {{ range .Params.fit.items }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.scope.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.scope.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        </div>
+        <div class="proof-list">
+          {{ range .Params.scope.items }}
+            <article class="proof-item">
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="hero-split-panel">
-        {{ if eq $visualType "cycle" }}
-          <div class="service-visual-cycle" aria-hidden="true">
-            <div class="service-cycle-ring"></div>
-            <svg class="service-cycle-path" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
-              <path d="M 160 46 A 122 122 0 0 1 271 230" fill="none" stroke="#8C5E3A" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
-              <path d="M 271 230 A 122 122 0 0 1 49 230" fill="none" stroke="#8C5E3A" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
-              <path d="M 49 230 A 122 122 0 0 1 160 46" fill="none" stroke="#8C5E3A" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
-            </svg>
-            {{ range $index, $step := .Params.service_cycle_steps }}
-              {{ $class := printf "service-cycle-node service-cycle-node-%d" (add $index 1) }}
-              <div class="{{ $class }}">
-                {{ with $step.num }}<em>{{ . }}</em>{{ end }}
-                <strong>{{ $step.title }}</strong>
-                {{ with $step.body }}<span>{{ . }}</span>{{ end }}
-              </div>
-            {{ end }}
-            {{ with .Params.service_cycle_center }}
-              <div class="service-cycle-center">
-                <strong>{{ . | safeHTML }}</strong>
-              </div>
-            {{ end }}
-          </div>
-        {{ else }}
-          <div class="service-visual-stack">
-            {{ with .Params.service_visual_label }}<p class="panel-label">{{ . }}</p>{{ end }}
-            <div class="stat-grid">
-              {{ range .Params.service_visual_cards }}
-                <article class="hero-stat">
-                  <p class="hero-stat-label">{{ .title }}</p>
-                  <p class="hero-stat-value">{{ .value }}</p>
-                  <p class="hero-stat-desc">{{ .body }}</p>
-                </article>
-              {{ end }}
-            </div>
-            {{ with .Params.service_visual_note }}<p class="service-visual-note">{{ . }}</p>{{ end }}
-          </div>
-        {{ end }}
-      </div>
-    </section>
-
-    {{ with .Params.service_audience_cards }}
-      <section class="section section--cream" id="service-details" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            {{ with $.Params.service_audience_eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2 class="section-title">{{ $.Params.service_audience_title }}</h2>
-          </div>
-          <div class="service-audience-grid">
-            {{ range . }}
-              <article class="card-surface service-item">
-                {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                <h3>{{ .title }}</h3>
-                <p>{{ .body }}</p>
-              </article>
-            {{ end }}
-          </div>
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell section-shell--wide">
+        <div class="section-intro">
+          {{ with .Params.pricing.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.pricing.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.pricing.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
-      </section>
-    {{ end }}
-
-    {{ with .Params.service_process_cards }}
-      <section class="section" id="process" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            {{ with $.Params.service_process_eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2 class="section-title">{{ $.Params.service_process_title }}</h2>
+        <div class="pricing-layout">
+          <div class="pricing-summary">
+            {{ with .Params.pricing.base_amount }}<p class="pricing-amount">{{ . }}</p>{{ end }}
+            {{ with .Params.pricing.base_note }}<p class="pricing-note">{{ . }}</p>{{ end }}
+            {{ with .Params.pricing.legal }}<p class="legal-copy">{{ . }}</p>{{ end }}
           </div>
-          <div class="service-process-grid">
-            {{ range . }}
-              <article class="card-surface service-process-card">
-                {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                <h3>{{ .title }}</h3>
-                {{ with .body }}<p>{{ . }}</p>{{ end }}
-                {{ with .items }}
-                  <ul class="service-process-list">
-                    {{ range . }}<li>{{ . }}</li>{{ end }}
-                  </ul>
+          <div class="table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  {{ range .Params.pricing.columns }}<th>{{ . }}</th>{{ end }}
+                </tr>
+              </thead>
+              <tbody>
+                {{ range .Params.pricing.rows }}
+                  <tr>
+                    <td>{{ .label }}</td>
+                    <td>{{ .quarterly }}</td>
+                    <td>{{ .annual }}</td>
+                  </tr>
                 {{ end }}
-              </article>
-            {{ end }}
+              </tbody>
+            </table>
           </div>
         </div>
-      </section>
-    {{ end }}
+      </div>
+    </div>
+  </section>
 
-    {{ with .Params.service_highlights_items }}
-      <section class="service-highlights-strip" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            {{ with $.Params.service_highlights_eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2 class="section-title">{{ $.Params.service_highlights_title }}</h2>
-          </div>
-          <div class="service-highlights-grid">
-            {{ range . }}
-              <article class="card-surface">
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.related.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.related.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        </div>
+        <div class="path-list">
+          {{ range .Params.related.links }}
+            <a class="path-row" href="{{ .href | relURL }}">
+              <div>
+                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
                 <h3>{{ .title }}</h3>
                 <p>{{ .body }}</p>
-              </article>
-            {{ end }}
-          </div>
+              </div>
+              <span class="path-row__arrow" aria-hidden="true">→</span>
+            </a>
+          {{ end }}
         </div>
-      </section>
-    {{ end }}
+      </div>
+    </div>
+  </section>
 
-    {{ if .Content }}
-      <section class="section" data-reveal>
-        <div class="container--narrow">
-          <article class="prose">{{ .Content }}</article>
-        </div>
-      </section>
-    {{ end }}
-
-    {{ with .Params.service_fee }}
-      <section class="section section--cream" id="fee" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2 class="section-title">{{ .title }}</h2>
-          </div>
-          <div class="fee-layout">
-            <div class="fee-main">
-              {{ with .base_amount }}<div class="fee-amount">{{ . }}</div>{{ end }}
-              {{ with .period }}<p class="fee-period">{{ . }}</p>{{ end }}
-              {{ with .note }}<p class="fee-note">{{ . }}</p>{{ end }}
-              {{ with .plus_label }}<p class="fee-plus">{{ . }}</p>{{ end }}
-              {{ with .rows }}
-                <table class="fee-table">
-                  <thead>
-                    <tr>
-                      {{ range $.Params.service_fee.columns }}<th>{{ . }}</th>{{ end }}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {{ range . }}
-                      <tr>
-                        <td>{{ .label }}</td>
-                        <td>{{ .quarterly }}</td>
-                        <td>{{ .annual }}</td>
-                      </tr>
-                    {{ end }}
-                  </tbody>
-                </table>
-              {{ end }}
-              {{ with .legal }}<p class="fee-legal">{{ . }}</p>{{ end }}
-            </div>
-            <aside class="fee-side">
-              {{ with .sidebar_title }}<h3>{{ . }}</h3>{{ end }}
-              {{ with .sidebar_body }}<p>{{ . }}</p>{{ end }}
-              {{ with .features }}
-                <ul class="fee-feature-list">
-                  {{ range . }}<li>{{ . }}</li>{{ end }}
-                </ul>
-              {{ end }}
-            </aside>
-          </div>
-        </div>
-      </section>
-    {{ end }}
-
-    {{ with .Params.service_related_cards }}
-      <section class="section" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            {{ with $.Params.service_related_eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-            <h2 class="section-title">{{ $.Params.service_related_title }}</h2>
-          </div>
-          <div class="related-grid">
-            {{ range . }}
-              <a class="service-related-card" href="{{ .href | relURL }}">
-                {{ with .kicker }}<p class="card-kicker">{{ . }}</p>{{ end }}
-                <h3>{{ .title }}</h3>
-                <p>{{ .body }}</p>
-              </a>
-            {{ end }}
-          </div>
-        </div>
-      </section>
-    {{ end }}
-
-    {{ with .Params.service_cta }}
-      <section class="section" data-reveal>
-        <div class="container">
-          <div class="cta-strip">
-            <div>
-              {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-              <h2 class="section-title">{{ .title }}</h2>
-              {{ with .body }}<p>{{ . }}</p>{{ end }}
-            </div>
-            <a class="button" href="{{ .href | relURL }}">{{ .label }}</a>
-          </div>
-        </div>
-      </section>
-    {{ end }}
-  </div>
+  {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}

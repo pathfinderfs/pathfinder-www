@@ -1,46 +1,39 @@
 {{ define "main" }}
-  {{ $pages := .Pages.ByWeight }}
-  {{ if eq .Section "about" }}
-    {{ $pages = where $pages "Params.portrait" "==" nil }}
-  {{ end }}
-  <section class="page-hero">
-    <div class="container--narrow">
-      <div class="page-hero-copy">
-        <p class="section-label">{{ .Section | humanize }}</p>
+  {{ $pages := .RegularPages.ByWeight }}
+  <section class="page-intro">
+    <div class="container">
+      <div class="page-intro__inner">
+        <p class="eyebrow">{{ .Section | humanize }}</p>
         <h1 class="page-title">{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
       </div>
     </div>
   </section>
 
-  <section class="page-section-body">
-    <div class="container--narrow page-shell">
-      <div class="prose">{{ .Content }}</div>
-
-      {{ if eq .Section "about" }}
-        {{ partial "advisor-panel.html" (dict
-          "eyebrow" "The advisors"
-          "title" "The people behind Pathfinder"
-          "intro" "Pathfinder is led by David and Katherine Jacobs. Their work combines analytical discipline, careful listening, and steady follow-through for clients facing meaningful decisions."
-          "variant" "compact"
-        ) }}
-      {{ end }}
-
-      {{ if gt (len $pages) 0 }}
-        <div class="directory-grid">
-          {{ range $pages }}
-            <a class="directory-card card-surface resource-card-link" href="{{ .RelPermalink }}">
-              <p class="card-kicker">{{ .CurrentSection.Title }}</p>
-              <h3>{{ .Title }}</h3>
-              {{ with .Params.summary }}
-                <p>{{ . }}</p>
-              {{ else }}
-                {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
-              {{ end }}
-            </a>
-          {{ end }}
-        </div>
-      {{ end }}
+  <section class="section">
+    <div class="container">
+      <div class="section-shell section-shell--wide">
+        {{ if .Content }}
+          <article class="prose">{{ .Content }}</article>
+        {{ end }}
+        {{ if gt (len $pages) 0 }}
+          <div class="path-list">
+            {{ range $pages }}
+              <a class="path-row" href="{{ .RelPermalink }}">
+                <div>
+                  <h3>{{ .Title }}</h3>
+                  {{ with .Params.summary }}
+                    <p>{{ . }}</p>
+                  {{ else }}
+                    {{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}
+                  {{ end }}
+                </div>
+                <span class="path-row__arrow" aria-hidden="true">→</span>
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
     </div>
   </section>
 {{ end }}

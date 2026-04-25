@@ -1,0 +1,6 @@
+{{- $href := . -}}
+{{- if or (hasPrefix $href "http://") (hasPrefix $href "https://") (hasPrefix $href "mailto:") (hasPrefix $href "tel:") -}}
+  {{- $href -}}
+{{- else -}}
+  {{- relURL $href -}}
+{{- end -}}

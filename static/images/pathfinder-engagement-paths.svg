@@ -1,0 +1,45 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eng-bg" x1="165" y1="143" x2="1580" y2="1056" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9F1E3"/>
+      <stop offset="1" stop-color="#E8DECE"/>
+    </linearGradient>
+    <linearGradient id="eng-main" x1="370" y1="312" x2="1424" y2="828" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29506C"/>
+      <stop offset="1" stop-color="#B87633"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#eng-bg)"/>
+
+  <g opacity="0.28" stroke="#CBB89A" stroke-width="2">
+    <path d="M142 236C344 156 523 176 682 267C840 358 1020 382 1188 315C1357 248 1511 253 1681 321"/>
+    <path d="M116 404C316 330 497 344 664 437C831 531 1010 558 1178 489C1347 420 1507 426 1700 502"/>
+    <path d="M91 588C292 510 476 528 647 624C818 719 998 748 1173 677C1348 607 1516 611 1715 699"/>
+    <path d="M76 782C278 701 467 722 639 820C811 919 994 949 1170 876C1345 804 1515 812 1732 901"/>
+  </g>
+
+  <path d="M372 318C554 380 681 483 764 621C818 710 897 767 1008 801" stroke="url(#eng-main)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M1007 801C1096 778 1176 739 1237 683C1310 617 1361 520 1424 388" stroke="#10283A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1007 801C1126 863 1224 890 1322 885C1419 879 1495 850 1568 802" stroke="#6D8B82" stroke-width="16" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="372" cy="318" r="56" fill="#10283A"/>
+    <circle cx="760" cy="618" r="46" fill="#29506C"/>
+    <circle cx="1007" cy="801" r="46" fill="#B87633"/>
+    <circle cx="1424" cy="388" r="48" fill="#29506C"/>
+    <circle cx="1568" cy="802" r="48" fill="#6D8B82"/>
+  </g>
+
+  <g fill="#10283A" opacity="0.82">
+    <text x="1210" y="344" font-family="Fraunces, serif" font-size="56">Discover /</text>
+    <text x="1210" y="404" font-family="Fraunces, serif" font-size="56">Decide / Do</text>
+    <text x="1228" y="908" font-family="Fraunces, serif" font-size="54">Investment</text>
+    <text x="1228" y="966" font-family="Fraunces, serif" font-size="54">Supervision Only</text>
+  </g>
+
+  <g fill="#5C6F80" opacity="0.85">
+    <text x="1209" y="468" font-family="Manrope, sans-serif" font-size="26">broader planning relationship</text>
+    <text x="1230" y="1020" font-family="Manrope, sans-serif" font-size="26">narrower ongoing portfolio oversight</text>
+  </g>
+</svg>

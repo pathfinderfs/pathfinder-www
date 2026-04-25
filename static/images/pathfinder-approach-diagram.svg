@@ -1,0 +1,42 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="approach-bg" x1="118" y1="111" x2="1550" y2="1061" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F2E5"/>
+      <stop offset="1" stop-color="#E7E0D5"/>
+    </linearGradient>
+    <linearGradient id="approach-line" x1="331" y1="614" x2="1471" y2="614" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D8B82"/>
+      <stop offset="0.5" stop-color="#29506C"/>
+      <stop offset="1" stop-color="#B87633"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#approach-bg)"/>
+
+  <g opacity="0.32" stroke="#CBB99B" stroke-width="2">
+    <path d="M131 225C305 132 449 157 603 247C756 336 899 364 1061 309C1224 255 1358 266 1682 377"/>
+    <path d="M95 368C282 286 453 301 601 389C750 477 901 501 1064 450C1228 399 1370 409 1710 535"/>
+    <path d="M73 538C261 455 439 468 591 558C743 647 895 682 1058 631C1222 580 1373 592 1725 727"/>
+    <path d="M57 716C248 634 427 649 583 742C738 835 892 872 1059 821C1226 771 1380 781 1739 924"/>
+  </g>
+
+  <path d="M334 614H1470" stroke="url(#approach-line)" stroke-width="18" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="331" cy="614" r="58" fill="#10283A"/>
+    <circle cx="891" cy="614" r="58" fill="#29506C"/>
+    <circle cx="1471" cy="614" r="58" fill="#B87633"/>
+  </g>
+
+  <g fill="#10283A" opacity="0.78">
+    <text x="235" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">CLARIFY</text>
+    <text x="811" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">WEIGH</text>
+    <text x="1376" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">FOLLOW THROUGH</text>
+  </g>
+
+  <g fill="#5C6F80" opacity="0.78">
+    <text x="207" y="727" font-family="Fraunces, serif" font-size="50">situation</text>
+    <text x="768" y="727" font-family="Fraunces, serif" font-size="50">tradeoffs</text>
+    <text x="1318" y="727" font-family="Fraunces, serif" font-size="50">implementation</text>
+  </g>
+</svg>

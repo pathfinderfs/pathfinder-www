@@ -13,8 +13,8 @@ markup:
       unsafe: true
 
 params:
-  description: "Fee-only financial planning focused on clarity, stewardship, and thoughtful decision-making."
-  tagline: "Guiding You to Financial Clarity"
+  description: "Fee-only financial planning and investment guidance for people making consequential decisions."
+  tagline: "Clarity for consequential financial decisions"
   phone: "(808) 728-4396"
   email: "support@pathfinderfs.com"
   advURL: "https://adviserinfo.sec.gov/"
@@ -30,92 +30,43 @@ menu:
       pageRef: "/"
       weight: 10
     - identifier: transitions
-      name: "Who We Help"
+      name: "Who We Serve"
       pageRef: "/transitions"
       weight: 20
     - identifier: about
-      name: "Why Pathfinder"
+      name: "Approach"
       pageRef: "/about"
       weight: 30
     - identifier: services
-      name: "Get Started"
+      name: "Work With Us"
       pageRef: "/services"
       weight: 40
+    - identifier: contact-us
+      name: "Contact"
+      pageRef: "/contact-us"
+      weight: 50
+  footer:
     - identifier: resources
       name: "Resources"
       pageRef: "/resources"
-      weight: 50
-    - identifier: contact-us
-      name: "Contact Us"
-      pageRef: "/contact-us"
-      weight: 60
-    - identifier: discoverdecidedo
-      parent: services
-      name: "Discover/Decide/Do"
-      pageRef: "/services/discoverdecidedo"
-      weight: 20
-    - identifier: investment-supervision-only
-      parent: services
-      name: "Investment Supervision Only"
-      pageRef: "/services/investment-supervision-only"
-      weight: 30
-    - identifier: executor-checklist
-      parent: resources
-      name: "Executor Checklist"
-      pageRef: "/resources/executor-checklist"
       weight: 10
-    - identifier: evaluating-startup-isos
-      parent: resources
-      name: "Evaluating Startup ISOs"
-      pageRef: "/resources/evaluating-startup-isos"
-      weight: 20
-    - identifier: restricted-stock-stock-options
-      parent: resources
-      name: "Taxation of RSUs, ISOs & NSOs"
-      pageRef: "/resources/restricted-stock-stock-options"
-      weight: 30
-    - identifier: identifying-a-worthy-planner
-      parent: resources
-      name: "Identifying a Worthy Planner"
-      pageRef: "/resources/identifying-a-worthy-planner"
-      weight: 40
-    - identifier: books
-      parent: resources
-      name: "Books"
-      pageRef: "/resources/books"
-      weight: 50
-    - identifier: external-links
-      parent: resources
-      name: "External Links"
-      pageRef: "/resources/external-links"
-      weight: 60
-    - identifier: david-jacobs-ph-d-cfp
-      parent: about
-      name: "David Jacobs, Ph.D., CFP®"
-      pageRef: "/about/david-jacobs-ph-d-cfp"
-      weight: 10
-    - identifier: katherine-jacobs
-      parent: about
-      name: "Katherine Jacobs, CFP®"
-      pageRef: "/about/katherine-jacobs"
+    - identifier: investment-strategy
+      name: "Investment Strategy"
+      pageRef: "/investment-strategy"
       weight: 20
     - identifier: fee-only
-      parent: about
       name: "Fee-Only"
       pageRef: "/about/fee-only"
       weight: 30
     - identifier: fiduciary
-      parent: about
       name: "Fiduciary"
       pageRef: "/about/fiduciary"
       weight: 40
     - identifier: privacy-policy
-      parent: about
       name: "Privacy Policy"
       pageRef: "/about/privacy-policy"
       weight: 50
     - identifier: proxy-voting-policy
-      parent: about
       name: "Proxy Voting Policy"
       pageRef: "/about/proxy-voting-policy"
       weight: 60

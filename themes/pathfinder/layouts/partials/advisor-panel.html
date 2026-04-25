@@ -1,35 +1,31 @@
 {{ $david := site.GetPage "/about/david-jacobs-ph-d-cfp" }}
 {{ $katherine := site.GetPage "/about/katherine-jacobs" }}
 {{ $advisors := slice $david $katherine }}
-{{ $variant := or .variant "default" }}
-
-<div class="advisor-panel advisor-panel-{{ $variant }}{{ with .class }} {{ . }}{{ end }}">
-  <div class="advisor-panel-head">
-    {{ with .eyebrow }}<p class="section-label">{{ . }}</p>{{ end }}
-    {{ with .title }}<h2 class="section-title advisor-panel-title">{{ . }}</h2>{{ end }}
-    {{ with .intro }}<p class="advisor-panel-intro">{{ . }}</p>{{ end }}
-  </div>
-  <div class="advisor-grid">
-    {{ range $advisors }}
-      {{ with . }}
-        <a class="advisor-card card-surface" href="{{ .RelPermalink }}">
-          <img class="portrait advisor-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
-          <div class="advisor-card-body">
-            {{ if eq $variant "compact" }}
-              <p class="card-kicker">{{ .Params.advisor_role | default "Advisor" }}</p>
-              <h3>{{ .Title }}</h3>
-              <p class="advisor-card-note">{{ .Params.contact_summary | default .Params.summary }}</p>
-            {{ else }}
-              <div>
-                <p class="card-kicker">{{ .Params.advisor_role | default "Advisor" }}</p>
-                <h3>{{ .Title }}</h3>
+<section class="section" data-reveal>
+  <div class="container">
+    <div class="section-shell section-shell--wide">
+      <div class="section-intro">
+        {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+        {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        {{ with .intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+      </div>
+      <div class="advisor-grid{{ with .class }} {{ . }}{{ end }}">
+        {{ range $advisors }}
+          {{ with . }}
+            <a class="advisor-entry" href="{{ .RelPermalink }}">
+              <div class="advisor-entry__media">
+                <img src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
               </div>
-              {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-              <p class="text-link">Read full bio</p>
-            {{ end }}
-          </div>
-        </a>
-      {{ end }}
-    {{ end }}
+              <div class="advisor-entry__body">
+                <p class="eyebrow eyebrow--soft">{{ .Params.advisor_role | default "Advisor" }}</p>
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Params.contact_summary | default .Params.summary }}</p>
+                <span class="text-link">Read bio</span>
+              </div>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
   </div>
-</div>
+</section>

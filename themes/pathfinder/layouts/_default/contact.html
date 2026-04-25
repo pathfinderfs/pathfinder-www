@@ -1,57 +1,63 @@
 {{ define "main" }}
-  <section class="page-hero">
-    <div class="container--narrow">
-      <div class="page-hero-copy">
-        <p class="section-label">Get in touch</p>
-        <h1 class="page-title">{{ .Title }}</h1>
-        <p class="page-lede">Based in Hawaii and serving clients across the country. Most first conversations start with a straightforward phone call or email about the decision you are facing and whether Pathfinder is the right fit.</p>
-      </div>
-    </div>
-  </section>
+  {{ partial "page-hero.html" (dict "page" . "class" "hero--contact") }}
 
-  <section class="page-section-body">
-    <div class="container--narrow page-shell">
-      <div class="contact-layout">
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="editorial-split">
         <div>
-          <p class="contact-intro">If you are reaching out from the mainland, evenings often work well. If you are sorting through a major transition, a portfolio question, or whether ongoing planning support makes sense, you do not need to have the whole situation perfectly organized before making contact.</p>
-          <div class="contact-method-grid">
-            <article class="contact-method">
-              <p class="card-kicker">Call</p>
-              <h3>{{ site.Params.phone }}</h3>
-              <p><a href="tel:+18087284396">{{ site.Params.phone }}</a></p>
-              <p>Often easiest for mainland callers after work.</p>
-            </article>
-            <article class="contact-method">
-              <p class="card-kicker">Email</p>
-              <h3>{{ site.Params.email }}</h3>
-              <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
-              <p>Usually the best option if you want to summarize the situation first.</p>
-            </article>
-            <article class="contact-method">
-              <p class="card-kicker">Office</p>
-              <h3>Kailua, Hawaii</h3>
-              {{ range site.Params.address }}<p>{{ . }}</p>{{ end }}
-            </article>
-          </div>
+          {{ with .Params.conversation.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.conversation.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.conversation.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+          <ul class="check-list">
+            {{ range .Params.conversation.items }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
         </div>
-
-        <div class="quote-panel">
-          <p>Pathfinder is built for conversations where the tradeoffs are real, the next step matters, and a generic answer is not good enough.</p>
-          <p class="service-note">There is no sales pitch hiding behind the first conversation. The point is to understand the decision in front of you and whether Pathfinder can help.</p>
-          <div class="hero-actions">
-            <a class="button" href="mailto:{{ site.Params.email }}">Email Pathfinder</a>
-            <a class="button-secondary" href="tel:+18087284396">Call Pathfinder</a>
+        <div class="contact-sheet">
+          <div class="contact-sheet__block">
+            <p class="eyebrow eyebrow--soft">Email</p>
+            <h3><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></h3>
+            <p>Often the easiest way to summarize the situation first.</p>
+          </div>
+          <div class="contact-sheet__block">
+            <p class="eyebrow eyebrow--soft">Phone</p>
+            <h3><a href="tel:+18087284396">{{ site.Params.phone }}</a></h3>
+            <p>Useful when the decision is easier to talk through directly.</p>
+          </div>
+          <div class="contact-sheet__block">
+            <p class="eyebrow eyebrow--soft">In Person</p>
+            <h3>By arrangement</h3>
+            <p>Pathfinder can come to you when an in-person meeting makes the most sense.</p>
+          </div>
+          <div class="contact-sheet__block">
+            <p class="eyebrow eyebrow--soft">Mailing Address</p>
+            {{ with site.Params.address }}
+              {{ range . }}<p>{{ . }}</p>{{ end }}
+            {{ end }}
           </div>
         </div>
       </div>
-
-      {{ partial "advisor-panel.html" (dict
-        "eyebrow" "Meet the advisors"
-        "title" "Start a conversation with Pathfinder"
-        "intro" "Whether you are new to financial planning or rethinking your current approach, David and Katherine are happy to have a direct conversation about where you are and what might make sense next."
-        "variant" "compact"
-        "class" "advisor-panel-contact"
-      ) }}
     </div>
   </section>
+
+  {{ with .Params.closing }}
+    <section class="section section--tint" data-reveal>
+      <div class="container">
+        <div class="section-shell">
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .body }}<p class="section-copy">{{ . }}</p>{{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ partial "advisor-panel.html" (dict
+    "eyebrow" "Who you will speak with"
+    "title" "A small practice means direct contact."
+    "intro" "If the conversation moves forward, David and Katherine are the people who stay involved in the work."
+  ) }}
 {{ end }}

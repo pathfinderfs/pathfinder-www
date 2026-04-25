@@ -1,0 +1,15 @@
+{{ $cta := . }}
+{{ if $cta }}
+  <section class="section section--cta" data-reveal>
+    <div class="container">
+      <div class="cta-panel">
+        <div>
+          {{ with $cta.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with $cta.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with $cta.body }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <a class="button" href="{{ partial "resolve-href.html" $cta.href }}">{{ $cta.label }}</a>
+      </div>
+    </div>
+  </section>
+{{ end }}
