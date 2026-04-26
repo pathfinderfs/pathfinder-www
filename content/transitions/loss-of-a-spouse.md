@@ -1,14 +1,14 @@
 ---
 title: "Loss of a Spouse"
 weight: 60
-description: "Compassionate, structured financial guidance after the loss of a spouse. We help you triage immediate tasks, protect your income, and navigate the financial fog of grief."
+description: "Financial guidance after the loss of a spouse, with help sorting paperwork, income changes, and next steps."
 summary: "For people handling paperwork, survivor-income changes, and future planning after the loss of a spouse."
 page_theme: "grief"
 hero:
   eyebrow: "Who We Serve"
-  intro: "After the loss of a spouse, the financial work often feels urgent before it feels understandable. The immediate job is to create steadiness, sequence, and room to think."
+  intro: "After the loss of a spouse, the money tasks can feel urgent before they feel understandable. The first step is to slow things down and make room to think."
   primary:
-    label: "Start the Conversation"
+    label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
     label: "Executor Checklist"
@@ -20,45 +20,45 @@ snapshot:
   title: "First reduce the noise, then make the decisions."
   items:
     - "What must be handled now, and what can safely wait until the fog has lifted?"
-    - "How does the household work with survivor benefits, new tax status, and changed expenses?"
+    - "How do survivor benefits, taxes, and changed expenses affect life now?"
     - "What needs to change in estate documents, beneficiary designations, and the long-term care plan?"
 decisions:
-  eyebrow: "The decisions underneath it"
-  title: "Where people usually need clarity."
+  eyebrow: "What usually has to be decided"
+  title: "Questions people are usually trying to answer."
   items:
-    - title: "Immediate administration"
-      body: "Claims, account retitling, paperwork, and timing can feel overwhelming without a clear order of operations."
+    - title: "Immediate paperwork"
+      body: "Claims, account updates, paperwork, and timing can feel overwhelming without a clear order."
     - title: "Survivor income and taxes"
-      body: "The new household often has less income and a less favorable tax profile at the same time."
+      body: "The family often has less income and a harder tax situation at the same time."
     - title: "Future support and care"
-      body: "A spouse was often also the default advocate, proxy, or caregiver. That gap needs its own plan."
+      body: "A spouse was often also the person who helped with decisions, care, or paperwork. That gap needs its own plan."
 help:
   eyebrow: "Where Pathfinder helps"
-  title: "Slow the process down to a manageable sequence."
+  title: "Slow the process down to a clear order."
   items:
-    - title: "Triage the near term"
+    - title: "Sort what comes first"
       body: "Separate what is urgent from what only feels urgent, so energy goes to the right places first."
     - title: "Rebuild the income plan"
-      body: "Reset spending, benefits, taxes, and investment structure around the new household reality."
+      body: "Reset spending, benefits, taxes, and investments around what life looks like now."
     - title: "Re-establish the safety net"
-      body: "Coordinate the long-term care and estate pieces so the future feels less exposed."
+      body: "Line up care plans and estate documents so the future feels less exposed."
 related:
-  eyebrow: "Related paths"
+  eyebrow: "You may also want to look at"
   title: "Usually helpful here."
   links:
     - label: "Resource"
       title: "Executor Checklist"
-      body: "A practical reference for the administrative side of a recent loss."
+      body: "A practical reference for the paperwork side of a recent loss."
       href: "/resources/executor-checklist/"
     - label: "Related situation"
-      title: "Divorce, Separation, or Loss"
-      body: "A broader page on rebuilding the financial framework after family change."
+      title: "Divorce or Separation"
+      body: "A broader page on rebuilding the plan after family change."
       href: "/transitions/divorce-separation/"
 cta:
   eyebrow: "Widowhood planning"
   title: "Get steady help without managing every detail alone."
-  body: "When a recent loss has made the financial work feel heavy, the first task is to create order and a pace you can live with."
-  label: "Talk With Pathfinder"
+  body: "When a recent loss has made the money tasks feel heavy, the first step is to create order and move at a pace you can live with."
+  label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false
 ---

@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ $siblings := where .CurrentSection.Pages "Permalink" "!=" .Permalink }}
   {{ partial "page-hero.html" (dict "page" . "class" (printf "hero--transition hero--%s" .Params.page_theme)) }}
 
   <section class="section" data-reveal>
@@ -78,32 +77,6 @@
       </div>
     </div>
   </section>
-
-  {{ if gt (len $siblings) 0 }}
-    <section class="section" data-reveal>
-      <div class="container">
-        <div class="section-shell">
-          <div class="section-intro">
-            <p class="eyebrow">Other situations</p>
-            <h2 class="section-title">Related decision patterns.</h2>
-          </div>
-          <div class="path-list">
-            {{ range .CurrentSection.Pages.ByWeight }}
-              {{ if ne .Permalink $.Permalink }}
-                <a class="path-row" href="{{ .RelPermalink }}">
-                  <div>
-                    <h3>{{ .Title }}</h3>
-                    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-                  </div>
-                  <span class="path-row__arrow" aria-hidden="true">→</span>
-                </a>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </section>
-  {{ end }}
 
   {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}

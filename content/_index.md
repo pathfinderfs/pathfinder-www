@@ -1,36 +1,36 @@
 ---
 title: "Pathfinder Financial Services"
 weight: 10
-description: "Fee-only financial planning for people making big decisions and wanting clear, thoughtful advice."
+description: "Fee-only financial planning in Hawaii for people facing important money decisions and wanting clear, steady help before they act."
 draft: false
 hero:
-  eyebrow: "Fee-only financial planning"
+  eyebrow: "Fee-only financial planning in Hawaii"
   brand: "Pathfinder Financial Services"
-  headline: "When one decision affects everything else, it helps to see the whole picture."
-  intro: "People usually reach out when a retirement choice, equity question, inheritance, family change, or spending decision starts touching taxes, cash flow, and investments all at once. We help you sort through it and choose a next step that holds together."
+  headline: "When a money decision feels too important to get wrong."
+  intro: "Some decisions do not feel easy to undo. Retiring, selling a business, handling an inheritance, changing careers, dealing with equity compensation, or rebuilding after a family change can all bring real fear with them. We help you slow down, understand the choices in front of you, and decide what to do next."
   primary:
-    label: "Start the Conversation"
+    label: "Start With a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Who We Serve"
+    label: "See Situations We Help With"
     href: "/transitions/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A Pathfinder decision map showing how taxes, timing, family, cash flow, and investments connect to a clear next step."
 proof:
-  eyebrow: "What brings people here"
-  title: "Most people call when one decision starts spilling into several others."
-  intro: "This is where advice matters most: when timing, taxes, spending, investments, family responsibilities, and follow-through all need to line up."
+  eyebrow: "Why people come to Pathfinder"
+  title: "Most people are not looking for more noise. They want someone steady beside them."
+  intro: "If you are worried about making the wrong move, waiting too long, or missing something important, that is a good reason to talk."
   items:
-    - title: "Fee-only and fiduciary"
-      body: "We are paid by clients, not commissions or product sales. The advice is meant to serve you, not a platform or quota."
-    - title: "Direct advisor access"
-      body: "You talk with the people doing the work. The practice is intentionally small, so the relationship stays direct."
-    - title: "Planning plus investment judgment"
-      body: "Planning and investing are handled together, because real decisions rarely stay in one neat category."
+    - title: "You need to know what matters first"
+      body: "We help separate the decisions that need attention now from the ones that can wait."
+    - title: "You want advice without a sales agenda"
+      body: "Pathfinder is fee-only and fiduciary. We are paid by clients, not by commissions or product sales."
+    - title: "You want a direct relationship"
+      body: "This is a small Hawaii-based practice. You work with David and Katherine, the people doing the planning."
 cta:
-  eyebrow: "Where to go next"
-  title: "Start with the question you have right now."
-  body: "If you want to see whether your situation fits, go to Who We Serve. If you want to understand how we think, go to Approach. If you are ready to talk, contact Pathfinder directly."
-  label: "Contact Pathfinder"
+  eyebrow: "Start where you are"
+  title: "You do not need to have everything organized before we talk."
+  body: "Tell us what feels hard to decide right now. We will listen, ask practical questions, and help you see whether Pathfinder is the right place to begin."
+  label: "Start With a Free Conversation"
   href: "/contact-us/"
 ---

@@ -1,14 +1,14 @@
 ---
 title: "Retirement and the Next Chapter"
 weight: 10
-description: "Retirement planning for people deciding when to stop working, how to replace a paycheck, and how to carry the plan into the next chapter."
-summary: "For people nearing retirement and wanting the timing, tax plan, income design, and portfolio risk to hold together."
+description: "Retirement planning for people deciding when to stop working, how income will work, and how to avoid costly mistakes."
+summary: "For people who are close to retirement and want to know when they can stop working, how income will work, and what could go wrong."
 page_theme: "retirement"
 hero:
   eyebrow: "Who We Serve"
-  intro: "Retirement gets complicated when the date, income plan, tax strategy, portfolio risk, healthcare costs, and the shape of the next chapter all need to work together."
+  intro: "Retirement can feel scary when you are trying to replace a paycheck, keep taxes under control, plan for health costs, and make the money last."
   primary:
-    label: "Start the Conversation"
+    label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
     label: "Work With Us"
@@ -17,48 +17,48 @@ hero:
   image_alt: "A planning map showing the relationship between retirement timing, income, taxes, and long-term decisions."
 snapshot:
   eyebrow: "Usually this means"
-  title: "The retirement question is rarely just one question."
+  title: "Retirement usually brings more than one question."
   items:
-    - "When can I retire without creating a fragile plan?"
-    - "How should Social Security, portfolio withdrawals, taxes, and healthcare decisions fit together?"
-    - "What needs to be true for the next chapter to feel secure rather than improvised?"
+    - "When can I stop working without putting the future at risk?"
+    - "How should Social Security, withdrawals, taxes, and health costs fit together?"
+    - "What would make the next chapter feel steady instead of improvised?"
 decisions:
-  eyebrow: "The decisions underneath it"
-  title: "Where people usually need clarity."
+  eyebrow: "What usually has to be decided"
+  title: "Questions people are usually trying to answer."
   items:
     - title: "Retirement timing"
-      body: "The financial difference between stopping now, later this year, or a few years from now can be material."
-    - title: "Income design"
-      body: "Social Security, pensions, taxable assets, tax-deferred accounts, and Roth assets all affect the durability of the plan."
-    - title: "Risk and care costs"
-      body: "The portfolio and care strategy need to protect the household from outcomes that would be difficult to recover from."
+      body: "Stopping now, later this year, or a few years from now can change the answer by a lot."
+    - title: "Retirement income"
+      body: "Paychecks stop, but bills do not. Social Security, pensions, retirement accounts, taxable accounts, and Roth accounts all affect where income comes from."
+    - title: "Investment swings and care costs"
+      body: "The plan should protect you from market drops or care costs that would be hard to recover from."
 help:
   eyebrow: "Where Pathfinder helps"
-  title: "Turn retirement from a rough idea into an operating plan."
+  title: "Turn retirement from a rough idea into a plan you can use."
   items:
-    - title: "Pressure-test the timing"
-      body: "Model retirement under realistic market, inflation, and spending assumptions rather than relying on a first guess."
-    - title: "Coordinate the tax picture"
-      body: "Map withdrawals, Roth conversions, Social Security, and Medicare-related decisions with the broader plan."
-    - title: "Carry the plan into retirement"
-      body: "Stay with the implementation so income, investment oversight, and later-stage care questions remain coordinated."
+    - title: "Test the timing"
+      body: "Look at retirement under realistic market, inflation, and spending assumptions instead of relying on a first guess."
+    - title: "Plan income and taxes together"
+      body: "Look at withdrawals, Roth conversions, Social Security, and Medicare-related decisions together."
+    - title: "Help after retirement starts"
+      body: "Keep working with you so income, investments, taxes, and care questions keep fitting together."
 related:
-  eyebrow: "Related paths"
+  eyebrow: "You may also want to look at"
   title: "Often connected to this situation."
   links:
     - label: "Engagement"
       title: "Work With Us"
-      body: "See how Pathfinder works with retirement decisions that need ongoing structure and follow-through."
+      body: "See how Pathfinder works with retirement decisions that need help beyond the first conversation."
       href: "/services/"
     - label: "Related situation"
       title: "Aging, care, and legacy responsibilities"
-      body: "When retirement planning starts to overlap with later-life care and transfer questions."
+      body: "When retirement starts to overlap with future care needs and what happens to the money later."
       href: "/transitions/retirement-long-term-care-legacy-planning/"
 cta:
   eyebrow: "Retirement planning"
-  title: "Make the retirement decision with a plan that can hold up."
-  body: "If retirement is close enough to feel real, it is usually worth slowing the decision down and seeing the tradeoffs clearly."
-  label: "Talk With Pathfinder"
+  title: "Make the retirement decision with fewer unknowns."
+  body: "If retirement is close enough to feel real, it is worth slowing down and looking at what could go right, what could go wrong, and what you can do about it."
+  label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false
 ---

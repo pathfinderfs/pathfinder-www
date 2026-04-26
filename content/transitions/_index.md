@@ -8,7 +8,7 @@ hero:
   headline: "Start with the situation that feels closest to your own."
   intro: "These pages are here to help you recognize the kinds of decisions we work on most often. You do not need to fit neatly into one category for this to be useful."
   primary:
-    label: "Contact Pathfinder"
+    label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
     label: "Approach"
@@ -22,8 +22,8 @@ directory:
 cta:
   eyebrow: "Still not sure?"
   title: "It is common for more than one situation to apply."
-  body: "Many people arrive with several issues moving at once. The first conversation helps sort out what needs attention now and what can wait."
-  label: "Start the Conversation"
+  body: "Many people are trying to make sense of more than one concern. The first conversation helps sort out what needs attention now and what can wait."
+  label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false
 ---
