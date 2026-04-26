@@ -1,23 +1,25 @@
 {{ define "main" }}
   {{ $pages := .RegularPages.ByWeight }}
-  <section class="page-intro">
+  <section class="page-intro page-intro--interior">
     <div class="container">
       <div class="page-intro__inner">
-        <p class="eyebrow">{{ .Section | humanize }}</p>
-        <h1 class="page-title">{{ .Title }}</h1>
-        {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+        <div class="page-intro__copy">
+          <p class="eyebrow">{{ .Section | humanize }}</p>
+          <h1 class="page-title">{{ .Title }}</h1>
+          {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--interior">
     <div class="container">
-      <div class="section-shell section-shell--wide">
+      <div class="interior-layout interior-layout--wide">
         {{ if .Content }}
-          <article class="prose">{{ .Content }}</article>
+          <article class="prose interior-prose">{{ .Content }}</article>
         {{ end }}
         {{ if gt (len $pages) 0 }}
-          <div class="path-list">
+          <div class="path-list path-list--cards">
             {{ range $pages }}
               <a class="path-row" href="{{ .RelPermalink }}">
                 <div>

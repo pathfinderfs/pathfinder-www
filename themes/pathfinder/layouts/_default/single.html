@@ -1,9 +1,10 @@
 {{ define "main" }}
   {{ $siblings := where .CurrentSection.Pages "Permalink" "!=" .Permalink }}
-  <section class="page-intro">
+  {{ $hasSiblings := gt (len $siblings) 0 }}
+  <section class="page-intro page-intro--interior">
     <div class="container">
       <div class="page-intro__inner{{ if and (eq .Section "about") (.Params.portrait) }} page-intro__inner--portrait{{ end }}">
-        <div>
+        <div class="page-intro__copy">
           {{ if and .CurrentSection (not .IsHome) }}<p class="eyebrow">{{ .Params.advisor_role | default .CurrentSection.Title }}</p>{{ end }}
           <h1 class="page-title">{{ .Title }}</h1>
           {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
@@ -17,16 +18,16 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--interior">
     <div class="container">
-      <div class="section-shell section-shell--wide">
-        <article class="prose{{ with .Params.page_class }} {{ . }}{{ end }}">
+      <div class="interior-layout{{ if $hasSiblings }} interior-layout--with-nav{{ end }}{{ if .Params.wide_layout }} interior-layout--wide{{ end }}">
+        <article class="prose interior-prose{{ if .Params.wide_layout }} prose--wide{{ end }}{{ with .Params.page_class }} {{ . }}{{ end }}">
           {{ .Content }}
         </article>
-        {{ if gt (len $siblings) 0 }}
+        {{ if $hasSiblings }}
           <aside class="sibling-links">
             <p class="eyebrow">More in {{ .CurrentSection.Title }}</p>
-            <div class="footer-links">
+            <div class="sibling-links__list">
               {{ range .CurrentSection.Pages.ByWeight }}
                 {{ if ne .Permalink $.Permalink }}
                   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
