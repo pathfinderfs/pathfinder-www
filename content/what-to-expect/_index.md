@@ -115,18 +115,6 @@ pricing:
       quarterly: "$250 per $500,000"
       annual: "$1,000 per $500,000"
   legal: "Net worth includes investment assets over which you have control, such as investment accounts, 401(k)s, 403(b)s, vested stock options, and similar holdings. Additional fees may be charged for business or real estate analysis. The quarterly retainer is cancelable at any time without restriction. Fees are payable in arrears on a quarterly basis, prorated when service covers less than a full quarter, and may be deducted from supervised accounts or paid within twenty-one days of invoice receipt. Hawaii's 4.712% general excise tax is added to all fees, and fees are negotiable."
-related:
-  eyebrow: "Still getting oriented?"
-  title: "These pages can help if you want more context first."
-  links:
-    - label: "Who We Serve"
-      title: "See the situations that most often bring people here"
-      body: "Start there if you want to see whether your situation resembles the kinds of decisions Pathfinder handles most often."
-      href: "/transitions/"
-    - label: "Investment Strategy"
-      title: "How Pathfinder thinks about investing"
-      body: "Read more about the investment principles behind the planning work."
-      href: "/investment-strategy/"
 cta:
   eyebrow: "Next step"
   title: "Reach out to start with a free conversation."

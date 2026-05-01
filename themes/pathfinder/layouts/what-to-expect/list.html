@@ -167,28 +167,5 @@
     </div>
   </section>
 
-  <section class="section section--tint" data-reveal>
-    <div class="container">
-      <div class="section-shell">
-        <div class="section-intro">
-          {{ with .Params.related.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-          {{ with .Params.related.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-        </div>
-        <div class="path-list">
-          {{ range .Params.related.links }}
-            <a class="path-row" href="{{ .href | relURL }}">
-              <div>
-                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
-                <h3>{{ .title }}</h3>
-                <p>{{ .body }}</p>
-              </div>
-              <span class="path-row__arrow" aria-hidden="true">→</span>
-            </a>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
-
   {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}
