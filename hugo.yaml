@@ -1,5 +1,4 @@
 baseURL: "/"
-locale: "en-us"
 title: "Pathfinder Financial Services, LLC"
 theme: "pathfinder"
 enableRobotsTXT: true
