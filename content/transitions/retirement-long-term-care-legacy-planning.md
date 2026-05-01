@@ -47,9 +47,9 @@ related:
   title: "Often connected to this situation."
   links:
     - label: "Engagement"
-      title: "Work With Us"
+      title: "What to Expect"
       body: "See how Pathfinder works with care, spending, and family questions that all affect each other."
-      href: "/services/"
+      href: "/what-to-expect/"
     - label: "Related situation"
       title: "Retirement and the Next Chapter"
       body: "When the main question is still whether and when retirement can work."

@@ -18,15 +18,15 @@ hero:
   image_alt: "A Pathfinder decision map showing how taxes, timing, family, cash flow, and investments connect to a clear next step."
 proof:
   eyebrow: "Why people come to Pathfinder"
-  title: "Most people are not looking for more noise. They want someone steady beside them."
-  intro: "If you are worried about making the wrong move, waiting too long, or missing something important, that is a good reason to talk."
+  title: "Make tradeoffs clear for important decisions."
+  intro: "If you are weighing a major choice, sorting through competing advice, or trying to understand what matters most, Pathfinder guides you from uncertainty to a decision that reflects your values."
   items:
     - title: "You need to know what matters first"
       body: "We help separate the decisions that need attention now from the ones that can wait."
     - title: "You want advice without a sales agenda"
-      body: "Pathfinder is fee-only and fiduciary. We are paid by clients, not by commissions or product sales."
+      body: "Pathfinder is [fee-only](/about/fee-only/) and fiduciary. We are paid by clients, not by commissions or product sales."
     - title: "You want a direct relationship"
-      body: "This is a small Hawaii-based practice. You work with David and Katherine, the people doing the planning."
+      body: "This is a small Hawaii-based practice. You work with [David](/about/david-jacobs-ph-d-cfp/) and [Katherine](/about/katherine-jacobs/), the people doing the planning."
 cta:
   eyebrow: "Start where you are"
   title: "You do not need to have everything organized before we talk."

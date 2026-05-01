@@ -11,8 +11,8 @@ hero:
     label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Approach"
-    href: "/about/"
+    label: "What to Expect"
+    href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A decision map showing how major financial choices connect across taxes, family, timing, and investments."
 directory:

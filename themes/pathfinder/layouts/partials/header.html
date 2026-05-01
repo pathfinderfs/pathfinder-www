@@ -7,7 +7,19 @@
 
     <nav class="site-nav" aria-label="Main navigation">
       {{ range site.Menus.main }}
-        <a class="nav-link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ $isCurrent := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+        {{ if .Children }}
+          <div class="nav-item nav-item--has-children">
+            <a class="nav-link nav-link--parent{{ if $isCurrent }} is-current{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }} aria-haspopup="true">{{ .Name }}</a>
+            <div class="nav-dropdown">
+              {{ range .Children }}
+                <a class="nav-dropdown__link{{ if $.IsMenuCurrent "main" . }} is-current{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <a class="nav-link{{ if $isCurrent }} is-current{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
       {{ end }}
     </nav>
 
@@ -27,7 +39,15 @@
     <div class="container mobile-panel__inner">
       <nav class="mobile-panel__nav" aria-label="Mobile navigation">
         {{ range site.Menus.main }}
-          <a class="mobile-panel__link{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} is-current{{ end }}" href="{{ .URL }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+          {{ $isCurrent := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+          <a class="mobile-panel__link{{ if $isCurrent }} is-current{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+          {{ if .Children }}
+            <div class="mobile-panel__children">
+              {{ range .Children }}
+                <a class="mobile-panel__sublink{{ if $.IsMenuCurrent "main" . }} is-current{{ end }}" href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
         {{ end }}
       </nav>
       <div class="mobile-panel__meta">

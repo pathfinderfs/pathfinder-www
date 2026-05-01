@@ -1,5 +1,5 @@
 baseURL: "/"
-languageCode: "en-us"
+locale: "en-us"
 title: "Pathfinder Financial Services, LLC"
 theme: "pathfinder"
 enableRobotsTXT: true
@@ -33,14 +33,44 @@ menu:
       name: "Who We Serve"
       pageRef: "/transitions"
       weight: 20
-    - identifier: about
-      name: "Approach"
-      pageRef: "/about"
+    - identifier: what-to-expect
+      name: "What to Expect"
+      pageRef: "/what-to-expect"
       weight: 30
-    - identifier: services
-      name: "Work With Us"
-      pageRef: "/services"
+    - identifier: resources
+      name: "Resources"
+      pageRef: "/resources"
       weight: 40
+    - identifier: executor-checklist
+      name: "Executor Checklist"
+      pageRef: "/resources/executor-checklist"
+      parent: resources
+      weight: 10
+    - identifier: evaluating-startup-isos
+      name: "Evaluating Startup ISOs"
+      pageRef: "/resources/evaluating-startup-isos"
+      parent: resources
+      weight: 20
+    - identifier: restricted-stock-stock-options
+      name: "Taxation of RSUs, ISOs & NSOs"
+      pageRef: "/resources/restricted-stock-stock-options"
+      parent: resources
+      weight: 30
+    - identifier: identifying-a-worthy-planner
+      name: "Identifying a Worthy Planner"
+      pageRef: "/resources/identifying-a-worthy-planner"
+      parent: resources
+      weight: 40
+    - identifier: books
+      name: "Books"
+      pageRef: "/resources/books"
+      parent: resources
+      weight: 50
+    - identifier: external-links
+      name: "External Links"
+      pageRef: "/resources/external-links"
+      parent: resources
+      weight: 60
     - identifier: contact-us
       name: "Contact"
       pageRef: "/contact-us"

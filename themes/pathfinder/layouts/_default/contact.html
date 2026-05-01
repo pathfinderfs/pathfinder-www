@@ -33,7 +33,9 @@
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Mailing Address</p>
             {{ with site.Params.address }}
-              {{ range . }}<p>{{ . }}</p>{{ end }}
+              <div class="contact-address">
+                {{ range . }}<p>{{ . }}</p>{{ end }}
+              </div>
             {{ end }}
           </div>
         </div>

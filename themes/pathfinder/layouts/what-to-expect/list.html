@@ -1,0 +1,194 @@
+{{ define "main" }}
+  {{ partial "page-hero.html" (dict "page" . "class" "hero--services") }}
+
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.meeting.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.meeting.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.meeting.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <ul class="check-list">
+          {{ range .Params.meeting.items }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.triage.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.triage.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.triage.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <div class="proof-list">
+          {{ range .Params.triage.items }}
+            <article class="proof-item">
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.process.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.process.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.process.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <div class="proof-list">
+          {{ range .Params.process.items }}
+            <article class="proof-item">
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.expectations.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.expectations.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.expectations.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <div class="proof-list">
+          {{ range .Params.expectations.items }}
+            <article class="proof-item">
+              <h3>{{ .title }}</h3>
+              <p>{{ .body }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="editorial-split">
+        <div>
+          {{ with .Params.investment.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.investment.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.investment.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+          <ul class="check-list">
+            {{ range .Params.investment.points }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ with .Params.investment.link }}
+          <a class="pull-quote" href="{{ .href | relURL }}">
+            <p class="eyebrow eyebrow--soft">Supporting page</p>
+            <h3>{{ .label }}</h3>
+            <p>See the principles behind Pathfinder's investment decisions.</p>
+            <span class="text-link">Open page</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{ partial "advisor-panel.html" .Params.advisors }}
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.standards.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.standards.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.standards.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <div class="path-list">
+          {{ range .Params.standards.links }}
+            <a class="path-row" href="{{ partial "resolve-href.html" .href }}"{{ if .external }} rel="noopener noreferrer"{{ end }}>
+              <div>
+                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
+                <h3>{{ .title }}</h3>
+                <p>{{ .body }}</p>
+              </div>
+              <span class="path-row__arrow" aria-hidden="true">→</span>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="section-shell section-shell--wide">
+        <div class="section-intro">
+          {{ with .Params.pricing.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.pricing.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          {{ with .Params.pricing.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+        </div>
+        <div class="pricing-layout">
+          <div class="pricing-summary">
+            {{ with .Params.pricing.base_amount }}<p class="pricing-amount">{{ . }}</p>{{ end }}
+            {{ with .Params.pricing.base_note }}<p class="pricing-note">{{ . }}</p>{{ end }}
+          </div>
+          <div class="pricing-operator" aria-hidden="true">+</div>
+          <div class="table-wrap">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  {{ range .Params.pricing.columns }}<th>{{ . }}</th>{{ end }}
+                </tr>
+              </thead>
+              <tbody>
+                {{ range .Params.pricing.rows }}
+                  <tr>
+                    <td>{{ .label }}</td>
+                    <td>{{ .quarterly }}</td>
+                    <td>{{ .annual }}</td>
+                  </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {{ with .Params.pricing.legal }}<p class="legal-copy pricing-legal">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" data-reveal>
+    <div class="container">
+      <div class="section-shell">
+        <div class="section-intro">
+          {{ with .Params.related.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .Params.related.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+        </div>
+        <div class="path-list">
+          {{ range .Params.related.links }}
+            <a class="path-row" href="{{ .href | relURL }}">
+              <div>
+                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
+                <h3>{{ .title }}</h3>
+                <p>{{ .body }}</p>
+              </div>
+              <span class="path-row__arrow" aria-hidden="true">→</span>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "cta-panel.html" .Params.cta }}
+{{ end }}

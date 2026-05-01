@@ -11,8 +11,8 @@ hero:
     label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Work With Us"
-    href: "/services/"
+    label: "What to Expect"
+    href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A planning map showing how new money, taxes, family, and future planning connect."
 snapshot:
@@ -47,9 +47,9 @@ related:
   title: "Often useful here."
   links:
     - label: "Engagement"
-      title: "Work With Us"
+      title: "What to Expect"
       body: "See how Pathfinder works with major decisions that follow a sale, inheritance, or other sudden change in wealth."
-      href: "/services/"
+      href: "/what-to-expect/"
     - label: "Supporting page"
       title: "Investment Strategy"
       body: "How Pathfinder thinks about investing after your finances have changed in a major way."

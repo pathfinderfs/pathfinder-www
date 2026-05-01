@@ -11,8 +11,8 @@ hero:
     label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Work With Us"
-    href: "/services/"
+    label: "What to Expect"
+    href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A decision map showing how pay, company stock, taxes, and cash needs connect."
 snapshot:
@@ -51,9 +51,9 @@ related:
       body: "A practical guide to one of the most common stock-option questions."
       href: "/resources/evaluating-startup-isos/"
     - label: "Engagement"
-      title: "Work With Us"
+      title: "What to Expect"
       body: "See how Pathfinder works with decisions involving pay, company stock, taxes, and timing."
-      href: "/services/"
+      href: "/what-to-expect/"
 cta:
   eyebrow: "Career and equity planning"
   title: "Understand the choice before you commit."

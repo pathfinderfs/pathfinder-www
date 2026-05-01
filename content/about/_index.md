@@ -1,5 +1,5 @@
 ---
-title: "Approach"
+title: "About Pathfinder"
 weight: 50
 description: "How Pathfinder thinks about planning, investing, and earning trust."
 summary: "A small fee-only practice built around clear thinking, direct access, and follow-through."
@@ -69,5 +69,5 @@ cta:
   body: "Most relationships start by talking through the decision in front of you and deciding what level of help actually fits."
   label: "See Work With Us"
   href: "/services/"
-draft: false
+draft: true
 ---

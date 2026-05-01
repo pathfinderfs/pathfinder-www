@@ -11,8 +11,8 @@ hero:
     label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Work With Us"
-    href: "/services/"
+    label: "What to Expect"
+    href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A planning map showing the relationship between retirement timing, income, taxes, and long-term decisions."
 snapshot:
@@ -47,9 +47,9 @@ related:
   title: "Often connected to this situation."
   links:
     - label: "Engagement"
-      title: "Work With Us"
+      title: "What to Expect"
       body: "See how Pathfinder works with retirement decisions that need help beyond the first conversation."
-      href: "/services/"
+      href: "/what-to-expect/"
     - label: "Related situation"
       title: "Aging, care, and legacy responsibilities"
       body: "When retirement starts to overlap with future care needs and what happens to the money later."

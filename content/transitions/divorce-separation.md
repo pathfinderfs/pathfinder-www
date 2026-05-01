@@ -11,8 +11,8 @@ hero:
     label: "Start a Free Conversation"
     href: "/contact-us/"
   secondary:
-    label: "Work With Us"
-    href: "/services/"
+    label: "What to Expect"
+    href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A planning map showing the relationship between family change, housing, taxes, and future income."
 snapshot:
@@ -51,9 +51,9 @@ related:
       body: "Helpful when a death has created paperwork that has to be handled."
       href: "/resources/executor-checklist/"
     - label: "Engagement"
-      title: "Work With Us"
+      title: "What to Expect"
       body: "See how Pathfinder works with transitions that are still unfolding and need decisions made in the right order."
-      href: "/services/"
+      href: "/what-to-expect/"
 cta:
   eyebrow: "Divorce and separation planning"
   title: "Get steady help while the facts are still changing."
