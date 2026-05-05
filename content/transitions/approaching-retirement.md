@@ -1,12 +1,12 @@
 ---
 title: "Retirement and the Next Chapter"
 weight: 10
-description: "Retirement planning for people deciding when to stop working, how income will work, and how to avoid costly mistakes."
-summary: "For people who are close to retirement and want to know when they can stop working, how income will work, and what could go wrong."
+description: "Retirement planning for people learning how to replace a paycheck, spend with confidence, and avoid costly mistakes."
+summary: "For people who are close to retirement and want to know what they can spend, how income will work, and what could derail the plan."
 page_theme: "retirement"
 hero:
   eyebrow: "Who We Serve"
-  intro: "Retirement can feel scary when you are trying to replace a paycheck, keep taxes under control, plan for health costs, and make the money last."
+  intro: "Most people spend 30 years saving for retirement. Almost none of them spend 30 years preparing to spend it."
   primary:
     label: "Start a Free Conversation"
     href: "/contact-us/"
@@ -19,9 +19,9 @@ snapshot:
   eyebrow: "Usually this means"
   title: "Retirement usually brings more than one question."
   items:
-    - "When can I stop working without putting the future at risk?"
-    - "How should Social Security, withdrawals, taxes, and health costs fit together?"
-    - "What would make the next chapter feel steady instead of improvised?"
+    - "Will I run out of money, or will I die having never spent it?"
+    - "Am I allowed to enjoy this, or should I be worried?"
+    - "What happens if my health, family, or spending changes before I have had a chance to live the retirement I imagined?"
 decisions:
   eyebrow: "What usually has to be decided"
   title: "Questions people are usually trying to answer."
@@ -30,18 +30,18 @@ decisions:
       body: "Stopping now, later this year, or a few years from now can change the answer by a lot."
     - title: "Retirement income"
       body: "Paychecks stop, but bills do not. Social Security, pensions, retirement accounts, taxable accounts, and Roth accounts all affect where income comes from."
-    - title: "Investment swings and care costs"
-      body: "The plan should protect you from market drops or care costs that would be hard to recover from."
+    - title: "What could wreck the plan"
+      body: "Market crashes get attention, but retirement can also be derailed by adult children, a care crisis that was not planned for, or spending habits that never adjusted after the paycheck stopped."
 help:
   eyebrow: "Where Pathfinder helps"
-  title: "Turn retirement from a rough idea into a plan you can use."
+  title: "Build a plan for the transition, not just the numbers."
   items:
-    - title: "Test the timing"
-      body: "Look at retirement under realistic market, inflation, and spending assumptions instead of relying on a first guess."
-    - title: "Plan income and taxes together"
-      body: "Look at withdrawals, Roth conversions, Social Security, and Medicare-related decisions together."
-    - title: "Help after retirement starts"
-      body: "Keep working with you so income, investments, taxes, and care questions keep fitting together."
+    - title: "The first few years are different"
+      body: "Most people need two or three years to figure out what retirement actually costs and what it is actually for. We help you navigate that transition without making irreversible decisions while you are still figuring it out."
+    - title: "From saving to spending"
+      body: "The habits that got you here, like deferred gratification, keeping costs low, and not touching principal, can work against you in retirement. We help you build permission to spend alongside a plan that makes it sustainable."
+    - title: "The people around your money"
+      body: "Retirement does not happen in isolation. Adult children, aging parents, and a spouse with different spending instincts can affect the plan as much as the markets. We help you plan for the relationships, not just the returns."
 related:
   eyebrow: "You may also want to look at"
   title: "Often connected to this situation."
@@ -57,7 +57,7 @@ related:
 cta:
   eyebrow: "Retirement planning"
   title: "Make the retirement decision with fewer unknowns."
-  body: "If retirement is close enough to feel real, it is worth slowing down and looking at what could go right, what could go wrong, and what you can do about it."
+  body: "If you have saved your whole life but are not sure what you are allowed to spend, that is exactly what we work on."
   label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false
