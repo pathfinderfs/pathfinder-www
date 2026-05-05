@@ -1,12 +1,12 @@
 ---
 title: "Liquidity Events, Inheritance, and Sudden Wealth"
 weight: 30
-description: "Financial planning after a business sale, inheritance, or other sudden wealth, with help slowing down and making careful choices."
-summary: "For people who received or expect a large amount of money and do not want to rush into choices they may regret."
+description: "Financial planning after a business sale, inheritance, or other sudden wealth, with help slowing down, choosing who to trust, and making careful choices."
+summary: "For people who received or expect a large amount of money and need room to sort through pressure, family dynamics, identity, and what comes next."
 page_theme: "wealth"
 hero:
   eyebrow: "Who We Serve"
-  intro: "A large amount of money can arrive faster than the rest of life can adjust. The first task is often to slow things down before rushed decisions start piling up."
+  intro: "A windfall is supposed to feel like relief. Often it feels more like pressure."
   primary:
     label: "Start a Free Conversation"
     href: "/contact-us/"
@@ -19,29 +19,31 @@ snapshot:
   eyebrow: "Usually this means"
   title: "Sometimes the first step is not to rush."
   items:
-    - "Where should the cash sit while decisions are still forming?"
-    - "How much spending, giving, or investing makes sense before life feels settled again?"
-    - "How should the money be handled if you want to protect your family, keep choices open, and avoid rushed decisions?"
+    - "Everyone seems to have an opinion about what I should do with this money. How do I know who to trust?"
+    - "My family dynamics have already started to shift. How do I handle requests without damaging relationships?"
+    - "I feel like I should know what to do with this, but I do not, and I am embarrassed to admit that."
+    - "I sold the business, but the business was my identity. Now what?"
+    - "If this came through inheritance, how do I make decisions while grief, guilt, or family tension are still fresh?"
 decisions:
   eyebrow: "What usually has to be decided"
   title: "Questions people are usually trying to answer."
   items:
     - title: "Where the money sits for now"
-      body: "Choosing a safe place for the money can matter more than rushing into a long-term investment plan."
-    - title: "What changes in daily life"
-      body: "A sale or inheritance can change work, family expectations, and what normal life looks like."
-    - title: "Giving money or helping family"
-      body: "Gifts, trusts, and family boundaries are easier to think through before habits form around the money."
+      body: "Choosing a safe place for the money is partly about safety and partly about buying time. People with sudden wealth often become targets for advisors, family requests, and opportunities that would not have found them before."
+    - title: "Who you are now"
+      body: "A business sale does not just change your net worth. It can change your schedule, your identity, your relationship to work, and how people treat you. The plan has to fit the life you are actually building, not the one you had before."
+    - title: "The family pressure that comes with the money"
+      body: "Once people know you have it, the requests start. Sometimes they come from people you love, and sometimes from people you barely know. A clear framework for giving before the conversations get awkward can protect both the money and the relationships."
 help:
   eyebrow: "Where Pathfinder helps"
   title: "Create room to think, then decide carefully."
   items:
-    - title: "Create a no-rush zone"
-      body: "Set up a stable place for the money and decide which choices can wait."
-    - title: "Design the next chapter"
-      body: "Turn the change in your finances into spending, investing, work, and giving choices that fit the life ahead."
-    - title: "Protect future gifts"
-      body: "Work with attorneys and accountants so gifts, trusts, taxes, and family needs match what you intend."
+    - title: "A no-rush zone"
+      body: "The money goes somewhere safe, the noise gets turned down, and nothing irreversible happens while you are still figuring out what you actually want."
+    - title: "Sort out who is actually on your side"
+      body: "After a liquidity event, advisors, family members, and opportunities appear quickly. We help you think clearly about who should be involved and what questions to ask before anyone gets access to anything."
+    - title: "Build a life the money fits into, not the other way around"
+      body: "The biggest mistakes after sudden wealth usually are not investment mistakes. They are life design mistakes, like spending patterns that form before anyone stopped to ask what would actually make the next chapter meaningful."
 related:
   eyebrow: "You may also want to look at"
   title: "Often useful here."
@@ -57,7 +59,7 @@ related:
 cta:
   eyebrow: "Sudden wealth planning"
   title: "Make careful choices after sudden wealth."
-  body: "When your finances change quickly, the value often comes from slowing down, making careful choices, and keeping good options open."
+  body: "The window right after a windfall, before habits form, before commitments get made, before everyone knows, is the most valuable time to get a clear plan. It does not stay open long."
   label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false
