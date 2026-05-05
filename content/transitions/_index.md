@@ -5,8 +5,8 @@ description: "The kinds of situations Pathfinder most often helps people think t
 summary: "Start with the situation that sounds closest to yours. If more than one fits, that is normal."
 hero:
   eyebrow: "Start with the situation"
-  headline: "Start with the situation that feels closest to your own."
-  intro: "These pages are here to help you recognize the kinds of decisions we work on most often. You do not need to fit neatly into one category for this to be useful."
+  headline: "Most people don't come to a financial planner when things are stable. They come when something has changed, or is about to."
+  intro: "These are the situations we work in most often. Pick the one that feels most like where you are right now."
   primary:
     label: "Start a Free Conversation"
     href: "/contact-us/"
@@ -17,12 +17,12 @@ hero:
   image_alt: "A decision map showing how major financial choices connect across taxes, family, timing, and investments."
 directory:
   eyebrow: "Common starting points"
-  title: "Most conversations start in one of these places."
+  title: "Something has changed. Where does this sound familiar?"
   intro: "If more than one page sounds familiar, start with the one that feels most urgent. The categories are there to orient you, not to trap you."
 cta:
   eyebrow: "Still not sure?"
   title: "It is common for more than one situation to apply."
-  body: "Many people are trying to make sense of more than one concern. The first conversation helps sort out what needs attention now and what can wait."
+  body: "It's common to feel like more than one of these applies, or like your situation doesn't quite fit any of them. That's usually a sign that you're in the middle of something complicated, which is exactly when a first conversation is most useful."
   label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false

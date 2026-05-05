@@ -2,7 +2,7 @@
 title: "Liquidity Events, Inheritance, and Sudden Wealth"
 weight: 30
 description: "Financial planning after a business sale, inheritance, or other sudden wealth, with help slowing down, choosing who to trust, and making careful choices."
-summary: "For people who received or expect a large amount of money and need room to sort through pressure, family dynamics, identity, and what comes next."
+summary: "For people who came into a large sum of money and found that it brought pressure as much as relief: from family, from advisors, from the weight of not wanting to get it wrong."
 page_theme: "wealth"
 hero:
   eyebrow: "Who We Serve"

@@ -2,7 +2,7 @@
 title: "Divorce or Separation"
 weight: 50
 description: "Financial planning during divorce or separation, with help understanding settlements, housing choices, taxes, and long-term tradeoffs."
-summary: "For people facing divorce or separation who need help understanding what a settlement means for daily life, housing, and retirement."
+summary: "For people navigating divorce who need someone focused entirely on the financial side, because the decisions being made right now will follow them for decades, and their attorney isn't running those numbers."
 page_theme: "family"
 hero:
   eyebrow: "Who We Serve"

@@ -2,7 +2,7 @@
 title: "Retirement and the Next Chapter"
 weight: 10
 description: "Retirement planning for people learning how to replace a paycheck, spend with confidence, and avoid costly mistakes."
-summary: "For people who are close to retirement and want to know what they can spend, how income will work, and what could derail the plan."
+summary: "For people who are close to retirement and realizing that saving was the easy part. Figuring out how to spend it confidently, without running out, is a different problem."
 page_theme: "retirement"
 hero:
   eyebrow: "Who We Serve"
