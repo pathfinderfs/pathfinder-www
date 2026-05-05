@@ -7,6 +7,7 @@ draft: false
 ---
 
 <p>This page is intentionally short. Pathfinder would rather point you to a smaller set of solid references than maintain a long directory of links that drifts out of date.</p>
+<p class="legal-copy">External links are provided for convenience and general education. Pathfinder does not control third-party sites, and linking to a site does not make its content individualized advice.</p>
 
 <div class="resource-link-groups">
   <section class="card resource-link-group">

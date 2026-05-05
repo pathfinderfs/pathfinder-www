@@ -8,6 +8,8 @@ draft: false
 
 The tax treatment of equity compensation depends heavily on what you received and when you act. RSUs, ISOs, and NSOs can all look similar on an offer letter while creating very different tax consequences later.
 
+<p class="legal-copy">This page is general education, not individualized tax, legal, or investment advice. Tax rules and plan terms can change, and the right choice depends on your specific facts.</p>
+
 ## NSOs
 
 When you exercise a non-qualified stock option, the spread between the strike price and the current fair market value is generally treated as ordinary income. That income usually appears on your W-2 and is subject to income-tax withholding and payroll tax.

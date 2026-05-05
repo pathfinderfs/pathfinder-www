@@ -10,6 +10,8 @@ This page is for people evaluating a startup job offer with ISOs or trying to de
 
 If you need the tax mechanics first, read <a href="/resources/restricted-stock-stock-options/">Taxation of RSUs, ISOs &amp; NSOs</a>. This page is about value, expectations, and the questions that matter before you make a decision.
 
+<p class="legal-copy">This page is general education, not individualized investment, tax, or legal advice. Startup equity decisions depend on your plan documents, income, state, company-specific facts, and timing.</p>
+
 ## The short version
 
 Startup ISOs often sound more valuable than they turn out to be.

@@ -10,7 +10,7 @@ draft: false
 
 <div class="executor-guide">
 <div class="card executor-overview">
-<p>This is a general planning checklist, not legal or tax advice. State law, trust terms, beneficiary designations, and account rules can change the order of operations.</p>
+<p>This is a general planning checklist, not legal, tax, or investment advice. State law, trust terms, beneficiary designations, and account rules can change the order of operations. Coordinate with the appropriate attorney, tax professional, or institution before acting.</p>
 <p>Best use: print the page, mark what is urgent, and work section by section instead of trying to do everything at once.</p>
 <ul class="executor-meta">
 <li>Screen-friendly</li>

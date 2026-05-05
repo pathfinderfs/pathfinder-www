@@ -8,6 +8,8 @@ draft: false
 
 <p>Finding a good planner is not mainly about finding someone likable. It is about finding someone who is trustworthy, competent, and actually built for the kind of help you want.</p>
 
+<p class="legal-copy">This page is general education, not individualized advice or a recommendation of any particular firm or professional.</p>
+
 <p>Those are the three questions to answer:</p>
 
 <ol>

@@ -7,6 +7,7 @@ draft: false
 ---
 
 <p>These are books Pathfinder has recommended over the years because they help readers think more clearly about behavior, investing, and what money is actually for. This is not meant to be an exhaustive list. It is a short shelf of books worth spending time with.</p>
+<p class="legal-copy">Reading suggestions are general education, not individualized investment, tax, or legal advice.</p>
 
 <div class="book-grid">
   <article class="card book-card">
