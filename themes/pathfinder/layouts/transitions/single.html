@@ -17,6 +17,25 @@
     </div>
   </section>
 
+  {{ with .Params.warning }}
+    <section class="section section--warning" data-reveal>
+      <div class="container">
+        <div class="section-shell">
+          <article class="transition-warning">
+            <div class="transition-warning__body">
+              {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+              {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+              {{ with .body }}<p class="section-copy">{{ . }}</p>{{ end }}
+            </div>
+            {{ with .link }}
+              <a class="text-link transition-warning__link" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
+            {{ end }}
+          </article>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
   <section class="section section--tint" data-reveal>
     <div class="container">
       <div class="section-shell">

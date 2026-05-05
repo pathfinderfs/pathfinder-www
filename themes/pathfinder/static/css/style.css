@@ -722,6 +722,10 @@ body.is-ready .hero__media img {
   padding-top: 0;
 }
 
+.section--warning {
+  padding-top: 0;
+}
+
 .section-shell {
   display: grid;
   gap: 2rem;
@@ -763,6 +767,33 @@ body.is-ready .hero__media img {
 
 .proof-item p {
   color: var(--ink-soft);
+}
+
+.transition-warning {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.6rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(255, 254, 250, 0.98), rgba(239, 249, 248, 0.86)),
+    var(--surface-strong);
+  box-shadow: var(--shadow-soft);
+}
+
+.transition-warning__body {
+  max-width: 52rem;
+}
+
+.transition-warning__body .section-title {
+  font-size: clamp(1.75rem, 3vw, 2.55rem);
+}
+
+.transition-warning__link {
+  justify-self: end;
+  white-space: nowrap;
 }
 
 .path-list {
@@ -1550,6 +1581,16 @@ body.is-ready .hero__media img {
     justify-items: start;
   }
 
+  .transition-warning {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .transition-warning__link {
+    justify-self: start;
+    white-space: normal;
+  }
+
   .pricing-layout {
     grid-template-columns: minmax(14rem, 0.42fr) auto minmax(0, 1fr);
     gap: 1rem;
@@ -1612,6 +1653,7 @@ body.is-ready .hero__media img {
   .pull-quote,
   .contact-sheet,
   .cta-panel,
+  .transition-warning,
   .card {
     padding: 1.2rem;
   }
