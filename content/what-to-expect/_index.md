@@ -5,8 +5,8 @@ description: "What it is like to work with Pathfinder: a free first conversation
 summary: "Start with a free conversation, sort out what matters most, and move through the decisions at a pace that fits the situation."
 hero:
   eyebrow: "What to expect"
-  headline: "Start with a free conversation. Then we sort out what matters most."
-  intro: "You do not need to have everything organized before you reach out. The first step is a free conversation about what is happening, what feels hard to decide, and whether Pathfinder sounds like the right fit."
+  headline: "Most people reach out when something has changed and the financial side of it suddenly feels complicated."
+  intro: "You don't need to have it figured out before you call. That's what the first conversation is for."
   primary:
     label: "Request a Free Meeting"
     href: "/contact-us/"
@@ -18,15 +18,15 @@ hero:
 meeting:
   eyebrow: "Step 1"
   title: "The first meeting is free, direct, and low pressure."
-  intro: "This is a chance to get to know each other, hear the shape of the situation, and decide whether it makes sense to keep going. It can start by phone, email, or in person, with Pathfinder coming to you for in-person meetings."
+  intro: "This is a chance to get to know each other, hear the shape of the situation, and decide whether it makes sense to keep going. It can start by phone, email, or in person, with Pathfinder coming to you for in-person meetings. This is not a pitch. If Pathfinder isn't the right fit, we'll say so."
   items:
     - "Start in the format that feels easiest or most useful: phone, email, or in person."
     - "Get an honest sense of fit rather than a sales pitch."
-    - "Leave with a clearer sense of what working together could look like."
+    - "Leave knowing whether this is the right fit, and if it is, what the next step actually looks like."
 triage:
   eyebrow: "Step 2"
-  title: "First, sort out what needs attention now."
-  intro: "Early work is usually about separating what is urgent from what is only loud. That makes the first next step easier to see."
+  title: "First, separate what is urgent from what is only loud."
+  intro: "Early work is usually about sorting the situation into what cannot wait, what can wait, and what the real question is. That makes the first next step easier to see."
   items:
     - title: "What cannot wait"
       body: "Identify deadlines, tax choices, cash questions, paperwork, or family issues that need attention soon."
@@ -44,22 +44,22 @@ process:
     - title: "Decide"
       body: "Compare realistic choices, look at the pros and cons, and choose the path that best fits your values and priorities."
     - title: "Do"
-      body: "Put the decision into action and adjust as life, markets, taxes, or priorities change."
+      body: "Turn the plan into action, and stay on top of what changes after. Decisions rarely happen once. Tax situations shift, markets move, family circumstances evolve. We stay involved so the plan stays current."
 expectations:
   eyebrow: "How it should feel"
   title: "The relationship should make things clearer, not noisier."
   intro: "Good advice should help you slow things down, understand what is really being decided, and know what happens next."
   items:
-    - title: "Direct contact"
+    - title: "You talk to the people doing the work"
       body: "You work directly with David and Katherine, the people doing the planning and investment thinking."
+    - title: "Follow-through"
+      body: "A plan that doesn't get implemented is just a document. The part between deciding and done is where things fall apart without follow-through: paperwork, account changes, calls that need to be made. We stay on it."
     - title: "No sales script"
       body: "The conversation is about the situation in front of you, not about steering you toward a product shelf."
     - title: "No jargon"
       body: "If something does not make sense, it is on us to explain it more clearly. You should not have to pretend to understand the advice."
     - title: "Clear next steps"
       body: "You should know what happens next and why, instead of leaving with vague impressions."
-    - title: "Follow-through"
-      body: "Important decisions often come with paperwork, account changes, deadlines, and conversations that can feel overwhelming. We help keep the next steps clear so the work actually gets done."
 investment:
   eyebrow: "How investing fits"
   title: "Investments should support the plan, not take over the conversation."
@@ -99,8 +99,8 @@ standards:
       external: true
 pricing:
   eyebrow: "Pricing"
-  title: "Pricing for the ongoing relationship."
-  intro: "The quarterly fee is $1,500 for the base planning retainer, plus the applicable fee from the table."
+  title: "Transparent pricing, no surprises."
+  intro: "Most financial advisors don't publish their fees. We do. The quarterly retainer is cancelable at any time, and there's no long-term contract."
   base_amount: "$1,500 per quarter"
   base_note: "$6,000 per year base retainer"
   columns:
@@ -115,10 +115,11 @@ pricing:
       quarterly: "$250 per $500,000"
       annual: "$1,000 per $500,000"
   legal: "Net worth includes investment assets over which you have control, such as investment accounts, 401(k)s, 403(b)s, vested stock options, and similar holdings. Additional fees may be charged for business or real estate analysis. The quarterly retainer is cancelable at any time without restriction. Fees are payable in arrears on a quarterly basis, prorated when service covers less than a full quarter, and may be deducted from supervised accounts or paid within twenty-one days of invoice receipt. Hawaii's 4.712% general excise tax is added to all fees, and fees are negotiable."
+  note: "If the fee structure raises questions, bring them to the first conversation. We'd rather talk through it than have it sit unanswered."
 cta:
   eyebrow: "Next step"
   title: "Reach out to start with a free conversation."
-  body: "Tell us what feels hard to decide right now. We will listen, ask practical questions, and help you see whether Pathfinder is the right place to begin."
+  body: "Tell us what's on your mind. We'll listen, ask practical questions, and give you an honest sense of whether this is the right fit, before anything else."
   label: "Request a Free Meeting"
   href: "/contact-us/"
 draft: false

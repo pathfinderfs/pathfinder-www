@@ -163,6 +163,7 @@
           </div>
         </div>
         {{ with .Params.pricing.legal }}<p class="legal-copy pricing-legal">{{ . }}</p>{{ end }}
+        {{ with .Params.pricing.note }}<p class="section-copy pricing-afterword">{{ . }}</p>{{ end }}
       </div>
     </div>
   </section>
