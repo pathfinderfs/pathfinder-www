@@ -26,8 +26,8 @@ draft: false
 
 <figure class="strategy-figure strategy-figure--wide">
   <div class="portfolio-scenarios" data-portfolio-scenarios role="group" aria-labelledby="portfolio-scenarios-title">
-    <p id="portfolio-scenarios-title" class="visually-hidden">An illustration of how risk levels might affect upside, expected and floor scenarios.</p>
-    <p class="portfolio-scenarios__intro">An illustration of how risk levels might affect upside, expected and floor scenarios. A higher expected return is not automatically better if the floor is one you couldn't live with. Click any allocation to explore.</p>
+    <p id="portfolio-scenarios-title" class="visually-hidden">A hypothetical illustration of how risk levels might affect upside, expected and floor scenarios.</p>
+    <p class="portfolio-scenarios__intro">A hypothetical illustration of how risk levels might affect upside, expected and floor scenarios. A higher expected return is not automatically better if the floor is one you couldn't live with. Click any allocation to explore.</p>
     <div class="portfolio-scenarios__chart">
       <div class="portfolio-scenarios__yaxis">
         <span class="portfolio-scenarios__tick portfolio-scenarios__tick--100">$100k</span>

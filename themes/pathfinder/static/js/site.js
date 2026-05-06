@@ -51,49 +51,62 @@ document.addEventListener("DOMContentLoaded", () => {
   function initPortfolioScenarios() {
     const portfolios = [
       {
-        label: "Conservative",
-        shortLabel: "Cons.",
-        alloc: "30/70",
-        floor: 36000,
-        expected: 44000,
-        ceiling: 55000,
-        insight: "The floor stays well above a minimal spending level. The main risk here is under-spending: leaving money behind that was never used."
+        label: "30/70",
+        shortLabel: "30/70",
+        categoryLabel: "Conservative",
+        floor: 35916,
+        floorWr: "3.59%",
+        expected: 50507,
+        expectedWr: "5.05%",
+        ceiling: 69109,
+        ceilingWr: "6.91%",
+        insight: "This allocation has the highest downside floor in the range, with less upside than the stock-heavier portfolios."
       },
       {
-        label: "Mod.-Cons.",
-        shortLabel: "M-C",
-        alloc: "50/50",
-        floor: 28000,
-        expected: 49000,
-        ceiling: 65000,
-        insight: "A solid floor for most clients. The downside scenario is real, but manageable if your spending plan has flexibility built in."
+        label: "40/60",
+        shortLabel: "40/60",
+        floor: 35230,
+        floorWr: "3.52%",
+        expected: 51515,
+        expectedWr: "5.15%",
+        ceiling: 72911,
+        ceilingWr: "7.29%",
+        insight: "The downside floor remains close to 30/70, while expected and upside spending move modestly higher."
       },
       {
-        label: "Moderate",
-        shortLabel: "Mod.",
-        alloc: "60/40",
-        floor: 22000,
-        expected: 53000,
-        ceiling: 75000,
-        insight: "The floor drops meaningfully. At $22,000 per year, a bad sequence of returns would require significant adjustments for most retirees."
+        label: "50/50",
+        shortLabel: "50/50",
+        categoryLabel: "Moderate",
+        floor: 34098,
+        floorWr: "3.41%",
+        expected: 52341,
+        expectedWr: "5.23%",
+        ceiling: 77185,
+        ceilingWr: "7.72%",
+        insight: "This middle allocation balances a still-strong floor with more expected spending than the lower-stock mixes."
       },
       {
-        label: "Growth",
-        shortLabel: "Grow",
-        alloc: "75/25",
-        floor: 14000,
-        expected: 58000,
-        ceiling: 88000,
-        insight: "A floor of $14,000 would be unacceptable for almost any retirement plan. This portfolio offers real upside, and a real risk of an outcome you couldn't absorb."
+        label: "60/40",
+        shortLabel: "60/40",
+        floor: 32627,
+        floorWr: "3.26%",
+        expected: 52976,
+        expectedWr: "5.30%",
+        ceiling: 81756,
+        ceilingWr: "8.18%",
+        insight: "Expected spending rises slightly from 50/50, while the downside floor starts to move lower."
       },
       {
-        label: "Aggressive",
-        shortLabel: "Agg.",
-        alloc: "90/10",
-        floor: 7000,
-        expected: 63000,
-        ceiling: 102000,
-        insight: "A $7,000 annual floor from a $1M portfolio. A bad sequence of returns early in retirement, at this allocation, could be unrecoverable."
+        label: "70/30",
+        shortLabel: "70/30",
+        categoryLabel: "Aggressive",
+        floor: 30908,
+        floorWr: "3.09%",
+        expected: 53445,
+        expectedWr: "5.34%",
+        ceiling: 86398,
+        ceilingWr: "8.64%",
+        insight: "This allocation has the highest upside in the range, but also the lowest downside floor."
       }
     ];
     const chartHeight = 240;
@@ -146,11 +159,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "portfolio-scenarios__bar-option";
-        button.setAttribute("aria-label", `Select ${portfolio.label} ${portfolio.alloc} portfolio`);
+        button.setAttribute("aria-label", `Select ${portfolio.label} portfolio`);
 
         const screenReaderText = document.createElement("span");
         screenReaderText.className = "visually-hidden";
-        screenReaderText.textContent = `${portfolio.label} ${portfolio.alloc}: good sequence ${formatDollars(portfolio.ceiling)} per year, expected ${formatDollars(portfolio.expected)} per year, bad sequence floor ${formatDollars(portfolio.floor)} per year.`;
+        screenReaderText.textContent = `${portfolio.label} portfolio: upside ${formatDollars(portfolio.ceiling)} per year at a ${portfolio.ceilingWr} withdrawal rate, expected ${formatDollars(portfolio.expected)} per year at a ${portfolio.expectedWr} withdrawal rate, downside floor ${formatDollars(portfolio.floor)} per year at a ${portfolio.floorWr} withdrawal rate.`;
 
         const track = document.createElement("span");
         track.className = "portfolio-scenarios__bar-track";
@@ -192,18 +205,22 @@ document.addEventListener("DOMContentLoaded", () => {
         shortLabel.className = "portfolio-scenarios__label-short";
         shortLabel.textContent = portfolio.shortLabel;
 
-        const allocation = document.createElement("small");
-        allocation.textContent = portfolio.alloc;
+        label.append(fullLabel, shortLabel);
 
-        label.append(fullLabel, shortLabel, allocation);
+        if (portfolio.categoryLabel) {
+          const categoryLabel = document.createElement("small");
+          categoryLabel.textContent = portfolio.categoryLabel;
+          label.append(categoryLabel);
+        }
+
         labelsNode.append(label);
         return label;
       });
 
       function updateScenario() {
         const portfolio = portfolios[selectedIndex];
-        const floorTone = selectedIndex >= 3 ? "danger" : selectedIndex >= 2 ? "warning" : "muted";
-        const insightTone = selectedIndex >= 3 ? "danger" : selectedIndex >= 2 ? "warning" : "success";
+        const floorTone = selectedIndex >= 4 ? "danger" : selectedIndex >= 3 ? "warning" : "muted";
+        const insightTone = selectedIndex >= 4 ? "danger" : selectedIndex >= 3 ? "warning" : "success";
 
         barButtons.forEach((button, index) => {
           const isActive = index === selectedIndex;
