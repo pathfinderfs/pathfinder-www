@@ -5,8 +5,8 @@ description: "Start the conversation by phone, email, or in person if you would 
 layout: "contact"
 hero:
   eyebrow: "Start the conversation"
-  headline: "The first conversation is simple and direct."
-  intro: "Most people start over the phone, by email, or in person about what is going on, what feels urgent, and whether we sound like the right fit."
+  headline: "The first conversation is free, simple, and doesn't commit you to anything."
+  intro: "Tell us what's going on and what feels urgent. We'll listen and give you an honest sense of whether this is the right fit — before anything else."
   primary:
     label: "Email Pathfinder"
     href: "mailto:support@pathfinderfs.com"
@@ -18,10 +18,8 @@ hero:
 conversation:
   eyebrow: "What the first conversation is like"
   title: "You do not need to have everything figured out before you reach out."
-  intro: "Most first conversations are straightforward. They can happen by phone, email, or in person, with Pathfinder coming to you when an in-person meeting makes the most sense. We talk about what is happening, what decisions may actually be on the table, and whether working together makes sense."
-  items:
-    - "A concise conversation by phone, email, or in person about what is happening now."
-    - "A sense of whether the main need is broader planning, portfolio oversight, or a different kind of referral."
-    - "A clear next step instead of pressure to commit immediately."
+  intro: "You don't need to have the financials organized, the questions written out, or a clear sense of what you need. Most people start with something like \"here's what's happening\" and go from there. That's enough."
+closing:
+  body: "You don't have to be sure. That's what the first call is for."
 draft: false
 ---

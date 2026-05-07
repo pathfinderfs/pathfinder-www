@@ -8,27 +8,22 @@
           {{ with .Params.conversation.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
           {{ with .Params.conversation.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.conversation.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
-          <ul class="check-list">
-            {{ range .Params.conversation.items }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ul>
         </div>
         <div class="contact-sheet">
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Email</p>
             <h3><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></h3>
-            <p>Often the easiest way to summarize the situation first.</p>
+            <p>Good if you'd rather write it down before talking.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Phone</p>
             <h3><a href="tel:+18087284396">{{ site.Params.phone }}</a></h3>
-            <p>Useful when the decision is easier to talk through directly.</p>
+            <p>Good if you'd rather just talk it through.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">In Person</p>
-            <h3>By arrangement</h3>
-            <p>Pathfinder can come to you when an in-person meeting makes the most sense.</p>
+            <h3>By appointment</h3>
+            <p>Pathfinder comes to you when you prefer to meet face to face.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Mailing Address</p>
@@ -43,6 +38,15 @@
     </div>
   </section>
 
+  {{ partial "advisor-panel.html" (dict
+    "eyebrow" "Who you will speak with"
+    "title" "You'll hear from David or Katherine directly."
+    "intro" "If the conversation moves forward, David and Katherine are the people who stay involved in the work."
+    "summary_overrides" (dict
+      "/about/katherine-jacobs/" "Katherine focuses on making sure clients actually understand their plan, not just that one exists. She's known for clear communication and staying on top of the details between meetings. She tends to be the one who makes the first conversation feel less daunting."
+    )
+  ) }}
+
   {{ with .Params.closing }}
     <section class="section section--tint" data-reveal>
       <div class="container">
@@ -56,10 +60,4 @@
       </div>
     </section>
   {{ end }}
-
-  {{ partial "advisor-panel.html" (dict
-    "eyebrow" "Who you will speak with"
-    "title" "A small practice means direct contact."
-    "intro" "If the conversation moves forward, David and Katherine are the people who stay involved in the work."
-  ) }}
 {{ end }}
