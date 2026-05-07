@@ -2,14 +2,16 @@
 title: "Fiduciary"
 weight: 40
 description: "What it means to work with a fiduciary advisor — a legally binding duty to act in your best interest, not just sell products."
-summary: "A fiduciary advisor is legally required to put the client's interest first. That should be a baseline, not a marketing slogan."
+summary: "Most people assume their financial advisor is legally required to act in their interest. Often they're not."
 draft: false
 ---
 
-A fiduciary advisor is legally required to put the client's interests first. In practical terms, that means the advisor's duty is not just to make a recommendation that can be defended on paper. It is to make a recommendation that is actually meant to serve the client well.
+The word "fiduciary" is the legal term for the standard that actually requires it. A fiduciary advisor must put the client's interests first — not just make a recommendation that can be defended on paper, but one that is genuinely meant to serve the client well.
 
-That standard matters because much of the financial industry still operates under looser obligations. Titles, firms, and marketing language can make those differences hard to see, so it is worth asking direct questions.
+That should be a baseline. In much of the financial industry, it isn't.
 
-If you are evaluating an advisor, ask whether they will acknowledge in writing that they are acting as a fiduciary for you. A true fiduciary should have no problem answering that clearly.
+Large brokerages, banks, and insurance companies often operate under a looser standard — one that only requires recommendations to be "suitable," not necessarily best. The difference matters, and the titles and marketing language used in those settings often obscure it.
 
-Pathfinder acts as a fiduciary in both the legal sense and in the standard we expect of ourselves.
+If you are evaluating any advisor, ask them directly: will you confirm in writing that you are acting as a fiduciary for me? A genuine fiduciary should answer that clearly and without hesitation. Reluctance to do so is itself informative.
+
+Pathfinder acts as a fiduciary in both the legal sense and in the standard we hold ourselves to. Combined with a fee-only structure — no commissions, no product sales — it means the incentives and the obligations point in the same direction: toward advice that actually serves you.
