@@ -6,7 +6,7 @@ summary: "For people who are close to retirement and realizing that saving was t
 page_theme: "retirement"
 hero:
   eyebrow: "Who We Serve"
-  intro: "Most people spend 30 years saving for retirement. Almost none of them spend 30 years preparing to spend it."
+  intro: "Most people spend 30 years saving for retirement. Almost none of them spend 30 years preparing to live it."
   primary:
     label: "Start a Free Conversation"
     href: "/contact-us/"
@@ -17,11 +17,11 @@ hero:
   image_alt: "A planning map showing the relationship between retirement timing, income, taxes, and long-term decisions."
 snapshot:
   eyebrow: "Usually this means"
-  title: "Retirement usually brings more than one question."
-  items:
-    - "Will I run out of money, or will I die having never spent it?"
-    - "Am I allowed to enjoy this, or should I be worried?"
-    - "What happens if my health, family, or spending changes before I have had a chance to live the retirement I imagined?"
+  title: "Turning preparation into a life."
+  items: 
+    - "You have spent your whole career building toward this, and now that it is here, the path is less obvious than expected."
+    - "There is no manager, no performance review, no paycheck to signal whether you are doing it right."
+    - "The decisions feel large and hard to reverse, and most of them do not come with a clear right answer."
 decisions:
   eyebrow: "What usually has to be decided"
   title: "Questions people are usually trying to answer."
