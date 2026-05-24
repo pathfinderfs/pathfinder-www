@@ -2,7 +2,7 @@
 title: "Aging, Care, and Legacy Responsibilities"
 weight: 20
 description: "Financial planning for later retirement, care decisions, family support, and leaving clarity behind."
-summary: "For people who have made it to the part of retirement most people don't plan for: long-term care, becoming a burden, who makes decisions if you can't, and how to leave things in order rather than in chaos."
+summary: "Made it to the part of retirement most people don't plan for: long-term care, becoming a burden, who makes decisions if you can't, and how to leave things in order rather than in chaos."
 page_theme: "care"
 hero:
   eyebrow: "Who We Serve"

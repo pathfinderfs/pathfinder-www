@@ -2,7 +2,7 @@
 title: "Career Change, Equity, and Entrepreneurship"
 weight: 40
 description: "Financial planning for job changes, company stock, business ownership, or self-employment decisions."
-summary: "For people with a decision in front of them: an offer, an expiring option, a leap into self-employment, and not enough time to figure out what it's actually worth before they have to answer."
+summary: "A decision is in front of you: an offer, an expiring option, a leap into self-employment, and not enough time to figure out what it's actually worth before you have to answer."
 page_theme: "career"
 hero:
   eyebrow: "Who We Serve"

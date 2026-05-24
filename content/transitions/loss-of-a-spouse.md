@@ -2,7 +2,7 @@
 title: "Loss of a Spouse"
 weight: 60
 description: "Financial guidance after the loss of a spouse, with help sorting urgent paperwork, survivor income, taxes, and next steps at the right pace."
-summary: "For people who are managing financial decisions they never had to manage before, at the worst possible time, and who need help sorting what actually has to happen now from what can wait."
+summary: "Managing financial decisions you never had to manage before, at the worst possible time, and need help sorting what actually has to happen now from what can wait."
 page_theme: "grief"
 hero:
   eyebrow: "Who We Serve"
