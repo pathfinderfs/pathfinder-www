@@ -8,11 +8,11 @@ hero:
   headline: "The first conversation is free, simple, and doesn't commit you to anything."
   intro: "Tell us what's going on and what feels urgent. We'll listen and give you an honest sense of whether this is the right fit — before anything else."
   primary:
-    label: "Email Pathfinder"
-    href: "mailto:support@pathfinderfs.com"
+    label: "Schedule a Free Call"
+    href: "mailto:support@pathfinderfs.com?subject=Schedule%20a%20free%20conversation"
   secondary:
     label: "Call Pathfinder"
-    href: "tel:+18087284396"
+    href: "tel:%2B18087284396"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A Pathfinder planning map showing the movement from complexity toward a clear next step."
 conversation:

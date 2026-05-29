@@ -21,8 +21,8 @@ directory:
   intro: "If more than one page resonates, start with the one that feels most urgent. The categories are here to orient you, not to trap you."
 cta:
   eyebrow: "Still not sure?"
-  title: "It is common to feel you situation is unique."
-  body: "And your situation doesn't quite fit any of these. That's usually a sign that you're in the middle of something complicated, which is exactly when a first conversation is most useful."
+  title: "It is common to feel your situation is unique."
+  body: "If your situation doesn't quite fit any of these, that's usually a sign that you're in the middle of something complicated, which is exactly when a first conversation is most useful."
   label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false

@@ -1,6 +1,27 @@
 {{ define "main" }}
   {{ partial "page-hero.html" (dict "page" . "class" "hero--home") }}
 
+  {{ with .Params.quick_links }}
+    <section class="home-route" data-reveal>
+      <div class="container home-route__inner">
+        <div class="home-route__intro">
+          {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        </div>
+        {{ with .links }}
+          <div class="home-route__links" aria-label="Common situations">
+            {{ range . }}
+              <a class="home-route__link" href="{{ partial "resolve-href.html" .href }}">
+                <span class="home-route__label">{{ .label }}</span>
+                {{ with .cue }}<span class="home-route__cue">{{ . }}</span>{{ end }}
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
   <section class="section" data-reveal>
     <div class="container">
       <div class="section-shell">
@@ -9,7 +30,7 @@
           {{ with .Params.proof.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.proof.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
-        <div class="proof-list">
+        <div class="proof-list proof-list--home">
           {{ range .Params.proof.items }}
             <article class="proof-item">
               <h3>{{ .title }}</h3>
@@ -20,6 +41,30 @@
       </div>
     </div>
   </section>
+
+  {{ with .Params.trust }}
+    <section class="section section--tint" data-reveal>
+      <div class="container">
+        <div class="section-shell">
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+            {{ with .intro }}<p class="section-copy">{{ $.RenderString . }}</p>{{ end }}
+          </div>
+          {{ with .items }}
+            <div class="proof-list">
+              {{ range . }}
+                <article class="proof-item">
+                  <h3>{{ .title }}</h3>
+                  {{ with .body }}<p>{{ $.RenderString . }}</p>{{ end }}
+                </article>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
 
   {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}

@@ -28,9 +28,9 @@
       {{ end }}
       {{ with $hero.primary }}
         <div class="hero__actions">
-          <a class="button" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
+          <a class="button" href="{{ (partial "resolve-href.html" .href) | safeURL }}">{{ .label }}</a>
           {{ with $hero.secondary }}
-            <a class="button button--ghost" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
+            <a class="button button--ghost" href="{{ (partial "resolve-href.html" .href) | safeURL }}">{{ .label }}</a>
           {{ end }}
         </div>
       {{ end }}
