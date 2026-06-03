@@ -26,14 +26,14 @@ meeting:
 triage:
   eyebrow: "Step 2"
   title: "First, separate what is urgent from what is only loud."
-  intro: "Early work is usually about sorting the situation into what cannot wait, what can wait, and what the real question is. That makes the first next step easier to see."
+  intro: "Early work is usually about sorting the situation into what cannot wait, what can wait, and what the real questions are. That makes the first next step easier to see."
   items:
     - title: "What cannot wait"
       body: "Identify deadlines, tax choices, cash questions, paperwork, or family issues that need attention soon."
     - title: "What can wait"
       body: "Set aside decisions that will be easier to make once the immediate pressure is lower."
-    - title: "What the real question is"
-      body: "Look beneath the first concern so the advice addresses the decision that actually matters."
+    - title: "What the real questions are"
+      body: "Look beneath the first concern so the advice addresses the decisions that actually matters."
 process:
   eyebrow: "Step 3"
   title: "Move through Discover / Decide / Do at the pace that fits."
