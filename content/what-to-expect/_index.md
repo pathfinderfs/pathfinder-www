@@ -5,7 +5,7 @@ description: "What it is like to work with Pathfinder: a free first conversation
 summary: "Start with a free conversation, sort out what matters most, and move through the decisions at a pace that fits the situation."
 hero:
   eyebrow: "What to expect"
-  headline: "Most people reach out when something has changed and the financial side of it suddenly feels complicated."
+  headline: "The hardest part is reaching out. Here's what happens when you do."
   intro: "You don't need to have it figured out before you call. That's what the first conversation is for."
   primary:
     label: "Request a Free Meeting"
