@@ -46,8 +46,8 @@ process:
     - title: "Do"
       body: "Turn the plan into action, and stay on top of what changes after. Decisions rarely happen once. Tax situations shift, markets move, family circumstances evolve. We stay involved so the plan stays current."
 expectations:
-  eyebrow: "How it should feel"
-  title: "The relationship should make things clearer, not noisier."
+  eyebrow: "What it's like"
+  title: "What working together actually feels like."
   intro: "Good advice should help you slow things down, understand what is really being decided, and know what happens next."
   items:
     - title: "You talk to the people doing the work"
@@ -62,7 +62,7 @@ expectations:
       body: "You should know what happens next and why, instead of leaving with vague impressions."
 investment:
   eyebrow: "How investing fits"
-  title: "Investments should support the plan, not take over the conversation."
+  title: "Investing is just one piece."
   intro: "We treat investing as one part of a bigger financial life. Portfolio decisions should follow from your goals, cash needs, taxes, risk, and the decisions you are trying not to get wrong."
   points:
     - "The investment plan starts with what the money needs to do."
@@ -77,7 +77,7 @@ advisors:
   intro: "Pathfinder is a small practice by design. David and Katherine Jacobs lead the work directly, so clients are not handed off from a sales conversation to a service team."
 standards:
   eyebrow: "How trust is built"
-  title: "The firm should be set up in a way that is easy to understand."
+  title: "You shouldn't have to take our word for it."
   intro: "Trust should come from more than a good conversation. It should show up in how the firm is paid, what duty it owes, how private information is handled, and what is disclosed."
   links:
     - label: "Fee-only"
