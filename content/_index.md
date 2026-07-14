@@ -7,7 +7,7 @@ hero:
   eyebrow: "Fee-only financial planning in Hawaii"
   brand: "Pathfinder Financial Services"
   headline: "Before an important money decision becomes hard to undo."
-  intro: "Retirement timing, settlements, option exercises, business sales, inherited money, and family promises can narrow your choices quickly. Pathfinder slows the decision down, tests the fragile parts, and helps you act after the tradeoffs are clear."
+  intro: "Retirement, divorce, option exercises, a business sale or inheritance, and the loss of a spouse bring moments that can't be undone once you act. Pathfinder slows the decision down and helps you act only once the tradeoffs are clear."
   primary:
     label: "Start With a Free Conversation"
     href: "/contact-us/"
@@ -53,12 +53,12 @@ trust:
   title: "Careful advice depends on who is doing the thinking."
   intro: "Pathfinder is led by [David Jacobs](/about/david-jacobs-ph-d-cfp/) and [Katherine Jacobs](/about/katherine-jacobs/). Clients work directly with them, in a firm that is [fee-only](/about/fee-only/) and [fiduciary](/about/fiduciary/)."
   items:
-    - title: "David tests the logic"
-      body: "David brings the discipline of a former AI and security researcher: questions assumptions, tests the logic, and finds novel solutions."
-    - title: "Katherine makes it clear"
-      body: "Katherine keeps the planning understandable and on track, with attention to the details that tend to fall through the cracks between meetings."
+    - title: "Stress testing"
+      body: "We look for what could go wrong, and have a plan if it does, so you don't have to."
+    - title: "Clarity Pledge"
+      body: "We pledge to communicate in plain language. If we say something you don't understand, that is our problem, not yours."
     - title: "Transparent incentives"
-      body: "Pathfinder is paid by clients, not by commissions or product sales. [Pricing is published](/what-to-expect/) so cost does not hide behind a sales conversation."
+      body: "Pathfinder is paid by you, not by commissions or product sales, with [published pricing](/what-to-expect/)."
 cta:
   eyebrow: "Start where you are"
   title: "You do not need to have everything organized before we talk."
