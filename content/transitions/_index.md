@@ -1,12 +1,12 @@
 ---
 title: "Who We Serve"
 weight: 35
-description: "The kinds of situations Pathfinder most often helps people think through."
-summary: "Start with the situation that sounds closest to yours. If more than one fits, that is normal."
+description: "The retirement, equity, inheritance, divorce, widowhood, and later-life questions Pathfinder most often helps clients work through."
+summary: "Most people do not arrive with a neat financial-planning problem. They arrive because something changed."
 hero:
-  eyebrow: "Start with the situation"
-  headline: "Something has changed, or is about to."
-  intro: "Below are the situations we work with most often."
+  eyebrow: "Who we serve"
+  headline: "Most people call us because something changed."
+  intro: "A retirement date became real. An option exercise window is closing. A marriage ended. Money arrived with an inheritance or business sale. A spouse who handled the finances is gone. These are the situations we work with most often."
   primary:
     label: "Start a Free Conversation"
     href: "/contact-us/"
@@ -14,15 +14,15 @@ hero:
     label: "What to Expect"
     href: "/what-to-expect/"
   image: "/images/pathfinder-decision-map.svg"
-  image_alt: "A decision map showing how major financial choices connect across taxes, family, timing, and investments."
+  image_alt: "A planning map connecting taxes, family, timing, and investments."
 directory:
-  eyebrow: "Common starting points"
-  title: "Which situation is a match?"
-  intro: "If more than one page resonates, start with the one that feels most urgent. The categories are here to orient you, not to trap you."
+  eyebrow: "Common reasons people call"
+  title: "Choose the page closest to what is happening."
+  intro: "The categories overlap. Retirement can involve company stock and aging parents; an inheritance can arrive during a divorce. Start anywhere."
 cta:
-  eyebrow: "Still not sure?"
-  title: "It is common to feel your situation is unique."
-  body: "If your situation doesn't quite fit any of these, that's usually a sign that you're in the middle of something complicated, which is exactly when a first conversation is most useful."
+  eyebrow: "Not sure where you fit?"
+  title: "You do not need to diagnose the problem before calling."
+  body: "Tell us what happened and what decision is worrying you. We will ask questions and tell you whether this is work Pathfinder handles."
   label: "Start a Free Conversation"
   href: "/contact-us/"
 draft: false

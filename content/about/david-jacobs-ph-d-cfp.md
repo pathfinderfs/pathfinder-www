@@ -1,23 +1,25 @@
 ---
 title: "David Jacobs, Ph.D., CFP®"
 weight: 10
-description: "Meet David Jacobs, Ph.D., CFP® — founder of Pathfinder Financial Services and a research-driven financial planner based in Hawaii."
-summary: "David founded Pathfinder after a research career in AI and security and brings that same analytical discipline to high-stakes financial planning."
-contact_summary: "David founded Pathfinder after a research career in AI and security. He approaches financial planning the way he approached research: by asking what's actually true, not what's easy to say. He particularly enjoys the complexity of equity, taxes, and decisions with a lot of moving parts."
+description: "David Jacobs founded Pathfinder Financial Services after a twenty-year research career in artificial intelligence and computer security."
+summary: "David is a researcher by temperament. He questions assumptions, looks for weak spots, and wants to know what would make a financial plan fail."
+contact_summary: "David founded Pathfinder after a research career in artificial intelligence and computer security. He is happiest with questions that have several moving parts and no honest one-line answer."
 portrait: "/images/david-mtn.jpg"
-portrait_alt: "David Jacobs portrait"
-advisor_role: "Financial Planner"
+portrait_alt: "David Jacobs"
+advisor_role: "Founder and Financial Planner"
 draft: false
 ---
 
-David founded Pathfinder in 2003 after a 20-year research career in artificial intelligence and computer security. He brings that same analytical discipline to financial planning: question assumptions, look carefully at the evidence, and do not confuse a familiar answer with a good one.
+David likes puzzles. Before becoming a financial planner, he spent twenty years doing research in artificial intelligence and computer security. The work taught him to question the obvious answer, look for the assumption everyone else has accepted, and keep worrying at a problem until it makes sense.
 
-Raised in Hawaii and a Punahou graduate, David built Pathfinder to offer the kind of advice he believed clients were missing: fee-only, fiduciary guidance grounded in careful analysis rather than product sales or inherited industry habits.
+That is still how he works.
 
-Over the years he has helped develop educational materials for other advisors, spoken at national and regional conferences, and continued to study the parts of planning that matter most when life gets complicated: retirement, risk, taxes, estate issues, and the judgment required when those areas overlap.
+> I sometimes call myself a professional worrier. I spend a lot of time imagining the personal and economic events that could put a client's plans in jeopardy. Then we decide which risks are worth taking and which outcomes are not acceptable.
 
-Clients who work with David usually want more than a quick recommendation. They want someone who will think through the consequences, pressure-test the plan, and stay with the decision long enough to make sure it is implemented well.
+David founded Pathfinder in 2003 because he saw a need for financial advice that was both technically rigorous and free from product commissions. He wanted to build a practice where the research served the client, rather than a sales target or an inherited industry rule.
 
-Outside of work, David enjoys hiking, camping, kayaking, golf, scuba diving, reading, and time with family and friends.
+He has developed educational material for other advisors through NAPFA, spoken at national and regional conferences, and continued to study retirement, investment risk, taxes, and estate planning. He is particularly interested in questions that cross several of those subjects at once, because that is where a tidy answer is most likely to be incomplete.
 
-Pathfinder Financial Services, LLC is organized in the State of Hawaii and operates as a Registered Investment Advisor in Hawaii while serving clients nationwide.
+David was raised in Hawaii and graduated from Punahou School. Outside the office, he enjoys hiking, camping, kayaking, golf, scuba diving, reading, and time with family and friends.
+
+Pathfinder Financial Services, LLC is organized in Hawaii and is a Registered Investment Advisor in the State of Hawaii. The practice also serves clients elsewhere in the United States where permitted.

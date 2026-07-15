@@ -1,19 +1,23 @@
 ---
 title: "Fee-Only"
 weight: 30
-description: "What fee-only means at Pathfinder — no commissions, no product sales, and a pledge to minimize conflicts of interest in every recommendation."
-summary: "When an advisor gets paid based on what they recommend, the recommendation has a problem. Fee-only removes that problem — and introduces a smaller set of different ones."
+description: "Pathfinder is paid by clients and does not receive commissions for selling investments, insurance, or other financial products."
+summary: "Fee-only describes who pays us. Our clients do; product companies do not."
 draft: false
 ---
 
-Pathfinder is paid directly by clients. We don't receive commissions for recommending investments, insurance products, or anything else. That removes the most common conflict in financial advice: getting paid more to recommend one product over another.
+Pathfinder does not receive commissions for recommending investments, insurance, or other financial products. Clients pay us directly.
 
-It does not remove every conflict. And it's worth being direct about the ones that remain.
+That matters because compensation changes advice. If an advisor earns more for recommending one product instead of another, the client has to wonder how much the commission influenced the answer. A fee-only arrangement removes that particular problem.
 
-## Fee-only doesn't mean conflict-free.
+It does not make every conflict disappear.
 
-- Assets-under-management fees can bias advice toward keeping more assets invested.
-- Hourly fees can reward complexity and extra work.
-- Flat retainers can reward doing too little.
+## The conflicts that remain
 
-The standard at Pathfinder is not to pretend those conflicts don't exist. It's to reduce them where possible, name them when they remain, and give advice that can stand on its own merits — whether or not it leads to more work for us.
+- An asset-based fee can encourage an advisor to keep money invested rather than recommend paying down debt or buying property.
+- An hourly fee can reward unnecessary work.
+- A flat retainer can reward doing too little.
+
+We do not think the honest response is to call ourselves conflict-free. It is to reduce conflicts where we can, disclose the ones that remain, and give advice we can defend even when it does not increase our fee.
+
+“Fee-based” is not the same term. It commonly describes advisors who charge fees and also receive commissions. When comparing firms, ask who can pay the advisor and read the answer in the firm's Form ADV.

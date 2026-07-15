@@ -13,22 +13,22 @@
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Schedule</p>
             <h3><a href="mailto:{{ site.Params.email }}?subject=Schedule%20a%20free%20conversation">Schedule a free call</a></h3>
-            <p>Send a short note with what is happening and a few times that usually work for you.</p>
+            <p>Tell us briefly what is happening and suggest a few times that work for you.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Email</p>
             <h3><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></h3>
-            <p>Good if you'd rather write it down before talking.</p>
+            <p>Use email if writing the question down is easier than starting with a call.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Phone</p>
             <h3><a href="tel:+18087284396">{{ site.Params.phone }}</a></h3>
-            <p>Good if you'd rather just talk it through.</p>
+            <p>Call if you would rather begin by talking.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">In Person</p>
             <h3>By appointment</h3>
-            <p>Pathfinder comes to you when you prefer to meet face to face.</p>
+            <p>Pathfinder can come to you for a face-to-face meeting.</p>
           </div>
           <div class="contact-sheet__block">
             <p class="eyebrow eyebrow--soft">Mailing Address</p>
@@ -45,11 +45,8 @@
 
   {{ partial "advisor-panel.html" (dict
     "eyebrow" "Who you will speak with"
-    "title" "You'll hear from David or Katherine directly."
-    "intro" "If the conversation moves forward, David and Katherine are the people who stay involved in the work."
-    "summary_overrides" (dict
-      "/about/katherine-jacobs/" "Katherine focuses on making sure clients actually understand their plan, not just that one exists. She's known for clear communication and staying on top of the details between meetings. She tends to be the one who makes the first conversation feel less daunting."
-    )
+    "title" "David or Katherine will answer."
+    "intro" "If we work together, they will also research the questions, prepare the advice, and help carry it out."
   ) }}
 
   {{ with .Params.closing }}

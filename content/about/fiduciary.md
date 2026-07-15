@@ -1,17 +1,17 @@
 ---
 title: "Fiduciary"
 weight: 40
-description: "What it means to work with a fiduciary advisor — a legally binding duty to act in your best interest, not just sell products."
-summary: "Most people assume their financial advisor is legally required to act in their interest. Often they're not."
+description: "Pathfinder acts as a fiduciary and is required to put each client's interests first."
+summary: "A fiduciary is required to put the client's interests first. Do not assume every person using the title ‘financial advisor’ has that duty."
 draft: false
 ---
 
-The word "fiduciary" is the legal term for the standard that actually requires it. A fiduciary advisor must put the client's interests first — not just make a recommendation that can be defended on paper, but one that is genuinely meant to serve the client well.
+Most people reasonably assume that anyone calling themselves a financial advisor has to put the client's interests first. The titles do not make that promise.
 
-That should be a baseline. In much of the financial industry, it isn't.
+“Fiduciary” is the legal term that matters. A fiduciary must act in the client's best interest, disclose material conflicts, and put the client's interest ahead of the advisor's own.
 
-Large brokerages, banks, and insurance companies often operate under a looser standard — one that only requires recommendations to be "suitable," not necessarily best. The difference matters, and the titles and marketing language used in those settings often obscure it.
+Pathfinder acts as a fiduciary. We are also fee-only, so we do not receive product commissions. Those two facts do not guarantee that every recommendation will be perfect. They do establish whose interest the recommendation is supposed to serve and how we are paid for making it.
 
-If you are evaluating any advisor, ask them directly: will you confirm in writing that you are acting as a fiduciary for me? A genuine fiduciary should answer that clearly and without hesitation. Reluctance to do so is itself informative.
+If you are interviewing an advisor, ask a direct question: “Will you act as a fiduciary for me at all times, and will you put that in writing?”
 
-Pathfinder acts as a fiduciary in both the legal sense and in the standard we hold ourselves to. Combined with a fee-only structure — no commissions, no product sales — it means the incentives and the obligations point in the same direction: toward advice that actually serves you.
+The words “at all times” are useful. Some professionals act as fiduciaries for one part of a relationship and under a different standard for another. A clear answer should not require a sales presentation.

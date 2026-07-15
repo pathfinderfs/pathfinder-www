@@ -1,12 +1,12 @@
 ---
 title: "Contact Pathfinder"
 weight: 60
-description: "Start the conversation by phone, email, or in person if you would like to talk through what is going on."
+description: "Contact Pathfinder Financial Services by email or phone to arrange a free first conversation."
 layout: "contact"
 hero:
-  eyebrow: "Start the conversation"
-  headline: "The first conversation is free, simple, and doesn't commit you to anything."
-  intro: "Tell us what's going on and what feels urgent. We'll listen and give you an honest sense of whether this is the right fit — before anything else."
+  eyebrow: "Contact Pathfinder"
+  headline: "Tell us what is going on. We can start there."
+  intro: "You do not need to know which service you need or have all of the numbers organized. Send us a note or call. We will ask a few questions and tell you honestly whether Pathfinder is a sensible fit."
   primary:
     label: "Schedule a Free Call"
     href: "mailto:support@pathfinderfs.com?subject=Schedule%20a%20free%20conversation"
@@ -14,12 +14,12 @@ hero:
     label: "Call Pathfinder"
     href: "tel:%2B18087284396"
   image: "/images/pathfinder-decision-map.svg"
-  image_alt: "A Pathfinder planning map showing the movement from complexity toward a clear next step."
+  image_alt: "A Pathfinder planning map connecting financial questions and possible next steps."
 conversation:
-  eyebrow: "What the first conversation is like"
-  title: "You do not need to have everything figured out before you reach out."
-  intro: "You don't need to have the financials organized, the questions written out, or a clear sense of what you need. Most people start with something like \"here's what's happening\" and go from there. That's enough."
+  eyebrow: "The first conversation"
+  title: "It is a conversation, not a presentation."
+  intro: "Most people begin with some version of, ‘Here is what happened.’ That is enough. The first meeting is free, and there is no obligation to continue. If the question belongs with an attorney, accountant, insurance specialist, or another advisor, we will say that too."
 closing:
-  body: "You don't have to be sure. That's what the first call is for."
+  body: "Email support@pathfinderfs.com or call (808) 728-4396."
 draft: false
 ---
