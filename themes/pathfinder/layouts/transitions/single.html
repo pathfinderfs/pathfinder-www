@@ -1,101 +1,75 @@
 {{ define "main" }}
   {{ partial "page-hero.html" (dict "page" . "class" (printf "hero--transition hero--%s" .Params.page_theme)) }}
 
-  <section class="section" data-reveal>
-    <div class="container">
-      <div class="section-shell">
-        <div class="section-intro">
-          {{ with .Params.snapshot.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-          {{ with .Params.snapshot.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-        </div>
-        <ul class="check-list">
-          {{ range .Params.snapshot.items }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  {{ with .Params.warning }}
-    <section class="section section--warning" data-reveal>
+  {{ range .Params.sections }}
+    <section class="section{{ with .tone }} section--{{ . }}{{ end }}" data-reveal>
       <div class="container">
-        <div class="section-shell">
+        {{ if eq .kind "warning" }}
           <article class="transition-warning">
             <div class="transition-warning__body">
               {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
               {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-              {{ with .body }}<p class="section-copy">{{ . }}</p>{{ end }}
+              {{ with .body }}<div class="section-copy">{{ $.RenderString . }}</div>{{ end }}
             </div>
             {{ with .link }}
               <a class="text-link transition-warning__link" href="{{ partial "resolve-href.html" .href }}">{{ .label }}</a>
             {{ end }}
           </article>
-        </div>
+        {{ else }}
+          <div class="section-shell">
+            <div class="section-intro">
+              {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+              {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+              {{ with .intro }}<p class="section-copy">{{ . }}</p>{{ end }}
+              {{ if and (eq .kind "prose") .body }}
+                <div class="section-copy section-copy--prose">{{ $.RenderString .body }}</div>
+              {{ end }}
+            </div>
+
+            {{ if eq .kind "checklist" }}
+              <ul class="check-list">
+                {{ range .items }}<li>{{ . }}</li>{{ end }}
+              </ul>
+            {{ else if eq .kind "cards" }}
+              <div class="proof-list">
+                {{ range .items }}
+                  <article class="proof-item">
+                    <h3>{{ .title }}</h3>
+                    {{ with .body }}<p>{{ . }}</p>{{ end }}
+                  </article>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
       </div>
     </section>
   {{ end }}
 
-  <section class="section section--tint" data-reveal>
-    <div class="container">
-      <div class="section-shell">
-        <div class="section-intro">
-          {{ with .Params.decisions.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-          {{ with .Params.decisions.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-        </div>
-        <div class="proof-list">
-          {{ range .Params.decisions.items }}
-            <article class="proof-item">
-              <h3>{{ .title }}</h3>
-              <p>{{ .body }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" data-reveal>
-    <div class="container">
-      <div class="section-shell">
-        <div class="section-intro">
-          {{ with .Params.help.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-          {{ with .Params.help.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-        </div>
-        <div class="proof-list">
-          {{ range .Params.help.items }}
-            <article class="proof-item">
-              <h3>{{ .title }}</h3>
-              <p>{{ .body }}</p>
-            </article>
-          {{ end }}
+  {{ with .Params.related }}
+    <section class="section section--tint" data-reveal>
+      <div class="container">
+        <div class="section-shell">
+          <div class="section-intro">
+            {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+            {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
+          </div>
+          <div class="path-list">
+            {{ range .links }}
+              <a class="path-row" href="{{ partial "resolve-href.html" .href }}">
+                <div>
+                  {{ with .label }}<p class="eyebrow eyebrow--soft">{{ . }}</p>{{ end }}
+                  <h3>{{ .title }}</h3>
+                  {{ with .body }}<p>{{ . }}</p>{{ end }}
+                </div>
+                <span class="path-row__arrow" aria-hidden="true">→</span>
+              </a>
+            {{ end }}
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="section section--tint" data-reveal>
-    <div class="container">
-      <div class="section-shell">
-        <div class="section-intro">
-          {{ with .Params.related.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-          {{ with .Params.related.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
-        </div>
-        <div class="path-list">
-          {{ range .Params.related.links }}
-            <a class="path-row" href="{{ .href | relURL }}">
-              <div>
-                <p class="eyebrow eyebrow--soft">{{ .label }}</p>
-                <h3>{{ .title }}</h3>
-                <p>{{ .body }}</p>
-              </div>
-              <span class="path-row__arrow" aria-hidden="true">→</span>
-            </a>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  {{ end }}
 
   {{ partial "cta-panel.html" .Params.cta }}
 {{ end }}
