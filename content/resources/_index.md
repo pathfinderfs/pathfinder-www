@@ -1,11 +1,13 @@
 ---
 title: "Resources"
 weight: 40
-description: "Guides, checklists, and reference material for self-directed financial decisions — from stock options to executor duties."
-summary: "Self-directed guides, checklists, and curated references for navigating financial decisions on your own."
+description: "Pathfinder guides and checklists covering executor duties, startup options, equity-compensation taxes, advisor due diligence, and further reading."
+summary: "Detailed references for people who want to understand the mechanics before asking for advice or making a decision."
 draft: false
 ---
 
-<p>This section is for readers who want to think through the details themselves. It includes technical guides, checklists, recommended reading, and a short list of outside references Pathfinder still considers worth keeping close at hand.</p>
-<p>Some of these pages are intentionally detailed. They are meant to help you ask better questions and avoid avoidable mistakes, not to replace advice that depends on your specific facts.</p>
-<p class="legal-copy">Resource pages are general education, not individualized investment, tax, or legal advice. Decisions should be reviewed against your specific facts before you act.</p>
+Some financial questions deserve more than a paragraph on a marketing page. This section contains the checklists, tax explanations, reading suggestions, and outside references we regularly want close at hand.
+
+Use them to get oriented and to ask better questions. They cannot account for your plan documents, state law, tax return, family, or deadlines.
+
+<p class="legal-copy">These resources provide general education, not individualized investment, tax, or legal advice.</p>

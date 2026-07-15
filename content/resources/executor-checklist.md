@@ -1,8 +1,8 @@
 ---
 title: "Executor Checklist"
 weight: 10
-description: "A comprehensive checklist covering what to do before, during, and after a death — from healthcare directives and burial wishes to finances and taxes."
-summary: "A practical executor checklist organized by phase so you can work through urgent items first and print the page when needed."
+description: "A printable executor checklist covering preparation, immediate calls, property, accounts, insurance, beneficiaries, taxes, digital records, and business interests."
+summary: "Print the list, cross out what does not apply, and mark the few tasks that have to happen first."
 wide_layout: true
 page_class: "prose-checklist"
 draft: false
@@ -10,8 +10,8 @@ draft: false
 
 <div class="executor-guide">
 <div class="card executor-overview">
-<p>This is a general planning checklist, not legal, tax, or investment advice. State law, trust terms, beneficiary designations, and account rules can change the order of operations. Coordinate with the appropriate attorney, tax professional, or institution before acting.</p>
-<p>Best use: print the page, mark what is urgent, and work section by section instead of trying to do everything at once.</p>
+<p>No estate will use every item on this list. Print it, cross out what does not apply, and mark the calls or deadlines that belong at the top.</p>
+<p>This is a general planning checklist, not legal, tax, or investment advice. State law, trust terms, beneficiary designations, and account rules determine who has authority and what happens next. Check the order with the appropriate attorney, tax professional, or institution.</p>
 <ul class="executor-meta">
 <li>Screen-friendly</li>
 <li>Print-friendly</li>
@@ -21,7 +21,7 @@ draft: false
 <div class="executor-grid">
 <section class="card executor-section executor-section--wide">
 <h2>Before a Crisis</h2>
-<p>These are the decisions and documents worth clarifying before a death or severe decline in health.</p>
+<p>Preparing these items while everyone can participate saves the executor from guessing later.</p>
 <ul class="executor-checklist">
 <li>Confirm there is an accessible healthcare directive.</li>
 <li>Decide how long relatives living with the deceased may stay in the home.</li>
@@ -52,7 +52,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>Immediate Next Steps</h2>
-<p>These are the first calls and documents most executors need to deal with.</p>
+<p>Authority and circumstances vary. Confirm which calls belong to the executor before closing or transferring anything.</p>
 <ul class="executor-checklist">
 <li>Call 911 if death occurs at home.</li>
 <li>Notify close family and friends.</li>
@@ -68,7 +68,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>Home and Property</h2>
-<p>Secure the property early so the house, pets, and records do not drift unattended.</p>
+<p>Make sure the home, pets, mail, and records have a responsible person attached to them.</p>
 <ul class="executor-checklist">
 <li>Forward mail to the executor.</li>
 <li>Ensure pets are cared for.</li>
@@ -81,7 +81,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>Money, Insurance, and Beneficiaries</h2>
-<p>This is usually the longest section. Keep a central record of accounts, bills, distributions, and deadlines.</p>
+<p>Keep one record of every account, bill, reimbursement, distribution, contact, and deadline.</p>
 <ul class="executor-checklist">
 <li>Gather financial records and account information.</li>
 <li>Set up a shared tracking document for assets, debts, expenses, and distributions.</li>
@@ -109,7 +109,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>Taxes and Reporting</h2>
-<p>Do not leave the tax work for the end. Gather records early so the filings are easier later.</p>
+<p>Gather records early and ask the tax professional which returns and elections may be required.</p>
 <ul class="executor-checklist">
 <li>File the final personal income tax return.</li>
 <li>Determine whether an estate tax return is required.</li>
@@ -120,7 +120,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>Digital and Personal Items</h2>
-<p>Protect records before shutting accounts down.</p>
+<p>Preserve the information needed to reach other accounts before closing email or phone access.</p>
 <ul class="executor-checklist">
 <li>Do not notify the email provider until important services have been moved and needed messages have been preserved.</li>
 <li>Notify the DMV and update registrations or titles where needed.</li>
@@ -129,7 +129,7 @@ draft: false
 </section>
 <section class="card executor-section">
 <h2>If There Is a Business</h2>
-<p>Business ownership usually adds time-sensitive issues. Coordinate early with the attorney, CPA, and any co-owners.</p>
+<p>Contact the attorney, CPA, and co-owners early; payroll, banking, contracts, and employees may not be able to wait.</p>
 <ul class="executor-checklist">
 <li>Locate ownership documents, operating agreements, or buy-sell agreements.</li>
 <li>Confirm who has authority for payroll, vendors, and banking access.</li>

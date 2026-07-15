@@ -1,74 +1,77 @@
 ---
 title: "Evaluating Startup ISOs"
 weight: 20
-description: "A guide for employees evaluating or holding Incentive Stock Options (ISOs) at startups — how they work, what to ask, and common pitfalls."
-summary: "Understand how startup ISOs really work, why they may be worth less than you think, and what questions to ask before and after accepting them."
+description: "How to evaluate incentive stock options in a startup offer, including strike price, 409A value, preferred shares, vesting, exercise windows, taxes, and liquidity."
+summary: "Do not value startup options by multiplying your share count by the preferred price from the latest funding round."
 draft: false
 ---
 
-This page is for people evaluating a startup job offer with ISOs or trying to decide what to do with options they already hold.
+This page is for someone comparing a startup offer with other compensation or deciding what to do with options already granted. For the tax mechanics, also read [Taxation of RSUs, ISOs & NSOs](/resources/restricted-stock-stock-options/).
 
-If you need the tax mechanics first, read <a href="/resources/restricted-stock-stock-options/">Taxation of RSUs, ISOs &amp; NSOs</a>. This page is about value, expectations, and the questions that matter before you make a decision.
+<p class="legal-copy">This is general education, not individualized investment, tax, or legal advice. The answer depends on the option plan, grant documents, tax situation, state, company, and dates involved.</p>
 
-<p class="legal-copy">This page is general education, not individualized investment, tax, or legal advice. Startup equity decisions depend on your plan documents, income, state, company-specific facts, and timing.</p>
+## The first correction
 
-## The short version
+An incentive stock option is not a share of stock and it is not cash compensation. It is the right to buy a stated number of common shares at the strike price before the option expires.
 
-Startup ISOs often sound more valuable than they turn out to be.
+Four terms belong at the top of your notes:
 
-That does not mean they are worthless. It means you should be careful about treating them like cash compensation or comparing them directly to public-company RSUs. In many cases, the likely value of startup options is much lower than the headline numbers suggest.
+- **Share count:** how many shares the grant allows you to buy
+- **Strike price:** what you must pay for each share
+- **Vesting:** when the option becomes yours to exercise
+- **Expiration and termination terms:** how long the option lasts, including what happens after you leave the company
 
-## What an ISO actually gives you
+The option has economic value only when the common stock is worth more than the strike price. Even then, value on paper is not money you can spend unless there is a buyer for the shares.
 
-An ISO gives you the right to buy common shares at a stated strike price.
+## Common stock is not preferred stock
 
-Its value depends on several things:
+Recruiting conversations often mention the preferred-share price from the latest financing. Employees generally receive options on common shares.
 
-- how many shares you can buy
-- the strike price
-- the vesting schedule
-- the expiration date
-- whether the common stock ever becomes worth meaningfully more than the strike price
+The distinction matters. Preferred investors may have liquidation preferences and other rights that put them ahead of common shareholders when a company is sold. A high preferred price does not establish that an employee's common shares have the same value.
 
-Unlike RSUs, vesting alone does not usually create value. If the company's common stock never rises above the strike price in a meaningful way, the option may end up worth very little or nothing.
+Ask for the current 409A valuation of the common stock. It is still an estimate, but it is the relevant starting point for the strike price and current spread.
 
-## Why offer letters can be misleading
+## A deliberately optimistic example
 
-Companies often highlight the preferred share price from the latest funding round. That can make an option grant look far more valuable than it really is.
+Suppose a grant contains:
 
-The problem is that employee ISOs are usually for common shares, not preferred shares. Preferred investors often have liquidation preferences and other protections that put them ahead of common shareholders in many outcomes.
+- 10,000 options
+- a $1 strike price
+- four-year vesting
+- a $10 preferred-share price in the latest financing
 
-That means the fair market value of the common stock can be far below the preferred share price, especially in early-stage companies. A grant that looks impressive when compared with the preferred price may be far less valuable in practice.
+It is tempting to call the grant worth $90,000: 10,000 multiplied by the difference between $10 and $1. That calculation substitutes the preferred price for the value of common stock and ignores vesting, taxes, the $10,000 exercise cost, and the lack of a market for the shares.
+
+If the common stock's current 409A value is $3, the spread is $2 per option, not $9. After two years, perhaps only half the grant is vested. Exercising those 5,000 options would require $5,000 plus any tax cost, in exchange for private shares that may not be saleable.
+
+The favorable story can still happen. The company may grow, go public, and make the options valuable. The point is to compare an offer using the risks and restrictions that exist today, not only the outcome in the recruiting presentation.
 
 ## What has to go right
 
-For ISOs to become highly valuable, several things usually need to happen:
+For a startup option to produce substantial spendable value:
 
-- the company must keep growing
-- the common stock value must rise meaningfully above the strike price
-- you must stay long enough to vest or exercise on reasonable terms
-- there must eventually be a liquidity event or a market for the shares
+- the common stock must rise meaningfully above the strike price
+- enough of the grant must vest before you leave
+- the exercise window must give you a practical chance to buy the shares
+- you must be able to afford the exercise and any resulting tax
+- the company must eventually provide liquidity through a sale, tender offer, or public market
+- common shareholders must receive value after any preferred claims are satisfied
 
-If the company raises money on worse terms, sells for less than investors expected, or never reaches liquidity, common shareholders may receive far less than the optimistic story suggests.
+A down round, an acquisition at a disappointing price, dilution, or no liquidity event can produce a much smaller result. The option may expire with no value.
 
-## Questions to ask
+## Questions to ask before accepting the offer
 
-Before accepting or exercising startup ISOs, ask:
+- What is the current 409A value of the common stock, and when was it established?
+- What percentage of the fully diluted company does the grant represent?
+- What are the vesting schedule and expiration date?
+- What happens to vested options if employment ends?
+- Does the company permit early exercise, and under what terms?
+- Has the company offered tender sales or other employee liquidity?
+- What can the company disclose about preferred-share liquidation rights?
+- How much unvested compensation and benefits would you give up by leaving your current job?
 
-- What is the current 409A valuation for the common stock?
-- How often is that valuation updated?
-- What happens to the options if I leave the company?
-- Is there any realistic path to liquidity before an IPO?
-- How large are the liquidation preferences on the preferred shares?
-- If I exercise, what tax or AMT exposure am I taking on?
+## Before exercising
 
-## When to be especially careful
+Get especially careful when employment is ending, an IPO or acquisition appears possible, the exercise requires meaningful cash, or the ISO spread could create alternative minimum tax exposure.
 
-Get more deliberate when:
-
-- you are leaving the company and facing a short exercise window
-- an IPO or acquisition may be approaching
-- the exercise would require a large cash outlay
-- the tax cost could be meaningful if the stock later falls
-
-ISOs can be valuable, but they are not a substitute for clear thinking. Treat them as a risky, highly conditional part of compensation, not as money already earned.
+Read the actual plan and grant. Calculate the exercise cost, estimated tax, concentration in the employer, and amount you can lose without damaging the rest of your finances. A short exercise deadline is not enough time to reconstruct those facts from memory.

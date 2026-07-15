@@ -1,50 +1,51 @@
 ---
 title: "External Links"
 weight: 60
-description: "A short list of outside references Pathfinder still recommends checking for advisor research, personal finance basics, care planning, and philanthropy."
-summary: "A short curated list of outside references for self-directed research and practical planning."
+description: "Outside references Pathfinder uses for advisor records, credit reports, tax research, Social Security, care planning, and charitable due diligence."
+summary: "A deliberately short set of outside references we continue to find useful."
 draft: false
 ---
 
-<p>This page is intentionally short. Pathfinder would rather point you to a smaller set of solid references than maintain a long directory of links that drifts out of date.</p>
-<p class="legal-copy">External links are provided for convenience and general education. Pathfinder does not control third-party sites, and linking to a site does not make its content individualized advice.</p>
+Long link directories age badly. These are the sites we would still send someone to for the specific jobs below.
+
+<p class="legal-copy">Pathfinder does not control these sites. Links are provided for convenience and general education, not as individualized advice.</p>
 
 <div class="resource-link-groups">
   <section class="card resource-link-group">
     <h2>Check an advisor</h2>
-    <p>These are the first places to look when you want to confirm registrations, disclosures, and disciplinary history.</p>
+    <p>Do this even if the advisor was recommended by someone you trust.</p>
     <ul class="resource-link-list">
-      <li><a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">Investment Adviser Public Disclosure</a> for SEC and state-registered investment advisers.</li>
-      <li><a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a> for broker records, employment history, and disclosures.</li>
+      <li><a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">Investment Adviser Public Disclosure</a> provides registration records, Form ADV filings, and disclosures for SEC- and state-registered investment advisers.</li>
+      <li><a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a> provides employment history and disclosures for brokers and brokerage firms.</li>
     </ul>
   </section>
 
   <section class="card resource-link-group">
-    <h2>Personal finance basics</h2>
-    <p>Reliable starting points for credit, account rates, taxes, and self-directed investing questions.</p>
+    <h2>Look up the underlying information</h2>
+    <p>Useful when you want the source or a strong self-directed reference rather than another summary.</p>
     <ul class="resource-link-list">
-      <li><a href="https://www.annualcreditreport.com/" rel="noopener noreferrer">AnnualCreditReport.com</a> for free official credit reports.</li>
-      <li><a href="https://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts</a> for savings, checking, and CD rate comparisons.</li>
-      <li><a href="https://fairmark.com/" rel="noopener noreferrer">Fairmark</a> for practical tax reference material.</li>
-      <li><a href="https://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a> for broad investing discussions and self-directed research.</li>
+      <li><a href="https://www.annualcreditreport.com/" rel="noopener noreferrer">AnnualCreditReport.com</a> is the authorized site for free credit reports.</li>
+      <li><a href="https://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts</a> compares rates on savings accounts, checking accounts, and certificates of deposit.</li>
+      <li><a href="https://fairmark.com/" rel="noopener noreferrer">Fairmark</a> publishes practical tax reference material.</li>
+      <li><a href="https://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a> hosts extensive discussions of low-cost investing and personal-finance questions.</li>
     </ul>
   </section>
 
   <section class="card resource-link-group">
-    <h2>Retirement and care planning</h2>
-    <p>Good references when you need the official rules or want to get organized before a health or estate issue becomes urgent.</p>
+    <h2>Retirement and care</h2>
+    <p>Official benefit information and state-specific planning documents.</p>
     <ul class="resource-link-list">
-      <li><a href="https://www.ssa.gov/" rel="noopener noreferrer">Social Security Administration</a> for benefits, retirement, and account access.</li>
-      <li><a href="https://www.caringinfo.org/planning/advance-directives/" rel="noopener noreferrer">CaringInfo Advance Directives</a> for state-specific healthcare directive information.</li>
+      <li><a href="https://www.ssa.gov/" rel="noopener noreferrer">Social Security Administration</a> provides benefit estimates, applications, and account access.</li>
+      <li><a href="https://www.caringinfo.org/planning/advance-directives/" rel="noopener noreferrer">CaringInfo Advance Directives</a> collects healthcare-directive information and forms by state.</li>
     </ul>
   </section>
 
   <section class="card resource-link-group">
-    <h2>Philanthropy</h2>
-    <p>Useful starting points for charitable due diligence and donor-advised fund research.</p>
+    <h2>Charitable giving</h2>
+    <p>Starting points for researching a charity or a Hawaii-based giving program.</p>
     <ul class="resource-link-list">
-      <li><a href="https://www.charitynavigator.org/" rel="noopener noreferrer">Charity Navigator</a> for nonprofit research and charity evaluation.</li>
-      <li><a href="https://www.hawaiicommunityfoundation.org/" rel="noopener noreferrer">Hawaii Community Foundation</a> for donor-advised fund and local giving options.</li>
+      <li><a href="https://www.charitynavigator.org/" rel="noopener noreferrer">Charity Navigator</a> publishes nonprofit ratings and financial information.</li>
+      <li><a href="https://www.hawaiicommunityfoundation.org/" rel="noopener noreferrer">Hawaii Community Foundation</a> offers donor-advised funds and information about local giving.</li>
     </ul>
   </section>
 </div>

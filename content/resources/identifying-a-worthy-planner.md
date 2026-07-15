@@ -1,80 +1,69 @@
 ---
 title: "Identifying a Worthy Planner"
 weight: 40
-description: "How to evaluate a financial planner's trustworthiness, competence, and fit — practical questions to ask and red flags to watch for."
-summary: "Use three tests when evaluating a planner: trustworthiness, competence, and fit."
+description: "Questions for evaluating a financial planner's incentives, record, competence, limits, service model, and working style."
+summary: "A planner can be pleasant and persuasive without being trustworthy, competent, or right for the work you need. Check all three."
 draft: false
 ---
 
-<p>Finding a good planner is not mainly about finding someone likable. It is about finding someone who is trustworthy, competent, and actually built for the kind of help you want.</p>
+A disclosure before we begin: Pathfinder is built around many of the opinions on this page. That makes the advice potentially self-serving. Judge the reasoning, check our record too, and compare more than one firm.
 
-<p class="legal-copy">This page is general education, not individualized advice or a recommendation of any particular firm or professional.</p>
+<p class="legal-copy">This page provides general education, not a recommendation of any particular firm or professional.</p>
 
-<p>Those are the three questions to answer:</p>
+We would investigate three things:
 
-<ol>
-<li>Are they trustworthy?</li>
-<li>Are they competent?</li>
-<li>Are they a fit for the work you need?</li>
-</ol>
+1. Can this person be trusted with the access and information the job requires?
+2. Do they know enough to do the work well—and recognize when they do not?
+3. Is their practice designed to provide the kind of help you want?
 
-<h2>1. Trustworthiness</h2>
+## Trust: begin with structure
 
-<p>Start with structure before personality.</p>
+A warm referral is useful, but it is not a control. Pay attention to how the relationship is set up.
 
-<ul>
-<li>Use a qualified custodian so account statements and asset custody are independent of the advisor.</li>
-<li>Understand whether the advisor has trading discretion and whether that matches what you want.</li>
-<li>Ask whether they are acting as a fiduciary for you.</li>
-<li>Understand how they are paid and what conflicts that compensation creates.</li>
-</ul>
+- Client assets should be held at a qualified custodian that sends statements independently of the advisor.
+- Know what authority the advisor will have over accounts and why each permission is needed.
+- Ask whether the advisor will act as a fiduciary for you at all times and put that promise in writing.
+- Find out every way the advisor and firm can be paid. “Fee-based” may include commissions; “fee-only” does not.
+- Read the firm's Form ADV, including the descriptions of fees, conflicts, outside activities, and disciplinary information.
 
-<p>Then do basic due diligence.</p>
+Look up the advisor and firm through the SEC's <a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">Investment Adviser Public Disclosure database</a>. If the person also has a brokerage history, check <a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a>. Search their names independently as well.
 
-<ul>
-<li>Look up the advisor and firm on the <a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">SEC's adviser database</a> and, if relevant, <a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a>.</li>
-<li>Read the firm's Form ADV and pay attention to conflicts, fees, and disciplinary history.</li>
-<li>Search the advisor's and firm's names independently.</li>
-<li>Be skeptical of guaranteed returns, market-beating claims, or answers that stay vague when the stakes are high.</li>
-</ul>
+Then notice the ordinary behavior. Do they answer a direct question directly? Do they do what they said they would do? Pressure, evasiveness, guarantees, and vague explanations about compensation are reasons to stop, even when the presentation is impressive.
 
-<p>Relationship still matters. You are trusting someone with deeply personal information and meaningful decisions. If an advisor consistently dodges questions, creates pressure, or leaves you uneasy, that matters.</p>
+## Competence: ask how they know
 
-<h2>2. Competence</h2>
+Financial-planning competence is difficult for a prospective client to judge. Confidence is visible immediately; judgment may not be tested for years.
 
-<p>Competence is harder to judge than trustworthiness because many people sound confident long before they are actually good.</p>
+Credentials establish a floor, not the ceiling. Ask how the planner learned the areas relevant to your situation and how that knowledge stays current. Useful answers may include technical coursework, academic and professional research, conferences, original analysis, and regular work with specialists. Product-company presentations and years in the industry are not enough by themselves.
 
-<p>Instead of relying too heavily on charm or credentials, look at how the advisor develops and maintains expertise.</p>
+Four signs tell us more than a polished résumé:
 
-<ul>
-<li>Ask how they stay current and what they read beyond marketing material from product providers.</li>
-<li>Ask where their knowledge stops and when they bring in outside expertise.</li>
-<li>Pay attention to the quality of their questions. Strong planners ask questions that uncover goals, tradeoffs, and hidden constraints.</li>
-<li>Notice whether they can explain their reasoning clearly. If they cannot make it understandable, that is a problem.</li>
-</ul>
+### They know their boundaries
 
-<p>A good planner should not need to act certain about everything. Humility and clear reasoning are better signs than polished conviction.</p>
+Ask for examples of work they refer to someone else. Tax law, estate documents, insurance underwriting, government pensions, business transactions, real estate, and cross-border questions can each require a specialist. Nobody is excellent at all of them.
 
-<h2>3. Fit</h2>
+### They ask questions that change the problem
 
-<p>Even a trustworthy and competent advisor can still be the wrong fit.</p>
+A capable planner needs to understand the decision, the people affected by it, and the result that would be hard to recover from. At least one question should make you pause rather than invite a rehearsed answer.
 
-<ul>
-<li>Are you looking for a second opinion, a one-time project, or a long-term planning relationship?</li>
-<li>Do you want investment management only, or do you want broader planning help?</li>
-<li>Does the advisor's style match how you make decisions?</li>
-</ul>
+### They can show their reasoning
 
-<p>Many advisors are built primarily around managing assets, with planning added on around the edges. If you need real planning help, make sure planning is actually central to the practice.</p>
+You have to live with the recommendation. The planner should be able to explain the assumptions, alternatives, and risks in language you understand. Complexity in the subject is not permission for a vague conclusion.
 
-<h2>Red flags</h2>
+### They are appropriately uncertain
 
-<ul>
-<li>Promises of high returns or unusually certain forecasts</li>
-<li>Pressure to act quickly</li>
-<li>Vague explanations about fees or conflicts</li>
-<li>Reluctance to acknowledge limits or refer work out</li>
-<li>A process that focuses on products before understanding your situation</li>
-</ul>
+Forecasts, tax assumptions, health, markets, and family circumstances all change. Look for someone who can make a recommendation without pretending to know what cannot be known.
 
-<p>The goal is not to find a perfect advisor. It is to find one whose incentives, judgment, and working style give you a sound basis for trust.</p>
+## Fit: inspect the business you are hiring
+
+Even a trustworthy, capable planner can have the wrong service model for you.
+
+- Do you need a second opinion, a one-time analysis, or an ongoing relationship?
+- Is the central need investment management, broader planning, implementation help, or some combination?
+- Who will attend meetings and who will perform the analysis after the meeting?
+- How often will the work be reviewed, and what happens when a new question appears between reviews?
+- Does the fee make sense for the work you expect the firm to do?
+
+Many advisory businesses are organized around gathering and managing investments, with planning added around the edges. That can be appropriate when investment management is the job. If you need help with retirement, taxes, family decisions, or implementation, ask for examples of what the planning work includes.
+
+The goal is not a perfect advisor. It is a professional whose incentives, habits, knowledge, and service model give you enough evidence to place trust carefully.

@@ -1,50 +1,54 @@
 ---
 title: "Taxation of RSUs, ISOs & NSOs"
 weight: 30
-description: "How RSUs, ISOs, and NSOs are taxed — key differences, timing traps, and a summary table to help you make informed decisions."
-summary: "A clear comparison of how Restricted Stock Units, Incentive Stock Options, and Non-Qualified Stock Options are taxed at each stage."
+description: "A general comparison of how non-qualified stock options, incentive stock options, RSUs, and restricted stock are taxed at exercise, vesting, and sale."
+summary: "The names sound similar. The point at which income appears—and whether cash is available to pay the tax—can be very different."
 draft: false
 ---
 
-The tax treatment of equity compensation depends heavily on what you received and when you act. RSUs, ISOs, and NSOs can all look similar on an offer letter while creating very different tax consequences later.
+Start with the grant documents. “Options,” “restricted stock,” and “RSUs” are sometimes used casually in conversation, but the tax treatment depends on what was actually issued and when each event occurred.
 
-<p class="legal-copy">This page is general education, not individualized tax, legal, or investment advice. Tax rules and plan terms can change, and the right choice depends on your specific facts.</p>
+<p class="legal-copy">This page provides general education, not individualized tax, legal, or investment advice. Tax rules and plan terms change, and state treatment may differ.</p>
 
-## NSOs
+## Non-qualified stock options (NSOs)
 
-When you exercise a non-qualified stock option, the spread between the strike price and the current fair market value is generally treated as ordinary income. That income usually appears on your W-2 and is subject to income-tax withholding and payroll tax.
+When an employee exercises an NSO, the difference between the strike price and the fair market value is generally compensation income. It is typically reported on Form W-2 and subject to income-tax withholding and payroll taxes.
 
-From that point forward, any additional gain or loss is treated the way it would be if you had purchased the stock at the market price on the exercise date.
+The fair market value at exercise generally becomes the tax basis in the shares. A later sale then creates a capital gain or loss based on the change after exercise.
 
-The practical risk is straightforward: you can create a tax bill before you have actually turned the stock into cash. In many cases it is prudent to sell enough shares immediately to cover the tax liability.
+Here is the sharp edge: exercise can create taxable income before the shares have produced cash. With publicly traded stock, selling enough shares to cover the tax is often possible. Private-company shares may not have a buyer.
 
-## ISOs
+## Incentive stock options (ISOs)
 
-Incentive stock options are different. Exercise does not usually create regular ordinary income, but the spread at exercise can create AMT income.
+Exercising an ISO generally does not create ordinary income for regular federal income-tax purposes. The spread between fair market value and the strike price can, however, be an adjustment for the alternative minimum tax.
 
-If you hold the shares for more than one year after exercise and more than two years after grant, the eventual sale can qualify for long-term capital gains treatment. If you sell too soon, the favorable ISO treatment is lost and part of the gain is treated more like ordinary income.
+A sale more than one year after exercise and more than two years after grant may qualify for the favorable ISO holding-period treatment. Selling before both periods are met is a disqualifying disposition, and part of the result may be compensation income.
 
-ISOs can become especially tricky before an IPO or liquidity event because exercising early may reduce later AMT exposure, but it also means committing cash and taking real risk before the shares are liquid.
+An early exercise can reduce the spread subject to AMT if the common-stock value is still low. It also commits cash to a company whose shares may remain illiquid or lose value. Run both sides of that decision.
 
-## RSUs
+## Restricted stock units (RSUs)
 
-Standard RSUs are usually taxed as ordinary income when they vest. That value is typically subject to withholding and appears on your W-2.
+An RSU is a promise to deliver stock or cash after specified conditions are met. Standard RSUs are generally taxed as compensation when they settle, commonly around vesting. The employer typically reports the value on Form W-2 and withholds tax.
 
-True restricted stock can sometimes allow an 83(b) election, which means electing to recognize income earlier rather than waiting for vesting. That can work well if the value is still low and the upside is large, but it can also backfire if the stock falls or never vests.
+Withholding may be less than the employee's eventual tax rate. Check the projected return instead of assuming the shares withheld by the employer settle the full bill.
 
-As with NSOs, the practical issue is that a tax bill can arrive before you have diversified or sold enough shares to cover it.
+## Restricted stock and the 83(b) election
 
-## Quick comparison
+Restricted stock is property transferred before it is fully vested. It is different from an RSU. An eligible recipient may choose an 83(b) election to recognize income based on the value at transfer rather than waiting for vesting.
+
+The election generally must be filed with the IRS no later than 30 days after the property is transferred. It can be costly if the shares fall in value or are forfeited. Standard RSUs generally are not eligible because no property has been transferred at grant. Confirm the award type, deadline, and filing requirements with a tax professional before acting.
+
+## Comparison
 
 | Event | NSO | ISO | RSU | Restricted stock with 83(b) election |
 | --- | --- | --- | --- | --- |
-| Grant or issue | Usually no tax | Usually no tax | Usually no tax | Ordinary income at issue |
-| Vesting | No tax | No tax | Ordinary income plus withholding | No additional ordinary income |
-| Exercise | Ordinary income plus withholding | Potential AMT impact | Not applicable | Not applicable |
-| Sale | Capital gain or loss after exercise | Capital gain or a mix of capital gain and ordinary income depending on holding period | Capital gain or loss after vesting | Capital gain or loss after issue |
+| Grant or issue | Usually no tax | Usually no tax | Usually no tax | Compensation income based on value at transfer |
+| Vesting | Usually no tax | Usually no tax | Compensation income when settled | Generally no additional compensation income |
+| Exercise | Compensation income plus applicable withholding | Potential AMT adjustment | Not applicable | Not applicable |
+| Sale | Capital gain or loss after exercise | Capital gain or a combination of capital gain and compensation income, depending on holding periods | Capital gain or loss after settlement | Capital gain or loss after transfer |
 
-## Diversification still matters
+## Do not let the tax question hide the investment question
 
-Equity compensation often grows alongside your career, identity, and optimism about the company. That makes concentration risk easy to underestimate.
+Someone with company equity already depends on the employer for salary, benefits, and future grants. Holding a large amount of the same company's stock adds the investment portfolio to that list.
 
-If a large share of your net worth is tied to one company, diversification is not a theoretical issue. It is part of protecting the rest of your life from one employer, one stock, or one liquidity outcome.
+Tax can influence when and how to diversify. Avoiding tax is not, by itself, a reason to leave an unacceptable portion of the family's finances tied to one company.
