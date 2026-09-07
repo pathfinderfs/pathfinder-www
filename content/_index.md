@@ -6,8 +6,8 @@ draft: false
 hero:
   eyebrow: "Fee-only financial planning"
   brand: "Pathfinder Financial Services"
-  headline: "Bringing clarity to complicated financial decisions."
-  intro: "People usually call us when something is changing: retirement is close, stock options have a deadline, a marriage is ending, an inheritance has arrived, or a spouse has died. We sort through the tax, investment, and family consequences before you make a move that is difficult to undo."
+  headline: "Understand your choices. Decide what comes next."
+  intro: "Retirement, company stock, an inheritance, divorce, or the loss of a spouse can bring financial questions you have never had to answer before. We help you work out what needs attention now, understand how the decisions affect one another, and carry them through."
   primary:
     label: "Start With a Free Conversation"
     href: "/contact-us/"
@@ -37,13 +37,13 @@ quick_links:
       href: "/transitions/loss-of-a-spouse/"
 proof:
   eyebrow: "How we approach the work"
-  title: "We look for the situations that can hurt you."
-  intro: "We are professional worriers. This means evaluating all the risks that could affect your plan (e.g., high inflation, poor returns, death, long term care, tax changes, social security changes, etc), determining if they would cause a problem and what could be done to mitigate them."
+  title: "We are professional worriers."
+  intro: "We ask what could put your plans at risk: a market decline early in retirement, years of care expenses, or too much money tied to one company. Then we look at what you could do about it. The point is to help you prepare while you still have choices."
   items:
-    - title: "Explore the bad scenarios"
-      body: "We ask what happens if markets fall, care costs rise, the house does not sell, or a concentrated stock position loses half its value. A plan has to work outside the expected case."
-    - title: "Integrated advice"
-      body: "Taxes, investments, cash flow, insurance, estate documents, and family obligations affect one another. We make those connections visible before recommending a course of action."
+    - title: "Prepare for setbacks"
+      body: "We examine how setbacks could affect your spending, timing, and other commitments, then consider adjustments that could make the plan more resilient."
+    - title: "Look at the decisions together"
+      body: "Selling stock can affect your taxes. Helping family can change what you can spend in retirement. We look at those connections before recommending what to do."
     - title: "Clear recommendations"
       body: "You should understand why we are recommending something, what could change the answer, and what we still do not know. If our explanation is confusing, it is our job to explain it better."
 trust:
@@ -59,8 +59,8 @@ trust:
       body: "The people you meet are the people who research the questions, make the recommendations, and help with follow-through."
 cta:
   eyebrow: "Start a conversation"
-  title: "Tell us what is happening."
-  body: "You do not need to be fully organized. The first conversation is free, and we will tell you plainly whether we think we can help."
+  title: "Tell us what brought you here."
+  body: "You do not need to have everything organized before getting in touch. The first conversation is free. We will listen, ask questions, and tell you plainly whether we think we can help."
   label: "Start With a Free Conversation"
   href: "/contact-us/"
 ---

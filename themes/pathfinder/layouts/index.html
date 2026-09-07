@@ -30,7 +30,7 @@
           {{ with .Params.proof.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.proof.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
-        <div class="proof-list proof-list--home">
+        <div class="proof-list">
           {{ range .Params.proof.items }}
             <article class="proof-item">
               <h3>{{ .title }}</h3>

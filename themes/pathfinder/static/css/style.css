@@ -765,10 +765,6 @@ body.is-ready .hero--home .hero__media img {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.proof-list--home {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .home-route {
   padding: 1.35rem 0;
   border-top: 1px solid var(--line);
@@ -1905,10 +1901,6 @@ body.is-ready .hero--home .hero__media img {
     grid-template-columns: 1fr;
   }
 
-  .proof-list--home {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .comparison-grid {
     gap: 1rem;
   }
@@ -2029,10 +2021,6 @@ body.is-ready .hero--home .hero__media img {
 
   .home-route__cue {
     font-size: 0.8rem;
-  }
-
-  .proof-list--home {
-    grid-template-columns: 1fr;
   }
 
   .section,
