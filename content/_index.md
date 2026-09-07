@@ -1,13 +1,13 @@
 ---
 title: "Pathfinder Financial Services"
 weight: 10
-description: "Fee-only financial planning in Hawaii for retirement, company stock, divorce, inheritance, widowhood, and other consequential decisions."
+description: "Fee-only financial planning for retirement, company stock, divorce, inheritance, widowhood, and other consequential decisions."
 draft: false
 hero:
-  eyebrow: "Fee-only financial planning in Hawaii"
+  eyebrow: "Fee-only financial planning"
   brand: "Pathfinder Financial Services"
-  headline: "When the financial decision is complicated, we help you think it through."
-  intro: "People usually call us when something is changing: retirement is close, stock options have a deadline, a marriage is ending, an inheritance has arrived, or a spouse has died. We sort through the tax, investment, and family consequences before you make a move that is difficult to reverse."
+  headline: "Bringing clarity to complicated financial decisions."
+  intro: "People usually call us when something is changing: retirement is close, stock options have a deadline, a marriage is ending, an inheritance has arrived, or a spouse has died. We sort through the tax, investment, and family consequences before you make a move that is difficult to undo."
   primary:
     label: "Start With a Free Conversation"
     href: "/contact-us/"
@@ -37,16 +37,14 @@ quick_links:
       href: "/transitions/loss-of-a-spouse/"
 proof:
   eyebrow: "How we approach the work"
-  title: "We look for the part of the decision that can hurt you."
-  intro: "David sometimes describes himself as a professional worrier. That is useful in financial planning. We spend time on the deadline that is easy to miss, the tax consequence buried in an otherwise sensible choice, and the bad outcome a spreadsheet average can hide."
+  title: "We look for the situations that can hurt you."
+  intro: "We are professional worriers. This means evaluating all the risks that could affect your plan (e.g., high inflation, poor returns, death, long term care, tax changes, social security changes, etc), determining if they would cause a problem and what could be done to mitigate them."
   items:
-    - title: "Find the real deadline"
-      body: "An option exercise window is real. So is a tax-year cutoff. The pressure to solve the next twenty years by Friday usually is not. We separate the two."
-    - title: "Run the bad scenarios"
+    - title: "Explore the bad scenarios"
       body: "We ask what happens if markets fall, care costs rise, the house does not sell, or a concentrated stock position loses half its value. A plan has to work outside the expected case."
-    - title: "Put the pieces on one page"
+    - title: "Integrated advice"
       body: "Taxes, investments, cash flow, insurance, estate documents, and family obligations affect one another. We make those connections visible before recommending a course of action."
-    - title: "Explain the recommendation"
+    - title: "Clear recommendations"
       body: "You should understand why we are recommending something, what could change the answer, and what we still do not know. If our explanation is confusing, it is our job to explain it better."
 trust:
   eyebrow: "Who does the work"
@@ -57,12 +55,12 @@ trust:
       body: "Pathfinder is [fee-only](/about/fee-only/). We are paid by clients, not for selling investments or insurance."
     - title: "A fiduciary relationship"
       body: "We are legally required to put clients' interests first, and we explain the conflicts that remain."
-    - title: "A small practice on purpose"
+    - title: "A small practice"
       body: "The people you meet are the people who research the questions, make the recommendations, and help with follow-through."
 cta:
   eyebrow: "Start a conversation"
   title: "Tell us what is happening."
-  body: "You do not need a binder, a finished question, or a complete account list. A first conversation is free, and we will tell you plainly whether we think we can help."
+  body: "You do not need to be fully organized. The first conversation is free, and we will tell you plainly whether we think we can help."
   label: "Start With a Free Conversation"
   href: "/contact-us/"
 ---
