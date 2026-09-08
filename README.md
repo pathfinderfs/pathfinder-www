@@ -50,9 +50,11 @@ hugo server --bind 0.0.0.0
 
 ## Visual assets
 
-The flat logo retains the original vector lettering and route-shaped P. Use the
-blue/navy version on light surfaces, the reversed version on navy or teal, and
-the monochrome version for single-color reproduction. Keep clear space around
+The refined logo retains the original blue vector lettering and route-shaped P,
+with a warm-gray pillar, three light grooves, and a softer gray subtitle. Use
+this version on light surfaces, the reversed version on navy or teal, and the
+monochrome version for single-color reproduction. Its grooves are transparent
+knockouts so the monochrome asset works on different backgrounds. Keep clear space around
 the mark at least equal to the height of the "Financial Services" lettering.
 Use the icon at small sizes; do not compress the full wordmark into a square.
 The original logo is preserved in `Pathfinder-Heading-Final.svg`.
