@@ -59,15 +59,16 @@ the mark at least equal to the height of the "Financial Services" lettering.
 Use the icon at small sizes; do not compress the full wordmark into a square.
 The original logo is preserved in `Pathfinder-Heading-Final.svg`.
 
-The Windward landscape is an original vector illustration inspired by the Pali
-cliffs seen from Kailua and Maunawili, with a stylized ocean foreground. The
-desktop and mobile assets share the same cliff silhouette and ravine geometry.
-[Maunawili reference photography](https://oahuactivities.com/blogs/attractions/maunawili-falls/)
-informed the broad summit masses and fluted cliff faces. The single cliff wall
-uses tapered shadowed gullies, narrow ridge highlights, and one continuous lower
-slope; no photographic content is embedded in the artwork. The mobile composition
-reserves the artwork for the space below the homepage copy. The route motif and diagrams share navy,
-Pathfinder blue, teal, and a restrained gold accent.
+The Windward landscape is an original vector illustration inspired by the
+windward Koolau Range, with a stylized ocean foreground. The desktop and mobile
+assets share the same cliff silhouette and ravine geometry. The right-hand ridge
+in the [reference photograph](https://images.unsplash.com/photo-1684450313847-d7425d81d1c7)
+informed the continuous rise from left to right and the flutes descending toward
+the lower left. Tapered shadowed gullies and narrow highlights define the ridges
+above one continuous lower slope. No photographic content is embedded in the
+artwork. The mobile composition reserves the artwork for the space below the
+homepage copy. The route motif and diagrams share navy, Pathfinder blue, teal,
+and a restrained gold accent.
 
 The existing photographs are unaltered. David's source is 148 x 200 pixels;
 keep portrait placements close to that size until a larger authentic photograph
