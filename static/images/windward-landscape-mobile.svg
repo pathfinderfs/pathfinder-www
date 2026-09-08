@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="550" viewBox="0 1050 780 550" fill="none">
+  <title>Windward landscape, vertical composition</title>
+  <rect width="780" height="1600" fill="#f8f5ed"/>
+  <circle cx="622" cy="1114" r="51" fill="#e6cf9b"/>
+  <path d="m160 1370 115-104 53 26 98-142 38 31 64-82 61 74 37-16 75 103 79-8v348H160Z" fill="#afc4bd"/>
+  <path d="m261 1420 70-90 59 24 92-149 63 69 43-38 90 117 102-31v278H261Z" fill="#6e9690"/>
+  <path d="m482 1205-51 197 114-128-47 174 90-212 4 170 86-53-25 99 127-130" stroke="#d1ddd0" stroke-width="2" opacity=".5"/>
+  <path d="m361 1470 99-78 51 20 92-86 62 85 115-6v195H361Z" fill="#315e61"/>
+  <path d="M0 1499c235-71 308-7 483-12 116-3 212-12 297-3v116H0Z" fill="#dbe6df"/>
+  <path d="M0 1551c179-52 312 5 456-17s217-20 324-9v75H0Z" fill="#91b8b1"/>
+  <path d="M391 1477c146-26 206 29 389 9v26c-189 1-231-40-389-35Z" fill="#e6cf9b"/>
+  <path d="M780 1558c-149-16-239 35-349 26-86-8-128-21-233 16" stroke="#f8f5ed" stroke-width="3"/>
+</svg>

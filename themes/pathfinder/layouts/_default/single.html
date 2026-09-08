@@ -11,7 +11,7 @@
         </div>
         {{ with .Params.portrait }}
           <div class="page-portrait">
-            <img src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default (printf "%s portrait" $.Title) }}">
+            <img width="148" height="200" src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default (printf "%s portrait" $.Title) }}">
           </div>
         {{ end }}
       </div>

@@ -9,6 +9,7 @@
           {{ with .Params.pillars.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.pillars.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
+        {{ partial "diagram.html" (dict "src" "images/pathfinder-approach-diagram.svg" "mobile" "images/pathfinder-approach-diagram-mobile.svg" "alt" "Clarify the situation, weigh tradeoffs, and follow through on implementation." "width" 920 "height" 220) }}
         <div class="proof-list">
           {{ range .Params.pillars.items }}
             <article class="proof-item">

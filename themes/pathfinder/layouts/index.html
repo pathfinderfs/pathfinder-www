@@ -22,14 +22,15 @@
     </section>
   {{ end }}
 
-  <section class="section" data-reveal>
+  <section class="section home-approach" data-reveal>
     <div class="container">
-      <div class="section-shell">
+      <div class="section-shell home-approach__layout">
         <div class="section-intro">
           {{ with .Params.proof.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
           {{ with .Params.proof.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.proof.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
+        {{ partial "diagram.html" (dict "src" "images/pathfinder-decision-map-mobile.svg" "alt" "Timing, taxes, family, and portfolio signals connect through tradeoffs to a decision and the next step." "width" 440 "height" 530 "class" "home-approach__diagram") }}
         <div class="proof-list">
           {{ range .Params.proof.items }}
             <article class="proof-item">
@@ -43,13 +44,22 @@
   </section>
 
   {{ with .Params.trust }}
-    <section class="section section--tint" data-reveal>
+    <section class="section section--tint home-advisors" data-reveal>
       <div class="container">
-        <div class="section-shell">
+        <div class="section-shell home-advisors__layout">
           <div class="section-intro">
             {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
             {{ with .title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
             {{ with .intro }}<p class="section-copy">{{ $.RenderString . }}</p>{{ end }}
+          </div>
+          <div class="home-advisors__portraits">
+            {{ range slice "/about/david-jacobs-ph-d-cfp" "/about/katherine-jacobs" }}
+              {{ with site.GetPage . }}
+                <a class="advisor-portrait" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+                  <img src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt }}" width="148" height="200" loading="lazy">
+                </a>
+              {{ end }}
+            {{ end }}
           </div>
           {{ with .items }}
             <div class="proof-list">

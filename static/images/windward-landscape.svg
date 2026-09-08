@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" fill="none">
+  <title>Windward landscape</title>
+  <desc>An original illustration inspired by Oahu's folded ridges, sheltered water, and winding shoreline.</desc>
+  <rect width="1800" height="900" fill="#f8f5ed"/>
+  <circle cx="1470" cy="209" r="75" fill="#e6cf9b"/>
+  <g transform="translate(200 0)">
+  <path d="M590 790 899 512 982 434 1030 446 1119 334 1168 353 1251 262 1288 301 1339 287 1410 373 1463 343 1547 414 1610 390 1687 450 1800 410V900H778Z" fill="#afc4bd"/>
+  <path d="m760 800 245-298 72 8 94-130 49 38 57-92 60 70 56-40 91 112 42-20 86 73 72-14 121 76V900H885Z" fill="#6e9690"/>
+  <path d="m1171 380-58 168 107-130-46 189 103-281-22 213 82-143-29 218 85-258-7 182 84-70-49 149 97-169-42 176 128-110-83 146 155-120-54 159 148-161" stroke="#d1ddd0" stroke-width="2" opacity=".38"/>
+  <path d="m870 810 256-243 117 37 119-91 137 96 106-50 92 96 103-17v262H981Z" fill="#315e61"/>
+  <path d="m1126 567 39 137 78-100 21 101 98-192 6 177 131-81-67 150 173-200-54 185 146-89" stroke="#91b0a1" stroke-width="2" opacity=".36"/>
+  </g>
+  <path d="M0 758c307-34 487 38 743-16 188-40 306-35 471-11 245 36 364-9 586-2v171H0Z" fill="#dbe6df"/>
+  <path d="M0 827c293-79 599 29 896-39 305-70 559 10 904-24v136H0Z" fill="#91b8b1"/>
+  <path d="M1085 707c141-16 252 40 449 36 123-2 180-28 266-26v55c-102-19-142 5-288 1-222-6-276-70-427-66Z" fill="#e6cf9b"/>
+  <path d="M1800 832c-294-5-510 61-655 23-105-28-165-49-242-28-57 16-74 48-153 73" stroke="#f8f5ed" stroke-width="3"/>
+  <path d="M1117 798c146-27 291 24 508-12M1269 865c144-5 266-38 413-28M91 856c99-14 174-12 270 0M520 793c77 7 132 7 200-3" stroke="#f8f5ed" stroke-width="2" opacity=".65"/>
+  <path d="M1713 900c-132-72-247-91-354-46-51 22-80 37-114 46" stroke="#c29a57" stroke-width="3"/>
+</svg>

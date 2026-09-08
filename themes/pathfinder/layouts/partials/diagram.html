@@ -1,0 +1,6 @@
+<figure class="planning-diagram{{ with .class }} {{ . }}{{ end }}">
+  <picture>
+    {{ with .mobile }}<source media="(max-width: 720px)" srcset="{{ . | relURL }}">{{ end }}
+    <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" width="{{ .width }}" height="{{ .height }}">
+  </picture>
+</figure>

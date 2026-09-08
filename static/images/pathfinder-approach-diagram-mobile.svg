@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="470" viewBox="0 0 380 470" role="img">
+<title>Clarify the situation, weigh tradeoffs, and follow through on implementation</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5"/></marker></defs>
+<path d="M54 60V405" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="54" cy="60" r="7" fill="#244ba6"/>
+<text x="80" y="67" text-anchor="start" font-family="Manrope, sans-serif" font-size="17" fill="#152e3b">CLARIFY</text>
+<text x="80" y="105" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">situation</text>
+<circle cx="54" cy="225" r="7" fill="#34776f"/>
+<text x="80" y="232" text-anchor="start" font-family="Manrope, sans-serif" font-size="17" fill="#152e3b">WEIGH</text>
+<text x="80" y="270" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">tradeoffs</text>
+<circle cx="54" cy="390" r="7" fill="#ae8141"/>
+<text x="80" y="397" text-anchor="start" font-family="Manrope, sans-serif" font-size="17" fill="#152e3b">FOLLOW THROUGH</text>
+<text x="80" y="435" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">implementation</text>
+</svg>

@@ -2,7 +2,7 @@
 {{ $katherine := site.GetPage "/about/katherine-jacobs" }}
 {{ $advisors := slice $david $katherine }}
 {{ $summaryOverrides := .summary_overrides | default dict }}
-<section class="section" data-reveal>
+<section class="section advisor-section" data-reveal>
   <div class="container">
     <div class="section-shell section-shell--wide">
       <div class="section-intro">
@@ -19,7 +19,7 @@
             {{ end }}
             <a class="advisor-entry" href="{{ .RelPermalink }}">
               <div class="advisor-entry__media">
-                <img src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
+                <img width="148" height="200" loading="lazy" src="{{ .Params.portrait | relURL }}" alt="{{ .Params.portrait_alt | default (printf "%s portrait" .Title) }}">
               </div>
               <div class="advisor-entry__body">
                 <p class="eyebrow eyebrow--soft">{{ .Params.advisor_role | default "Advisor" }}</p>

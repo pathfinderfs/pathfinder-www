@@ -38,7 +38,7 @@
     </div>
   </section>
 
-  <section class="section" data-reveal>
+  <section class="section section--process" data-reveal>
     <div class="container">
       <div class="section-shell">
         <div class="section-intro">
@@ -46,9 +46,10 @@
           {{ with .Params.process.title }}<h2 class="section-title">{{ . }}</h2>{{ end }}
           {{ with .Params.process.intro }}<p class="section-copy">{{ . }}</p>{{ end }}
         </div>
-        <div class="proof-list">
-          {{ range .Params.process.items }}
-            <article class="proof-item">
+        <div class="planning-process">
+          {{ range $index, $step := .Params.process.items }}
+            <article class="planning-step">
+              {{ partial "planning-step-art.html" $index }}
               <h3>{{ .title }}</h3>
               <p>{{ .body }}</p>
             </article>

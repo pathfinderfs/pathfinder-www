@@ -18,13 +18,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function hidePanel() {
+  function hidePanel(returnFocus = false) {
     if (!navPanel || !navToggle) {
       return;
     }
 
     navPanel.classList.remove("is-open");
     navToggle.setAttribute("aria-expanded", "false");
+    if (returnFocus) {
+      navToggle.focus();
+    }
 
     hideTimer = window.setTimeout(() => {
       if (!navPanel.classList.contains("is-open")) {
@@ -67,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && navPanel.classList.contains("is-open")) {
-        hidePanel();
+        hidePanel(true);
       }
     });
 
@@ -86,10 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   mobileQuery.addEventListener("change", syncMobileState);
-
-  requestAnimationFrame(() => {
-    document.body.classList.add("is-ready");
-  });
 
   syncMobileState();
 });

@@ -10,7 +10,10 @@ draft: false
 <p>Our professional worrying has a practical purpose here. We consider how personal circumstances and market changes could affect the plan, then decide with you how much risk to take.</p>
 
 <figure class="strategy-figure">
-  <img src="/images/portfolio_construction_inputs.svg" alt="A portfolio construction diagram showing how goals, income needs, risk limits, and valuations shape the portfolio.">
+  <picture>
+    <source media="(max-width: 720px)" srcset="/images/portfolio-construction-inputs-mobile.svg">
+    <img width="900" height="430" loading="lazy" src="/images/portfolio_construction_inputs.svg" alt="A portfolio construction diagram showing how goals, income needs, risk limits, and valuations shape the portfolio.">
+  </picture>
   <figcaption>Goals, cash needs, taxes, market conditions, and the consequences of a bad result all affect the portfolio.</figcaption>
 </figure>
 

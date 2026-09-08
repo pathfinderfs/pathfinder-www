@@ -47,3 +47,28 @@ hugo server --bind 0.0.0.0
 - `public/` is generated output and should not be edited directly.
 - The site currently includes the main page-based content and theme.
 - Blog posts are still excluded from this repository.
+
+## Visual assets
+
+The flat logo retains the original vector lettering and route-shaped P. Use the
+blue/navy version on light surfaces, the reversed version on navy or teal, and
+the monochrome version for single-color reproduction. Keep clear space around
+the mark at least equal to the height of the "Financial Services" lettering.
+Use the icon at small sizes; do not compress the full wordmark into a square.
+The original logo is preserved in `Pathfinder-Heading-Final.svg`.
+
+The Windward landscape is original vector illustration inspired by Oahu, not a
+photograph or a geographic map. Its mobile composition reserves the artwork for
+the space below the homepage copy. The route motif and diagrams share navy,
+Pathfinder blue, teal, and a restrained gold accent.
+
+The existing photographs are unaltered. David's source is 148 x 200 pixels;
+keep portrait placements close to that size until a larger authentic photograph
+is available. Both portraits use the same proportions and CSS framing.
+
+Sharing PNGs are intentional site assets. Regenerate them after changing titles
+or artwork with `python3 scripts/render-social-images.py` from the repository.
+This development script needs Hugo, Inkscape, and Source Serif 4 installed.
+The normal Hugo build uses the checked-in PNGs and needs no image-generation tool.
+Build production with the deployment's absolute Hugo baseURL so sharing metadata
+contains public absolute URLs.

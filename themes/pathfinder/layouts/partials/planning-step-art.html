@@ -1,0 +1,26 @@
+<svg class="planning-step__art" viewBox="0 0 300 170" fill="none" aria-hidden="true">
+  {{ if eq . 0 }}
+    <circle cx="206" cy="85" r="62" fill="#315e61"/>
+    <circle cx="206" cy="85" r="43" stroke="#91b8b1" stroke-width="2"/>
+    <path d="M28 30C120 30 116 85 206 85M28 85H206M28 140C120 140 116 85 206 85" stroke="#91b8b1" stroke-width="5"/>
+    <circle cx="28" cy="30" r="10" fill="#f8f5ed"/>
+    <circle cx="28" cy="85" r="10" fill="#91b8b1"/>
+    <circle cx="28" cy="140" r="10" fill="#e6cf9b"/>
+    <circle cx="206" cy="85" r="16" fill="#e6cf9b"/>
+  {{ else if eq . 1 }}
+    <path d="M30 85C141 85 136 30 264 30M30 85C141 85 136 140 264 140" stroke="#91b8b1" stroke-width="3" stroke-dasharray="6 7"/>
+    <path d="M30 85H264" stroke="#e6cf9b" stroke-width="8"/>
+    <path d="m170 73 15 12-15 12" stroke="#152e3b" stroke-width="3"/>
+    <circle cx="30" cy="85" r="13" fill="#f8f5ed"/>
+    <circle cx="264" cy="30" r="10" fill="#315e61" stroke="#91b8b1" stroke-width="2"/>
+    <circle cx="264" cy="140" r="10" fill="#315e61" stroke="#91b8b1" stroke-width="2"/>
+    <circle cx="264" cy="85" r="22" fill="#e6cf9b"/>
+    <circle cx="264" cy="85" r="8" fill="#152e3b"/>
+  {{ else }}
+    <path d="M26 115C94 115 91 43 152 43S211 115 268 115" stroke="#91b8b1" stroke-width="6"/>
+    <circle cx="26" cy="115" r="13" fill="#f8f5ed"/>
+    <circle cx="152" cy="43" r="13" fill="#91b8b1"/>
+    <circle cx="268" cy="115" r="25" fill="#e6cf9b"/>
+    <path d="m256 115 8 8 16-18" stroke="#152e3b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  {{ end }}
+</svg>

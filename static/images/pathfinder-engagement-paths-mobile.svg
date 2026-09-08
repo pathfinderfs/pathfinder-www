@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="480" viewBox="0 0 420 480" role="img">
+<title>Planning and investment supervision engagement paths</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5"/></marker></defs>
+<path d="M30 260V80H70" fill="none" stroke="#34776f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M30 260V350H70" fill="none" stroke="#34776f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="30" cy="260" r="7" fill="#244ba6"/>
+<text x="90" y="80" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="29" fill="#152e3b">Discover /</text>
+<text x="90" y="117" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="29" fill="#152e3b">Decide / Do</text>
+<text x="90" y="153" text-anchor="start" font-family="Manrope, sans-serif" font-size="16" fill="#152e3b">broader planning relationship</text>
+<text x="90" y="350" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="29" fill="#152e3b">Investment</text>
+<text x="90" y="387" text-anchor="start" font-family="Source Serif 4, Georgia, serif" font-size="29" fill="#152e3b">Supervision Only</text>
+<text x="90" y="425" text-anchor="start" font-family="Manrope, sans-serif" font-size="14" fill="#152e3b">narrower ongoing portfolio oversight</text>
+</svg>

@@ -1,62 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="175 25 450 450" width="100%" height="100%">
-    <defs>
-        <!-- Shadow filter for the outer arrows to give a 3D overlapping effect -->
-        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-            <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1d313a" flood-opacity="0.15"/>
-        </filter>
-
-        <!-- Subtle radial gradients for the inner wedges to give them volume -->
-        <radialGradient id="innerGrad1" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#d8ebe8"/>
-            <stop offset="100%" stop-color="#166269"/>
-        </radialGradient>
-        <radialGradient id="innerGrad2" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#eadcc8"/>
-            <stop offset="100%" stop-color="#0f4b57"/>
-        </radialGradient>
-        <radialGradient id="innerGrad3" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#f9f5ed"/>
-            <stop offset="100%" stop-color="#546a73"/>
-        </radialGradient>
-
-        <!-- Base Wedge Component (centered, spanning -60 to 60 degrees) -->
-        <g id="wedge">
-            <path d="M 0 0 L 75 -129.9 A 150 150 0 0 1 75 129.9 Z" />
-        </g>
-
-        <!-- Base Arrow Component (centered, specifically designed to wrap the wedge with a gap) -->
-        <g id="arrow">
-            <path d="
-                M 80.0 -138.6 
-                A 160 160 0 0 1 113.1 113.1 
-                L 102.5 102.5 
-                L 90.0 155.9 
-                L 148.5 148.5 
-                L 137.9 137.9 
-                A 195 195 0 0 0 97.5 -168.9 
-                Z" 
-            />
-        </g>
-    </defs>
-
-    <!-- 
-      The entire graphic has been rotated 60 degrees counter-clockwise.
-      The previous angles (-30, 90, 210) have had 60 subtracted from them (-90, 30, 150).
-    -->
-
-    <!-- Inner Wedges with Different Colors -->
-    <use href="#wedge" transform="translate(400,250) rotate(-90) translate(8,0)" fill="url(#innerGrad1)" stroke="#166269" stroke-width="1.5" />
-    <use href="#wedge" transform="translate(400,250) rotate(30) translate(8,0)" fill="url(#innerGrad2)" stroke="#0f4b57" stroke-width="1.5" />
-    <use href="#wedge" transform="translate(400,250) rotate(150) translate(8,0)" fill="url(#innerGrad3)" stroke="#546a73" stroke-width="1.5" />
-
-    <!-- Outer Light Teal Arrows -->
-    <use href="#arrow" transform="translate(400,250) rotate(-90) translate(8,0)" fill="#fffdf9" stroke="#d7cab9" stroke-width="1" filter="url(#shadow)" />
-    <use href="#arrow" transform="translate(400,250) rotate(30) translate(8,0)" fill="#fffdf9" stroke="#d7cab9" stroke-width="1" filter="url(#shadow)" />
-    <use href="#arrow" transform="translate(400,250) rotate(150) translate(8,0)" fill="#fffdf9" stroke="#d7cab9" stroke-width="1" filter="url(#shadow)" />
-
-    <!-- Text Labels (positions recalculcated for the 60-degree rotation) -->
-    <text x="400" y="142" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" dominant-baseline="middle" fill="#1d313a">Discover</text>
-    <text x="480" y="304" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" dominant-baseline="middle" fill="#1d313a">Decide</text>
-    <text x="306" y="304" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" dominant-baseline="middle" fill="#1d313a">Do</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img">
+<title>Discover, Decide, Do: a repeating planning cycle</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5"/></marker></defs>
+<path d="M92 102H784" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M808 113V190H92V122" fill="none" stroke="#34776f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="92" cy="102" r="12" fill="#244ba6"/>
+<text x="92" y="64" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="34" fill="#152e3b">Discover</text>
+<circle cx="450" cy="102" r="12" fill="#34776f"/>
+<text x="450" y="64" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="34" fill="#152e3b">Decide</text>
+<circle cx="808" cy="102" r="12" fill="#ae8141"/>
+<text x="808" y="64" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="34" fill="#152e3b">Do</text>
 </svg>

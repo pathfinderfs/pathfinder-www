@@ -1,42 +1,14 @@
-<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="approach-bg" x1="118" y1="111" x2="1550" y2="1061" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8F2E5"/>
-      <stop offset="1" stop-color="#E7E0D5"/>
-    </linearGradient>
-    <linearGradient id="approach-line" x1="331" y1="614" x2="1471" y2="614" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6D8B82"/>
-      <stop offset="0.5" stop-color="#29506C"/>
-      <stop offset="1" stop-color="#B87633"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="1800" height="1200" fill="url(#approach-bg)"/>
-
-  <g opacity="0.32" stroke="#CBB99B" stroke-width="2">
-    <path d="M131 225C305 132 449 157 603 247C756 336 899 364 1061 309C1224 255 1358 266 1682 377"/>
-    <path d="M95 368C282 286 453 301 601 389C750 477 901 501 1064 450C1228 399 1370 409 1710 535"/>
-    <path d="M73 538C261 455 439 468 591 558C743 647 895 682 1058 631C1222 580 1373 592 1725 727"/>
-    <path d="M57 716C248 634 427 649 583 742C738 835 892 872 1059 821C1226 771 1380 781 1739 924"/>
-  </g>
-
-  <path d="M334 614H1470" stroke="url(#approach-line)" stroke-width="18" stroke-linecap="round"/>
-
-  <g>
-    <circle cx="331" cy="614" r="58" fill="#10283A"/>
-    <circle cx="891" cy="614" r="58" fill="#29506C"/>
-    <circle cx="1471" cy="614" r="58" fill="#B87633"/>
-  </g>
-
-  <g fill="#10283A" opacity="0.78">
-    <text x="235" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">CLARIFY</text>
-    <text x="811" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">WEIGH</text>
-    <text x="1376" y="499" font-family="Manrope, sans-serif" font-size="24" font-weight="700" letter-spacing="4">FOLLOW THROUGH</text>
-  </g>
-
-  <g fill="#5C6F80" opacity="0.78">
-    <text x="207" y="727" font-family="Fraunces, serif" font-size="50">situation</text>
-    <text x="768" y="727" font-family="Fraunces, serif" font-size="50">tradeoffs</text>
-    <text x="1318" y="727" font-family="Fraunces, serif" font-size="50">implementation</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img">
+<title>Clarify the situation, weigh tradeoffs, and follow through on implementation</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5"/></marker></defs>
+<path d="M125 110H765" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="125" cy="110" r="7" fill="#244ba6"/>
+<text x="125" y="67" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="#152e3b">CLARIFY</text>
+<text x="125" y="168" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="28" fill="#152e3b">situation</text>
+<circle cx="440" cy="110" r="7" fill="#34776f"/>
+<text x="440" y="67" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="#152e3b">WEIGH</text>
+<text x="440" y="168" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="28" fill="#152e3b">tradeoffs</text>
+<circle cx="765" cy="110" r="7" fill="#ae8141"/>
+<text x="765" y="67" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="#152e3b">FOLLOW THROUGH</text>
+<text x="765" y="168" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="28" fill="#152e3b">implementation</text>
 </svg>

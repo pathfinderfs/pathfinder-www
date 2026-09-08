@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="530" viewBox="0 0 440 530" role="img">
+<title>Signals, tradeoffs, decision, and next step</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5"/></marker></defs>
+<path d="M42 83C42 150 91 139 91 216S165 276 165 339 231 420 295 456" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="42" cy="83" r="7" fill="#244ba6"/>
+<text x="64" y="90" text-anchor="start" font-family="Manrope, sans-serif" font-size="23" fill="#152e3b">SIGNALS</text>
+<circle cx="91" cy="216" r="7" fill="#34776f"/>
+<text x="113" y="223" text-anchor="start" font-family="Manrope, sans-serif" font-size="23" fill="#152e3b">TRADEOFFS</text>
+<circle cx="165" cy="339" r="7" fill="#244ba6"/>
+<text x="187" y="346" text-anchor="start" font-family="Manrope, sans-serif" font-size="23" fill="#152e3b">DECISION</text>
+<circle cx="295" cy="456" r="7" fill="#ae8141"/>
+<text x="295" y="499" text-anchor="middle" font-family="Manrope, sans-serif" font-size="23" fill="#152e3b">NEXT STEP</text>
+<text x="64" y="119" text-anchor="start" font-family="Manrope, sans-serif" font-size="20" fill="#152e3b">timing • taxes •</text>
+<text x="64" y="143" text-anchor="start" font-family="Manrope, sans-serif" font-size="20" fill="#152e3b">family • portfolio</text>
+</svg>

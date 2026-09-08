@@ -2,15 +2,19 @@
 {{ $hero := .hero | default $page.Params.hero }}
 {{ $title := or .title $hero.headline $page.Title }}
 <section class="hero{{ with .class }} {{ . }}{{ end }}">
-  {{ with $hero.image }}
-    <div class="hero__media" aria-hidden="true">
-      <img src="{{ . | relURL }}" alt="{{ $hero.image_alt | default "" }}">
-    </div>
+  {{ if $page.IsHome }}
+    <picture class="hero__media" aria-hidden="true">
+      <source media="(max-width: 720px)" srcset="{{ "images/windward-landscape-mobile.svg" | relURL }}">
+      <img src="{{ "images/windward-landscape.svg" | relURL }}" alt="" width="1800" height="900" fetchpriority="high">
+    </picture>
   {{ end }}
   <div class="container hero__inner">
     <div class="hero__copy">
       {{ with $hero.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
-      {{ with $hero.brand }}<p class="hero__brand">{{ . }}</p>{{ end }}
+      {{ with $hero.brand }}
+        {{ $words := split . " " }}
+        <p class="hero__brand"><span>{{ index $words 0 }}</span> {{ delimit (after 1 $words) " " }}</p>
+      {{ end }}
       <h1 class="hero__title">{{ $title | safeHTML }}</h1>
       {{ with $hero.intro }}<p class="hero__lede">{{ . }}</p>{{ end }}
       {{ with $hero.guidance }}

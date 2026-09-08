@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="720" viewBox="0 0 440 720" role="img">
+<title>Goals, income needs, risk limits, and valuations shape your portfolio</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="m2 1 6 4-6 4" fill="none" stroke="#34776f" stroke-width="1.5" /></marker></defs>
+<path d="M220 102V124H28V445" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M412 210V570H220V589" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M28 205H60" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M380 205H412" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="60" y="160" width="320" height="90" rx="3" fill="#e7eee7" stroke="#34776f" stroke-width="2" />
+<text x="220.0" y="195" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">Income &amp; goals</text>
+<text x="220.0" y="224" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="#152e3b">what the plan must fund</text>
+<path d="M28 320H60" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M380 320H412" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="60" y="275" width="320" height="90" rx="3" fill="#efe7d7" stroke="#ae8141" stroke-width="2" />
+<text x="220.0" y="310" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">Risk limits</text>
+<text x="220.0" y="339" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="#152e3b">losses you can't absorb</text>
+<path d="M28 435H60" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M380 435H412" fill="none" stroke="#34776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="60" y="390" width="320" height="90" rx="3" fill="#e5eaf4" stroke="#244ba6" stroke-width="2" />
+<text x="220.0" y="425" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#152e3b">Valuations</text>
+<text x="220.0" y="454" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="#152e3b">expected return context</text>
+<rect x="60" y="30" width="320" height="72" rx="3" fill="#152e3b" />
+<text x="220.0" y="74.0" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#ffffff">Your goals &amp; situation</text>
+<rect x="40" y="600" width="360" height="90" rx="3" fill="#214f4d" />
+<text x="220.0" y="635" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" fill="#ffffff">Your portfolio</text>
+<text x="220.0" y="664" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="#ffffff">built around goals and risk limits</text>
+</svg>

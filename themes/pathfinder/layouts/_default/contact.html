@@ -1,6 +1,12 @@
 {{ define "main" }}
   {{ partial "page-hero.html" (dict "page" . "class" "hero--contact") }}
 
+  {{ partial "advisor-panel.html" (dict
+    "eyebrow" "Who you will speak with"
+    "title" "Speak with David or Katherine."
+    "intro" "You work directly with the people who research the questions, prepare the advice, and help carry it out."
+  ) }}
+
   <section class="section" data-reveal>
     <div class="container">
       <div class="editorial-split">
@@ -43,11 +49,7 @@
     </div>
   </section>
 
-  {{ partial "advisor-panel.html" (dict
-    "eyebrow" "Who you will speak with"
-    "title" "Speak with David or Katherine."
-    "intro" "You work directly with the people who research the questions, prepare the advice, and help carry it out."
-  ) }}
+
 
   {{ with .Params.closing }}
     <section class="section section--tint" data-reveal>
