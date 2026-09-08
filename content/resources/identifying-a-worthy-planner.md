@@ -1,12 +1,12 @@
 ---
-title: "Identifying a Worthy Planner"
+title: "How to Choose a Financial Planner"
 weight: 40
 description: "Questions for evaluating a financial planner's incentives, record, competence, limits, service model, and working style."
-summary: "A planner can be pleasant and persuasive without being trustworthy, competent, or right for the work you need. Check all three."
+summary: "Questions to help you evaluate a planner's trustworthiness, knowledge, and fit for the help you need."
 draft: false
 ---
 
-A disclosure before we begin: Pathfinder is built around many of the opinions on this page. That makes the advice potentially self-serving. Judge the reasoning, check our record too, and compare more than one firm.
+These questions reflect how we have built Pathfinder; use them to evaluate us as well as other firms.
 
 <p class="legal-copy">This page provides general education, not a recommendation of any particular firm or professional.</p>
 
@@ -18,7 +18,7 @@ We would investigate three things:
 
 ## Trust: begin with structure
 
-A warm referral is useful, but it is not a control. Pay attention to how the relationship is set up.
+A recommendation from someone you trust is a useful starting point. Check the advisor's record and account arrangements yourself.
 
 - Client assets should be held at a qualified custodian that sends statements independently of the advisor.
 - Know what authority the advisor will have over accounts and why each permission is needed.
@@ -34,9 +34,9 @@ Then notice the ordinary behavior. Do they answer a direct question directly? Do
 
 Financial-planning competence is difficult for a prospective client to judge. Confidence is visible immediately; judgment may not be tested for years.
 
-Credentials establish a floor, not the ceiling. Ask how the planner learned the areas relevant to your situation and how that knowledge stays current. Useful answers may include technical coursework, academic and professional research, conferences, original analysis, and regular work with specialists. Product-company presentations and years in the industry are not enough by themselves.
+Credentials are one part of evaluating a planner's knowledge. Ask how the planner learned the areas relevant to your situation and how that knowledge stays current. Useful answers may include technical coursework, academic and professional research, conferences, original analysis, and regular work with specialists. Product-company presentations and years in the industry are not enough by themselves.
 
-Four signs tell us more than a polished résumé:
+Look for these habits in the conversation:
 
 ### They know their boundaries
 
@@ -44,17 +44,17 @@ Ask for examples of work they refer to someone else. Tax law, estate documents, 
 
 ### They ask questions that change the problem
 
-A capable planner needs to understand the decision, the people affected by it, and the result that would be hard to recover from. At least one question should make you pause rather than invite a rehearsed answer.
+A capable planner needs to understand the decision, the people affected by it, and the result that would be hard to recover from. Notice whether the planner follows up on the details that matter to your situation.
 
 ### They can show their reasoning
 
-You have to live with the recommendation. The planner should be able to explain the assumptions, alternatives, and risks in language you understand. Complexity in the subject is not permission for a vague conclusion.
+You have to live with the recommendation. The planner should be able to explain the assumptions, alternatives, and risks in language you understand. You should be able to understand what they recommend and why.
 
 ### They are appropriately uncertain
 
 Forecasts, tax assumptions, health, markets, and family circumstances all change. Look for someone who can make a recommendation without pretending to know what cannot be known.
 
-## Fit: inspect the business you are hiring
+## Fit: check how the service works
 
 Even a trustworthy, capable planner can have the wrong service model for you.
 
@@ -66,4 +66,4 @@ Even a trustworthy, capable planner can have the wrong service model for you.
 
 Many advisory businesses are organized around gathering and managing investments, with planning added around the edges. That can be appropriate when investment management is the job. If you need help with retirement, taxes, family decisions, or implementation, ask for examples of what the planning work includes.
 
-The goal is not a perfect advisor. It is a professional whose incentives, habits, knowledge, and service model give you enough evidence to place trust carefully.
+Choose a professional whose knowledge, working habits, incentives, and services fit the help you need.

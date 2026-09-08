@@ -6,7 +6,7 @@ summary: "Five books that have influenced how we think about investing, behavior
 draft: false
 ---
 
-This is a shelf, not a syllabus. We recommend these books because each changed or sharpened the way we think about a recurring client question.
+These five books have influenced how we think about investing, spending, and what money is for.
 
 <p class="legal-copy">Reading suggestions are general education, not individualized investment, tax, or legal advice.</p>
 

@@ -1,14 +1,14 @@
 ---
-title: "Retirement and the Next Chapter"
+title: "Planning for Retirement"
 weight: 10
 description: "Retirement planning for decisions about timing, income, taxes, spending, family, and the risks that could disrupt the plan."
-summary: "Saving for retirement and living in retirement are different jobs. The second one has fewer rules and more judgment calls."
+summary: "Decide when to retire, how to replace the paycheck, and what you can spend on the life you want."
 page_theme: "retirement"
 hero:
   eyebrow: "Retirement planning"
-  intro: "For thirty years, the assignment was fairly clear: work, save, and do not spend the retirement accounts. Then the paycheck stops and the rules that felt responsible can make it surprisingly hard to use the money."
+  intro: "Whether retirement is approaching or already underway, using your savings can feel very different from building them. We help you connect income, spending, taxes, and family responsibilities to the life you want in retirement."
   primary:
-    label: "Start a Free Conversation"
+    label: "Start a free conversation"
     href: "/contact-us/"
   secondary:
     label: "What to Expect"
@@ -34,15 +34,15 @@ sections:
       - "Are family support, travel, a move, or a second home part of the budget—or still only an idea?"
   - kind: "cards"
     eyebrow: "Where we spend our time"
-    title: "The answer is not a single retirement number."
-    intro: "We test the choices that can materially change the outcome."
+    title: "Bring timing, spending, and risk into the same plan."
+    intro: "We compare what your choices would mean for both your finances and your time."
     items:
       - title: "Timing"
         body: "Working another year may improve the plan, but the improvement has to be weighed against the year of retirement you give up. We show both sides."
       - title: "Spending"
-        body: "Someone who has practiced saving for decades may need evidence—and sometimes permission—to spend. We build guardrails without pretending the future is certain."
-      - title: "Bad outcomes"
-        body: "Average returns do not tell us whether a market decline, care expense, or family obligation would force a change you could not accept. We model those cases directly."
+        body: "After decades of saving, spending can feel uncomfortable. We help you understand what you can spend, what to keep in reserve, and when the plan may need to change."
+      - title: "Preparing for change"
+        body: "We examine how a market decline, care expense, or family obligation could affect your plans and what adjustments would be available."
 related:
   eyebrow: "Related pages"
   title: "Retirement questions often lead here."
@@ -52,14 +52,14 @@ related:
       body: "See how Pathfinder moves from the first question to analysis and follow-through."
       href: "/what-to-expect/"
     - label: "Later retirement"
-      title: "Aging, Care, and Legacy Responsibilities"
+      title: "Planning for Aging, Care, and Family"
       body: "Planning for care, decision-making, and the responsibilities one spouse may leave to the other."
       href: "/transitions/retirement-long-term-care-legacy-planning/"
 cta:
   eyebrow: "Retirement planning"
   title: "Bring us the date you are considering."
-  body: "We can test what has to be true for that date to work and what you would do if events turn out differently."
-  label: "Start a Free Conversation"
+  body: "Tell us about the retirement you are considering. We can discuss how ongoing planning would help you prepare and adapt."
+  label: "Start a free conversation"
   href: "/contact-us/"
 draft: false
 ---

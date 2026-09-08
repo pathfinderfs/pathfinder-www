@@ -2,18 +2,18 @@
 title: "External Links"
 weight: 60
 description: "Outside references Pathfinder uses for advisor records, credit reports, tax research, Social Security, care planning, and charitable due diligence."
-summary: "A deliberately short set of outside references we continue to find useful."
+summary: "References for checking an advisor, finding benefit information, comparing accounts, and researching charitable giving."
 draft: false
 ---
 
-Long link directories age badly. These are the sites we would still send someone to for the specific jobs below.
+These are the references we use for the tasks below. Government records, commercial comparisons, and community discussions serve different purposes; each group explains what you will find.
 
 <p class="legal-copy">Pathfinder does not control these sites. Links are provided for convenience and general education, not as individualized advice.</p>
 
 <div class="resource-link-groups">
   <section class="card resource-link-group">
     <h2>Check an advisor</h2>
-    <p>Do this even if the advisor was recommended by someone you trust.</p>
+    <p>Use these regulatory records to check an advisor, including one recommended by someone you trust.</p>
     <ul class="resource-link-list">
       <li><a href="https://adviserinfo.sec.gov/" rel="noopener noreferrer">Investment Adviser Public Disclosure</a> provides registration records, Form ADV filings, and disclosures for SEC- and state-registered investment advisers.</li>
       <li><a href="https://brokercheck.finra.org/" rel="noopener noreferrer">FINRA BrokerCheck</a> provides employment history and disclosures for brokers and brokerage firms.</li>
@@ -21,13 +21,13 @@ Long link directories age badly. These are the sites we would still send someone
   </section>
 
   <section class="card resource-link-group">
-    <h2>Look up the underlying information</h2>
-    <p>Useful when you want the source or a strong self-directed reference rather than another summary.</p>
+    <h2>Credit reports, comparisons, and discussion</h2>
+    <p>These sites offer different kinds of help: access to credit reports, commercial research, and community discussion.</p>
     <ul class="resource-link-list">
       <li><a href="https://www.annualcreditreport.com/" rel="noopener noreferrer">AnnualCreditReport.com</a> is the authorized site for free credit reports.</li>
-      <li><a href="https://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts</a> compares rates on savings accounts, checking accounts, and certificates of deposit.</li>
-      <li><a href="https://fairmark.com/" rel="noopener noreferrer">Fairmark</a> publishes practical tax reference material.</li>
-      <li><a href="https://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a> hosts extensive discussions of low-cost investing and personal-finance questions.</li>
+      <li><a href="https://www.depositaccounts.com/" rel="noopener noreferrer">DepositAccounts</a> is a commercial site that compares rates on savings accounts, checking accounts, and certificates of deposit.</li>
+      <li><a href="https://fairmark.com/" rel="noopener noreferrer">Fairmark</a> is an independent publisher of tax explanations.</li>
+      <li><a href="https://www.bogleheads.org/" rel="noopener noreferrer">Bogleheads</a> hosts community discussions of investing and personal-finance questions. Posts reflect participants' views and should be checked against the relevant source.</li>
     </ul>
   </section>
 

@@ -51,12 +51,12 @@ menu:
       parent: resources
       weight: 20
     - identifier: restricted-stock-stock-options
-      name: "Taxation of RSUs, ISOs & NSOs"
+      name: "Taxes on RSUs, ISOs, NSOs, and Restricted Stock"
       pageRef: "/resources/restricted-stock-stock-options"
       parent: resources
       weight: 30
     - identifier: identifying-a-worthy-planner
-      name: "Identifying a Worthy Planner"
+      name: "How to Choose a Financial Planner"
       pageRef: "/resources/identifying-a-worthy-planner"
       parent: resources
       weight: 40

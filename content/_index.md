@@ -9,10 +9,10 @@ hero:
   headline: "Understand your choices. Decide what comes next."
   intro: "Retirement, company stock, an inheritance, divorce, or the loss of a spouse can bring financial questions you have never had to answer before. We help you work out what needs attention now, understand how the decisions affect one another, and carry them through."
   primary:
-    label: "Start With a Free Conversation"
+    label: "Start a free conversation"
     href: "/contact-us/"
   secondary:
-    label: "See Who We Help"
+    label: "Who We Serve"
     href: "/transitions/"
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A Pathfinder decision map connecting taxes, timing, family, investments, and the next step."
@@ -41,7 +41,7 @@ proof:
   intro: "We ask what could put your plans at risk: a market decline early in retirement, years of care expenses, or too much money tied to one company. Then we look at what you could do about it. The point is to help you prepare while you still have choices."
   items:
     - title: "Prepare for setbacks"
-      body: "We examine how setbacks could affect your spending, timing, and other commitments, then consider adjustments that could make the plan more resilient."
+      body: "We test how a setback would affect your spending and commitments, then compare the changes that could help."
     - title: "Look at the decisions together"
       body: "Selling stock can affect your taxes. Helping family can change what you can spend in retirement. We look at those connections before recommending what to do."
     - title: "Clear recommendations"
@@ -61,6 +61,6 @@ cta:
   eyebrow: "Start a conversation"
   title: "Tell us what brought you here."
   body: "You do not need to have everything organized before getting in touch. The first conversation is free. We will listen, ask questions, and tell you plainly whether we think we can help."
-  label: "Start With a Free Conversation"
+  label: "Start a free conversation"
   href: "/contact-us/"
 ---

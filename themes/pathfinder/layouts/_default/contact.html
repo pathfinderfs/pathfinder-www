@@ -11,8 +11,8 @@
         </div>
         <div class="contact-sheet">
           <div class="contact-sheet__block">
-            <p class="eyebrow eyebrow--soft">Schedule</p>
-            <h3><a href="mailto:{{ site.Params.email }}?subject=Schedule%20a%20free%20conversation">Schedule a free call</a></h3>
+            <p class="eyebrow eyebrow--soft">Arrange a conversation</p>
+            <h3><a href="mailto:{{ site.Params.email }}?subject=Schedule%20a%20free%20conversation">Email us to arrange a conversation</a></h3>
             <p>Tell us briefly what is happening and suggest a few times that work for you.</p>
           </div>
           <div class="contact-sheet__block">
@@ -26,12 +26,12 @@
             <p>Call if you would rather begin by talking.</p>
           </div>
           <div class="contact-sheet__block">
-            <p class="eyebrow eyebrow--soft">In Person</p>
+            <p class="eyebrow eyebrow--soft">In person</p>
             <h3>By appointment</h3>
-            <p>Pathfinder can come to you for a face-to-face meeting.</p>
+            <p>In-person meetings are available by arrangement. Tell us where you are and we can discuss the options.</p>
           </div>
           <div class="contact-sheet__block">
-            <p class="eyebrow eyebrow--soft">Mailing Address</p>
+            <p class="eyebrow eyebrow--soft">Mailing address</p>
             {{ with site.Params.address }}
               <div class="contact-address">
                 {{ range . }}<p>{{ . }}</p>{{ end }}
@@ -45,8 +45,8 @@
 
   {{ partial "advisor-panel.html" (dict
     "eyebrow" "Who you will speak with"
-    "title" "David or Katherine will answer."
-    "intro" "If we work together, they will also research the questions, prepare the advice, and help carry it out."
+    "title" "Speak with David or Katherine."
+    "intro" "You work directly with the people who research the questions, prepare the advice, and help carry it out."
   ) }}
 
   {{ with .Params.closing }}

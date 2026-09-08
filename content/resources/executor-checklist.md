@@ -10,22 +10,22 @@ draft: false
 
 <div class="executor-guide">
 <div class="card executor-overview">
-<p>No estate will use every item on this list. Print it, cross out what does not apply, and mark the calls or deadlines that belong at the top.</p>
+<p>Print this list, cross out what does not apply, and mark the calls or deadlines that belong at the top. Family members can help with practical tasks; the executor, trustee, or other authorized person handles the decisions that require legal authority.</p>
 <p>This is a general planning checklist, not legal, tax, or investment advice. State law, trust terms, beneficiary designations, and account rules determine who has authority and what happens next. Check the order with the appropriate attorney, tax professional, or institution.</p>
 <ul class="executor-meta">
-<li>Screen-friendly</li>
-<li>Print-friendly</li>
-<li>Organized by phase</li>
+<li>Mark the next task</li>
+<li>Record who will handle it</li>
+<li>Confirm the deadline</li>
 </ul>
 </div>
 <div class="executor-grid">
 <section class="card executor-section executor-section--wide">
-<h2>Before a Crisis</h2>
+<h2>Before a crisis</h2>
 <p>Preparing these items while everyone can participate saves the executor from guessing later.</p>
 <ul class="executor-checklist">
 <li>Confirm there is an accessible healthcare directive.</li>
-<li>Decide how long relatives living with the deceased may stay in the home.</li>
-<li>Decide how long a live-in caregiver may stay in the home.</li>
+<li>Discuss arrangements for relatives living in the home after the owner dies, including any legal rights to remain.</li>
+<li>Discuss arrangements for a live-in caregiver after the owner dies, including any contractual or legal obligations.</li>
 <li>Make sure the executor knows how to access key documents.</li>
 <li>Determine the small-estate threshold for the relevant state.</li>
 <li>Clarify burial and memorial wishes.
@@ -40,21 +40,21 @@ draft: false
 <li>When terminal illness or advanced fragility is present, work ahead where possible.
 <ul class="executor-sublist">
 <li>Choose the preferred location for final days: home, hospice, or hospital</li>
-<li>Confirm POLST or DNR status if applicable</li>
-<li>Make any required RMD withdrawals</li>
-<li>Move utilities and subscriptions into the healthy spouse's name where appropriate</li>
-<li>Move vehicles into the healthy spouse's name where appropriate</li>
-<li>Consider whether the estate plan should be balanced differently for exemption or step-up purposes</li>
-<li>Make sure the healthy spouse can handle the financial tasks the ill spouse has been managing</li>
+<li>Confirm any medical orders with the care team, including Provider Orders for Life-Sustaining Treatment (POLST) or a do-not-resuscitate (DNR) order</li>
+<li>Ask the tax professional or account custodian about any required minimum distributions (RMDs)</li>
+<li>Arrange for the spouse who will manage bills to have the necessary utility and subscription information</li>
+<li>Ask the attorney whether vehicle titles need attention</li>
+<li>Ask the attorney and tax professional whether asset ownership needs review for estate-tax or tax-basis reasons</li>
+<li>Help the spouse who will take over financial tasks learn the accounts, bills, and key contacts</li>
 </ul>
 </li>
 </ul>
 </section>
 <section class="card executor-section">
-<h2>Immediate Next Steps</h2>
-<p>Authority and circumstances vary. Confirm which calls belong to the executor before closing or transferring anything.</p>
+<h2>Immediate next steps</h2>
+<p>Family or the care team may make the first calls. Before closing or transferring accounts or property, confirm who has authority. For Hawaii guidance on deaths at home, see the University of Hawaii Elder Law Program's <a href="https://www.hawaii.edu/uhelp/publications/Deciding_What_if.pdf">Deciding What If handbook</a>, under "Steps to take upon death."</p>
 <ul class="executor-checklist">
-<li>Call 911 if death occurs at home.</li>
+<li>If a death at home is expected and hospice or the attending clinician has provided instructions, follow that plan and call the designated contact. If there is no hospice or prior arrangement, or the death is unexpected, call 911 and explain the circumstances.</li>
 <li>Notify close family and friends.</li>
 <li>Notify the funeral home, mortuary, or body donation provider.</li>
 <li>Notify Social Security.</li>
@@ -63,11 +63,11 @@ draft: false
 <li>Order death certificates through the funeral home or mortuary.</li>
 <li>Arrange services and obituary details.</li>
 <li>Retain an attorney if probate may be required.</li>
-<li>Set up a new advisory agreement if a representative will need to act and is not already the surviving spouse client.</li>
+<li>If an advisor will assist the estate or trust, have the authorized representative confirm what agreement and authority documents are needed.</li>
 </ul>
 </section>
 <section class="card executor-section">
-<h2>Home and Property</h2>
+<h2>Home and property</h2>
 <p>Make sure the home, pets, mail, and records have a responsible person attached to them.</p>
 <ul class="executor-checklist">
 <li>Forward mail to the executor.</li>
@@ -80,17 +80,17 @@ draft: false
 </ul>
 </section>
 <section class="card executor-section">
-<h2>Money, Insurance, and Beneficiaries</h2>
+<h2>Money, insurance, and beneficiaries</h2>
 <p>Keep one record of every account, bill, reimbursement, distribution, contact, and deadline.</p>
 <ul class="executor-checklist">
 <li>Gather financial records and account information.</li>
 <li>Set up a shared tracking document for assets, debts, expenses, and distributions.</li>
 <li>Notify remaining beneficiaries.</li>
-<li>Review disclaimer opportunities where relevant.</li>
-<li>Handle any required RMDs and related timing issues.
+<li>Ask the attorney whether declining an inheritance (a disclaimer) is relevant and what deadlines apply.</li>
+<li>Confirm required minimum distributions (RMDs) and their deadlines with the tax professional or custodian.
 <ul class="executor-sublist">
 <li>If the RMD may be missed, consider penalty-relief filing requirements such as Form 5329.</li>
-<li>Check whether a spouse or beneficiary may also be near death before finalizing decisions.</li>
+<li>Discuss any serious illness affecting a spouse or beneficiary with the attorney before finalizing inheritance decisions.</li>
 </ul>
 </li>
 <li>Determine where short-term executor cash needs will come from.</li>
@@ -104,31 +104,31 @@ draft: false
 <li>Pay bills and track reimbursements.</li>
 <li>Distribute inheritances when the estate is ready.</li>
 <li>Review whether a small-estate affidavit applies.</li>
-<li>Obtain EINs for the estate and any irrevocable trusts if needed.</li>
+<li>Ask whether the estate or any irrevocable trust needs an employer identification number (EIN) for tax reporting.</li>
 </ul>
 </section>
 <section class="card executor-section">
-<h2>Taxes and Reporting</h2>
+<h2>Taxes and reporting</h2>
 <p>Gather records early and ask the tax professional which returns and elections may be required.</p>
 <ul class="executor-checklist">
 <li>File the final personal income tax return.</li>
 <li>Determine whether an estate tax return is required.</li>
 <li>File the estate income tax return if required.</li>
 <li>File trust income tax returns if required.</li>
-<li>Deliver K-1s to trust beneficiaries.</li>
+<li>Have the tax preparer identify and prepare any Schedules K-1 that report estate or trust income to beneficiaries.</li>
 </ul>
 </section>
 <section class="card executor-section">
-<h2>Digital and Personal Items</h2>
+<h2>Digital and personal items</h2>
 <p>Preserve the information needed to reach other accounts before closing email or phone access.</p>
 <ul class="executor-checklist">
-<li>Do not notify the email provider until important services have been moved and needed messages have been preserved.</li>
-<li>Notify the DMV and update registrations or titles where needed.</li>
+<li>Have the authorized person check provider procedures and preserve needed records before closing email or phone services that other accounts depend on.</li>
+<li>Notify the motor vehicle agency and update registrations or titles where needed.</li>
 <li>Plan for the distribution of personal items.</li>
 </ul>
 </section>
 <section class="card executor-section">
-<h2>If There Is a Business</h2>
+<h2>If there is a business</h2>
 <p>Contact the attorney, CPA, and co-owners early; payroll, banking, contracts, and employees may not be able to wait.</p>
 <ul class="executor-checklist">
 <li>Locate ownership documents, operating agreements, or buy-sell agreements.</li>

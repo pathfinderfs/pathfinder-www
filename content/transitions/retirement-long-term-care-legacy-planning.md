@@ -1,14 +1,14 @@
 ---
-title: "Aging, Care, and Legacy Responsibilities"
+title: "Planning for Aging, Care, and Family"
 weight: 20
 description: "Planning for long-term care, incapacity, family support, survivor finances, and the practical work of leaving affairs in order."
-summary: "Later retirement raises questions that a portfolio alone cannot answer: who will help, where care will happen, and what work will be left for the family."
+summary: "Plan for care, choose who can help with decisions, and make your financial affairs easier for family to manage."
 page_theme: "care"
 hero:
   eyebrow: "Later-life planning"
-  intro: "A retirement projection can show that there is enough money. It cannot decide who should act if you cannot, how a spouse will manage alone, or how much help to give family while you are living. Those decisions need to be made while there is time to discuss them."
+  intro: "Planning ahead gives you and your family time to discuss care, financial responsibilities, and the help you want to provide. We work through the costs and practical details with you and coordinate the financial questions with the other professionals involved."
   primary:
-    label: "Start a Free Conversation"
+    label: "Start a free conversation"
     href: "/contact-us/"
   secondary:
     label: "Executor Checklist"
@@ -18,19 +18,19 @@ hero:
 sections:
   - kind: "prose"
     eyebrow: "Planning before a crisis"
-    title: "The hard questions become harder when someone is in the hospital."
-    body: "Care choices made under pressure are usually more limited and more expensive. A useful plan identifies who has authority, where the records are, what the family can afford, and which preferences matter before a medical event makes the timetable."
+    title: "Make room for the choices that matter to you."
+    body: "A useful plan records your preferences, identifies who can act, and estimates what the family can afford. Having those details available can help when care is needed."
   - kind: "cards"
     tone: "tint"
     eyebrow: "Responsibilities to discuss"
     title: "The money is only one part of the handoff."
     items:
-      - title: "If one spouse is left"
+      - title: "Preparing either spouse to manage"
         body: "In many couples, one person pays the bills, manages investments, and knows where every document lives. We make sure the other person can see the picture and knows whom to call."
-      - title: "If someone cannot decide"
+      - title: "Choosing people to act for you"
         body: "Powers of attorney, healthcare directives, trustees, and account access need to agree with the people who are willing and able to do the work."
-      - title: "If family will be involved"
-        body: "Children may have different abilities, geography, and opinions. Assigning responsibilities explicitly can prevent a difficult period from becoming a family argument."
+      - title: "Sharing family responsibilities"
+        body: "Family members may have different abilities, locations, and opinions. Assigning responsibilities explicitly can prevent a difficult period from becoming a family argument."
   - kind: "checklist"
     eyebrow: "A useful planning agenda"
     title: "Put names and numbers next to the intentions."
@@ -50,7 +50,7 @@ related:
   title: "Planning and practical preparation."
   links:
     - label: "Earlier retirement"
-      title: "Retirement and the Next Chapter"
+      title: "Planning for Retirement"
       body: "Income, spending, tax, and investment decisions around the move out of work."
       href: "/transitions/approaching-retirement/"
     - label: "Resource"
@@ -59,9 +59,9 @@ related:
       href: "/resources/executor-checklist/"
 cta:
   eyebrow: "Later-life planning"
-  title: "Choose a question the family has been avoiding."
-  body: "We can help put the financial facts around it and identify the legal, tax, or care expertise still needed."
-  label: "Start a Free Conversation"
+  title: "Start with the care or family question on your mind."
+  body: "We can discuss how ongoing planning would help you prepare, including where legal, tax, or care expertise is needed."
+  label: "Start a free conversation"
   href: "/contact-us/"
 draft: false
 ---

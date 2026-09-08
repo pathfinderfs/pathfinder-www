@@ -8,7 +8,7 @@ hero:
   eyebrow: "Financial planning during divorce"
   intro: "Your attorney handles the legal agreement. We examine what the proposed agreement means for cash, taxes, housing, retirement, and the years after the divorce is final."
   primary:
-    label: "Start a Free Conversation"
+    label: "Start a free conversation"
     href: "/contact-us/"
   secondary:
     label: "What to Expect"
@@ -32,10 +32,10 @@ sections:
       - "Which beneficiary designations, estate documents, insurance policies, and account authorities need attention—and when may they legally be changed?"
   - kind: "cards"
     eyebrow: "Different starting points"
-    title: "We meet people on both sides of the household finances."
+    title: "Whether you handled the finances or your spouse did."
     items:
       - title: "If you managed the money"
-        body: "You may know every account and still need an independent analysis of whether the division is fair after taxes and over time."
+        body: "You may know every account and still want an independent analysis of what the proposed division would mean for your finances, after taxes and over time."
       - title: "If your spouse managed the money"
         body: "We begin with an inventory: what exists, where it is held, what it is worth, and which questions still do not have reliable answers."
       - title: "If the proposals keep changing"
@@ -43,7 +43,7 @@ sections:
   - kind: "warning"
     tone: "warning"
     eyebrow: "Before signing"
-    title: "Do not use the account balance as the only measure of value."
+    title: "Compare what each asset would mean for you."
     body: "Taxes, liquidity, investment risk, debt, and maintenance costs can turn an apparently even division into an uneven result."
 related:
   eyebrow: "Related page"
@@ -54,14 +54,14 @@ related:
       body: "How Pathfinder identifies deadlines, compares choices, and coordinates with other professionals."
       href: "/what-to-expect/"
     - label: "Standards"
-      title: "What Fee-Only Means"
+      title: "What fee-only means"
       body: "How Pathfinder is paid and which compensation conflicts remain."
       href: "/about/fee-only/"
 cta:
   eyebrow: "Divorce and separation"
-  title: "Have the financial analysis done while the terms can still change."
-  body: "Bring a proposal, account list, or simply the questions you cannot get answered."
-  label: "Start a Free Conversation"
+  title: "Discuss the financial questions while terms can still change."
+  body: "Tell us where you are in the process. We can discuss ongoing planning through the divorce and the life that follows it."
+  label: "Start a free conversation"
   href: "/contact-us/"
 draft: false
 ---

@@ -2,13 +2,13 @@
 title: "Loss of a Spouse"
 weight: 60
 description: "Financial guidance after a spouse dies, including urgent paperwork, survivor income, taxes, accounts, and decisions that can wait."
-summary: "After a spouse dies, some financial tasks have deadlines. Many important decisions do not. Knowing the difference protects both time and money."
+summary: "After a spouse dies, some financial tasks have deadlines. Many important decisions do not. We help you sort out what needs attention and manage the finances ahead."
 page_theme: "family"
 hero:
   eyebrow: "Financial help after a spouse dies"
   intro: "Grief comes with an unreasonable amount of administration. We help identify the calls and paperwork that need attention, reconstruct the finances when one spouse handled them, and postpone decisions that do not belong in the first weeks."
   primary:
-    label: "Start a Free Conversation"
+    label: "Start a free conversation"
     href: "/contact-us/"
   secondary:
     label: "Executor Checklist"
@@ -16,14 +16,6 @@ hero:
   image: "/images/pathfinder-decision-map.svg"
   image_alt: "A planning map connecting survivor income, paperwork, taxes, accounts, and care."
 sections:
-  - kind: "warning"
-    tone: "warning"
-    eyebrow: "Protect the breathing room"
-    title: "Be careful with anyone who wants an immediate decision about the money."
-    body: "A new widow or widower can quickly attract product pitches, investment proposals, and unsolicited help. Pathfinder is fee-only; we are paid by clients and do not receive commissions for selling financial products."
-    link:
-      label: "What fee-only means"
-      href: "/about/fee-only/"
   - kind: "checklist"
     eyebrow: "The first pass"
     title: "Find what is urgent and leave the rest alone for now."
@@ -37,7 +29,7 @@ sections:
   - kind: "cards"
     tone: "tint"
     eyebrow: "After the immediate paperwork"
-    title: "The financial picture has to be rebuilt for one person."
+    title: "Understand what changes in the household finances."
     items:
       - title: "Income and taxes"
         body: "Social Security, pensions, portfolio withdrawals, and tax filing status may all change on different schedules. We map when the changes occur rather than assuming the first-year numbers continue."
@@ -48,7 +40,12 @@ sections:
   - kind: "prose"
     eyebrow: "If your spouse handled the finances"
     title: "We can start at the beginning."
-    body: "You are not expected to know the account names, tax rules, or vocabulary. We build an inventory, explain what each item means, and create a way for you to see what comes in, what goes out, and which decisions are yours to make."
+    body: "We can work through the account names, tax rules, and unfamiliar terms together. We build an inventory, explain what each item means, and create a way for you to see what comes in, what goes out, and which decisions are yours to make."
+  - kind: "warning"
+    tone: "warning"
+    eyebrow: "Room to decide"
+    title: "Ask which decisions have a deadline."
+    body: "You may receive investment proposals, product offers, or requests for money. Ask what truly needs a decision now, and take time to understand a proposal before making a commitment."
 related:
   eyebrow: "A practical resource"
   title: "Use the checklist for the administrative work."
@@ -58,14 +55,14 @@ related:
       body: "A printable list organized from preparation and immediate tasks through property, accounts, taxes, and reporting."
       href: "/resources/executor-checklist/"
     - label: "Later-life planning"
-      title: "Aging, Care, and Legacy Responsibilities"
+      title: "Planning for Aging, Care, and Family"
       body: "Planning ahead for incapacity, care, and the financial work one spouse may leave to the other."
       href: "/transitions/retirement-long-term-care-legacy-planning/"
 cta:
   eyebrow: "After the loss of a spouse"
-  title: "Tell us what is on the desk right now."
-  body: "We can help sort the next task from the decision that should wait."
-  label: "Start a Free Conversation"
+  title: "Tell us what needs attention."
+  body: "We can discuss the tasks in front of you and how ongoing financial help could support you."
+  label: "Start a free conversation"
   href: "/contact-us/"
 draft: false
 ---
